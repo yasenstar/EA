@@ -1,5 +1,11 @@
-
 [TOC]
+
+# Target Audience
+
+* Chief Project Manager
+* Key Solution Project Members
+* Lead Architect
+* Infrastructure Architect / Solution Architect
 
 # What is Connectivity?
 
@@ -7,4 +13,4 @@
 
 # Patterns of Different Connectivity
 
-[TOC]
+
