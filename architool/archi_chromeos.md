@@ -17,7 +17,7 @@ xdbcommon: ERROR: Key "<CAPS>" added to modifier map for multiple modifiers; Usi
 ...repeat the 'size >= 0' line
 ```
 
-With these errors/warnings, the Archi is able to be opened, just the display is not looks beautiful.
+With these errors/warnings, the Archi is able to be opened, just the display is not looks beautiful. Noticed when Archi logo appears, firstly it's displayed OK, then the font/image is getting larger.
 
 Using `sudo ./Archi`
 
@@ -58,7 +58,26 @@ Now run `./Archi` in Archi folder directly, still error, but message little diff
 ```
 No protocol specified
 
-(java:7061): dbind-WARNING **: (timestamp): Cloud not open X display
+(java:7061): dbind-WARNING **: (timestamp): Could not open X display
 No protocol specified
 
-(java:7084): dbind-WARNING **: (timestamp)
+(java:7084): dbind-WARNING **: (timestamp) Could not open X display
+xdbcommon: ERROR: Key "<CAPS>" added to modifier map for multiple modifiers; Using Mod3, ignoring Lock
+SWT SessionManagerDbus: Failed to connect to org.gnome.SessionManager: The connection is closed
+SWT SessionManagerDBus: Failed to connect to org.xfce.SessionManager: The connection is closed
+
+(Archi: 7084): Gtk-CRITICAL **: timestamp: gtk_distribute_natural_allocation: assertion 'extra_spack >= 0' failed
+```
+
+Noticed the two "SWT" error lines are new.
+
+`apt install xfce4-session`
+
+After install, display is same.
+
+```
+apt install gnome-session
+```
+
+Still same.
+
