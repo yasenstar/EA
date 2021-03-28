@@ -125,6 +125,7 @@ The sales function is responsible for sales activities, including handling custo
       <element xsi:type="archimate:ApplicationComponent" name="BI Toolset" id="id-830a7eecf018461983490796818198ca"/>
       <element xsi:type="archimate:ApplicationComponent" name="CRM" id="id-3c39ed45f65d4511afd47e1590457d9a"/>
       <element xsi:type="archimate:ApplicationComponent" name="ERP" id="id-ac201b79561b41328eab38c4a4441c12"/>
+      <element xsi:type="archimate:ApplicationComponent" name="EAI Bus" id="id-563d9ffb27064667b99aa2811b6cc4e7"/>
     </folder>
     <element xsi:type="archimate:DataObject" name="CRM Databases" id="id-956c1011e50c47e1aeba842b9bb0dcf2"/>
   </folder>
@@ -415,6 +416,8 @@ The sales function is responsible for sales activities, including handling custo
     <element xsi:type="archimate:FlowRelationship" name="Production Order" id="id-831c63d441f9424680b82ad64ff349c7" source="id-d988b997f20043579647f6f164613255" target="id-c3b87e9a4e5a4683a7d73f49cef908df"/>
     <element xsi:type="archimate:FlowRelationship" name="Final Products" id="id-6ee570dbbab74184a3e0f97033aad9f2" source="id-c3b87e9a4e5a4683a7d73f49cef908df" target="id-9677973cd7504818bde039bb85f99814"/>
     <element xsi:type="archimate:FlowRelationship" name="Raw Materials" id="id-d14f8fcb6ec24cad91fa24b399f0f335" source="id-afaf273263154f07bc6b0066644699a4" target="id-c3b87e9a4e5a4683a7d73f49cef908df"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-d6a2b05fddb042a1855fb31cde7a2b89" source="id-08833b2896a8483f80d9bba78a877860" target="id-563d9ffb27064667b99aa2811b6cc4e7"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-9bcd260e3c9c430bac7e1e9f187385ad" source="id-e15e2c38435e43e09932157129209322" target="id-563d9ffb27064667b99aa2811b6cc4e7"/>
   </folder>
   <folder name="Views" id="id-3cf7ee73c7d34213bba8d313c2908284" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="02 Production and Logistics of ArchiMetal" id="id-85019346ce284a2a8737e9a1a3f09d6b">
@@ -1295,13 +1298,18 @@ The sales function is responsible for sales activities, including handling custo
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="11 Application Landscape of ArchiMetal" id="id-0c2c0b6ec40e41c98da28a1d5eb2d3f0">
       <child xsi:type="archimate:DiagramObject" id="id-3574d48aa64a4a529430b1c4aff00ad8" archimateElement="id-08833b2896a8483f80d9bba78a877860">
-        <bounds x="396" y="12" width="409" height="301"/>
+        <bounds x="396" y="12" width="409" height="157"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-0263213ae3ee4cdb816a3be251b72442" source="id-3574d48aa64a4a529430b1c4aff00ad8" target="id-ed3e5448816e4cdd9b90b9624d230ddb" archimateRelationship="id-d6a2b05fddb042a1855fb31cde7a2b89"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-4550cb77520f4c6a959fe9be95b4543b" archimateElement="id-6352f70292fe47408e2203a0135ef116">
-        <bounds x="396" y="324" width="409" height="157"/>
+        <bounds x="396" y="180" width="409" height="37"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-010d648130d9480d9fee4be77dd5afb3" archimateElement="id-e15e2c38435e43e09932157129209322">
-        <bounds x="24" y="12" width="361" height="469"/>
+        <bounds x="24" y="12" width="361" height="205"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-16da731e5c4f42caa4ec8f695defbeea" source="id-010d648130d9480d9fee4be77dd5afb3" target="id-ed3e5448816e4cdd9b90b9624d230ddb" archimateRelationship="id-9bcd260e3c9c430bac7e1e9f187385ad"/>
+        <child xsi:type="archimate:DiagramObject" id="id-ed3e5448816e4cdd9b90b9624d230ddb" targetConnections="id-0263213ae3ee4cdb816a3be251b72442 id-16da731e5c4f42caa4ec8f695defbeea" archimateElement="id-563d9ffb27064667b99aa2811b6cc4e7">
+          <bounds x="12" y="96" width="517" height="55"/>
+        </child>
       </child>
     </element>
   </folder>

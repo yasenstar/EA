@@ -223,6 +223,9 @@ The sales function is responsible for sales activities, including handling custo
     <element xsi:type="archimate:Grouping" name="Physical Production Processes" id="id-dd7db285bd024953b26ba5411a24f2db"/>
     <element xsi:type="archimate:Grouping" name="Logistics Processes" id="id-c6e761dbb9194bb4bbbc1d4984360a99"/>
     <element xsi:type="archimate:Grouping" name="Raw Factories" id="id-1323619230694797a73777f2ed8b8294"/>
+    <element xsi:type="archimate:Location" name="Production Center" id="id-e15e2c38435e43e09932157129209322"/>
+    <element xsi:type="archimate:Location" name="Distribution Center" id="id-08833b2896a8483f80d9bba78a877860"/>
+    <element xsi:type="archimate:Location" name="HQ" id="id-6352f70292fe47408e2203a0135ef116"/>
   </folder>
   <folder name="Relations" id="id-beec36f5322a41b0ac75f262cfe75f4e" type="relations">
     <element xsi:type="archimate:CompositionRelationship" id="id-109d2f2fd8e343ca82d8b8d9ed6c9a81" source="id-cf0e48b2ff60495a8ae8a01b7d9621a0" target="id-3de5371b796a4ccd8cbca8a02bcf2805"/>
@@ -1288,6 +1291,17 @@ The sales function is responsible for sales activities, including handling custo
         <sourceConnection xsi:type="archimate:Connection" id="id-3ec345f9f9354b7e89bcd8c240a5ac7e" source="id-57068523d0b6467b92d6b4bae8586e12" target="id-291f3bd39c4c487b839a940384d692f2" archimateRelationship="id-a5eba825d96340a2bb9a810f3e1d6834">
           <bendpoint startX="-124" startY="201" endX="122" endY="14"/>
         </sourceConnection>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="11 Application Landscape of ArchiMetal" id="id-0c2c0b6ec40e41c98da28a1d5eb2d3f0">
+      <child xsi:type="archimate:DiagramObject" id="id-3574d48aa64a4a529430b1c4aff00ad8" archimateElement="id-08833b2896a8483f80d9bba78a877860">
+        <bounds x="396" y="12" width="409" height="301"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4550cb77520f4c6a959fe9be95b4543b" archimateElement="id-6352f70292fe47408e2203a0135ef116">
+        <bounds x="396" y="324" width="409" height="157"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-010d648130d9480d9fee4be77dd5afb3" archimateElement="id-e15e2c38435e43e09932157129209322">
+        <bounds x="24" y="12" width="361" height="469"/>
       </child>
     </element>
   </folder>
