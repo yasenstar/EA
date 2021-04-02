@@ -22,7 +22,7 @@
     <element xsi:type="archimate:AccessRelationship" id="id-2542ea317d604740aecd723d90a32e59" source="id-759bd197216044349e87fcd8b66e689b" target="id-2bfdebe497034ee1a96ad760340afc05"/>
   </folder>
   <folder name="Views" id="id-bf8d6ee7385d46b8901d143aab7e35f1" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-bba70efd1a0c4ae7ae7d8681320b167d">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Capability-Process-Application-Actor-Information" id="id-bba70efd1a0c4ae7ae7d8681320b167d">
       <child xsi:type="archimate:DiagramObject" id="id-a57369b12bde477f86d55c5e53157069" targetConnections="id-40399432b900442eb720b01d1d7b68d0" archimateElement="id-b6f302efb8fd4055b315a2be351287ee">
         <bounds x="212" y="120" width="120" height="55"/>
       </child>
