@@ -1399,7 +1399,7 @@ The sales function is responsible for sales activities, including handling custo
           </sourceConnection>
         </child>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-010d648130d9480d9fee4be77dd5afb3" archimateElement="id-e15e2c38435e43e09932157129209322">
+      <child xsi:type="archimate:DiagramObject" id="id-010d648130d9480d9fee4be77dd5afb3" targetConnections="id-833d76eb6e37464dafc8e452e01d037b" archimateElement="id-e15e2c38435e43e09932157129209322">
         <bounds x="24" y="12" width="433" height="553"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-01e2fc75c9034d0bac96074897436851" source="id-010d648130d9480d9fee4be77dd5afb3" target="id-92f5ad47678c408fa297d8606ab63dfa" archimateRelationship="id-be9a11d3a1944a44a7da2854f31bf886"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-8ef260a4a5ea4a7fbdaedbcf9e97dd65" source="id-010d648130d9480d9fee4be77dd5afb3" target="id-7fc8a12ce3014420adf9d6498eb67714" archimateRelationship="id-2f1f2c2f51d14300b8965ca7303db62a"/>
@@ -1486,6 +1486,11 @@ The sales function is responsible for sales activities, including handling custo
         <sourceConnection xsi:type="archimate:Connection" id="id-30f04a98e6464bc48d47257688bb22bf" source="id-ed3e5448816e4cdd9b90b9624d230ddb" target="id-02ba0377a806456c80c359b8b2dba405" archimateRelationship="id-48dc032831b642c29a9ece224b8375a2">
           <bendpoint startX="48" startY="141" endX="-23" endY="-129"/>
         </sourceConnection>
+      </child>
+      <child xsi:type="archimate:Note" id="id-7e400cedbe04411f9569cf04fc38d4dd" textAlignment="1">
+        <bounds x="356" y="631" width="185" height="42"/>
+        <sourceConnection id="id-833d76eb6e37464dafc8e452e01d037b" source="id-7e400cedbe04411f9569cf04fc38d4dd" target="id-010d648130d9480d9fee4be77dd5afb3"/>
+        <content>test view</content>
       </child>
     </element>
   </folder>

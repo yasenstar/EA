@@ -1449,7 +1449,7 @@ The sales function is responsible for sales activities, including handling custo
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-4b5dbcf63468413aa0648830b5bd8234" targetConnections="id-b6c01cdcd4bc4b8cad816585f2fa0dfa id-222dfb4047314327b8c5e8e5f85a5641" archimateElement="id-de1d3b1aaabd442f8893fa73c0d4add5">
-          <bounds x="108" y="491" width="120" height="55"/>
+          <bounds x="96" y="492" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-da9c88fb5e35461f8d3163da15bcf232" source="id-4b5dbcf63468413aa0648830b5bd8234" target="id-8c7456631d1a4866a259652210f26e33" archimateRelationship="id-28f3b0e360cb465ca72a47bd18293b2c">
             <bendpoint startX="-24" startY="-50" endX="-3" endY="118"/>
           </sourceConnection>
