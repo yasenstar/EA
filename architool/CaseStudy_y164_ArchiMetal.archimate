@@ -259,7 +259,18 @@ The sales function is responsible for sales activities, including handling custo
     <element xsi:type="archimate:Requirement" name="Unified View of Customer Company-Wide" id="id-e2ae6b7de3e64462822a657f24f9b2ce"/>
     <element xsi:type="archimate:Requirement" name="Customer Data Integration and Standardization" id="id-6832971725e546cc9b350b395d2e8b74"/>
   </folder>
-  <folder name="Implementation &amp; Migration" id="id-84ce116594d840fd915c5994f0723b51" type="implementation_migration"/>
+  <folder name="Implementation &amp; Migration" id="id-84ce116594d840fd915c5994f0723b51" type="implementation_migration">
+    <element xsi:type="archimate:Plateau" name="Current State" id="id-208c7c2fa4b44f5fb874fe65ae5b4467"/>
+    <element xsi:type="archimate:Plateau" name="Transition State" id="id-343ded7f9e774bd6b1704c2bc7cdd425"/>
+    <element xsi:type="archimate:Plateau" name="Target State" id="id-e205278921ff4819b8e4a1ab7ce36507"/>
+    <element xsi:type="archimate:WorkPackage" name="CRM Transformation Program" id="id-c8a3c8b028234aecb9d4db0e1ebfa1b6"/>
+    <element xsi:type="archimate:WorkPackage" name="CRM Project" id="id-0ea5a23f44fd4b0199211a31f5e6c070"/>
+    <element xsi:type="archimate:WorkPackage" name="Customer Order Monitoring Project" id="id-327cba03f10d47b5a35694e1c5c12f00"/>
+    <element xsi:type="archimate:Deliverable" name="Redesigned Business Process" id="id-2f72d072261e491ea69bdfdde326af60"/>
+    <element xsi:type="archimate:Deliverable" name="Deployed CRM Application" id="id-f4d48d87269041a799e059487fc0f9b6"/>
+    <element xsi:type="archimate:Deliverable" name="Redesigned Business Process" id="id-c2e6ded5179644de993aa09c0b5ffa14"/>
+    <element xsi:type="archimate:Deliverable" name="Deployed Customer Order Monitoring Application" id="id-20a9dfb22aee42efb6bcfb0392772949"/>
+  </folder>
   <folder name="Other" id="id-0b82005caa564310bc9cf477424cce59" type="other">
     <element xsi:type="archimate:Grouping" name="Physical Production Processes" id="id-dd7db285bd024953b26ba5411a24f2db"/>
     <element xsi:type="archimate:Grouping" name="Logistics Processes" id="id-c6e761dbb9194bb4bbbc1d4984360a99"/>
@@ -519,6 +530,14 @@ The sales function is responsible for sales activities, including handling custo
     <element xsi:type="archimate:FlowRelationship" name="Customer Order" id="id-e7d3dd15a8344966b221f15b5ca8abf2" source="id-e7dd67109b7a43e4b01b8a9c190dda73" target="id-d988b997f20043579647f6f164613255"/>
     <element xsi:type="archimate:FlowRelationship" name="New Customer Assessment Request" id="id-4061c278cd674cc19ffaaa1a89ae0ce0" source="id-50f310c322324a7385b9ac849613268f" target="id-2df6575904af47b0845351bf51b9e7be"/>
     <element xsi:type="archimate:FlowRelationship" name="New Cusotmer Approved" id="id-1b4c37f6b8f74e2e9f2f8e09f8a390b6" source="id-2df6575904af47b0845351bf51b9e7be" target="id-50f310c322324a7385b9ac849613268f"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-4371e545f8ac43d8ac81d5e993e6f071" source="id-208c7c2fa4b44f5fb874fe65ae5b4467" target="id-343ded7f9e774bd6b1704c2bc7cdd425"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-216246b54be34cabae1f60d25e691d6c" source="id-343ded7f9e774bd6b1704c2bc7cdd425" target="id-e205278921ff4819b8e4a1ab7ce36507"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-2f4d32cb849349f393a78efea2e488b8" source="id-c8a3c8b028234aecb9d4db0e1ebfa1b6" target="id-327cba03f10d47b5a35694e1c5c12f00"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-7a045d3cb44a4e74a62147452b15bb99" source="id-c8a3c8b028234aecb9d4db0e1ebfa1b6" target="id-0ea5a23f44fd4b0199211a31f5e6c070"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-de4c3382e0fb459bba79c8ebbb1a1122" source="id-0ea5a23f44fd4b0199211a31f5e6c070" target="id-2f72d072261e491ea69bdfdde326af60"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-66a416f23dc742628f087aa2de4cc697" source="id-0ea5a23f44fd4b0199211a31f5e6c070" target="id-f4d48d87269041a799e059487fc0f9b6"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-9c53ea50658c46e598b23f655c532c0f" source="id-327cba03f10d47b5a35694e1c5c12f00" target="id-c2e6ded5179644de993aa09c0b5ffa14"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-8260e2a651054ae18cb34b99355c6ca5" source="id-327cba03f10d47b5a35694e1c5c12f00" target="id-20a9dfb22aee42efb6bcfb0392772949"/>
   </folder>
   <folder name="Views" id="id-3cf7ee73c7d34213bba8d313c2908284" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="02 Production and Logistics of ArchiMetal" id="id-85019346ce284a2a8737e9a1a3f09d6b">
@@ -1617,7 +1636,46 @@ The sales function is responsible for sales activities, including handling custo
         <feature name="labelExpression" value="${name}\n&lt;&lt;${type}>>"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="19 Implementation and Migration View fort ArchiMetal CRM Transformation Program" id="id-fb451fa1e3914dbc994645201e239bd4"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="19 Implementation and Migration View fort ArchiMetal CRM Transformation Program" id="id-fb451fa1e3914dbc994645201e239bd4">
+      <child xsi:type="archimate:DiagramObject" id="id-d070225fb24c470ab36a2ebbd1b6af64" archimateElement="id-208c7c2fa4b44f5fb874fe65ae5b4467">
+        <bounds x="48" y="60" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-65e88bdd48204ce499ccda9df7462f58" source="id-d070225fb24c470ab36a2ebbd1b6af64" target="id-3fcdb7d1f69948608383225082264d05" archimateRelationship="id-4371e545f8ac43d8ac81d5e993e6f071"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ce2518491cab4ed793c6260d94ed32e4" targetConnections="id-af3cf54d1e354a6284e9f15c5662dd77" archimateElement="id-e205278921ff4819b8e4a1ab7ce36507">
+        <bounds x="552" y="60" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-3fcdb7d1f69948608383225082264d05" targetConnections="id-65e88bdd48204ce499ccda9df7462f58" archimateElement="id-343ded7f9e774bd6b1704c2bc7cdd425">
+        <bounds x="288" y="60" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-af3cf54d1e354a6284e9f15c5662dd77" source="id-3fcdb7d1f69948608383225082264d05" target="id-ce2518491cab4ed793c6260d94ed32e4" archimateRelationship="id-216246b54be34cabae1f60d25e691d6c"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-202d74b287204cc8acc98aefcd25e7c9" archimateElement="id-c8a3c8b028234aecb9d4db0e1ebfa1b6">
+        <bounds x="51" y="519" width="610" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c7edfc145b084d188dde5dbde3cced9b" source="id-202d74b287204cc8acc98aefcd25e7c9" target="id-0fa4f7121ea440ffbd011b45ccf42eb4" archimateRelationship="id-2f4d32cb849349f393a78efea2e488b8"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-258bc30b64f441fe910b70cd04b12914" source="id-202d74b287204cc8acc98aefcd25e7c9" target="id-c1451ee62c83453a9bd787830b2d689f" archimateRelationship="id-7a045d3cb44a4e74a62147452b15bb99"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c1451ee62c83453a9bd787830b2d689f" targetConnections="id-258bc30b64f441fe910b70cd04b12914" archimateElement="id-0ea5a23f44fd4b0199211a31f5e6c070">
+        <bounds x="144" y="420" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-7680d1a8f795430795bfda103d648583" source="id-c1451ee62c83453a9bd787830b2d689f" target="id-d7486c46b91347f2a16732dd5889a5f9" archimateRelationship="id-de4c3382e0fb459bba79c8ebbb1a1122"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3a0b7e53c4184029b2ce57ac29e602ea" source="id-c1451ee62c83453a9bd787830b2d689f" target="id-4eac7f6a970147fd958d3ed990c0e3a5" archimateRelationship="id-66a416f23dc742628f087aa2de4cc697"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0fa4f7121ea440ffbd011b45ccf42eb4" targetConnections="id-c7edfc145b084d188dde5dbde3cced9b" archimateElement="id-327cba03f10d47b5a35694e1c5c12f00">
+        <bounds x="492" y="420" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ad022c2d15db4d2caf2aecaabf24df25" source="id-0fa4f7121ea440ffbd011b45ccf42eb4" target="id-4a8e5171a04046c18781d4627d83b3d5" archimateRelationship="id-9c53ea50658c46e598b23f655c532c0f"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ae631a33d0ad48ddafe74c7a645ffcf0" source="id-0fa4f7121ea440ffbd011b45ccf42eb4" target="id-c670c83d1d544cc28d9677222e5720f2" archimateRelationship="id-8260e2a651054ae18cb34b99355c6ca5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d7486c46b91347f2a16732dd5889a5f9" targetConnections="id-7680d1a8f795430795bfda103d648583" archimateElement="id-2f72d072261e491ea69bdfdde326af60">
+        <bounds x="48" y="312" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4eac7f6a970147fd958d3ed990c0e3a5" targetConnections="id-3a0b7e53c4184029b2ce57ac29e602ea" archimateElement="id-f4d48d87269041a799e059487fc0f9b6">
+        <bounds x="211" y="310" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4a8e5171a04046c18781d4627d83b3d5" targetConnections="id-ad022c2d15db4d2caf2aecaabf24df25" archimateElement="id-c2e6ded5179644de993aa09c0b5ffa14">
+        <bounds x="424" y="311" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c670c83d1d544cc28d9677222e5720f2" targetConnections="id-ae631a33d0ad48ddafe74c7a645ffcf0" archimateElement="id-20a9dfb22aee42efb6bcfb0392772949">
+        <bounds x="552" y="310" width="155" height="55"/>
+      </child>
+    </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="13 Changes to ArchiMetal Organization Structure, including New Department - Customer Service" id="id-00610ceec49c47f09680e100a4300c37">
       <child xsi:type="archimate:DiagramObject" id="id-8640b60ca55749dea6705e638cf190e9" archimateElement="id-cf0e48b2ff60495a8ae8a01b7d9621a0">
         <bounds x="94" y="28" width="735" height="453"/>

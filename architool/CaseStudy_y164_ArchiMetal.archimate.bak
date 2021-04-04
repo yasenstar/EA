@@ -1617,7 +1617,7 @@ The sales function is responsible for sales activities, including handling custo
         <feature name="labelExpression" value="${name}\n&lt;&lt;${type}>>"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="temp" id="id-fb451fa1e3914dbc994645201e239bd4"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="19 Implementation and Migration View fort ArchiMetal CRM Transformation Program" id="id-fb451fa1e3914dbc994645201e239bd4"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="13 Changes to ArchiMetal Organization Structure, including New Department - Customer Service" id="id-00610ceec49c47f09680e100a4300c37">
       <child xsi:type="archimate:DiagramObject" id="id-8640b60ca55749dea6705e638cf190e9" archimateElement="id-cf0e48b2ff60495a8ae8a01b7d9621a0">
         <bounds x="94" y="28" width="735" height="453"/>
