@@ -1023,5 +1023,22 @@
         <bounds x="684" y="433" width="120" height="55"/>
       </child>
     </element>
+    <element xsi:type="archimate:SketchModel" name="New Sketch" id="id-1cd92e371a1140f2a2fc97ca1703a2d8">
+      <child xsi:type="archimate:SketchModelSticky" id="id-f3f7d0c1410643a68fea239839c82bc7" name="Sticky" targetConnections="id-772c7702ecd843f09e68723b9b8e70b6" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffb5">
+        <bounds x="165" y="234" width="135" height="70"/>
+        <sourceConnection id="id-976ec7f8ca8e47e9bb0ca6426b0440e9" source="id-f3f7d0c1410643a68fea239839c82bc7" target="id-d6bfdc3d15af4c8e84fb5aeaa4444241" type="1">
+          <feature name="labelExpression" value="${type}"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:SketchModelActor" id="id-8d9dbf67651644509fb1f1b7463eab9d" name="Actor">
+        <bounds x="217" y="69" width="75" height="100"/>
+        <sourceConnection id="id-772c7702ecd843f09e68723b9b8e70b6" source="id-8d9dbf67651644509fb1f1b7463eab9d" target="id-f3f7d0c1410643a68fea239839c82bc7">
+          <feature name="labelExpression" value="${type}"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:SketchModelSticky" id="id-d6bfdc3d15af4c8e84fb5aeaa4444241" name="Sticky" targetConnections="id-976ec7f8ca8e47e9bb0ca6426b0440e9" lineColor="#5c5c5c" textAlignment="1" fillColor="#b5ffff">
+        <bounds x="456" y="234" width="135" height="70"/>
+      </child>
+    </element>
   </folder>
 </archimate:model>
