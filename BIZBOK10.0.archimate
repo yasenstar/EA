@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="BIZBOK10.0" id="id-8688bca85fdd4a2da3f91f3e1e4fb514" version="4.6.0">
+  <folder name="Strategy" id="id-557624e4c2704a659708a54376db0be8" type="strategy"/>
+  <folder name="Business" id="id-beda7a5775364227acdc0e81ec8e995b" type="business"/>
+  <folder name="Application" id="id-5cdaf141cfe943648af03d1caa1b237b" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-26434f5bedf346e5ae5eb57ff500e43b" type="technology"/>
+  <folder name="Motivation" id="id-02136897b1f54eeb89acac8ed512e60b" type="motivation">
+    <folder name="Biz Domains" id="id-9fc7148625844e72b72ec5579f00a788">
+      <element xsi:type="archimate:Meaning" name="Stakeholders" id="id-12261f6dcda24ab18af0c17f3e9e1707">
+        <documentation>Sample:&#xD;
+- customers&#xD;
+- business partners&#xD;
+- various internal stakeholders</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="Policies" id="id-cab3e9f92ce346dbbf1f2be5ee006b32"/>
+      <element xsi:type="archimate:Meaning" name="Strategies" id="id-91896fdc21a24b308f629ac452b117e5"/>
+      <element xsi:type="archimate:Meaning" name="Capabilities" id="id-7166ac970c8d47f2b116a4784bfa3d2c"/>
+      <element xsi:type="archimate:Meaning" name="Organization" id="id-6405b9e712a04e2584c7227445322b5c"/>
+      <element xsi:type="archimate:Meaning" name="Information" id="id-ac95ba591b3144d28893e418487586c5"/>
+      <element xsi:type="archimate:Meaning" name="Value Streams" id="id-62bf850ae3c240daa570efe9bc5a5975"/>
+      <element xsi:type="archimate:Meaning" name="Products" id="id-d4b5a4fec9714da49f30461f7b3045e7"/>
+      <element xsi:type="archimate:Meaning" name="Initiatives" id="id-31fa51b830ad4f348278154da2d6c80b"/>
+      <element xsi:type="archimate:Meaning" name="Metrics" id="id-bda70ce9eaf34d5b8cfb6bb1081773b1"/>
+    </folder>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-74e118f2a2864cd89a7d3a70f466d23a" type="implementation_migration"/>
+  <folder name="Other" id="id-d4f3368f5e2648d980c047c7561c6679" type="other">
+    <element xsi:type="archimate:Grouping" name="Business Architecture - Extended Domain" id="id-703819f733624a00966edc88d45ac171">
+      <documentation>Biz Arch domains are business focal points used to establish formal abstractions needed to represent a business.</documentation>
+    </element>
+    <element xsi:type="archimate:Grouping" name="Business Architecture - Core Domain" id="id-bebd2c1c29664d3bb80e03f607e446eb">
+      <documentation>Biz Arch domains are business focal points used to establish formal abstractions needed to represent a business.</documentation>
+    </element>
+  </folder>
+  <folder name="Relations" id="id-8105f0d378834a418bd0d2ce0731f928" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="id-2ba61f21d13643149a0b256a3ebdc6eb" source="id-703819f733624a00966edc88d45ac171" target="id-bebd2c1c29664d3bb80e03f607e446eb"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-e93277dd1235463eba0f798b4270d383" source="id-bebd2c1c29664d3bb80e03f607e446eb" target="id-7166ac970c8d47f2b116a4784bfa3d2c"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-89bb4e983720451aa177887e8b152821" source="id-bebd2c1c29664d3bb80e03f607e446eb" target="id-6405b9e712a04e2584c7227445322b5c"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-11e19ee509e94d56b78e32a49b70f0db" source="id-bebd2c1c29664d3bb80e03f607e446eb" target="id-62bf850ae3c240daa570efe9bc5a5975"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-e91d64ab7cb148fbab5a9efd07621191" source="id-bebd2c1c29664d3bb80e03f607e446eb" target="id-ac95ba591b3144d28893e418487586c5"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-02274622fa5b405ca4650664094b6672" source="id-703819f733624a00966edc88d45ac171" target="id-12261f6dcda24ab18af0c17f3e9e1707"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-6a1c9be6fbf64436bb41d7492b305060" source="id-703819f733624a00966edc88d45ac171" target="id-cab3e9f92ce346dbbf1f2be5ee006b32"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-bbf0802f164041bab115a8529ee77b62" source="id-703819f733624a00966edc88d45ac171" target="id-d4b5a4fec9714da49f30461f7b3045e7"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-b9bb8347967040cf9aaf410c8bca21d9" source="id-703819f733624a00966edc88d45ac171" target="id-bda70ce9eaf34d5b8cfb6bb1081773b1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-a07bffba3e9d41799860b7dd5e29d8ee" source="id-703819f733624a00966edc88d45ac171" target="id-91896fdc21a24b308f629ac452b117e5"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-47170409dfac47daba381026f76da663" source="id-703819f733624a00966edc88d45ac171" target="id-31fa51b830ad4f348278154da2d6c80b"/>
+  </folder>
+  <folder name="Views" id="id-fafc7c9705e04f1d8998faab8ba4e029" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="1.1 Biz Domains Represented by Biz Arch" id="id-3f6d7b6c5456485ea384264b8d2c5c92">
+      <child xsi:type="archimate:DiagramObject" id="id-7f97340640704c44a289a4510ec23440" textAlignment="1" archimateElement="id-703819f733624a00966edc88d45ac171">
+        <bounds x="84" y="42" width="673" height="391"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-528703be7a6d4eafa0f643edd4d8a780" source="id-7f97340640704c44a289a4510ec23440" target="id-7d7b6e55767143e4a2f4a2dd30bcfaa6" archimateRelationship="id-2ba61f21d13643149a0b256a3ebdc6eb"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-d0407e6bb38d45099d09effc3fd13947" source="id-7f97340640704c44a289a4510ec23440" target="id-23646008e29d4a3882178660d1fa7768" archimateRelationship="id-02274622fa5b405ca4650664094b6672"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-7f56ee8d2fb64873bd1f32f880938285" source="id-7f97340640704c44a289a4510ec23440" target="id-3219664270e64cf5bc2a75077b9a65f4" archimateRelationship="id-6a1c9be6fbf64436bb41d7492b305060"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3592fdab8cfd4f32bf6fc2c6a1990e43" source="id-7f97340640704c44a289a4510ec23440" target="id-85d546655058420b9f21e347d4d28d64" archimateRelationship="id-bbf0802f164041bab115a8529ee77b62"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f86369a38c514fc28918bd68f957778a" source="id-7f97340640704c44a289a4510ec23440" target="id-b23aaa030b7b44c889d8599e08bfc86d" archimateRelationship="id-b9bb8347967040cf9aaf410c8bca21d9"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-01c30afa82404e70b2f1c6ab63eb083a" source="id-7f97340640704c44a289a4510ec23440" target="id-a639e71ef7564a868ed9bc6a7ec03fc1" archimateRelationship="id-a07bffba3e9d41799860b7dd5e29d8ee"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-70a414912ec144a99549ca46cfc3acf2" source="id-7f97340640704c44a289a4510ec23440" target="id-317b41043aa94253861da72645d485fe" archimateRelationship="id-47170409dfac47daba381026f76da663"/>
+        <child xsi:type="archimate:DiagramObject" id="id-7d7b6e55767143e4a2f4a2dd30bcfaa6" targetConnections="id-528703be7a6d4eafa0f643edd4d8a780" textAlignment="1" archimateElement="id-bebd2c1c29664d3bb80e03f607e446eb">
+          <bounds x="132" y="96" width="400" height="204"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e98747e2fa4043af8c9bad4f14dc227a" source="id-7d7b6e55767143e4a2f4a2dd30bcfaa6" target="id-1ccc42026a294b109570a5631c701062" archimateRelationship="id-e93277dd1235463eba0f798b4270d383"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9c2ebee221974e42a4994f471425e220" source="id-7d7b6e55767143e4a2f4a2dd30bcfaa6" target="id-f4fc1f513a564b78b47cd061ba031be6" archimateRelationship="id-89bb4e983720451aa177887e8b152821"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a65198c8d3b94f3f9771280dc8950b73" source="id-7d7b6e55767143e4a2f4a2dd30bcfaa6" target="id-d864feb64b634a6abae867ea7180544a" archimateRelationship="id-11e19ee509e94d56b78e32a49b70f0db"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-7b783fe8bfd34182ad4772c143350944" source="id-7d7b6e55767143e4a2f4a2dd30bcfaa6" target="id-406d7fb1b92546448d6d67ecbd722342" archimateRelationship="id-e91d64ab7cb148fbab5a9efd07621191"/>
+          <child xsi:type="archimate:DiagramObject" id="id-1ccc42026a294b109570a5631c701062" targetConnections="id-e98747e2fa4043af8c9bad4f14dc227a" archimateElement="id-7166ac970c8d47f2b116a4784bfa3d2c">
+            <bounds x="132" y="36" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-f4fc1f513a564b78b47cd061ba031be6" targetConnections="id-9c2ebee221974e42a4994f471425e220" archimateElement="id-6405b9e712a04e2584c7227445322b5c">
+            <bounds x="24" y="96" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d864feb64b634a6abae867ea7180544a" targetConnections="id-a65198c8d3b94f3f9771280dc8950b73" archimateElement="id-62bf850ae3c240daa570efe9bc5a5975">
+            <bounds x="132" y="132" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-406d7fb1b92546448d6d67ecbd722342" targetConnections="id-7b783fe8bfd34182ad4772c143350944" archimateElement="id-ac95ba591b3144d28893e418487586c5">
+            <bounds x="251" y="90" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-23646008e29d4a3882178660d1fa7768" targetConnections="id-d0407e6bb38d45099d09effc3fd13947" archimateElement="id-12261f6dcda24ab18af0c17f3e9e1707">
+          <bounds x="272" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3219664270e64cf5bc2a75077b9a65f4" targetConnections="id-7f56ee8d2fb64873bd1f32f880938285" archimateElement="id-cab3e9f92ce346dbbf1f2be5ee006b32">
+          <bounds x="24" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-85d546655058420b9f21e347d4d28d64" targetConnections="id-3592fdab8cfd4f32bf6fc2c6a1990e43" archimateElement="id-d4b5a4fec9714da49f30461f7b3045e7">
+          <bounds x="24" y="312" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b23aaa030b7b44c889d8599e08bfc86d" targetConnections="id-f86369a38c514fc28918bd68f957778a" archimateElement="id-bda70ce9eaf34d5b8cfb6bb1081773b1">
+          <bounds x="288" y="324" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-a639e71ef7564a868ed9bc6a7ec03fc1" targetConnections="id-01c30afa82404e70b2f1c6ab63eb083a" archimateElement="id-91896fdc21a24b308f629ac452b117e5">
+          <bounds x="531" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-317b41043aa94253861da72645d485fe" targetConnections="id-70a414912ec144a99549ca46cfc3acf2" archimateElement="id-31fa51b830ad4f348278154da2d6c80b">
+          <bounds x="531" y="324" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Note" id="id-2c6dabb3bcf547aa9418a9a8e2493f70" borderType="2">
+        <bounds x="605" y="456" width="152" height="26"/>
+        <content>Updated at 2021-04-15</content>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
