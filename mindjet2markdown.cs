@@ -2,8 +2,8 @@
 //This is based on the Ruby gist at: https://gist.github.com/ttscoff/6308043
 
 //Set vars here or supply vars
-string inputTextFile = @"C:\mindjet_map.txt";
-string outputMdFile = @"C:\mindjet_map.md";
+string inputTextFile = @"C:\Users\v0cn037\OneDrive\GitHub\enterprise_architecture\BA\BIZBOK10.txt";
+string outputMdFile = @"C:\Users\v0cn037\OneDrive\GitHub\enterprise_architecture\BA\BIZBOK10.md";
 
 //Read file
 string str = System.IO.File.ReadAllText(inputTextFile);
