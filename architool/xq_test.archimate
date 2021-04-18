@@ -89,6 +89,10 @@
       <child xsi:type="archimate:DiagramObject" id="id-69ea772a688441639fd02cf7ff8b8dde" archimateElement="id-e38c7b6ee18a4d35a5771b9c75b468de">
         <bounds x="912" y="474" width="120" height="55"/>
       </child>
+      <child xsi:type="archimate:Note" id="id-85204749037048859f6e53e87d373ed2" textAlignment="1">
+        <bounds x="447" y="29" width="185" height="32"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
     </element>
   </folder>
 </archimate:model>
