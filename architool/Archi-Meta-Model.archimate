@@ -280,6 +280,10 @@ L3&#xD;
         <bounds x="528" y="24" width="265" height="32"/>
         <feature name="labelExpression" value="$view{name}"/>
       </child>
+      <child xsi:type="archimate:Note" id="id-ea0edfcc65a34209817a3d1c52d42b42" borderType="2">
+        <bounds x="852" y="24" width="153" height="33"/>
+        <content>Updated at 2021-04-30</content>
+      </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Technical" id="id-4e91a90174b04bb891f31820a4f2da5c">
       <child xsi:type="archimate:DiagramObject" id="id-6142ff348bda471996abb3a1f5f3a771" targetConnections="id-bd775fea134c4af6bee9d9ca4371e62a" archimateElement="id-f0715327dba749f9af0b08795317327e">
@@ -492,8 +496,12 @@ Phase 4: more other Application Layer notation</content>
         <bounds x="732" y="132" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:Note" id="id-7e91d5b2d604441e8ca8b77a5dea2cfe" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" borderType="2">
-        <bounds x="180" y="48" width="541" height="37"/>
+        <bounds x="180" y="72" width="541" height="37"/>
         <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-467d290f3ae84aac9114228fc2bc08c4" borderType="2">
+        <bounds x="699" y="84" width="153" height="33"/>
+        <content>Updated at 2021-04-30</content>
       </child>
     </element>
   </folder>
