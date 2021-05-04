@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="BA-Fin" id="id-3962e765097b49238d714415169e164a" version="4.6.0">
+  <folder name="Strategy" id="id-f82ea2253bb94c3b9abb53ced61c6209" type="strategy"/>
+  <folder name="Business" id="id-7742f35975984edcac8ff12a9c63a8c1" type="business">
+    <folder name="Financial Services Organization" id="id-d2936300966d4c40b4baddede010689f">
+      <folder name="Org_L1" id="id-fbda8f4f06a542e09399664bc880fba2">
+        <element xsi:type="archimate:BusinessRole" name="L1 Asset Management" id="id-e18ef2b602274cdb958017034082067d"/>
+        <element xsi:type="archimate:BusinessRole" name="L1 Bank Segments" id="id-c7b0e38d264944c9bb70f81b9ac3379c">
+          <documentation>Encompasses the various areas in which customers can interact with a Financial Service Organization&#xD;
+</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessRole" name="L1 Corporate Functions" id="id-05178dd5559543429f9371381b551078"/>
+        <element xsi:type="archimate:BusinessRole" name="L1 Information Technology" id="id-38a8c2de95f7429c9dba1586a080d73f"/>
+        <element xsi:type="archimate:BusinessRole" name="L1 Risk Management" id="id-8d203746ac044712a38cd1def7226e02"/>
+        <element xsi:type="archimate:BusinessRole" name="L1 Security" id="id-f62ae46a008c41e784de8def8d8c5cd9"/>
+      </folder>
+      <folder name="Org_L2" id="id-ec2e0846cec94515ad11bd73db2c5386">
+        <folder name="L1 Bank Segments" id="id-26206e21495b4a44a7ad0e12e694d890">
+          <element xsi:type="archimate:BusinessRole" name="L2 Retail / Personal Banking" id="id-709cf7f064d24a678113770018fdd55b">
+            <documentation>Handles the administering of products and services to individual consumers.</documentation>
+          </element>
+          <element xsi:type="archimate:BusinessRole" name="L2 Commercial / Wholesale Banking" id="id-9b4f0d0a207243e98a90d3672605b275">
+            <documentation>Handles the administering of products and services to commercial clients, businesses, and business owners.</documentation>
+          </element>
+          <element xsi:type="archimate:BusinessRole" name="L2 Capital Markets" id="id-08b110d186fd4e4ea6e3e1e396ee6268">
+            <documentation>Supports the raising of capital regarding shares, bonds, and other long-term investments</documentation>
+          </element>
+          <element xsi:type="archimate:BusinessRole" name="L2 Enterprise Portfolio Management" id="id-461ddb2eafa140b68ab7057a8d9b96e9"/>
+        </folder>
+        <folder name="L1 Asset Management" id="id-29a049cb4cea4490b01005d7c7041dde"/>
+        <folder name="L1 Corporate Functions" id="id-a915dc88386f47f799782a2840e84677"/>
+        <folder name="L1 Information Technology" id="id-ab54ec1f2a804b95a34cfe7d69ce8d9e"/>
+        <folder name="L1 Risk Management" id="id-f52d0b19199b489d9e70ca3f2dc984c8"/>
+        <folder name="L1 Security" id="id-1ebd33a8ac9f4f248911e340f1c1c245"/>
+      </folder>
+      <folder name="Org_L3" id="id-db4aeae2a8de473f836cc6a8b14e24e5"/>
+    </folder>
+  </folder>
+  <folder name="Application" id="id-096cdf4137f447fa8fd06459166fca29" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-105e482126274ba981adba44dc7adc4c" type="technology"/>
+  <folder name="Motivation" id="id-b49cd02f0e7a40349de7edd063ea67f5" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-779ef8e3b6894b91be2ee9b9d3918bce" type="implementation_migration"/>
+  <folder name="Other" id="id-90cafea5a67343718f7d043db181aff6" type="other"/>
+  <folder name="Relations" id="id-b08ce2fda4f943f494362f5434f575b7" type="relations"/>
+  <folder name="Views" id="id-663b9f369a8742728fd4d91b7a5bbd6d" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-789448cc9cd5411792d29b25e6ca98af"/>
+  </folder>
+</archimate:model>
