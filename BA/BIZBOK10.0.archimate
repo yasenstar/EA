@@ -691,14 +691,14 @@ This step additionally covers how related business disciplines help frame busine
       <folder name="2.1 Strategy Mapping" id="id-835cc1cf8f5c4064bca129e5c73cc7cc">
         <element xsi:type="archimate:ArchimateDiagramModel" name="2.1.14 Strategy Knowledgebase Relationships" id="id-aa6d55811f164a6f863d0e438a7bafc2">
           <child xsi:type="archimate:Note" id="id-54dbe40ab00e43c7a85a44b748c5dba4" borderType="2">
-            <bounds x="300" y="24" width="553" height="25"/>
+            <bounds x="95" y="25" width="553" height="25"/>
             <feature name="labelExpression" value="$view{name}"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-641099fb4e484ddeabdea063f7524e77" targetConnections="id-a530aed9c3ab4d928c104f9747d3508c id-9e1306d65297427b829463e336ca8aac" archimateElement="id-f4b162776620449398aa0df0519df6d6">
-            <bounds x="617" y="60" width="120" height="55"/>
+            <bounds x="412" y="61" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-5f89bfef261146bf821384b60155990e" targetConnections="id-8a1f34670b6247a8830763577f311516 id-f36f5e76274d44c4a65680bf36248254 id-0c0efe1c79df4f898e72a8ab3634507b" archimateElement="id-aa50b790211f4d9d86f81d588ee908a3">
-            <bounds x="786" y="206" width="120" height="55"/>
+            <bounds x="581" y="207" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-9e1306d65297427b829463e336ca8aac" source="id-5f89bfef261146bf821384b60155990e" target="id-641099fb4e484ddeabdea063f7524e77" archimateRelationship="id-6d6944058c70407797ded09503a9f60a">
               <bendpoint startX="7" startY="-148" endX="176" endY="-2"/>
             </sourceConnection>
@@ -707,18 +707,18 @@ This step additionally covers how related business disciplines help frame busine
             <sourceConnection xsi:type="archimate:Connection" id="id-434bfe737fcd4e19828a6af23923a150" source="id-5f89bfef261146bf821384b60155990e" target="id-0d22b1b762fe4a06bef442fd5946642c" archimateRelationship="id-8764e4df967946ef821c3f61a219ea81"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ad0951f2f3394375ba1403f5a0b358ac" archimateElement="id-5a6d88e10a164a159294b2401520d9f8">
-            <bounds x="360" y="60" width="120" height="55"/>
+            <bounds x="155" y="61" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-a530aed9c3ab4d928c104f9747d3508c" source="id-ad0951f2f3394375ba1403f5a0b358ac" target="id-641099fb4e484ddeabdea063f7524e77" archimateRelationship="id-a94fc6f64619454d8a3bcfac392ef54d"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-8a1f34670b6247a8830763577f311516" source="id-ad0951f2f3394375ba1403f5a0b358ac" target="id-5f89bfef261146bf821384b60155990e" archimateRelationship="id-02c32e1fdd874219a67eb3128ac07086"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-0d22b1b762fe4a06bef442fd5946642c" targetConnections="id-434bfe737fcd4e19828a6af23923a150" archimateElement="id-99746fea99b54f31b2112e49e5ec3a38">
-            <bounds x="253" y="206" width="120" height="55"/>
+            <bounds x="48" y="207" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-e7d16081aaf94a05984f8448313ac719" targetConnections="id-2285ebd9196f4599a5719f3719b7f046 id-46cccc7f6f0143c4a8f05eb239aee5c3" archimateElement="id-8d792bba5896438795e7f654f1bac92b">
-            <bounds x="253" y="347" width="120" height="55"/>
+            <bounds x="48" y="348" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-21fc8298dccd4a51b82273d65a2b5c4f" archimateElement="id-aa11acc34ccc4c23b0af3e825a5579fb">
-            <bounds x="786" y="347" width="120" height="55"/>
+            <bounds x="581" y="348" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-f36f5e76274d44c4a65680bf36248254" source="id-21fc8298dccd4a51b82273d65a2b5c4f" target="id-5f89bfef261146bf821384b60155990e" archimateRelationship="id-88f4c4c7210a4a678eca4e5c03199911">
               <bendpoint startX="-1" startY="-61" endX="-41" endY="80"/>
             </sourceConnection>
@@ -727,7 +727,7 @@ This step additionally covers how related business disciplines help frame busine
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a69c0a915fd7431a9bf5210f8f85860c" targetConnections="id-55c463c44af3414a82f49f5931c71a33" archimateElement="id-6015ca4f49e8497c9d5fabe5c9387027">
-            <bounds x="565" y="347" width="120" height="55"/>
+            <bounds x="360" y="348" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-46cccc7f6f0143c4a8f05eb239aee5c3" source="id-a69c0a915fd7431a9bf5210f8f85860c" target="id-e7d16081aaf94a05984f8448313ac719" archimateRelationship="id-d16bb27d4adf49b49c506027635d52c2"/>
           </child>
         </element>
