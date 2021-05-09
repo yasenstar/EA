@@ -254,7 +254,7 @@
         </folder>
         <folder name="L1 Corporate Functions" id="id-fb88b05b29c44d3283a97b9b12b2f15c">
           <folder name="L2 Legal" id="id-8f2f49d4f0514d1b8d981d009a3c43f5">
-            <element xsi:type="archimate:BusinessRole" name="L3 General Counsle" id="id-66f316cf4d06410e8fec03b94035a926">
+            <element xsi:type="archimate:BusinessRole" name="L3 General Counsel" id="id-66f316cf4d06410e8fec03b94035a926">
               <documentation>Provide legal advice and guidance on matters of law, including reviewing and drafting legal documents, managing risk, conducting negotiations on behalf of the organization, and ensuring the organization's legal compliance.</documentation>
             </element>
             <element xsi:type="archimate:BusinessRole" name="L3 Defense Litigation" id="id-6d7a2decd01a43b79343752047db81ca">
@@ -1413,7 +1413,7 @@ Localized (Branch, Market) Functions:&#xD;
               <bounds x="23" y="144" width="120" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-d90f4f3143584cce92c90b991b9ddeae" targetConnections="id-051a4dd900b243e3bc20511beb3af27c" archimateElement="id-466a2ceeb6974e47bc8eea5e2c6aa4a2">
+          <child xsi:type="archimate:DiagramObject" id="id-d90f4f3143584cce92c90b991b9ddeae" targetConnections="id-051a4dd900b243e3bc20511beb3af27c id-3e595fd59e364a9fbfa240e7e354b85e" archimateElement="id-466a2ceeb6974e47bc8eea5e2c6aa4a2">
             <bounds x="372" y="24" width="169" height="227"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-fc7c2147be7e4396accb9e73a0415ba1" source="id-d90f4f3143584cce92c90b991b9ddeae" target="id-cf978fc8efed4dec817222730cbac417" archimateRelationship="id-f8824cf6011f4be1ad9c6a69dfc53ac5"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-c16c1b8ceed342d9b299deec7d731ae9" source="id-d90f4f3143584cce92c90b991b9ddeae" target="id-c7adadd7cda14053ba3c397c3a15d7e0" archimateRelationship="id-f31f28281e8b4e7d98cce006c387c3c9"/>
@@ -1439,7 +1439,7 @@ Localized (Branch, Market) Functions:&#xD;
               <bounds x="12" y="96" width="132" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-9da660cf404043ae80e450c0f55f8700" targetConnections="id-115678f3366746d4bccb6ec389e3f605" archimateElement="id-1899a4f4e414499e8f85b22ad209ce54">
+          <child xsi:type="archimate:DiagramObject" id="id-9da660cf404043ae80e450c0f55f8700" targetConnections="id-115678f3366746d4bccb6ec389e3f605 id-5ed6bbe565be49eba0af57ea8b0378c9" archimateElement="id-1899a4f4e414499e8f85b22ad209ce54">
             <bounds x="192" y="264" width="168" height="185"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-ee3d038649974ddc896f2fe8ccbdacba" source="id-9da660cf404043ae80e450c0f55f8700" target="id-53e4a5f5cd964cc69e34ebbedd1917a1" archimateRelationship="id-f7022d5870d64d349a790086530073ad"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-0fb6595df7eb4f63b6f0876dd8084592" source="id-9da660cf404043ae80e450c0f55f8700" target="id-d321bdc0ba7f4f32a6809033502500dd" archimateRelationship="id-754d7c2bb8484865a5e96201d6477d40"/>
@@ -1457,7 +1457,7 @@ Localized (Branch, Market) Functions:&#xD;
             <sourceConnection xsi:type="archimate:Connection" id="id-158ad27a50c340dfa2f1fead40e39ea7" source="id-dabcb176b2754fb18d5fa0740ef75214" target="id-175c59184f1045f7a5c86b2b8f68abc2" archimateRelationship="id-ee1799f34eb7409888ce689d8c609bef"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-f942c3b5fbf04ba4931e1c90358ccbd4" source="id-dabcb176b2754fb18d5fa0740ef75214" target="id-671786bbfb8f4ad38426cf204e1434b7" archimateRelationship="id-ae8afffd7826475fb3b33a46d7e5263c"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-7825af72fcfc4006936b21ecb8264d67" source="id-dabcb176b2754fb18d5fa0740ef75214" target="id-66be5ec0454949b58ac5c6f1d5cc9565" archimateRelationship="id-3fc07660569847f2bb3723a2b07aa4ea"/>
-            <child xsi:type="archimate:DiagramObject" id="id-a8be7c089b944b2db184a47d02a44419" targetConnections="id-2dbbd19aaa3a4abe988b2d298df49bd6" archimateElement="id-2e064b9aa3cf4a76a9594bb4a87d8e6e">
+            <child xsi:type="archimate:DiagramObject" id="id-a8be7c089b944b2db184a47d02a44419" targetConnections="id-2dbbd19aaa3a4abe988b2d298df49bd6 id-47ea9375d70d46abbdae0454463948f7" archimateElement="id-2e064b9aa3cf4a76a9594bb4a87d8e6e">
               <bounds x="25" y="35" width="120" height="55"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-0ade3e17c8564a8f91a4a16cbddbe804" targetConnections="id-11140a77c7024bf1aeca08fc54207649" archimateElement="id-a5d01ded830441848b70c1882dea53bb">
@@ -1486,10 +1486,10 @@ Localized (Branch, Market) Functions:&#xD;
             <child xsi:type="archimate:DiagramObject" id="id-bd6c85bd5bba4bb48e18ce53657f51db" targetConnections="id-3a9c8ec8968d4d7b997ecddb74536c02" archimateElement="id-076c5c7ceaa04823bfb523cee2af6433">
               <bounds x="156" y="34" width="120" height="55"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-5e96b6725f054b299592151e37545029" targetConnections="id-cca8c0a5a2a146efac1d328232dcfd5b" archimateElement="id-0a413b735efa463a945435e8a0148bcf">
+            <child xsi:type="archimate:DiagramObject" id="id-5e96b6725f054b299592151e37545029" targetConnections="id-cca8c0a5a2a146efac1d328232dcfd5b id-e858be2722a948b9bda537e132fa3292" archimateElement="id-0a413b735efa463a945435e8a0148bcf">
               <bounds x="24" y="156" width="120" height="55"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-377527a924e24ce5b5606ffa2eccc83d" targetConnections="id-ee25c113fe594ffd828b942fc42bc21d" archimateElement="id-83dc8996e07a4124bc117ca529a210aa">
+            <child xsi:type="archimate:DiagramObject" id="id-377527a924e24ce5b5606ffa2eccc83d" targetConnections="id-ee25c113fe594ffd828b942fc42bc21d id-1cf763aea73d4de295f932bbafbb9bbc" archimateElement="id-83dc8996e07a4124bc117ca529a210aa">
               <bounds x="24" y="96" width="120" height="55"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-d2f117f75c1841b7835b6aa9648db9d0" targetConnections="id-c4238091bc15428792d7ab88b4b79426" archimateElement="id-4d0446d7819f4ed1b275aa5c02eddb89">
@@ -1531,7 +1531,7 @@ Localized (Branch, Market) Functions:&#xD;
             </child>
           </child>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-aeca7f16081a42a081f91a4aec2b1ec2" targetConnections="id-40586b0ad1d94c6f8e3a3910df1da52c" archimateElement="id-38a8c2de95f7429c9dba1586a080d73f">
+        <child xsi:type="archimate:DiagramObject" id="id-aeca7f16081a42a081f91a4aec2b1ec2" targetConnections="id-40586b0ad1d94c6f8e3a3910df1da52c id-2695e7a9a2474d6b9f42019fbe2e32bd" archimateElement="id-38a8c2de95f7429c9dba1586a080d73f">
           <bounds x="1080" y="504" width="180" height="266"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-5637e5308a854f879da2f9ad6e674678" source="id-aeca7f16081a42a081f91a4aec2b1ec2" target="id-35a4de02dfd34d41afd381c5613767b5" archimateRelationship="id-af6c4db2944e472e804d3246fa76f9bb"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-23f02920749849c282533c3fbe36c763" source="id-aeca7f16081a42a081f91a4aec2b1ec2" target="id-4dd134ba1a0b4270923f97a521ba1bc6" archimateRelationship="id-fbe95e068986493b90d41be1d8b4145c"/>
@@ -1567,7 +1567,7 @@ Localized (Branch, Market) Functions:&#xD;
               <bounds x="18" y="108" width="120" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-faac76d98ec34ced9b97cfb77807ffaf" targetConnections="id-6515059bee7e43f0a7f298f855778528 id-b94e0cb397804ca4bdb267b438d014fd" archimateElement="id-a4196a2233ad4ad6b25461c6a963cf95">
+          <child xsi:type="archimate:DiagramObject" id="id-faac76d98ec34ced9b97cfb77807ffaf" targetConnections="id-6515059bee7e43f0a7f298f855778528 id-b94e0cb397804ca4bdb267b438d014fd id-cb149a57144e4867827029be4cef2126" archimateElement="id-a4196a2233ad4ad6b25461c6a963cf95">
             <bounds x="24" y="108" width="300" height="109"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-df82d3ab7c694b3b9d795bdf473521ff" source="id-faac76d98ec34ced9b97cfb77807ffaf" target="id-718a53d72a2e48b28be1e87eb28a8b2b" archimateRelationship="id-4cbc70a8f5194b22b40dae8fa04c701c"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-da1bb0c242184a488bd4988debdb2d51" source="id-faac76d98ec34ced9b97cfb77807ffaf" target="id-f4e2c38fa53c4021bfb1bee24d678258" archimateRelationship="id-5118b99a65134feb8de5fc759197001f"/>
@@ -1607,7 +1607,7 @@ Localized (Branch, Market) Functions:&#xD;
               <bounds x="16" y="156" width="120" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-1024417075564337bce04a91f054f6ca" targetConnections="id-1988e77cae73429e80a6582f9c7b70b1" archimateElement="id-12891f995c51478ca1440d1202b8b29e">
+          <child xsi:type="archimate:DiagramObject" id="id-1024417075564337bce04a91f054f6ca" targetConnections="id-1988e77cae73429e80a6582f9c7b70b1 id-ed2c37ed05e1495999345b92b3d30d35" archimateElement="id-12891f995c51478ca1440d1202b8b29e">
             <bounds x="192" y="96" width="301" height="169"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-6098c38d174b4395945fb0d797607112" source="id-1024417075564337bce04a91f054f6ca" target="id-4d116f04fd2341b390c169b01c2f32c6" archimateRelationship="id-1823652366ff4a1499a26a3a0d866f86"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-5c3ea2bff5d34d9693bb5b31de6b6722" source="id-1024417075564337bce04a91f054f6ca" target="id-8a3d0d936bc84eb78b32faa4d3c6c1c0" archimateRelationship="id-dff0aae788da444d874b9ac10e7c5182"/>
@@ -1677,7 +1677,7 @@ Localized (Branch, Market) Functions:&#xD;
         <content>&quot;Product Office&quot; can have closer linkage to &quot;Business Development&quot; under &quot;Marketing&quot;</content>
       </child>
       <child xsi:type="archimate:Note" id="id-b05ea9abc85847f280ae645237c47ad2" textAlignment="1">
-        <bounds x="1392" y="1224" width="185" height="80"/>
+        <bounds x="1812" y="804" width="185" height="80"/>
         <sourceConnection id="id-d9f76bdaad544252a360bd40010d08b7" source="id-b05ea9abc85847f280ae645237c47ad2" target="id-33c137d75ff94b1faf94b1ed95f36b80"/>
         <sourceConnection id="id-b397751096124f1aacb637c93b1674de" source="id-b05ea9abc85847f280ae645237c47ad2" target="id-1b698c40e6914e3db9935aa11953f84b"/>
         <content>These two have closer meaning, possible can be combined.</content>
@@ -1686,6 +1686,38 @@ Localized (Branch, Market) Functions:&#xD;
         <bounds x="876" y="1224" width="185" height="80"/>
         <sourceConnection id="id-b94e0cb397804ca4bdb267b438d014fd" source="id-1976e12ab3634671ad361364633275b0" target="id-faac76d98ec34ced9b97cfb77807ffaf"/>
         <content>&quot;Security Compliance&quot; is better to be part of &quot;Compliance&quot; under Risk Management</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-07bab1e265044afbbe5957de20e3b908" textAlignment="1">
+        <bounds x="180" y="1224" width="185" height="60"/>
+        <sourceConnection id="id-47ea9375d70d46abbdae0454463948f7" source="id-07bab1e265044afbbe5957de20e3b908" target="id-a8be7c089b944b2db184a47d02a44419"/>
+        <content>This is same naming as the L1 Asset Management</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-6a5c2a1606dc4658a8353e0171f10419" textAlignment="1">
+        <bounds x="-216" y="1044" width="185" height="120"/>
+        <sourceConnection id="id-1cf763aea73d4de295f932bbafbb9bbc" source="id-6a5c2a1606dc4658a8353e0171f10419" target="id-377527a924e24ce5b5606ffa2eccc83d"/>
+        <sourceConnection id="id-e858be2722a948b9bda537e132fa3292" source="id-6a5c2a1606dc4658a8353e0171f10419" target="id-5e96b6725f054b299592151e37545029"/>
+        <content>These two are similar, my understanding is different on the scale and objective; so would be better to put together on this L3, like call it as &quot;Program Management Office (PMO)&quot; or &quot;Business Office&quot;</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-01fd90e977f14e7b9dc1eed261fe7090" textAlignment="1">
+        <bounds x="-192" y="780" width="185" height="80"/>
+        <sourceConnection id="id-5ed6bbe565be49eba0af57ea8b0378c9" source="id-01fd90e977f14e7b9dc1eed261fe7090" target="id-9da660cf404043ae80e450c0f55f8700"/>
+        <content>Shall we treat M&amp;A as one stable business unit in the organization, of it should be part of &quot;Shared Services&quot; as one Program based strategic arrangement?</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-1fefc666663048299bfd2498451b321d" textAlignment="1">
+        <bounds x="-192" y="240" width="185" height="80"/>
+        <sourceConnection id="id-3e595fd59e364a9fbfa240e7e354b85e" source="id-1fefc666663048299bfd2498451b321d" target="id-d90f4f3143584cce92c90b991b9ddeae"/>
+        <sourceConnection id="id-cb149a57144e4867827029be4cef2126" source="id-1fefc666663048299bfd2498451b321d" target="id-faac76d98ec34ced9b97cfb77807ffaf"/>
+        <content>Shall we put Legal and Compliance team closer? As they may come from similar background &amp; profile</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-654f605fbe5a448b9c15b4da5bc95ea5" textAlignment="1">
+        <bounds x="1819" y="648" width="185" height="144"/>
+        <sourceConnection id="id-2695e7a9a2474d6b9f42019fbe2e32bd" source="id-654f605fbe5a448b9c15b4da5bc95ea5" target="id-aeca7f16081a42a081f91a4aec2b1ec2"/>
+        <content>IT can be treated more from One Time organization and Run Time organization, the Innovation services can be put in Shared Services, relating either with EA, or we create &quot;innovation center / technology watch&quot; team structure</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-beeec71d274641bc96a50fc1b75b0a0e" textAlignment="1">
+        <bounds x="1356" y="1224" width="185" height="80"/>
+        <sourceConnection id="id-ed2c37ed05e1495999345b92b3d30d35" source="id-beeec71d274641bc96a50fc1b75b0a0e" target="id-1024417075564337bce04a91f054f6ca"/>
+        <content>Shall we treat &quot;Fraud Management&quot; more from Risk - Compliance aspect would be better?</content>
       </child>
     </element>
   </folder>
