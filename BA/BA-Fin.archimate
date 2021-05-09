@@ -408,7 +408,259 @@
   </folder>
   <folder name="Application" id="id-096cdf4137f447fa8fd06459166fca29" type="application"/>
   <folder name="Technology &amp; Physical" id="id-105e482126274ba981adba44dc7adc4c" type="technology"/>
-  <folder name="Motivation" id="id-b49cd02f0e7a40349de7edd063ea67f5" type="motivation"/>
+  <folder name="Motivation" id="id-b49cd02f0e7a40349de7edd063ea67f5" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Borrower" id="id-69526f42e3f64906806caa8a78a8c2e3">
+      <documentation>An Individual or organization in debt to the bank.</documentation>
+      <property key="Stakeholder Category" value="Customer"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Broker" id="id-7e901b95eefe48c4ad59e7199db5f606">
+      <documentation>A Broker is a individual or organization with a licence to  match a buyers and sellers without themselves being party to the transaction, for a fee or commision.</documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Broker-Dealer" id="id-61c96b1c88024a10905d0e5cf6a6bffb">
+      <documentation>A Broker-Dealer is a brokerage firm with a licence to as a market maker for securities. In other words, is allowed to keep risky financial positions in its own balance sheet awaiting to transact with its customers. The difference between a market maker and a broker dealer is that a broker dealer is not obliged to give its customers two-way prices.</documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Central Clearing Counterpart" id="id-3a07a0fed4cd42e786a391caf1d9fa3c">
+      <documentation>An organization that steps into a bilateral derivative instrument transaction simultaniously as a buyer and a seller, assuming the default risk for both original parties. </documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Clearing Counterpart" id="id-3a7c1b8399594973858d6685bf1bac2e">
+      <documentation>An Individual or organization part to a clearing of financial instrument, including cleared derivative transaction agreement.</documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Financial Account Holder" id="id-ee69cab49f64444c93f16fb3844d3e08">
+      <documentation>A Financial Account Holder is an individual or legal entity who has, plans to have, or had an agreement in place for a savings, checking, or related financial account.</documentation>
+      <property key="Stakeholder Category" value="Customer"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Investment Account Holder" id="id-2d1fb36a96da428d9002c4714f43fcee">
+      <documentation>An Investor Account Holder is an individual or legal entity who has, plans to have, or had an agreement in place for a safekeeping of financial assets in a fidicuary account.</documentation>
+      <property key="Stakeholder Category" value="Customer"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Investment Management Company" id="id-82bcf571f70d4b80adac2ff735a301ff">
+      <documentation>An organization regognized by regulation who's primary business is making investment decisions on behalf of their customers  with the objective to optimize the risk/return of an investment portfolio.</documentation>
+      <property key="Stakeholder Category" value="Customer"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Investor" id="id-bae112f2d974442e929be7e529ab99c5">
+      <documentation>An Investor is a person or organization that commits capital with the expectation of financial returns. </documentation>
+      <property key="Stakeholder Category" value="Customer / Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Lender" id="id-12b74fb4e59f406b8e1053e206c1c369">
+      <documentation>An Individual or organization to which the bank is in debt.</documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Market Maker" id="id-4ce585ee60c54ce89bb86f35fa5e1d24">
+      <documentation>A Market Maker is a broker-dealer firm with a license to assume the risk by stepping into the transaction as an intermediary. A market maker is obliged to provide the market with both a sell and buy price without knowning the counterpart's intention to either purchase or sell the instrument/risk.</documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Public Records Administrator" id="id-bf0ed8b8ad63439baac556c3ca44515d">
+      <documentation>A Public Records Administrator maintains documents and information that is determined to be public information (e.g., property/land registry) and makes that accessible to the general public. </documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Regulatory Auditor" id="id-bf4fc5edae5d462b9d6a4ecfa05ef3f4">
+      <documentation>A Regulatory Auditor is responsible for developing, implementing, and enforcing regulations that govern financial transactions, and market particpant behaivor. </documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Trader" id="id-f5e1ef0a837445e69d6ddd7f97ee8890">
+      <documentation>A Trader is an individual  involved in initiating and managing financial positions by purchasing and selling financial assets. trading, market-making, and subsequent operations. A trader has the mandate to enter into financial agreeements on behalf of an organization.</documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Trading Counterpart" id="id-36c70e7831264aaf82ef10b4154c0c80">
+      <documentation>An individual or organization part to a trading for securities, cash and or derivative's agreement.</documentation>
+      <property key="Stakeholder Category" value="Customer"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Trading Venue" id="id-1df4877a3bc94a9eacfa5332cc61b200">
+      <documentation>An organized market place where buyers and sellers meet to establish a transparent and fair market price for financial instruments, including both securities and standardized derivatives.</documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Trust Bank (Custodian)" id="id-aca693d58ba94ed5b1b030e88b8787d2">
+      <documentation>A Trust Bank (Custodian) is a legal entity that acts as a fiduciary, agent, or trustee on behalf of a person or business entity for the purpose of administration, management, and the eventual transfer of assets to a beneficial party.</documentation>
+      <property key="Stakeholder Category" value="Partner"/>
+      <property key="Stakeholder Type" value="External"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Account Manager" id="id-b1e899db7e964cf580124730a0020f52">
+      <documentation>An Account Manager is a person who is responsible for the management of a collection of customer or client relationships, typically focusing on customer and client acquisition and retention strategies.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Business Analyst" id="id-e9546df0b0394bdeb805420e70795fbb">
+      <documentation>An individual eliciting, prioritizing, validating and communicating the organization's business need to interanal and exteral stakeholders. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Channel Manager" id="id-7fd0e8693cf345f78f0a99d47e9dd85f">
+      <documentation>A Channel Manager is a person who manages the operations, including the production and supply of a channel of distribution. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Communications Consultant" id="id-b140c7a9b3524f2eabc38bcfe02bc5be">
+      <documentation>A Communications Consultant is a person who provides advice and participates in the development of communication plans and strategies, messaging, and associated media.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Compliance Officer" id="id-a5f2d88de0a34dbbabb929edb4e0d643">
+      <documentation>A compliance Officer is a person tasked with assuring the organisation that guidelines and policies are implmented and adhered too.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Corporate Finance Specialist" id="id-e5f4c5bd1fc04d9e83685057717c3410">
+      <documentation>An individual who assist customers to raise financial resources through the issuance of financial instruments, either as a public offering or a private placement to targeted investors</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Credit Risk Analyst" id="id-d7201fe32c584e489efc164a9bec1688">
+      <documentation>A Credit Risk Analyst is a person who evaluates the credit risks of a transaction and determines whether credit should be extended to the requesting party. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Customer Service Advisor" id="id-7fb973e4efc442628b6a8be979578837">
+      <documentation>A Customer Service Advisor is a person who assists with resolving inquiries regarding an individual transaction in progress or an established agreement. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Delivery Manager" id="id-3b5874669ec44af79f54a55f84a8429c">
+      <documentation>A Delivery Manager manages the development and launch of new products or services for a channel from idea to deployment, including post-deployment success. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Financial Controller" id="id-95f6d501f1c948e59ebc57e83c1ca4d2">
+      <documentation>A Financial Controller is a person who is responsible for accounting activities and overseeing financial reporting, including balance sheets and revenue models. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Financial Instrument Analyst" id="id-9d48dfbad40a4a08b7d292b1c046f560">
+      <documentation>A Financial Instrument Analyst is a person who evaluates a financial instrument for the purposes of packaging it for trading and delivery to investors. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Financial Instrument Sales Advisor" id="id-8e66f498d1ae4da9a66b946bf052d662">
+      <documentation>A Financial Instrument Sales Advisor is a person who uses the financial instrument evaluations to determine the packaging and trading terms with investors. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="IT Architect" id="id-cf193a960b3f41c0ab6b5071937f81f0">
+      <documentation>An IT architect is responsible for the design and evolution of the IT environment.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="IT Engineer" id="id-c70121b8f4e6475f8419d727b76b3da4">
+      <documentation>An IT Engineer is responsible for the development and maintenance of all layers of systems within an organization, from the physical hardware to the operating systems, applications, databases, storage, and servers.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="IT Technology Lead" id="id-3809dd9d5a404e2fb8339901fdc69600">
+      <documentation>An IT tech. lead is a subject matter expert in a particular area of the IT architecture. For example cyber security, or cloud technology.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Legal Specialist" id="id-b60e39f824524b5bbe0bebea58c11001">
+      <documentation>An individual establishing, reviewing legal documentation, and provides legal opinion on a wide range of activities within the organisation.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Marketing Manager" id="id-a1372fd1fddd4995a77fe2463ca1acab">
+      <documentation>A Marketing Manager is a manager whose primary task is to manage the marketing resources of a product or business.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Operations Analyst" id="id-935d1387f22249e3b8678376932b0c91">
+      <documentation>An Operations Analyst is a person who helps in proposing  how to orginaze the daily actvities (workflow)  to fulfill the products and services of an organization.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Operations Manager" id="id-fa9b4f12340146468567072e81f0f408">
+      <documentation>An Operations Manager is a person who decides how to organize daily activites and manage the daily operations delivering the products and services of an organization.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Product Manager" id="id-74e7cfa800c84025af32fcc71dc0a7f3">
+      <documentation>A Product Manager is a person who manages the development of products and services for an organization, performing activities such as market analysis, competitive analysis, maintaining product roadmaps, and managing product launch from ideation to development and deployment.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Product Specialist" id="id-cafa453071f342c2b14b38df95c903a1">
+      <documentation>A Product Specialist is a person who possesses deep knowledge of a product or product line and can determine appropriateness for individual customers.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Quality Assurance Analyst" id="id-ac0aacc06a654982a6313f0a4ae21cb9">
+      <documentation>A Quality Assurance Analyst is responsible for applying the principles and practices of software quality assurance to thoroughly test software changes throughout the development life cycle.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Risk Officer" id="id-706f47067bce414d8f7e3b3dd13c696f">
+      <documentation>A Risk Officer is a person responsible for implementing,identifying, analyzing, and mitigating internal and external events that could threaten a company providing the first line of defence.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Auditor" id="id-57327a06b6bd45d69bc06050d5436e8b">
+      <documentation>An Auditor is an individual who gathers, reviews, analyzes, and reports on the financial, legal, or other records of the organization.</documentation>
+      <property key="Stakeholder Category" value="Human Resource / Partner"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Authorized Representative" id="id-17965031320f4ab98b02be118ebac718">
+      <documentation>An Authorized Representative is a person who has the authority to establish a new agreement and ensure it complies with company policy. </documentation>
+      <property key="Stakeholder Category" value="Human Resource / Partner"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Collateral Appraiser" id="id-546dd5a781d64cf7bafad8b9e1ca775a">
+      <documentation>A Collateral Appraiser is a licensed or certified appraiser who provides a valuation for collateral used to secure a loan. </documentation>
+      <property key="Stakeholder Category" value="Human Resource / Partner"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Financial Planner" id="id-318e2b1cb38a4b36a87e70e7f1c81b97">
+      <documentation>A Financial Planner is a qualified investment professional who provides a service to help individuals and corporations meet their long-term financial objectives by analyzing the client’s status and setting a program to achieve that client’s goals.</documentation>
+      <property key="Stakeholder Category" value="Human Resource / Partner"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Investment Manager" id="id-ce2d80799db04a3e9dac8c0f065e3dea">
+      <documentation>An Investment Manager (also known as a Fund Manager or Portfolio Manager) is responsible for determining the strategy and investment portfolio as well as managing the assets to generate revenue and wealth for the organization. </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Legal Counsel" id="id-a81597ee41fd4d27b05577f1728fd715">
+      <documentation>A Legal Counsel is a person who is legally qualified and licensed to represent an organization in a legal matter, such as lawsuits, policy formations, contract negotiation, and patent activities. </documentation>
+      <property key="Stakeholder Category" value="Human Resource / Partner"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Program Manager" id="id-8652c5205dec455383159f8bdf39eb5c">
+      <documentation>A Program Manager is a person in charge of the planning and execution of a particular initiative.</documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="External"/>
+      <property key="Stakeholder Type" value="Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Strategist" id="id-cc256913c191419098a3224c0a8f9197">
+      <documentation>A Strategist is responsible for evaluating both the internal and external environment and providing advice to an organization to help achieve their strategic business priorities.</documentation>
+      <property key="Stakeholder Category" value="Human Resource / Partner"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Trainer" id="id-caa9b697ad6c44398656ade32a6b39ab">
+      <documentation>A Trainer is a person who acquires in-depth skills and knowledge in order to train an organization’s workers. </documentation>
+      <property key="Stakeholder Category" value="Human Resource / Partner"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+    <element xsi:type="archimate:Stakeholder" name="Treausurer" id="id-7d5e6fbedb974c6393af0ccd806c95a7">
+      <documentation>An individual with the responsibility to  optimize the use of the organizations financial assets and financial liabiliites. This includes making funding decisions and managing the timing of of cash in- and outflow as well as managing the risk and return </documentation>
+      <property key="Stakeholder Category" value="Human Resource"/>
+      <property key="Stakeholder Type" value="External / Internal"/>
+    </element>
+  </folder>
   <folder name="Implementation &amp; Migration" id="id-779ef8e3b6894b91be2ee9b9d3918bce" type="implementation_migration"/>
   <folder name="Other" id="id-90cafea5a67343718f7d043db181aff6" type="other"/>
   <folder name="Relations" id="id-b08ce2fda4f943f494362f5434f575b7" type="relations">
@@ -1718,6 +1970,225 @@ Localized (Branch, Market) Functions:&#xD;
         <bounds x="1356" y="1224" width="185" height="80"/>
         <sourceConnection id="id-ed2c37ed05e1495999345b92b3d30d35" source="id-beeec71d274641bc96a50fc1b75b0a0e" target="id-1024417075564337bce04a91f054f6ca"/>
         <content>Shall we treat &quot;Fraud Management&quot; more from Risk - Compliance aspect would be better?</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Financing Stakeholder v4.1" id="id-259458f09bc1483185b97b4ed438f34b">
+      <child xsi:type="archimate:Note" id="id-a1d62cdd934d4d60b9d6794ed506ec9d" borderType="2">
+        <bounds x="932" y="33" width="185" height="28"/>
+        <content>Updated at 2021-05-09</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-9f969b06d0af4b79905c7c4167b87ddd" borderType="2">
+        <bounds x="408" y="14" width="421" height="28"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:Group" id="id-ac8858727d4c4fbd8eb9c2ba42270b0b" name="External Stakeholders" textAlignment="1">
+        <bounds x="12" y="60" width="463" height="651"/>
+        <child xsi:type="archimate:DiagramObject" id="id-60d914b80d4c461b8d2f562bfbaa227c" archimateElement="id-69526f42e3f64906806caa8a78a8c2e3">
+          <bounds x="12" y="32" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-12f6a1c4832a464995ea496583ead1c7" archimateElement="id-7e901b95eefe48c4ad59e7199db5f606">
+          <bounds x="162" y="32" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-fb6b4cfb0b32497b9eb834c8cf343d61" archimateElement="id-61c96b1c88024a10905d0e5cf6a6bffb">
+          <bounds x="312" y="32" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2a7d88c29e3647718cc3e5fa8f4b5bc2" archimateElement="id-3a07a0fed4cd42e786a391caf1d9fa3c">
+          <bounds x="12" y="132" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-289a11f608864344bb16e5d978838fd1" archimateElement="id-3a7c1b8399594973858d6685bf1bac2e">
+          <bounds x="162" y="132" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-08d3abae2003421bbafc925ee840bdb1" archimateElement="id-ee69cab49f64444c93f16fb3844d3e08">
+          <bounds x="312" y="132" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9e347b8725b44d7e8f92c66f7c9af450" archimateElement="id-2d1fb36a96da428d9002c4714f43fcee">
+          <bounds x="12" y="232" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5402bf0d445e4740b9d18d53687210c5" archimateElement="id-82bcf571f70d4b80adac2ff735a301ff">
+          <bounds x="162" y="232" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ac27c524aa804c9bb1cf854df8594b33" archimateElement="id-bae112f2d974442e929be7e529ab99c5">
+          <bounds x="312" y="232" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c8eb63c58c7140d58d9e50136d2b2a67" archimateElement="id-12b74fb4e59f406b8e1053e206c1c369">
+          <bounds x="12" y="332" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-16ae311f6b164bccac7ecc188897340c" archimateElement="id-4ce585ee60c54ce89bb86f35fa5e1d24">
+          <bounds x="162" y="332" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-922a1dc0d55740bd95edd8f534d4a051" archimateElement="id-bf0ed8b8ad63439baac556c3ca44515d">
+          <bounds x="312" y="332" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-098b1b0adce74689b5a4240e3a7a3038" archimateElement="id-bf4fc5edae5d462b9d6a4ecfa05ef3f4">
+          <bounds x="12" y="432" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-a6d945f2510a4e1fb6fa13d8b5074fa5" archimateElement="id-f5e1ef0a837445e69d6ddd7f97ee8890">
+          <bounds x="162" y="432" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8b7f058cad714909aaf1c1803a3b3743" archimateElement="id-36c70e7831264aaf82ef10b4154c0c80">
+          <bounds x="312" y="432" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-94bd551b19ad48e78501051159ac4791" archimateElement="id-1df4877a3bc94a9eacfa5332cc61b200">
+          <bounds x="12" y="532" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-665f412e41894b7abb41ee628096ab1e" archimateElement="id-aca693d58ba94ed5b1b030e88b8787d2">
+          <bounds x="162" y="532" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-f150ed7514984a18a990bc812c7b4d3d" name="Internal Stakeholders" textAlignment="1">
+        <bounds x="492" y="60" width="625" height="650"/>
+        <child xsi:type="archimate:DiagramObject" id="id-55ea1a75ee2140a4a36a134094099ffe" archimateElement="id-b1e899db7e964cf580124730a0020f52">
+          <bounds x="13" y="34" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-dccf9fcc05bf420d8d78c37704c3ec1f" archimateElement="id-e9546df0b0394bdeb805420e70795fbb">
+          <bounds x="163" y="34" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d3188fb7d8fa43229ec5eed6d71fec0d" archimateElement="id-7fd0e8693cf345f78f0a99d47e9dd85f">
+          <bounds x="313" y="34" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f8749b52023b422082cc9023e0a91063" archimateElement="id-b140c7a9b3524f2eabc38bcfe02bc5be">
+          <bounds x="13" y="134" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-fa117edb816c4b85814e058bde51f2fc" archimateElement="id-a5f2d88de0a34dbbabb929edb4e0d643">
+          <bounds x="163" y="134" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c84ff16be02d4fbbb09732b25ba6eb07" archimateElement="id-e5f4c5bd1fc04d9e83685057717c3410">
+          <bounds x="313" y="134" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c9ed56b5d1644432be8b61934c87d734" archimateElement="id-d7201fe32c584e489efc164a9bec1688">
+          <bounds x="13" y="234" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-bd82c5ef2b444aec8e752cfe020c7f25" archimateElement="id-7fb973e4efc442628b6a8be979578837">
+          <bounds x="163" y="234" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4c7b2148e16d4d53ba0e2a78f9d24bb9" archimateElement="id-3b5874669ec44af79f54a55f84a8429c">
+          <bounds x="313" y="234" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-629cc6e12b3f4675a7c82ab4efde1245" archimateElement="id-95f6d501f1c948e59ebc57e83c1ca4d2">
+          <bounds x="13" y="334" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4f3aee0ba0a4468aa590686a368f2418" archimateElement="id-9d48dfbad40a4a08b7d292b1c046f560">
+          <bounds x="163" y="334" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-493066179b2548bd8cc1fb5c476745b7" archimateElement="id-8e66f498d1ae4da9a66b946bf052d662">
+          <bounds x="313" y="334" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b366daab875b42e186b828365d102439" archimateElement="id-cf193a960b3f41c0ab6b5071937f81f0">
+          <bounds x="13" y="434" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b803edc5651844aa9933f3952acd7f72" archimateElement="id-c70121b8f4e6475f8419d727b76b3da4">
+          <bounds x="163" y="434" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c28f44fc203249f7a42f19924f489fab" archimateElement="id-3809dd9d5a404e2fb8339901fdc69600">
+          <bounds x="313" y="434" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b427b4e5e3614304a6703d412133b102" archimateElement="id-b60e39f824524b5bbe0bebea58c11001">
+          <bounds x="13" y="534" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9f7ba387278148f2825bfdc7e740e447" archimateElement="id-a1372fd1fddd4995a77fe2463ca1acab">
+          <bounds x="163" y="534" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-fdb96d47c1b04c0ab56287c26c6187dd" archimateElement="id-935d1387f22249e3b8678376932b0c91">
+          <bounds x="313" y="534" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-dd0609afc10443cfa86559a694756d13" archimateElement="id-fa9b4f12340146468567072e81f0f408">
+          <bounds x="468" y="34" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-35e6294f6e604be48103e29617ee8bdd" archimateElement="id-74e7cfa800c84025af32fcc71dc0a7f3">
+          <bounds x="468" y="134" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-191d83fecb004ed2a11f38c461f54ea9" archimateElement="id-cafa453071f342c2b14b38df95c903a1">
+          <bounds x="468" y="234" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-46640c5caf1b42bf82ab81e468cf23cb" archimateElement="id-ac0aacc06a654982a6313f0a4ae21cb9">
+          <bounds x="468" y="334" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-49f5674037a34bbcaf9df8ac7fd4bdbf" archimateElement="id-706f47067bce414d8f7e3b3dd13c696f">
+          <bounds x="468" y="434" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-1ba3857b129d43a492127261d1d55471" name="External / Internal Stakeholders" textAlignment="1">
+        <bounds x="12" y="734" width="1105" height="240"/>
+        <child xsi:type="archimate:DiagramObject" id="id-a63c42b15db347a89822eda8134bd155" archimateElement="id-57327a06b6bd45d69bc06050d5436e8b">
+          <bounds x="25" y="33" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-1eeb6fb1d42349a0b07c64cc36b28798" archimateElement="id-17965031320f4ab98b02be118ebac718">
+          <bounds x="175" y="33" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4c157cf8e70e40bba478f0ae589f4392" archimateElement="id-546dd5a781d64cf7bafad8b9e1ca775a">
+          <bounds x="325" y="33" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-dd8d42d828cc45c79de905325589ebd5" archimateElement="id-318e2b1cb38a4b36a87e70e7f1c81b97">
+          <bounds x="480" y="33" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f895c61e0b614929b836546c924e2973" archimateElement="id-ce2d80799db04a3e9dac8c0f065e3dea">
+          <bounds x="630" y="33" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4cf814e85ffc40659ab3c04fe1df6e70" archimateElement="id-a81597ee41fd4d27b05577f1728fd715">
+          <bounds x="780" y="33" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3592b3fa5bcb432f99d128bcce0588b6" archimateElement="id-8652c5205dec455383159f8bdf39eb5c">
+          <bounds x="936" y="33" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-cf481cc6c1cf442db9c2f52c44c01176" archimateElement="id-cc256913c191419098a3224c0a8f9197">
+          <bounds x="25" y="144" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-dd3be3f7475b43d7afabfa2df5f70b94" archimateElement="id-caa9b697ad6c44398656ade32a6b39ab">
+          <bounds x="175" y="144" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6337252e913e47d0b93fef16bdb74a58" archimateElement="id-7d5e6fbedb974c6393af0ccd806c95a7">
+          <bounds x="325" y="144" width="145" height="83"/>
+          <feature name="labelExpression" value="${name}&#xA;${property:Stakeholder Category}"/>
+        </child>
       </child>
     </element>
   </folder>

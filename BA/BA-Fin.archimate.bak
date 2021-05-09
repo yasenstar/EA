@@ -1655,7 +1655,7 @@ Localized (Branch, Market) Functions:&#xD;
         <feature name="labelExpression" value="$view{name}"/>
       </child>
       <child xsi:type="archimate:Note" id="id-b9ba2da1f62d4c5ab8d974434e865886" textPosition="1" borderType="2">
-        <bounds x="1584" y="60" width="193" height="25"/>
+        <bounds x="1627" y="54" width="193" height="25"/>
         <content>Updated: 2021-05-05</content>
       </child>
       <child xsi:type="archimate:Note" id="id-e5f0397224964098b6da962c64eee3d1" textAlignment="1">
