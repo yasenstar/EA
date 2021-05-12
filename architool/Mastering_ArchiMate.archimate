@@ -673,6 +673,9 @@
       <child xsi:type="archimate:DiagramObject" id="id-d4cd45f5a6bd4c8284333bb4b2d47daa" targetConnections="id-39306eb6b22346e5b5240d1699712885" archimateElement="id-79893d4a85674bc5aff9b81f2adae3c9">
         <bounds x="684" y="433" width="120" height="55"/>
       </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a854ae1bed45410fabb0f77278e6fdd9" archimateElement="id-618f8f1d77474ba095703071400050b0">
+        <bounds x="1021" y="281" width="120" height="55"/>
+      </child>
     </element>
   </folder>
 </archimate:model>
