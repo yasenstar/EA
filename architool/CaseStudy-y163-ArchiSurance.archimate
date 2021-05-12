@@ -12,7 +12,20 @@
         <element xsi:type="archimate:Capability" name="L1 Money Management" id="id-bb7f41457e044f9bae966a15c3270702"/>
         <element xsi:type="archimate:Capability" name="L1 Product Management" id="id-872a16f97fc04ff4be40f92957617c98"/>
         <element xsi:type="archimate:Capability" name="L1 Sales and Distribution" id="id-f081408e97b0435f9fe689e62fae11b4"/>
-        <folder name="L1 Business Support" id="id-bfbf1164514945318f1c94178cf35b0f">
+      </folder>
+      <folder name="L2" id="id-27f4d9deb9a84e3794a3fe3c83e889f8">
+        <folder name="L1 Asset Management" id="id-9a4f4a94fcf1498d95520db4bb4ecbef">
+          <element xsi:type="archimate:Capability" name="L2 Investement Strategy Management" id="id-5f356b3ed2a54d7dbf28dacfbec57edc"/>
+          <element xsi:type="archimate:Capability" name="L2 Investement Performance Management" id="id-4d9c9dfffd5e4c8bb4929a780858b8fa"/>
+          <element xsi:type="archimate:Capability" name="L2 Investment Portfolio Management" id="id-eae67ea05a52455e85d1dc90890feba7"/>
+          <element xsi:type="archimate:Capability" name="L2 Asset Inventory Management" id="id-5e5917ca90144915956c0dc2537e6d64"/>
+        </folder>
+        <folder name="L1 Business Management" id="id-e428c2eda7474c27a9ee6997609f116d">
+          <element xsi:type="archimate:Capability" name="L2 Strategic Management" id="id-44f4d13054224e24b6a0564d7cc5e386"/>
+          <element xsi:type="archimate:Capability" name="L2 Fiscal &amp; Accounting Management" id="id-7eaa864581c44f7fabaa8959717bfd94"/>
+          <element xsi:type="archimate:Capability" name="L2 Risk &amp; Compliance Management" id="id-4d57e63e05174b8c9bcd34368589469e"/>
+          <element xsi:type="archimate:Capability" name="L2 Performance Management" id="id-b2f755b4abf54febbeb37599902fa769"/>
+        </folder>
         <folder name="L1 Business Support" id="id-bfbf1164514945318f1c94178cf35b0f">
           <element xsi:type="archimate:Capability" name="L2 Organizational Development" id="id-63113328d0cc4061b88cc188b139b35b"/>
           <element xsi:type="archimate:Capability" name="L2 HR Management" id="id-6f1d17fc0bb54cb7a35858578179de8b"/>
