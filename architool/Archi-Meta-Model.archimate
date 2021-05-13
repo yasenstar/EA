@@ -303,6 +303,10 @@ L3&#xD;
       <child xsi:type="archimate:DiagramObject" id="id-bbfca98a64e74fba8240c412f15332de" targetConnections="id-ef03bef2188c4102a96cd1286bb2ae45" archimateElement="id-759bd197216044349e87fcd8b66e689b">
         <bounds x="696" y="204" width="120" height="55"/>
       </child>
+      <child xsi:type="archimate:Note" id="id-2c0cf3a14658419e8db5a3de16875471" textAlignment="1">
+        <bounds x="605" y="51" width="185" height="34"/>
+        <feature name="labelExpression" value="$view{property:Last Update}"/>
+      </child>
       <property key="Short Description" value="VFS China CSG Prod AFC"/>
       <property key="Server Status" value="RunTime"/>
       <property key="HW Support Level" value="Standard"/>
@@ -310,6 +314,7 @@ L3&#xD;
       <property key="Server Environment" value="Production"/>
       <property key="IP Address" value="223.202.60.149"/>
       <property key="Operating System" value="Microsoft Windows Server 2012 R2 Standard"/>
+      <property key="Last Update"/>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Capability_Maturity-M1" id="id-1ef89facc8214e7fb9de119dd3804b48">
       <child xsi:type="archimate:DiagramObject" id="id-dcc3e3c6b2634c3aad06b88c755c2d82" targetConnections="id-35970b013be74448adee5c5fc87857fb id-5c524229f9d1403da3f8bdd1395f59ed" archimateElement="id-b6f302efb8fd4055b315a2be351287ee">

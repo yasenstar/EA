@@ -303,6 +303,10 @@ L3&#xD;
       <child xsi:type="archimate:DiagramObject" id="id-bbfca98a64e74fba8240c412f15332de" targetConnections="id-ef03bef2188c4102a96cd1286bb2ae45" archimateElement="id-759bd197216044349e87fcd8b66e689b">
         <bounds x="696" y="204" width="120" height="55"/>
       </child>
+      <child xsi:type="archimate:Note" id="id-2c0cf3a14658419e8db5a3de16875471" textAlignment="1">
+        <bounds x="605" y="51" width="185" height="34"/>
+        <feature name="labelExpression" value="$view{property:Last Update}"/>
+      </child>
       <property key="Short Description" value="VFS China CSG Prod AFC"/>
       <property key="Server Status" value="RunTime"/>
       <property key="HW Support Level" value="Standard"/>
@@ -310,6 +314,7 @@ L3&#xD;
       <property key="Server Environment" value="Production"/>
       <property key="IP Address" value="223.202.60.149"/>
       <property key="Operating System" value="Microsoft Windows Server 2012 R2 Standard"/>
+      <property key="Last Updated at"/>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Capability_Maturity-M1" id="id-1ef89facc8214e7fb9de119dd3804b48">
       <child xsi:type="archimate:DiagramObject" id="id-dcc3e3c6b2634c3aad06b88c755c2d82" targetConnections="id-35970b013be74448adee5c5fc87857fb id-5c524229f9d1403da3f8bdd1395f59ed" archimateElement="id-b6f302efb8fd4055b315a2be351287ee">
@@ -456,14 +461,17 @@ Phase 4: more other Application Layer notation</content>
       <child xsi:type="archimate:DiagramObject" id="id-e35836c7b64c4e1aa269e4bf3a4a8584" archimateElement="id-9963d6d6aa3b4368a595a7dc92679d2c">
         <bounds x="228" y="528" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-707aec8cbb744260b1a2c9f5c0382ae0" source="id-e35836c7b64c4e1aa269e4bf3a4a8584" target="id-380ee8a0368f422c91efc6aeb72c1f95" archimateRelationship="id-11ecd29439244ee2a8986ee901ce4af2"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-22702e748811473886147859360547c5" source="id-e35836c7b64c4e1aa269e4bf3a4a8584" target="id-d6ae2cb39be5430eb75403787ae659e5" archimateRelationship="id-49c4d00f03124b85a791f0b21b2d134a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-22702e748811473886147859360547c5" source="id-e35836c7b64c4e1aa269e4bf3a4a8584" target="id-d6ae2cb39be5430eb75403787ae659e5" archimateRelationship="id-49c4d00f03124b85a791f0b21b2d134a">
+          <bendpoint startX="24" startY="-51" endX="-384" endY="165"/>
+          <bendpoint startX="336" startY="-51" endX="-72" endY="165"/>
+        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-8e914bbb67a44fb3bae22b2a401225c3" archimateElement="id-95f730babf1d42389ddaae8fd7bea6bb">
         <bounds x="636" y="539" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-8cbdbce532fa48fc8faa1134cabb410e" source="id-8e914bbb67a44fb3bae22b2a401225c3" target="id-d6ae2cb39be5430eb75403787ae659e5" archimateRelationship="id-a8d2fdd0c11644019441e9d03a2689fd"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-380ee8a0368f422c91efc6aeb72c1f95" targetConnections="id-707aec8cbb744260b1a2c9f5c0382ae0" archimateElement="id-5630401df2e24d24badb1ba7cf9bb103">
-        <bounds x="72" y="216" width="288" height="247"/>
+        <bounds x="144" y="216" width="216" height="247"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-04f04f4b7b1e445e918d771cf2ce263e" source="id-380ee8a0368f422c91efc6aeb72c1f95" target="id-3a1c22a891854dc99076fd0b26347884" archimateRelationship="id-e8a050b875824d9b9f9efa1e6e7ca01f"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-d6ae2cb39be5430eb75403787ae659e5" targetConnections="id-8cbdbce532fa48fc8faa1134cabb410e id-22702e748811473886147859360547c5" archimateElement="id-5b549f0aeea54daca92d1eec88efb203">
@@ -474,7 +482,9 @@ Phase 4: more other Application Layer notation</content>
         <child xsi:type="archimate:DiagramObject" id="id-787cd84fec1e42debf0f833d9fa14e14" targetConnections="id-a320af5421354814be09a59f88ebf25b" archimateElement="id-19273e862eb148dc9eb793a6fdf9feb0">
           <bounds x="24" y="36" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d4c1e6b0408246258ce37bdf164affc2" source="id-787cd84fec1e42debf0f833d9fa14e14" target="id-3a1c22a891854dc99076fd0b26347884" archimateRelationship="id-b82ac15c5b6d4063b7970cf5b050cb3a"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-c317aa876b3848e7acac473c12102215" source="id-787cd84fec1e42debf0f833d9fa14e14" target="id-0852415ba119474fa0ac5a74b75c4018" archimateRelationship="id-c61166d984244baf8af9f22f2912558c"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c317aa876b3848e7acac473c12102215" source="id-787cd84fec1e42debf0f833d9fa14e14" target="id-0852415ba119474fa0ac5a74b75c4018" archimateRelationship="id-c61166d984244baf8af9f22f2912558c">
+            <bendpoint startX="-168" startY="-15" endY="75"/>
+          </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-0289a45db58d4ca5a7f4b0e6fba687ca" source="id-787cd84fec1e42debf0f833d9fa14e14" target="id-6cb27a41a5754b388fbaaa9452b706e7" archimateRelationship="id-f0d10ed4ac044f0b96af68a55f4aaf3d"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-5caa052143074257b27c397180d30e61" targetConnections="id-0f8c6df1a633474a809822d3d3b0dd3d" archimateElement="id-99853a69ff2d467aa74755e9e6d30fba">
@@ -495,12 +505,12 @@ Phase 4: more other Application Layer notation</content>
       <child xsi:type="archimate:DiagramObject" id="id-e4696d495ad348ccbc4e97ecf30b52db" targetConnections="id-dcbf37cd557d4ddc98678d364d3e59ac" archimateElement="id-127fda7864fc49869766651077f2f3cd">
         <bounds x="732" y="132" width="120" height="55"/>
       </child>
-      <child xsi:type="archimate:Note" id="id-7e91d5b2d604441e8ca8b77a5dea2cfe" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" borderType="2">
-        <bounds x="180" y="72" width="541" height="37"/>
+      <child xsi:type="archimate:Note" id="id-7e91d5b2d604441e8ca8b77a5dea2cfe" font="1|.AppleSystemUIFont|10.0|0|COCOA|1|.SFNS-Regular" borderType="2">
+        <bounds x="180" y="84" width="541" height="37"/>
         <feature name="labelExpression" value="$view{name}"/>
       </child>
       <child xsi:type="archimate:Note" id="id-467d290f3ae84aac9114228fc2bc08c4" borderType="2">
-        <bounds x="699" y="84" width="153" height="33"/>
+        <bounds x="695" y="96" width="153" height="33"/>
         <content>Updated at 2021-04-30</content>
       </child>
     </element>
