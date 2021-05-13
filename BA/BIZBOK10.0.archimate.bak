@@ -253,6 +253,21 @@ This step additionally covers how related business disciplines help frame busine
       <element xsi:type="archimate:Principle" name="Business Architecture is resuable" id="id-948e8c733ac84e8284d20cb3c82e3ad6"/>
       <element xsi:type="archimate:Principle" name="Busienss Architecture is not about the deliverables" id="id-cc2ed099ec664335aa1757fa1d6c8758"/>
     </folder>
+    <folder name="Business Capability Priniciples" id="id-ba310df081474ae7afe49642b09f936c">
+      <element xsi:type="archimate:Principle" name="Provide business-centric views of an organization." id="id-7fbfd6a5a08d421b96348a88c533c94a"/>
+      <element xsi:type="archimate:Principle" name="Defined in business terms." id="id-8fda67c5a1e64f2a853f0e2e2e2542bf"/>
+      <element xsi:type="archimate:Principle" name="Are based on business objects i.e. object/action based" id="id-1c32ca18bc3647d9b004b628b3de59ca"/>
+      <element xsi:type="archimate:Principle" name="Define what a business does." id="id-5f56edd078fb4d21a2f468b328c14b8a"/>
+      <element xsi:type="archimate:Principle" name="Are stable." id="id-dd1621082a2243668ff3ff23f615e2d6"/>
+      <element xsi:type="archimate:Principle" name="Rarely change." id="id-88eb1329075a4612b654cdb2ae8338a1"/>
+      <element xsi:type="archimate:Principle" name="Defined once." id="id-828c38c9ab44426bb9ffe0a30c3f8ed7"/>
+      <element xsi:type="archimate:Principle" name="Decompose into more capabilities" id="id-9d8ecfa8f0e744e28ea3fce3e64ff324"/>
+      <element xsi:type="archimate:Principle" name="Only one capability map for a business" id="id-ec7575c9730e4593bbebbdc57440aea3"/>
+      <element xsi:type="archimate:Principle" name="Capabilities map to otehr views of the business" id="id-d76c91d882de4d8c854b913f95cbdcd8"/>
+      <element xsi:type="archimate:Principle" name="An automated capability is still a business capability." id="id-8bb464246ad941f68a583fd120a0e81a"/>
+      <element xsi:type="archimate:Principle" name="If it cannot define a capability, it is probably not a capability." id="id-03f3e19fcae244cabc2c575bc177577e"/>
+      <element xsi:type="archimate:Principle" name="Capabilities are named and defined by the individuals and business units who have an exercise those capabilities." id="id-9ac9687dccd44f46a178090c0acb3689"/>
+    </folder>
     <element xsi:type="archimate:Value" name="Business Architecture" id="id-69eeb3336165432f966ef75f1b6f4c3a">
       <documentation>- Stakeholder Value-Driven&#xD;
 - Capability-Centric&#xD;
@@ -1217,16 +1232,16 @@ This step additionally covers how related business disciplines help frame busine
       <folder name="2.2 Business Capability Mapping" id="id-7bc90a1222ab4ad2a48a314828375c55">
         <element xsi:type="archimate:ArchimateDiagramModel" name="General Business Capability" id="id-00db2b10679945c29410112caf08e13b">
           <child xsi:type="archimate:Note" id="id-ce6d4581d8da47bdaeb7a1702e03ff48" textPosition="1" borderType="2">
-            <bounds x="756" y="60" width="185" height="34"/>
+            <bounds x="756" y="24" width="185" height="34"/>
             <feature name="labelExpression" value="$view{property:Last Update}"/>
             <property key="Last Update" value="Updated at 2021/5/13"/>
           </child>
-          <child xsi:type="archimate:Note" id="id-aa8e14da9b3942fe83f5bfdfda11c92a" textPosition="1" borderType="2">
-            <bounds x="312" y="48" width="356" height="34"/>
+          <child xsi:type="archimate:Note" id="id-aa8e14da9b3942fe83f5bfdfda11c92a" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+            <bounds x="336" y="12" width="356" height="34"/>
             <feature name="labelExpression" value="$view{name}"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c4a95cf8d2d34909a6dbfccaad431c4b" archimateElement="id-d926ff927f95433daa4c127d0c35943c">
-            <bounds x="72" y="264" width="889" height="421"/>
+            <bounds x="69" y="201" width="889" height="421"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-8fc53be1ba1f4ff6900030dcd69593e3" source="id-c4a95cf8d2d34909a6dbfccaad431c4b" target="id-5baf925877884101a35e1adb362367e8" archimateRelationship="id-ce3b2baf98d74645806b00530634d7e2"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-69131d1e50294221b9f14408fe03a491" source="id-c4a95cf8d2d34909a6dbfccaad431c4b" target="id-b1d0bbe1508d41168672f83fd61ed399" archimateRelationship="id-52daad4955ab404dae49269324f9cffa"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-7d57153a56df4b88b763e5cb9e423899" source="id-c4a95cf8d2d34909a6dbfccaad431c4b" target="id-9e450c9d5aca49e3ae492e2e890724f8" archimateRelationship="id-0a46a15c280c4d24b8fc9d2eb4f8af5e"/>
@@ -1345,30 +1360,30 @@ This step additionally covers how related business disciplines help frame busine
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-166994606696459da202e448ef61ae4c" archimateElement="id-b4dba9853a384faeb666a8030874b39f">
-            <bounds x="72" y="96" width="889" height="151"/>
+            <bounds x="72" y="60" width="889" height="133"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-588cafcdb485451695d6ece702f3f224" source="id-166994606696459da202e448ef61ae4c" target="id-03276baea987400a82c72c8a2721af0d" archimateRelationship="id-5c735e1b26514c339ec85b64df2d1ab8"/>
             <child xsi:type="archimate:DiagramObject" id="id-03276baea987400a82c72c8a2721af0d" targetConnections="id-588cafcdb485451695d6ece702f3f224" archimateElement="id-cc2d122c3cbd4d59979e44c0721454e6">
-              <bounds x="24" y="24" width="841" height="109"/>
+              <bounds x="24" y="24" width="841" height="97"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-317548e4ae5645fcad1c32c5229a2098" source="id-03276baea987400a82c72c8a2721af0d" target="id-5f2ba8c5436e4cec9f74a47d040cd5f5" archimateRelationship="id-033ed3d3f3f940f3b4e68afb5dbfc836"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-dc2586f7f2fb477b80ef911c5f4df011" source="id-03276baea987400a82c72c8a2721af0d" target="id-0ae2a671618e4596ab19529145e1f77b" archimateRelationship="id-521ffaa0f76044ff8034c5d52ff9b2bb"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-db7bff6cde4b4675a97c62b794c82a2c" source="id-03276baea987400a82c72c8a2721af0d" target="id-5224e1034ec44986b0c27b64cfe5f7bc" archimateRelationship="id-aa2b229463b64ac39ab4b4a1cf97c539"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-d2e280ce609344f7ab1c7023d315c4da" source="id-03276baea987400a82c72c8a2721af0d" target="id-fc9daee9553d4f6d87943e799f353629" archimateRelationship="id-75dc998ccc6c42d5a34ef350f12f55b4"/>
               <child xsi:type="archimate:DiagramObject" id="id-5f2ba8c5436e4cec9f74a47d040cd5f5" targetConnections="id-317548e4ae5645fcad1c32c5229a2098" archimateElement="id-8b4c5f0baad94d909edeb0ac0448afb3">
-                <bounds x="252" y="40" width="120" height="55"/>
+                <bounds x="252" y="24" width="120" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-0ae2a671618e4596ab19529145e1f77b" targetConnections="id-dc2586f7f2fb477b80ef911c5f4df011" archimateElement="id-4817ad55a8b541f5865bbde9ab9b5bc2">
-                <bounds x="672" y="40" width="120" height="55"/>
+                <bounds x="672" y="24" width="120" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-5224e1034ec44986b0c27b64cfe5f7bc" targetConnections="id-db7bff6cde4b4675a97c62b794c82a2c" archimateElement="id-2eca710e5ca5455d8c2232274518d2bc">
-                <bounds x="456" y="40" width="120" height="55"/>
+                <bounds x="456" y="24" width="120" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-fc9daee9553d4f6d87943e799f353629" targetConnections="id-d2e280ce609344f7ab1c7023d315c4da" archimateElement="id-44757f3745be4be6b2570a72f4403393">
-                <bounds x="48" y="40" width="120" height="55"/>
+                <bounds x="48" y="24" width="120" height="55"/>
               </child>
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-664ed3e62c32472aa510cd8d6e719830" archimateElement="id-cd2ad1557b204e19b48ef774fcbe15fe">
-            <bounds x="72" y="699" width="889" height="157"/>
+            <bounds x="69" y="636" width="889" height="157"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-ec5fb17b9a764cd180d60bfb3536d0de" source="id-664ed3e62c32472aa510cd8d6e719830" target="id-36cb4f14057f424ea44f4a9a51bd71aa" archimateRelationship="id-ba13da4fc00d4c85b099952e1cdf6d50"/>
             <child xsi:type="archimate:DiagramObject" id="id-36cb4f14057f424ea44f4a9a51bd71aa" targetConnections="id-ec5fb17b9a764cd180d60bfb3536d0de" archimateElement="id-46e291b619f44292b8b6377e0f4ea6d3">
               <bounds x="23" y="32" width="854" height="101"/>
@@ -1378,21 +1393,72 @@ This step additionally covers how related business disciplines help frame busine
               <sourceConnection xsi:type="archimate:Connection" id="id-ef4c974aedaf4d8d987e8101e68fd554" source="id-36cb4f14057f424ea44f4a9a51bd71aa" target="id-5af872daa6f34ef79f450dc4567e527b" archimateRelationship="id-3bf109b2a3544619aa545beee770445f"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f04d11d2eca14215baa14f06de125813" source="id-36cb4f14057f424ea44f4a9a51bd71aa" target="id-6f720f321c1f46359fe99bca6b562a01" archimateRelationship="id-6dd84aad449e4436b1b681b72055e703"/>
               <child xsi:type="archimate:DiagramObject" id="id-5e6cc6496a194bfca6e2ab3dc4a63ad2" targetConnections="id-271d8a780ead482da2de2ff95af10b11" archimateElement="id-83120bee896d40c1a55aa45fadfe1a79">
-                <bounds x="516" y="36" width="120" height="55"/>
+                <bounds x="516" y="24" width="120" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-abd5c73f3a6a4cdba2b4c54c144721de" targetConnections="id-f63fc1c3d7f248a6a4c7d1013a8ff664" archimateElement="id-075a2eadcb714d8aaba6891fd22187db">
-                <bounds x="180" y="36" width="120" height="55"/>
+                <bounds x="180" y="24" width="120" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-920cd71791344bb29d3b9d61407dd8cf" targetConnections="id-75e5478ad0e04b79add79cdffa59bf0a" archimateElement="id-2dd46bca29844d68a557280d246b1016">
-                <bounds x="696" y="36" width="120" height="55"/>
+                <bounds x="696" y="24" width="120" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-5af872daa6f34ef79f450dc4567e527b" targetConnections="id-ef4c974aedaf4d8d987e8101e68fd554" archimateElement="id-b6d3f77a8b084d988cbb6f028efe0c4e">
-                <bounds x="348" y="36" width="120" height="55"/>
+                <bounds x="348" y="24" width="120" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-6f720f321c1f46359fe99bca6b562a01" targetConnections="id-f04d11d2eca14215baa14f06de125813" archimateElement="id-331e4bc936e442e5bc9cbb0ccb313f8c">
-                <bounds x="24" y="36" width="120" height="55"/>
+                <bounds x="24" y="24" width="120" height="55"/>
               </child>
             </child>
+          </child>
+          <property key="Last Update" value="Updated at 2021/5/13"/>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="Principles of Business Capability" id="id-4ef787e08acb40d0b572b6d868c46421">
+          <child xsi:type="archimate:Note" id="id-8dc056eca3604fed98209a94d439fe04" textPosition="1" borderType="2">
+            <bounds x="720" y="48" width="185" height="34"/>
+            <feature name="labelExpression" value="$view{property:Last Update}"/>
+            <property key="Last Update" value="Updated at 2021/5/13"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-83849f5922b442bf8de624cd874183fc" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+            <bounds x="300" y="36" width="356" height="34"/>
+            <feature name="labelExpression" value="$view{name}"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-9e3d7874a8f4429989db2b4d6749723d" archimateElement="id-1c32ca18bc3647d9b004b628b3de59ca">
+            <bounds x="492" y="108" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-5989a1038b8a419483fad53dc9d141bd" archimateElement="id-dd1621082a2243668ff3ff23f615e2d6">
+            <bounds x="156" y="192" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-e1e88a1333f7421b81b9872a7af4f8e8" archimateElement="id-9ac9687dccd44f46a178090c0acb3689">
+            <bounds x="156" y="360" width="661" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-0f6b51240d1948d89bda9c025876dfd3" archimateElement="id-d76c91d882de4d8c854b913f95cbdcd8">
+            <bounds x="324" y="276" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-c59b31d13b3d4a8a81698e0e2ad9a8e1" archimateElement="id-9d8ecfa8f0e744e28ea3fce3e64ff324">
+            <bounds x="660" y="192" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-36250bb9bc854783ab39833de44dabe2" archimateElement="id-5f56edd078fb4d21a2f468b328c14b8a">
+            <bounds x="660" y="108" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-ee49bf1eced54213806ef9223c7191bf" archimateElement="id-8fda67c5a1e64f2a853f0e2e2e2542bf">
+            <bounds x="324" y="108" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-22fe2a610afa4a86b081102ebd7e2db8" archimateElement="id-828c38c9ab44426bb9ffe0a30c3f8ed7">
+            <bounds x="492" y="192" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-52d9b19372aa42cfb2571d375c43d22e" archimateElement="id-03f3e19fcae244cabc2c575bc177577e">
+            <bounds x="660" y="276" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-6dcefb660c2640f69774b1652b4def11" archimateElement="id-ec7575c9730e4593bbebbdc57440aea3">
+            <bounds x="156" y="276" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b539a3cd6d134e268cdcef4468be04fd" archimateElement="id-7fbfd6a5a08d421b96348a88c533c94a">
+            <bounds x="156" y="108" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-30f0458e3b8a4b60879a24285b7fbcdd" archimateElement="id-88eb1329075a4612b654cdb2ae8338a1">
+            <bounds x="324" y="192" width="157" height="71"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-6d430495a503441cad379234f910144e" archimateElement="id-8bb464246ad941f68a583fd120a0e81a">
+            <bounds x="492" y="276" width="157" height="71"/>
           </child>
           <property key="Last Update" value="Updated at 2021/5/13"/>
         </element>
