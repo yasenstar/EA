@@ -183,7 +183,7 @@ This step additionally covers how related business disciplines help frame busine
 - Collaborative projects / initiatives&#xD;
 - Business-driven IT architecture transformation strategy</documentation>
     </element>
-    <element xsi:type="archimate:Capability" name="Capability" id="id-8d792bba5896438795e7f654f1bac92b"/>
+    <element xsi:type="archimate:Capability" name="Business Capability" id="id-8d792bba5896438795e7f654f1bac92b"/>
     <element xsi:type="archimate:CourseOfAction" name="Course of Action" id="id-aa11acc34ccc4c23b0af3e825a5579fb"/>
     <element xsi:type="archimate:CourseOfAction" name="Change" id="id-6015ca4f49e8497c9d5fabe5c9387027"/>
     <element xsi:type="archimate:ValueStream" name="Business Architecture" id="id-a5b56860dd804d7094452c7dfc59d4f0">
@@ -200,6 +200,8 @@ This step additionally covers how related business disciplines help frame busine
     <element xsi:type="archimate:ValueStream" name="Bsuiness Initiative" id="id-55691973550f4feeb22a2c259e2b0fc1"/>
     <element xsi:type="archimate:ValueStream" name="IT Application" id="id-4f37abf1a4954950923db610586b401a"/>
     <element xsi:type="archimate:ValueStream" name="Data Structures" id="id-5387a9f8b4304b948e2a4434a1c5020b"/>
+    <element xsi:type="archimate:Capability" name="Business Capability Instance" id="id-9242aababa1c4cb9a4378b8e9fd3bec5"/>
+    <element xsi:type="archimate:ValueStream" name="Value Stream Stage" id="id-3cd9c75a3cde4b0ebd0ed1ca97882517"/>
   </folder>
   <folder name="Business" id="id-beda7a5775364227acdc0e81ec8e995b" type="business">
     <folder name="BA Knowledgebase" id="id-a8a88486607541ae99c5555d29cf4b64">
@@ -212,8 +214,13 @@ This step additionally covers how related business disciplines help frame busine
       <element xsi:type="archimate:BusinessService" name="Information Concept" id="id-f311fc4090574e58bbb4942ce52be3d6"/>
       <element xsi:type="archimate:BusinessService" name="Capability" id="id-bbc709d03d474ce68817b7237ff5c01c"/>
     </folder>
+    <element xsi:type="archimate:BusinessProcess" name="Business Process" id="id-288c6eb9e12540419c2e4276a9604a37"/>
+    <element xsi:type="archimate:BusinessRole" name="Organizaitonal Function" id="id-b692b25c584b437e807e4e17bb166b26"/>
   </folder>
-  <folder name="Application" id="id-5cdaf141cfe943648af03d1caa1b237b" type="application"/>
+  <folder name="Application" id="id-5cdaf141cfe943648af03d1caa1b237b" type="application">
+    <element xsi:type="archimate:DataObject" name="Data Subject Area" id="id-dfb61f76a15f4f42a06f70f6b92a47d7"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Application Function" id="id-cb267979c69e47c8a40a17e26cfd50d0"/>
+  </folder>
   <folder name="Technology &amp; Physical" id="id-26434f5bedf346e5ae5eb57ff500e43b" type="technology"/>
   <folder name="Motivation" id="id-02136897b1f54eeb89acac8ed512e60b" type="motivation">
     <folder name="Business Blueprints" id="id-26cfae4179244038823b44e8e7e1861c">
@@ -477,6 +484,12 @@ This step additionally covers how related business disciplines help frame busine
     <element xsi:type="archimate:CompositionRelationship" id="id-678749f62e1241c8bb6d0109a3132d3e" source="id-46e291b619f44292b8b6377e0f4ea6d3" target="id-2dd46bca29844d68a557280d246b1016"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-3bf109b2a3544619aa545beee770445f" source="id-46e291b619f44292b8b6377e0f4ea6d3" target="id-b6d3f77a8b084d988cbb6f028efe0c4e"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-6dd84aad449e4436b1b681b72055e703" source="id-46e291b619f44292b8b6377e0f4ea6d3" target="id-331e4bc936e442e5bc9cbb0ccb313f8c"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="contextualises" id="id-f77a17ca10904364a296fa48566c8b9d" source="id-9242aababa1c4cb9a4378b8e9fd3bec5" target="id-8d792bba5896438795e7f654f1bac92b"/>
+    <element xsi:type="archimate:ServingRelationship" name="accomplishes" id="id-6c431ba797d94a85b857d42f0ff5dae6" source="id-9242aababa1c4cb9a4378b8e9fd3bec5" target="id-3cd9c75a3cde4b0ebd0ed1ca97882517"/>
+    <element xsi:type="archimate:RealizationRelationship" name="contextualises" id="id-e92a9c4f09014bb4b8c0cca280aff971" source="id-dfb61f76a15f4f42a06f70f6b92a47d7" target="id-9242aababa1c4cb9a4378b8e9fd3bec5"/>
+    <element xsi:type="archimate:RealizationRelationship" name="contextualises" id="id-6eb403b67d62496681b3e378bce4222e" source="id-288c6eb9e12540419c2e4276a9604a37" target="id-9242aababa1c4cb9a4378b8e9fd3bec5"/>
+    <element xsi:type="archimate:RealizationRelationship" name="contextualises" id="id-81cd489e47534f78aeeb5b078fc8aa1a" source="id-b692b25c584b437e807e4e17bb166b26" target="id-9242aababa1c4cb9a4378b8e9fd3bec5"/>
+    <element xsi:type="archimate:RealizationRelationship" name="contextualises" id="id-d1b0455b21b543c8a2da6014b92078b5" source="id-cb267979c69e47c8a40a17e26cfd50d0" target="id-9242aababa1c4cb9a4378b8e9fd3bec5"/>
   </folder>
   <folder name="Views" id="id-fafc7c9705e04f1d8998faab8ba4e029" type="diagrams">
     <folder name="1. Introduction" id="id-93175dda440a45e690a079913dc595da">
@@ -1143,10 +1156,6 @@ This step additionally covers how related business disciplines help frame busine
     <folder name="2. Blueprints" id="id-ce8a3aebff0e43289ade899d6be4917b">
       <folder name="2.1 Strategy Mapping" id="id-835cc1cf8f5c4064bca129e5c73cc7cc">
         <element xsi:type="archimate:ArchimateDiagramModel" name="2.1.14 Strategy Knowledgebase Relationships" id="id-aa6d55811f164a6f863d0e438a7bafc2">
-          <child xsi:type="archimate:Note" id="id-54dbe40ab00e43c7a85a44b748c5dba4" borderType="2">
-            <bounds x="95" y="25" width="553" height="25"/>
-            <feature name="labelExpression" value="$view{name}"/>
-          </child>
           <child xsi:type="archimate:DiagramObject" id="id-641099fb4e484ddeabdea063f7524e77" targetConnections="id-a530aed9c3ab4d928c104f9747d3508c id-9e1306d65297427b829463e336ca8aac" archimateElement="id-f4b162776620449398aa0df0519df6d6">
             <bounds x="412" y="61" width="120" height="55"/>
           </child>
@@ -1183,6 +1192,16 @@ This step additionally covers how related business disciplines help frame busine
             <bounds x="360" y="348" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-46cccc7f6f0143c4a8f05eb239aee5c3" source="id-a69c0a915fd7431a9bf5210f8f85860c" target="id-e7d16081aaf94a05984f8448313ac719" archimateRelationship="id-d16bb27d4adf49b49c506027635d52c2"/>
           </child>
+          <child xsi:type="archimate:Note" id="id-d785484ff1aa417e84e4719839d3b62c" textPosition="1" borderType="2">
+            <bounds x="581" y="28" width="185" height="34"/>
+            <feature name="labelExpression" value="$view{property:Last Update}"/>
+            <property key="Last Update" value="Updated at 2021/5/13"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-601bf7c84edb4352ba56d2896e7f1ae5" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+            <bounds x="226" y="12" width="356" height="34"/>
+            <feature name="labelExpression" value="$view{name}"/>
+          </child>
+          <property key="Last Update" value="Updated at 2021/5/13"/>
         </element>
       </folder>
       <folder name="2.8 Stakeholder Mapping" id="id-2358a7d7e3ad4c3b8c894023d77475aa">
@@ -1413,7 +1432,7 @@ This step additionally covers how related business disciplines help frame busine
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="Principles of Business Capability" id="id-4ef787e08acb40d0b572b6d868c46421">
           <child xsi:type="archimate:Note" id="id-8dc056eca3604fed98209a94d439fe04" textPosition="1" borderType="2">
-            <bounds x="720" y="48" width="185" height="34"/>
+            <bounds x="632" y="48" width="185" height="34"/>
             <feature name="labelExpression" value="$view{property:Last Update}"/>
             <property key="Last Update" value="Updated at 2021/5/13"/>
           </child>
@@ -1459,6 +1478,51 @@ This step additionally covers how related business disciplines help frame busine
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-6d430495a503441cad379234f910144e" archimateElement="id-8bb464246ad941f68a583fd120a0e81a">
             <bounds x="492" y="252" width="157" height="71"/>
+          </child>
+          <property key="Last Update" value="Updated at 2021/5/13"/>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="Capability Instance" id="id-10e601400b8e4739ac5087ac6445825c">
+          <child xsi:type="archimate:Note" id="id-e5b1ba481240472ab413d0e2c2194953" textPosition="1" borderType="2">
+            <bounds x="660" y="36" width="185" height="34"/>
+            <feature name="labelExpression" value="$view{property:Last Update}"/>
+            <property key="Last Update" value="Updated at 2021/5/13"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-7dac891bef23491d8f887501fc35f11d" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+            <bounds x="240" y="24" width="356" height="34"/>
+            <feature name="labelExpression" value="$view{name}"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-550be51c72454f8da46b22df05cc3bbf" targetConnections="id-c98c5d5d896e418e978cf027d8c27870 id-9806099fc59841bfa4f074470db1586e id-14315ad251fa47f9ab4e158fd1a4562f id-a7564037ac3849c4ac2ee5f04804f753" archimateElement="id-9242aababa1c4cb9a4378b8e9fd3bec5">
+            <bounds x="437" y="198" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-e034bdd8527a4727a1d127b2440bf43d" source="id-550be51c72454f8da46b22df05cc3bbf" target="id-2a46bd83a2ea44289400f2dc8013befd" archimateRelationship="id-f77a17ca10904364a296fa48566c8b9d">
+              <bendpoint startX="139" startY="-9" endX="-132" endY="99"/>
+              <bendpoint startX="139" startY="-105" endX="-132" endY="3"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-950dfe47eeff4aa0a1e142a81c46df3c" source="id-550be51c72454f8da46b22df05cc3bbf" target="id-befda7b5cae54ecc9a636ebf078e722c" archimateRelationship="id-6c431ba797d94a85b857d42f0ff5dae6">
+              <bendpoint startX="139" startY="15" endX="-132" endY="-75"/>
+              <bendpoint startX="139" startY="111" endX="-132" endY="-3"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-2a46bd83a2ea44289400f2dc8013befd" targetConnections="id-e034bdd8527a4727a1d127b2440bf43d" archimateElement="id-8d792bba5896438795e7f654f1bac92b">
+            <bounds x="708" y="90" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-befda7b5cae54ecc9a636ebf078e722c" targetConnections="id-950dfe47eeff4aa0a1e142a81c46df3c" archimateElement="id-3cd9c75a3cde4b0ebd0ed1ca97882517">
+            <bounds x="708" y="288" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-66dec31e884045039dfaab4b15cf7378" archimateElement="id-dfb61f76a15f4f42a06f70f6b92a47d7">
+            <bounds x="143" y="84" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c98c5d5d896e418e978cf027d8c27870" source="id-66dec31e884045039dfaab4b15cf7378" target="id-550be51c72454f8da46b22df05cc3bbf" archimateRelationship="id-e92a9c4f09014bb4b8c0cca280aff971"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-51761c1af2fc441abf6c7df2544c6182" archimateElement="id-288c6eb9e12540419c2e4276a9604a37">
+            <bounds x="143" y="156" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-9806099fc59841bfa4f074470db1586e" source="id-51761c1af2fc441abf6c7df2544c6182" target="id-550be51c72454f8da46b22df05cc3bbf" archimateRelationship="id-6eb403b67d62496681b3e378bce4222e"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-e544fe6673184d179e03fda14bbbf959" archimateElement="id-b692b25c584b437e807e4e17bb166b26">
+            <bounds x="143" y="228" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-14315ad251fa47f9ab4e158fd1a4562f" source="id-e544fe6673184d179e03fda14bbbf959" target="id-550be51c72454f8da46b22df05cc3bbf" archimateRelationship="id-81cd489e47534f78aeeb5b078fc8aa1a"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-71eb2704e60e428690fb20b7b97faa51" archimateElement="id-cb267979c69e47c8a40a17e26cfd50d0">
+            <bounds x="143" y="300" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-a7564037ac3849c4ac2ee5f04804f753" source="id-71eb2704e60e428690fb20b7b97faa51" target="id-550be51c72454f8da46b22df05cc3bbf" archimateRelationship="id-d1b0455b21b543c8a2da6014b92078b5"/>
           </child>
           <property key="Last Update" value="Updated at 2021/5/13"/>
         </element>

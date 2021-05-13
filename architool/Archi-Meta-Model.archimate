@@ -66,7 +66,7 @@ Sample:&#xD;
   </folder>
   <folder name="Technology &amp; Physical" id="id-af323a53ed8a4f1cb3180ec140868114" type="technology">
     <element xsi:type="archimate:Node" name="Node" id="id-f0715327dba749f9af0b08795317327e"/>
-    <element xsi:type="archimate:Device" name="CNTSNN078" id="id-a00dc5e57958436ea71a86c2397411c0"/>
+    <element xsi:type="archimate:Device" name="HOST NAME" id="id-a00dc5e57958436ea71a86c2397411c0"/>
     <element xsi:type="archimate:Node" name="SF-Org-Americas" id="id-9963d6d6aa3b4368a595a7dc92679d2c"/>
     <element xsi:type="archimate:Node" name="SF-Org-Europe" id="id-95f730babf1d42389ddaae8fd7bea6bb"/>
   </folder>
@@ -285,7 +285,7 @@ L3&#xD;
         <content>Updated at 2021-04-30</content>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Technical" id="id-4e91a90174b04bb891f31820a4f2da5c">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Technical Mapping Pattern" id="id-4e91a90174b04bb891f31820a4f2da5c">
       <child xsi:type="archimate:DiagramObject" id="id-6142ff348bda471996abb3a1f5f3a771" targetConnections="id-bd775fea134c4af6bee9d9ca4371e62a" archimateElement="id-f0715327dba749f9af0b08795317327e">
         <bounds x="420" y="96" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-9e3887ac3b344f19aca52a086352b73f" source="id-6142ff348bda471996abb3a1f5f3a771" target="id-7bc8db53c208401e81c0a5a998f1733a" archimateRelationship="id-7f17ce3d1c2a44f9bacd8bacbd4ff9c3"/>
@@ -296,7 +296,7 @@ L3&#xD;
         <sourceConnection xsi:type="archimate:Connection" id="id-ef03bef2188c4102a96cd1286bb2ae45" source="id-7bc8db53c208401e81c0a5a998f1733a" target="id-bbfca98a64e74fba8240c412f15332de" archimateRelationship="id-c2fc5cf78064411ba3741dac7897ef9e"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a9ae7d6b7302462eafd593759d0e249a" textAlignment="1" archimateElement="id-c2770bd2be4748c59c81e5bdb79bd6df">
-        <bounds x="84" y="72" width="169" height="217"/>
+        <bounds x="144" y="96" width="169" height="193"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-bd775fea134c4af6bee9d9ca4371e62a" source="id-a9ae7d6b7302462eafd593759d0e249a" target="id-6142ff348bda471996abb3a1f5f3a771" archimateRelationship="id-4136c83dadc348c5a015f81f5eaa5721"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f5c9f646aaba44f3b8fa1d52efc3a2cb" source="id-a9ae7d6b7302462eafd593759d0e249a" target="id-7bc8db53c208401e81c0a5a998f1733a" archimateRelationship="id-ddd62d8a94f64a0db2234b124063eb36"/>
       </child>
@@ -304,9 +304,17 @@ L3&#xD;
         <bounds x="696" y="204" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:Note" id="id-2c0cf3a14658419e8db5a3de16875471" textPosition="1" borderType="2">
-        <bounds x="605" y="51" width="185" height="34"/>
+        <bounds x="663" y="48" width="185" height="34"/>
         <feature name="labelExpression" value="$view{property:Last Update}"/>
         <property key="Last Update" value="Updated at 2021/5/13"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-2d7a8e0d79b349f4aa6d5b1b936ae385" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+        <bounds x="288" y="24" width="356" height="34"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-c3aacd5b57f24a0a9235cbb2bca4d7ba" textAlignment="1">
+        <bounds x="384" y="312" width="432" height="25"/>
+        <content>Reference: ArchiMate Cookbook, https://www.hosiaisluoma.fi/blog/archimate/</content>
       </child>
       <property key="Short Description" value="VFS China CSG Prod AFC"/>
       <property key="Server Status" value="RunTime"/>
