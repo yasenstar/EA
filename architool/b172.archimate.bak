@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="b172" id="id-1d7d973ac4a94b66aa53694c144eb395" version="4.6.0">
+  <folder name="Strategy" id="id-56a66bfc6fd24601a3b8c5f17d8dfcbc" type="strategy"/>
+  <folder name="Business" id="id-9e38c53a6d79492ea0e6cfa5a425d1e1" type="business">
+    <element xsi:type="archimate:BusinessActor" name="Business Actor" id="id-1f67b119f92f42929746f24ff4e40c42"/>
+  </folder>
+  <folder name="Application" id="id-97268bff56ba40dbb5e954bca717a17e" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-ffafc2dbf566428abb8c4b306f7157cc" type="technology"/>
+  <folder name="Motivation" id="id-8c3d48c3c3844bcaa92374247630c5cd" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="CEO" id="id-30e4d8f4b4a94ded94d0afab270508a2"/>
+    <element xsi:type="archimate:Stakeholder" name="CIO" id="id-50137968387543978169bf7d6bdbde02"/>
+    <element xsi:type="archimate:Stakeholder" name="CFO" id="id-73ce2e845c244301b7a8de7909c75b31"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-b3a4b0a4c2c24f0a8b339bcb403053f0" type="implementation_migration"/>
+  <folder name="Other" id="id-63348990f41749aaa4afa2767ead5580" type="other"/>
+  <folder name="Relations" id="id-aadad39777da491094c92d7486463386" type="relations"/>
+  <folder name="Views" id="id-336e7de67be7414f99291205256766af" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="question-1" id="id-da02d6dd5c3e42e8be52d055d71cd889"/>
+  </folder>
+</archimate:model>
