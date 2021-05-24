@@ -296,7 +296,7 @@ L3&#xD;
         <sourceConnection xsi:type="archimate:Connection" id="id-ef03bef2188c4102a96cd1286bb2ae45" source="id-7bc8db53c208401e81c0a5a998f1733a" target="id-bbfca98a64e74fba8240c412f15332de" archimateRelationship="id-c2fc5cf78064411ba3741dac7897ef9e"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a9ae7d6b7302462eafd593759d0e249a" textAlignment="1" archimateElement="id-c2770bd2be4748c59c81e5bdb79bd6df">
-        <bounds x="84" y="96" width="169" height="193"/>
+        <bounds x="144" y="96" width="169" height="193"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-bd775fea134c4af6bee9d9ca4371e62a" source="id-a9ae7d6b7302462eafd593759d0e249a" target="id-6142ff348bda471996abb3a1f5f3a771" archimateRelationship="id-4136c83dadc348c5a015f81f5eaa5721"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f5c9f646aaba44f3b8fa1d52efc3a2cb" source="id-a9ae7d6b7302462eafd593759d0e249a" target="id-7bc8db53c208401e81c0a5a998f1733a" archimateRelationship="id-ddd62d8a94f64a0db2234b124063eb36"/>
       </child>
@@ -313,7 +313,7 @@ L3&#xD;
         <feature name="labelExpression" value="$view{name}"/>
       </child>
       <child xsi:type="archimate:Note" id="id-c3aacd5b57f24a0a9235cbb2bca4d7ba" textAlignment="1">
-        <bounds x="507" y="300" width="309" height="37"/>
+        <bounds x="384" y="312" width="432" height="25"/>
         <content>Reference: ArchiMate Cookbook, https://www.hosiaisluoma.fi/blog/archimate/</content>
       </child>
       <property key="Short Description" value="VFS China CSG Prod AFC"/>
