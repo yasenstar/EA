@@ -594,5 +594,11 @@ Phase 4: more other Application Layer notation</content>
       </child>
       <property key="Last Update" value="Updated at 2021/5/30"/>
     </element>
+    <element xsi:type="archimate:SketchModel" name="New Sketch" id="id-82354937ce9e4973a3964e377aa10c90">
+      <child xsi:type="archimate:SketchModelSticky" id="id-690533771a8b46c48f263c1172f42ebe" name="Sticky" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffb5">
+        <bounds x="191" y="96" width="86" height="96"/>
+        <content>Test</content>
+      </child>
+    </element>
   </folder>
 </archimate:model>
