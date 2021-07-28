@@ -415,7 +415,10 @@ When designing systems, the &quot;cost of doing nothing&quot; is considered.</do
         <documentation>Existing assets (microservices, APIs) are reused wherever possible, COTS is the default option for new solutions.&#xD;
 Bespoke solutions are only built for strategically differentiating functionality or complex regulatory requirements.</documentation>
       </element>
-      <element xsi:type="archimate:Principle" name="Continuous Transformation Lifecycle" id="id-05221120857648b798ef98f0dc2855c7"/>
+      <element xsi:type="archimate:Principle" name="Continuous Transformation Lifecycle" id="id-05221120857648b798ef98f0dc2855c7">
+        <documentation>Technical debt is reduced by regularly upgrading the tech. stack and adhering to the Scout rule.&#xD;
+All systems are maintainable, manageable and well-documented with the app. lifecycle plan.</documentation>
+      </element>
     </folder>
     <element xsi:type="archimate:Value" name="Business Architecture" id="id-69eeb3336165432f966ef75f1b6f4c3a">
       <documentation>- Stakeholder Value-Driven&#xD;
@@ -2265,6 +2268,32 @@ Bespoke solutions are only built for strategically differentiating functionality
         <bounds x="676" y="239" width="120" height="55"/>
       </child>
       <property key="Last Update" value="Updated at 2021/6/25"/>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="North Star IT Arch Design Principles" id="id-e466949d995f41cbb4b4a02327ee4977">
+      <child xsi:type="archimate:DiagramObject" id="id-6f2e4962732b4c1796156bdaa6efdad6" archimateElement="id-3eb4b0e1d13245a2b0e802da6fc346af">
+        <bounds x="324" y="403" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-28b03e4f0e7746d6965ccd4b32e395d1" archimateElement="id-05221120857648b798ef98f0dc2855c7">
+        <bounds x="474" y="403" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7a28953d486549abad5d9234872af790" archimateElement="id-af161d587f8d46dfb19a0c77dfd1d71d">
+        <bounds x="624" y="403" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-36b99d079bd54dc88ecfaca7ce4d57c6" archimateElement="id-55ded5d6004844d0b01dd4384209c107">
+        <bounds x="324" y="503" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a89ca72510154cfdb6ddcedc0ad66398" archimateElement="id-d5ed46c585a340b6bbcfe2b203e1517b">
+        <bounds x="474" y="503" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c86ccd9465ff429db0a4748add25bd5b" archimateElement="id-878948cd6ac948e19c6ba88ba6d15a3b">
+        <bounds x="624" y="503" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b1bb9b0fd48849f6970409f36d3b1929" archimateElement="id-a4180411ef2c474680890995e1da5403">
+        <bounds x="324" y="603" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4129c52ec44a450b8a53f817d0ebba2d" archimateElement="id-25ded3497789420f8cce72f9d9ae2c14">
+        <bounds x="474" y="603" width="120" height="55"/>
+      </child>
     </element>
   </folder>
 </archimate:model>

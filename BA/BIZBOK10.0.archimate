@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="BIZBOK10.0" id="id-8688bca85fdd4a2da3f91f3e1e4fb514" version="4.6.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="BIZBOK10.0" id="id-8688bca85fdd4a2da3f91f3e1e4fb514" version="4.9.0">
   <folder name="Strategy" id="id-557624e4c2704a659708a54376db0be8" type="strategy">
     <folder name="Strategic Value Stream" id="id-efa46cd3ee1745d88acdf06b3b2a9176">
       <folder name="1 Establish / Refine Business Stretegy" id="id-03a4d08b27de464bb919e3036b21bb68">
@@ -286,7 +286,7 @@ This step additionally covers how related business disciplines help frame busine
     <element xsi:type="archimate:ValueStream" name="Value Stream Stage" id="id-3cd9c75a3cde4b0ebd0ed1ca97882517"/>
     <element xsi:type="archimate:Capability" name="Capability: Capability Instance" id="id-bd5fc01de9c04bba8d54f289ea634211"/>
     <element xsi:type="archimate:Capability" name="Capability: Capability" id="id-7f29a89e046a43fabf894f26367f56c8"/>
-    <element xsi:type="archimate:ValueStream" name="Value: Value Item" id="id-8fd65c4e66fe4439919cdd96c92e568a"/>
+    <element xsi:type="archimate:ValueStream" name="Value: Value Items" id="id-8fd65c4e66fe4439919cdd96c92e568a"/>
     <element xsi:type="archimate:ValueStream" name="Value: Value Stream Stage" id="id-fa37b8c02a4e4c59a6075ab1c78e0dee"/>
     <element xsi:type="archimate:ValueStream" name="Value: Value Proposition" id="id-b166bb963f0d49af9cdaa77aba1bb269"/>
     <element xsi:type="archimate:Capability" name="Capability" id="id-281d1ed1041d4c9dac78cd056516e8c8"/>
