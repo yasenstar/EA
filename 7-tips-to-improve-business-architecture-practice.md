@@ -46,9 +46,21 @@ Components of a Good Elevator Pitich:
 
 ## 2. How to Build Your Team?
 
-Quality 1: Customer Driven
+### Quality 1: Customer Driven
 
 ![Customer Journey Maps](.gitbook/assets/image%20%281%29.png)
+
+![Business Model Canvas](.gitbook/assets/image%20%282%29.png)
+
+![Customer Value Map](.gitbook/assets/image%20%283%29.png)
+
+![Value Streams Delivering Value Propositions](.gitbook/assets/image%20%284%29.png)
+
+### Quality 2: Excel at Finding Value
+
+![Value Stream with Assessed Enabling Capabilities](.gitbook/assets/image%20%285%29.png)
+
+### Quality 3: Good Communications
 
 
 
