@@ -1,5 +1,5 @@
 ---
-description: 'By Daniel Lambert (IRIS), https://youtu.be/NPG_0zQLRPk'
+description: 'By Daniel Lambert (IRIS), [link](https://youtu.be/NPG_0zQLRPk)'
 ---
 
 # 7 Tips to Improve Business Architecture Practice
