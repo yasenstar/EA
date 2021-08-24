@@ -43,5 +43,10 @@ ArchiMate supports high-level modelling that facuses on the essence of an organi
 
 ## What's the Difference Between TOGAF and ArchiMate?
 
+The differences between TOGAF and ArchiMate make them well-suited to work together. Many senior practitioners use TOGAF and ArchiMate as parts of a combined EA practice.
 
+| TOGAF | ArchiMate |
+| :--- | :--- |
+| TOGAF describes the process of creating and managing enterprise management frameworks. It doesn't include a specific modelling language structure | ArchiMate provides that kind of modelling language |
+| TOGAF requires practitioners to document the baseline, transition, and target architectures. Architects express stakeholder concerns in ways that show relevant aspects of the architecture. | ArchiMate is a graphic language  |
 
