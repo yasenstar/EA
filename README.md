@@ -52,5 +52,5 @@ The differences between TOGAF and ArchiMate make them well-suited to work togeth
 | TOGAF architectures have many relationships, which can make it challenging to maintain consistency. Using different notations compounds this difficulty. | ArchiMate relationships have a simpler structure. They have better support for relationships between domains. |
 | TOGAF shows the key tasks in the process of developing architectures. | ArchiMate doesn't describe how to develop architectures. It offers a standardized way to document descriptions of those architectures. |
 
-
+_Source: Architecture Center_
 
