@@ -1,5 +1,7 @@
 # TOGAF vs ArchiMate
 
+
+
 TOGAF and ArchiMate are enterprise architecture \(EA\) standars. Enterprise architecture is the proess by which businesses standadize and organize their IT infrastructure to align with business goals.
 
 One reason TOGAF and ArchiMate seem similar is that The Open Group manages and maintain both standards. The Open Group is a global consortium that develops vendor-neutral technology standards and certifications.
