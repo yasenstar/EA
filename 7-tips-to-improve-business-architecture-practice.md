@@ -2,7 +2,7 @@
 
 By Daniel Lambert \(IRIS\), [link](https://youtu.be/NPG_0zQLRPk)
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 ## 1. How to Find a Top Management Sponsor?
 
@@ -48,19 +48,31 @@ Components of a Good Elevator Pitich:
 
 ### Quality 1: Customer Driven
 
-![Customer Journey Maps](.gitbook/assets/image%20%281%29.png)
+![Customer Journey Maps](.gitbook/assets/image%20%284%29.png)
 
 ![Business Model Canvas](.gitbook/assets/image%20%282%29.png)
 
 ![Customer Value Map](.gitbook/assets/image%20%283%29.png)
 
-![Value Streams Delivering Value Propositions](.gitbook/assets/image%20%284%29.png)
+![Value Streams Delivering Value Propositions](.gitbook/assets/image%20%286%29.png)
 
 ### Quality 2: Excel at Finding Value
 
-![Value Stream with Assessed Enabling Capabilities](.gitbook/assets/image%20%285%29.png)
+![Value Stream with Assessed Enabling Capabilities](.gitbook/assets/image%20%287%29.png)
 
 ### Quality 3: Good Communications
+
+![How IT and Users See Each Other?](.gitbook/assets/image.png)
+
+### Quality 4: Not an Enterprise & Business Architecture Model Freak
+
+![](.gitbook/assets/image%20%281%29.png)
+
+### Quality 5: Know Measurement Techniques Inside Out
+
+![](.gitbook/assets/image%20%285%29.png)
+
+### Quality 6: Meeting the Organization's Objectives
 
 
 
