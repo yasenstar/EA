@@ -48,5 +48,9 @@ The differences between TOGAF and ArchiMate make them well-suited to work togeth
 | TOGAF | ArchiMate |
 | :--- | :--- |
 | TOGAF describes the process of creating and managing enterprise management frameworks. It doesn't include a specific modelling language structure | ArchiMate provides that kind of modelling language |
-| TOGAF requires practitioners to document the baseline, transition, and target architectures. Architects express stakeholder concerns in ways that show relevant aspects of the architecture. | ArchiMate is a graphic language  |
+| TOGAF requires practitioners to document the baseline, transition, and target architectures. Architects express stakeholder concerns in ways that show relevant aspects of the architecture. | ArchiMate is a graphic language with standard shapes and colours. It graphically presents the different views in the TOGAF architecture. |
+| TOGAF architectures have many relationships, which can make it challenging to maintain consistency. Using different notations compounds this difficulty. | ArchiMate relationships have a simpler structure. They have better support for relationships between domains. |
+| TOGAF shows the key tasks in the process of developing architectures. | ArchiMate doesn't describe how to develop architectures. It offers a standardized way to document descriptions of those architectures. |
+
+
 
