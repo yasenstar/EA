@@ -2,7 +2,7 @@
 
 By Daniel Lambert \(IRIS\), [link](https://youtu.be/NPG_0zQLRPk)
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 ## 1. How to Find a Top Management Sponsor?
 
@@ -48,17 +48,17 @@ Components of a Good Elevator Pitich:
 
 ### Quality 1: Customer Driven
 
-![Customer Journey Maps](.gitbook/assets/image%20%284%29.png)
+![Customer Journey Maps](.gitbook/assets/image%20%287%29.png)
 
 ![Business Model Canvas](.gitbook/assets/image%20%282%29.png)
 
 ![Customer Value Map](.gitbook/assets/image%20%283%29.png)
 
-![Value Streams Delivering Value Propositions](.gitbook/assets/image%20%286%29.png)
+![Value Streams Delivering Value Propositions](.gitbook/assets/image%20%289%29.png)
 
 ### Quality 2: Excel at Finding Value
 
-![Value Stream with Assessed Enabling Capabilities](.gitbook/assets/image%20%287%29.png)
+![Value Stream with Assessed Enabling Capabilities](.gitbook/assets/image%20%2810%29.png)
 
 ### Quality 3: Good Communications
 
@@ -70,13 +70,37 @@ Components of a Good Elevator Pitich:
 
 ### Quality 5: Know Measurement Techniques Inside Out
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 ### Quality 6: Meeting the Organization's Objectives
 
+![Roadmaps](.gitbook/assets/image%20%286%29.png)
 
+### Quality 7: Involved in Delivery
+
+![](.gitbook/assets/image%20%284%29.png)
+
+![Sourcing Options to Hire Architect Team](.gitbook/assets/image%20%285%29.png)
+
+Other Sourcing Considerations:
+
+* Diversity is always preferable to homogeneity
+* Hiring one from each sourcing option initiatlly will increase your odds of being successful
+* Experienced enterprise architects, business strategists, business analysts can make very good business architects
 
 ## 3. How to Get Buy-In from you EcoSystem?
+
+![](.gitbook/assets/image%20%2812%29.png)
+
+### Step 1 - Business Design & Strategy
+
+### Step 2 - Architecting Transformation
+
+### Step 3 - Initiative Planning
+
+### Step 4 - Agile Delivery & Execution
+
+### Step 5 - Success Measurement
 
 ## 4. How to Integrate Business Architecture withing your Current Enterprise Architecture?
 
