@@ -147,6 +147,69 @@ Why will Colloabrator Assist You?
    * Business architects may be perceived as separate from the IT architecture disciplines
    * May lead to inconsistent practices or lack of integration between business and IT architecture
 
+### Centralized or Decentralized Team?
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Team</th>
+      <th style="text-align:left">Description</th>
+      <th style="text-align:left">Benefits</th>
+      <th style="text-align:left">Inconveniences</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Centralized Team</td>
+      <td style="text-align:left">All business architects report to one leader</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Creates consistent practices and integrated architecture</li>
+          <li>Simpler to mange</li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li>May be perceived as separate from the business units supported</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Decentralized Team</td>
+      <td style="text-align:left">All business architects report to separate leaders located in different
+        business units</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Creates tighter stakeholder integration and acceptance</li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li>May lead to lack of integrated architecture</li>
+          <li>May dilute role with additional responsibilities</li>
+          <li>More complex structure to manage</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Hybrid Team</td>
+      <td style="text-align:left">Some business architects report centrally for horizontal domains and some
+        report to vertical domains in different business units</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Creates consistent practices and integrated architecture</li>
+          <li>Creates tighter stakeholder integration and acceptance</li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li>More comlex structure to manage</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## 5. How to Schedule and Deliver your Roadmap to your First Success?
 
 ## 6. How to Calculate your Return-on-Investment after the Completion of your First Mandate, and Finally?
