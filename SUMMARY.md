@@ -4,8 +4,6 @@
 
 ## Enterprise Architecture
 
-* [TOGAF vs ArchiMate](enterprise-architecture/untitled.md)
-
 ## Business Architecture
 
 * [How Business Architecture Can Help Strategy Formulation](business-architecture/how-business-architecture-can-help-strategy-formulation.md)
