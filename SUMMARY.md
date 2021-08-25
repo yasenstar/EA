@@ -4,7 +4,7 @@
 
 ## Enterprise Architecture
 
-* [Untitled](enterprise-architecture/untitled.md)
+* [TOGAF vs ArchiMate](enterprise-architecture/untitled.md)
 
 ## Business Architecture
 
