@@ -58,6 +58,14 @@ Finding the enabling capabilities of a value stream should be **completed** for 
 
 Representing relationships among various value stream stages and the capabilities that enable those stages is one of the most important cross-mapping concepts in business architecture.
 
+Value items have a direct relationshop to capabilities and capability outcomes.
+
+The value item assigns value to outcomes of one or more capabilities that are used to enable the value creation embodied by the value stream. The value item's value is separate from any value that could be associated with a capability's outcome outside the context of the value stream.
+
+Value stream / capability cross-mapping is informed through the specification of the relationship between the outcomes of various enabling capapbilities and the value item\(s\) specified for a given value stream stage.
+
+Value stream / capability cross-mapping also explains how work moves across a value stream, accruing value along the way. Explicit object state transitions associated with certain capabilities contribute to the work as it transitions across a value stream. These explicit state transitions ultimately result in the dlivery of a value item where capability outcomes drive the resulting state changes.
+
 ## References
 
 1. BIZBOK - Business Architecture Body of Knowledge from BA Guild, ver10.0
