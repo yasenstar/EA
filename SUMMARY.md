@@ -6,6 +6,7 @@
 
 ## Business Architecture
 
+* [Value Streams](business-architecture/value-streams.md)
 * [How Business Architecture Can Help Strategy Formulation](business-architecture/how-business-architecture-can-help-strategy-formulation.md)
 * [7 Tips to Improve Business Architecture Practice](business-architecture/7-tips-to-improve-business-architecture-practice.md)
 * ["Personality" and "Behavior" in an Enterprise](business-architecture/personality-and-behavior-in-an-enterprise.md)
