@@ -69,5 +69,5 @@ Value stream / capability cross-mapping also explains how work moves across a va
 ## References
 
 1. BIZBOK - Business Architecture Body of Knowledge from BA Guild, ver10.0
-2. Daniel Lambert, \[Practical Guide to Agile Strategy Execution\]\([https://www.amazon.ca/s?k=Practical+Guide+to+Agile+Strategy+Execution&ref=nb\_sb\_noss](https://www.amazon.ca/s?k=Practical+Guide+to+Agile+Strategy+Execution&ref=nb_sb_noss)\), 2021
+2. Daniel Lambert, [Practical Guide to Agile Strategy Execution](https://www.amazon.ca/s?k=Practical+Guide+to+Agile+Strategy+Execution&ref=nb_sb_noss), 2021
 
