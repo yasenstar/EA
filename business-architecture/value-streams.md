@@ -29,6 +29,14 @@ Consider value items as representing road markers along a journey, while the val
 
 A value proposition represents the aggregated collection of all value items associated with a value stream but can have value beyond the sum total of the associated value items.
 
+## Value Stream Modelling in Strategy and Motivation Domains
+
+From ArchiMate Cookbook, following are the GOALS view for cross layers modeling:
+
+![Value Stream - Capability cross mapping in Goals View](../.gitbook/assets/image%20%2820%29.png)
+
+With this meta model, once we have Business Capability defined in the enterprise, we can use "Serving relation" to link Business Capability to Value Stream, this can be one important mapping step for business to connect value concept with the capabilities they have \(or expect to have depending on the Capability heatmap\).
+
 ## Value Stream Heat Mapping
 
 Value Streams, like Capabilities, may also be heat mapped. Heat mapping is the exercise of evaluating an aspect of business architecture, determining how well it is performing, and assigning a rating that reflects performance.
@@ -70,4 +78,7 @@ Value stream / capability cross-mapping also explains how work moves across a va
 
 1. BIZBOK - Business Architecture Body of Knowledge from BA Guild, ver10.0
 2. Daniel Lambert, [Practical Guide to Agile Strategy Execution](https://www.amazon.ca/s?k=Practical+Guide+to+Agile+Strategy+Execution&ref=nb_sb_noss), 2021
+3. hosiaisluoma.fi, [ArchiMate Cookbook](http://www.hosiaisluoma.fi/ArchiMate-Cookbook.pdf)
+
+
 
