@@ -16,3 +16,7 @@
 * ["Personality" and "Behavior" in an Enterprise](business-architecture/personality-and-behavior-in-an-enterprise.md)
 * [Business Architecture Iceberg Syndrome](business-architecture/business-architecture-iceberg-syndrome.md)
 
+## Architect
+
+* [Capability Level of an Architect](architect/capability-level-of-an-architect.md)
+
