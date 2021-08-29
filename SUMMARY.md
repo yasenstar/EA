@@ -1,8 +1,12 @@
 # Table of contents
 
-* [TOGAF vs ArchiMate](README.md)
+* [README](README.md)
 
 ## Enterprise Architecture
+
+---
+
+* [TOGAF vs ArchiMate](togaf-vs-archimate.md)
 
 ## Business Architecture
 
