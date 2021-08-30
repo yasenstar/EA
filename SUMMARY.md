@@ -6,6 +6,7 @@
 
 ---
 
+* [Info from Intel Architecture Day 2021](info-from-intel-architecture-day-2021.md)
 * [TOGAF vs ArchiMate](togaf-vs-archimate.md)
 
 ## Business Architecture
@@ -18,5 +19,5 @@
 
 ## Architect
 
-* [Capability Level of an Architect](architect/capability-level-of-an-architect.md)
+* [Characteristics of Architect](architect/capability-level-of-an-architect.md)
 
