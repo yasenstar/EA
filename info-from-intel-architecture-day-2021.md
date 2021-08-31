@@ -4,4 +4,15 @@
 
 Emerging Technologies in Intel's View:
 
-* 
+* mRNA Vaccines
+* Computer Vision
+* Decentralized Finance
+* Argmented Reality
+* Metahuman
+* Space 2.0
+* Github Co-Pilot \(software creates software\)
+* Crypto Currencies
+* Artificial Intelligence
+
+
+
