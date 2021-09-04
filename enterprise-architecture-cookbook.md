@@ -23,7 +23,20 @@ The _enterprise architecture_ can be defined as the practice that tries to descr
 
 An architecture model is not just useful to provide insight into the current or future situation; it can also be used to evaluate the transition from 'as is' to 'to be'.
 
-## Introduction of Enterprise Architecture
+## 1. Introduction of Enterprise Architecture
+
+Architecture is the art and science of designing complex structures.
+
+Enterprise architecture, more specifically, is defined as a coherent whole of principles, methods, and models that are used in the design and realization of an enterprise's organizational structure, business processes, information systems, and infrastructure.
+
+Architecture models, views, presentations, and analysis all help to bridge the 'communication gap' between architects and stakeholders.
+
+Architecture is an indispensable instrument in controlling the complexity of the enterprise and its processes and systems.
+
+* One the one hand, we see internal drivers for using an architectural approach, related to the strategy execution of an organization. Better alignment between business and IT leads to lower cost, higher quality, better time-to-market, and greater customer satisfaction.
+* On the other hand, external drivers from regulatory authorities and other pressures necessitate companies to have a thorough insight into their structure and operations.
+
+All of those drivers make a clear case for the use of enterprise architecture.
 
 ### Architecture
 
@@ -86,12 +99,33 @@ Internal Drivers:
 External drivers:
 
 * The regulatory framework increasingly demands that companies and governmental institutions can prove that they have a clear insight into their operations and that they comply with the applicable laws on, say, financial transactions.
-  * US Clinger-Cohen Act of 1996, also known as the Information Technology Management Reform Act, has been an important stimulus for the development of enterprise architecture as a discipline, not just in a government context, but in general
+  * The US Clinger-Cohen Act of 1996, also known as the Information Technology Management Reform Act, has been an important stimulus for the development of enterprise architecture as a discipline, not just in a government context, but in general
   * The capital adequacy framework knows as Basel II, imposes strict regulations on banks in terms of risk measurement and management, with wide-ranging implications for both their organizations and their IT systems.
+  * Another US act, the Sarbanes-Oxley Act of 2002, has a major impact to force companies to adopt good corporate governance practices and to make company executives personally accountable.
+
+## 2. State of the Art
+
+1. Position enterprise architecture relative to a number of well-known standards and best practices in general and IT management.
+2. Outline the most important frameworks and methods for enterprise architecture
+3. Service orientation, the most important architecture paradigm
+4. A number of relevant languages for modelling organization, business processes, applications, and technology
+
+### Enterprise Architecture and Other Governance Instruments
+
+Enterprise architecture is typically used as an instrument in managing a company's daily operations and future development.
+
+* Strategic Management: the Balanced Scorecard \(Kaplan and Norton 1992\)
+* Strategy Execution: EFQM
+* Quality Management: ISO 9001
+* IT Governance: COBIT
+* IT Delivery and Support: ITIL
+* IT Implementation: CMM and CMMI
+
+
 
 ## Sources
 
-* Enterprise Architecture as Work
+* Enterprise Architecture as Work, 2nd edition
 
 
 
