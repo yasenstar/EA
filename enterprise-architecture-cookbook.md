@@ -49,6 +49,10 @@ Enterprise Architecture captures the **essentials** of the business, IT and its 
 
 The most important characteristic of an enterprise architecture is that it provides a holistic view of the enterprise. What is part of the enterprise architecture, and what is only an implementation within that architecture, is a matter of what the business defines to be the architecture, and what not.
 
+The architecture marks the separation between what should not be tampered \(篡改\) with and what can be filled in more freely. This places a high demand for quality on the architecture. **Quality** means that the architecture actually helps in achieving essential business objectives. In constructing and maintaining an architecture, choices should therefore be related to the business objectives, i.e., they should be rational.
+
+Even though an architecture captures the relatively stable parts of business and technology, any architecture will need to accommodate and facilitate **change**, and architecture products will therefore only have a temporary status. Architectures change because the environment changes and new technological opportunities arise, and because of new insights as to what is essential to the business. To ensure that these essentials are discussed, a good architecture clearly shows the relation of the architectural decisions to the business objectives of the enterprise.
+
 ## Sources
 
 * Enterprise Architecture as Work
