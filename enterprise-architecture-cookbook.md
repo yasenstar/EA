@@ -1,5 +1,7 @@
 # Enterprise Architecture Cookbook
 
+## Overview
+
 'Architecture', in a broad sense, is the synergy of ART and SCIENCE in designing complex structures, such that functionality and complexity are controlled. The notion of architecture is used in a wide range of domains, from town planning to building and construction, and from computer hardware to information systems, each being characterized by the types of 'structures' or 'systems' being designed.
 
 To begin with, architecture, and hence the architect, is concerned with understanding and defining the relationship between the users of the system and the system being designed itself. Based on a thorough understanding of its relationship, the architect defines and refines the essence of the system, i.e., its structure, behavior, and other properties.
@@ -45,7 +47,7 @@ Architecture at the level of an entire organization is commonly referred to as '
 
 Enterprise Architecture captures the **essentials** of the business, IT and its evolution. The idea is that the essentials are much **more stable** than the specific solutions that are found for the problems currently at hand. Architecture is therefore helpful in **guarding the essentials** of the business, while still **allowing for maximal flexibility and adaptivity**.
 
-
+The most important characteristic of an enterprise architecture is that it provides a holistic view of the enterprise. What is part of the enterprise architecture, and what is only an implementation within that architecture, is a matter of what the business defines to be the architecture, and what not.
 
 ## Sources
 
