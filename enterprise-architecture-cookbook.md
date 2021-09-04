@@ -35,6 +35,10 @@ IEEE 1471-2000 / ISO/IEC 42010:2007 \(IEEE Computer Society 2000\) defines archi
 
 This definition accommodates both the blueprint and the general principles. More succinctly, we could define **architecture** as '**structure with a vision**'. An architecture provides an integrated view of the system being designed or studied.
 
+In USA's Clinger-Cohen Act of 1996, also known as the Information Technology Management Reform Acts, demands that every government agency must have an IT architecture, which is defined as:
+
+> The **IT Architecture** is an integrated framework for evolving or maintaining existing information technology and acquiring new information technology to achieve the agency's strategic goals and information resources management goals.
+
 As well as the definition of architecture, following are two other definitions coming from IEEE standard:
 
 > **Stakeholder**: an individual, team, or organization \(or classes thereof\) with interests in, or concerns relative to, a system.
@@ -81,7 +85,9 @@ Internal Drivers:
 
 External drivers:
 
-
+* The regulatory framework increasingly demands that companies and governmental institutions can prove that they have a clear insight into their operations and that they comply with the applicable laws on, say, financial transactions.
+  * US Clinger-Cohen Act of 1996, also known as the Information Technology Management Reform Act, has been an important stimulus for the development of enterprise architecture as a discipline, not just in a government context, but in general
+  * The capital adequacy framework knows as Basel II, imposes strict regulations on banks in terms of risk measurement and management, with wide-ranging implications for both their organizations and their IT systems.
 
 ## Sources
 
