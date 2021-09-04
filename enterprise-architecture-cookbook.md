@@ -21,7 +21,33 @@ The _enterprise architecture_ can be defined as the practice that tries to descr
 
 An architecture model is not just useful to provide insight into the current or future situation; it can also be used to evaluate the transition from 'as is' to 'to be'.
 
-Sources:
+## Introduction of Enterprise Architecture
+
+It is often said that to manage the **complexity** of any large organization or system, you need architecture. To create an overview of the structure of an organization, its business processes, their application support, and the technical infrastructure, you need to express the different **aspects** and **domains**, and their **relations**.
+
+IEEE 1471-2000 / ISO/IEC 42010:2007 \(IEEE Computer Society 2000\) defines architecture as:
+
+> **Architecture** is the fundamental organization of a system embodied in its components, their relationships to each other, and to the environment, and the principle guiding its design and evolution.
+
+This definition accommodates both the blueprint and the general principles. More succinctly, we could define **architecture** as '**structure with a vision**'. An architecture provides an integrated view of the system being designed or studied.
+
+As well as the definition of architecture, following are two other definitions coming from IEEE standard:
+
+> **Stakeholder**: an individual, team, or organization \(or classes thereof\) with interests in, or concerns relative to, a system.
+
+Most stakeholders of a system are probably not interested in its architecture, but only in the impact of this on their concern. However, an architect needs to be aware of these concerns and discuss them with the stakeholders, and thus should be able to explain the architecture to all stakeholders involved, who will often have completely different backgrounds.
+
+> **Enterprise**: an collection of organizations that has a common set of goals and/or a single bottom line.
+
+Architecture at the level of an entire organization is commonly referred to as 'enterprise architecture'. This leads to the definition of:
+
+> **Enterprise Architecture**: a coherent \(相干\) whole of principles, methods and models that are used in the design and realization of an enterprise's organizational structure, business processes, information systems, and infrastructure.
+
+Enterprise Architecture captures the **essentials** of the business, IT and its evolution. The idea is that the essentials are much **more stable** than the specific solutions that are found for the problems currently at hand. Architecture is therefore helpful in **guarding the essentials** of the business, while still **allowing for maximal flexibility and adaptivity**.
+
+
+
+## Sources
 
 * Enterprise Architecture as Work
 
