@@ -17,5 +17,13 @@ Comparing to build a new house, or rebuild one existing one, building or rebuild
 
 Many \(often unknown\) above dependencies exist between various domains, like strategy, products and services, business processes, organizational structure, applications, information management and technical infrastructure. Besides having a good overview of these different domains, one needs to be aware of their interrelationships. Together, these form the _enterprise architecture_ of the organization.
 
+The _enterprise architecture_ can be defined as the practice that tries to describe and control an organization's structure, processes, applications, systems, and technology in such an integrated way. More specifically, we focus on methods and techniques for making and using integrated descriptions by means of architecture models, visualization of these models for various stakeholders, and analysis of the impact of changes.
+
+An architecture model is not just useful to provide insight into the current or future situation; it can also be used to evaluate the transition from 'as is' to 'to be'.
+
+Sources:
+
+* Enterprise Architecture as Work
+
 
 
