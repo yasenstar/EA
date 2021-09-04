@@ -25,6 +25,8 @@ An architecture model is not just useful to provide insight into the current or 
 
 ## Introduction of Enterprise Architecture
 
+### Architecture
+
 It is often said that to manage the **complexity** of any large organization or system, you need architecture. To create an overview of the structure of an organization, its business processes, their application support, and the technical infrastructure, you need to express the different **aspects** and **domains**, and their **relations**.
 
 IEEE 1471-2000 / ISO/IEC 42010:2007 \(IEEE Computer Society 2000\) defines architecture as:
@@ -38,6 +40,8 @@ As well as the definition of architecture, following are two other definitions c
 > **Stakeholder**: an individual, team, or organization \(or classes thereof\) with interests in, or concerns relative to, a system.
 
 Most stakeholders of a system are probably not interested in its architecture, but only in the impact of this on their concern. However, an architect needs to be aware of these concerns and discuss them with the stakeholders, and thus should be able to explain the architecture to all stakeholders involved, who will often have completely different backgrounds.
+
+### Enterprise Architecture
 
 > **Enterprise**: an collection of organizations that has a common set of goals and/or a single bottom line.
 
@@ -53,6 +57,21 @@ The architecture marks the separation between what should not be tampered \(ç¯¡æ
 
 Even though an architecture captures the relatively stable parts of business and technology, any architecture will need to accommodate and facilitate **change**, and architecture products will therefore only have a temporary status. Architectures change because the environment changes and new technological opportunities arise, and because of new insights as to what is essential to the business. To ensure that these essentials are discussed, a good architecture clearly shows the relation of the architectural decisions to the business objectives of the enterprise.
 
+### The Architecture Process
+
+Architecture is a process as well as a product.
+
+* The product serves to guide managers in designing business processes and system developers in building applications in a way that is in line with business objectives and policies.
+* The effects of the process reach further than the mere creation of the architecture product - the awareness of stakeholders with respect to business objectives and information flow will be raised.
+* Also, once the architecture is created, it needs to be maintained. Businesses and IT are continually changing. This constant evolution is, ideally, a rational process.
+* Change should only be initiated when people in power see an opportunity to strengthen business objectives.
+
+### Drivers for Enterprise Architecture
+
+Internal Drivers:
+
+* Business-IT alignment is commonly recognized as an important instrument to realize organizational effectiveness. \(Effectiveness is driven by the relationship between components rather than by the detailed specification of each individual component.
+* 
 ## Sources
 
 * Enterprise Architecture as Work
