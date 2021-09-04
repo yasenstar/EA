@@ -70,8 +70,19 @@ Architecture is a process as well as a product.
 
 Internal Drivers:
 
-* Business-IT alignment is commonly recognized as an important instrument to realize organizational effectiveness. \(Effectiveness is driven by the relationship between components rather than by the detailed specification of each individual component.
-* 
+* Business-IT alignment is commonly recognized as an important instrument to realize organizational effectiveness. \(Effectiveness is driven by the relationship between components rather than by the detailed specification of each individual component. 'Alignment' includes the aspects of business strategy and organizational infrastructure on the one hand, and IT strategy and IT infrastructure on the other hand.
+  * One can take the business strategy of an enterprise as the starting point, and derive its IT infrastructure either via an IT strategy or through the organisational infrastructure
+  * Conversely, one can focus on IT as an enabler and start from the IT strategy, deriving the organizational infrastructure via a business strategy or based on the IT infrastructure.
+* A well-defined architecture is an important asset in positioning new developments within the context of the existing processes, IT systems, and other assets of an organization, and it helps in identifying necessary changes. Thus, good architectural practice helps a company innovate and change by providing both **stability** and **flexibility**.
+  * The insights provided by an enterprise architecture are needed on the one hand in determining the needs and priorities for change from a business perspective, and
+  * on the other hand in assessing how the company may benefit from technological and business innovations.
+* Architecture is a strategic instrument in guiding an organization through a planning course of development.
+* The role of enterprise architecture is to organize logic for business processes and IT infrastructure, which must reflect the integration and standardization requirements of the operating model.
+
+External drivers:
+
+
+
 ## Sources
 
 * Enterprise Architecture as Work
