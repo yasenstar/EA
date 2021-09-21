@@ -23,7 +23,7 @@
     <element xsi:type="archimate:BusinessRole" name="Business Unit" id="id-b348f433817f418391ffc09314485cfa"/>
   </folder>
   <folder name="Application" id="id-7ffd5360f23544da8ae39a1eec7a92bf" type="application">
-    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-759bd197216044349e87fcd8b66e689b">
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component 1" id="id-759bd197216044349e87fcd8b66e689b">
       <documentation>An application component represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.&#xD;
 Guideline: &#xD;
 1. Top level: VGAC APM ID and Name&#xD;
@@ -65,8 +65,8 @@ Sample:&#xD;
     <element xsi:type="archimate:ApplicationComponent" name="SF App1" id="id-19273e862eb148dc9eb793a6fdf9feb0"/>
     <element xsi:type="archimate:ApplicationComponent" name="SF App2" id="id-99853a69ff2d467aa74755e9e6d30fba"/>
     <element xsi:type="archimate:ApplicationComponent" name="Salesforce Apps in AppExchange" id="id-ee266071f9c34f7bb28739b9d3223935"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Application Component 1" id="id-dbddf119a41749848f4abd7d41903ff9"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Application Component 2" id="id-438876b4a5fd4014b12d4cb2b6e6b2b8"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component 2" id="id-dbddf119a41749848f4abd7d41903ff9"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component 3" id="id-438876b4a5fd4014b12d4cb2b6e6b2b8"/>
     <element xsi:type="archimate:ApplicationFunction" name="Application Module Function1" id="id-1ea508125c8842c592bb2d47e66f67a8"/>
     <element xsi:type="archimate:ApplicationFunction" name="Application Module Function2" id="id-93d83519cb6548aaa5492584794a0079"/>
     <element xsi:type="archimate:ApplicationComponent" name="Application Feature 1" id="id-9305b8f8a4bf4dd09c5d512052c2e2dc"/>
@@ -820,7 +820,7 @@ Phase 4: more other Application Layer notation</content>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Component-Feature-02" id="id-1b0b888cffdc40a7b933cdd8a8e943e7">
       <child xsi:type="archimate:DiagramObject" id="id-315cae14da70462f83352e8fa8412ee4" archimateElement="id-759bd197216044349e87fcd8b66e689b">
-        <bounds x="168" y="168" width="169" height="193"/>
+        <bounds x="168" y="168" width="193" height="193"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-3389f9ac56de4946b5366da9e9b46538" lineColor="#ff00ff" source="id-315cae14da70462f83352e8fa8412ee4" target="id-4994a8a3b5a04219ab0488601d4ce14a" archimateRelationship="id-e9627b379f2d4656bb2a4cc89f72043e"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-7e90538f95f0410bb08fb2a82f3df7ba" lineColor="#ff00ff" source="id-315cae14da70462f83352e8fa8412ee4" target="id-445bf720d18b4d938b0980456c9bb539" archimateRelationship="id-d56328b891864691ae8786ef824f6240"/>
       </child>
