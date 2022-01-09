@@ -4,8 +4,6 @@
 
 ## Enterprise Architecture
 
----
-
 * [Info from Intel Architecture Day 2021](info-from-intel-architecture-day-2021.md)
 * [TOGAF vs ArchiMate](togaf-vs-archimate.md)
 * [Enterprise Architecture Cookbook](enterprise-architecture-cookbook.md)
@@ -21,4 +19,3 @@
 ## Architect
 
 * [Characteristics of Architect](architect/capability-level-of-an-architect.md)
-
