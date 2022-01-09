@@ -121,7 +121,20 @@ Enterprise architecture is typically used as an instrument in managing a company
 * IT Delivery and Support: ITIL
 * IT Implementation: CMM and CMMI
 
+## Key Parameters for Evaluation
 
+There are eight key parameters to identify the winners
+
+Reference from: https://www.architecturerating.com/chief-architects
+
+1. Measurable Results: Ability to meet the business goal and stakeholder expectations
+2. Decision Making: Leadership in decision making (new thinking, the action plan, etc.)
+3. Enterprise & IT Architecture: Contribution to the growth of the discipline (Enterprise & IT Architecture)
+4. Ground Breaking Projects: M & A, Growing Business in New Territory, New Service Offering etc., IT Product 
+5. Efficiency Initiatives: IT Landscape Rationalisation, Business Process Improvements, Architecture Governance, Architecture Methodology, IT Infrastructure, IT Security
+6. State of the Art (Technology adoption): IoT Enabled Solution, Future IT (Emerging Technologies), Cloud Technologies and Solutions, SoA Vision for Enterprise Services, 
+7. Change Agent: Business Strategy to Execution, Business Architecture, Business Transformation, Digital Architecture, Enterprise Architecture
+8. Innovation: Industry Leading Solutions, Customer Oriented Business Models, Supply Chain & Logistics,
 
 ## Sources
 
