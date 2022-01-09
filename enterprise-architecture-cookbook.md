@@ -123,7 +123,7 @@ Enterprise architecture is typically used as an instrument in managing a company
 
 ## Key Parameters for Evaluation
 
-There are eight key parameters to identify the winners
+There are eight key parameters to identify the top enterprise architect
 
 Reference from: https://www.architecturerating.com/chief-architects
 
