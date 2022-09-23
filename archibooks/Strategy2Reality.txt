@@ -1,0 +1,88 @@
+Strategy to Reality
+  Demystifying the What, Why, and How of Business Architecture
+    Definition of Business Architecture
+      According to the Federation of Enterprise Architecture Professional Organization (FEAPO), "Business Architecture represents holistic, multidimensional business views of: capabilities, end-to-end value delivery, information, and organizational structure; and the relationships among these business views and strategies, products, policies, initiatives, and stakeholders."
+      According to cio-wiki, "Business Architecture is defined as a blueprint of the enterprise that provides a common understanding of the organization and is used to align strategic objectives and tactical demands. Business architecture is the bridge between the enterprise business model and enterprise strategy on one side, and the business functionality of th enterprise on the other side.
+      According to wikepedia, "The term "business architecture" is often used to mean an architectural description of an enterprise or a business unit, an architectural model, or the profession itself. "
+    Ten domains (perspectives) of Business Architecture
+      Core Domains (4)
+        Value Streams
+          represent how value is delivered from end-to-end, to a customer, partner, or employee.
+        Capabilities
+          define the what of the business - the unique abilities that the organization performs across all business units and product lines.
+        Information
+          forms the vocabulary of an organization through defined information concepts such as customer, product, partner, and asset.
+        Organization
+          represents business units, which may be internal business units or even external partners.
+      Extended Domains (6)
+        Strategies
+          capture various aspects of business direction.
+        Metrics
+          measure the performance of the organization.
+        Products
+          represent the goods and services that an organization offers to its customers.
+        Stakeholders
+          represent the external or internal players that participate in value streams to receive and/or contribute value.
+        Policies
+          guide the organization and may be externally-driven such as a regulation or internally-driven such as an internal human resources policy.
+        Initiatives
+          represent any current or planned scope of work to implement change.
+      Additional Domains (5)
+        Journeys
+          part of the customer experience design discipline
+        Business Processes
+          part of the business process management discipline
+        Applications
+          part of the IT architecture discipline
+        Software Services
+          part of the IT architecture discipline
+        Requirements
+          part of the business analysis discipline
+    Three parts of Business Architecture (analogy to Graph Database)
+      We catalog the elements --> Nodes
+      We attribute the elements --> Properties
+      We create connections between the elements --> Relationships
+    Distinguishing Characteristics of Business Architecture
+      A business architecture represents the business.
+        It is wholly business-focused
+        It is describing the scope of what the business does
+        It is in the language of the business
+      A business architecture represents the entire scope of an organization and the ecosystem in which it operates.
+        There is ONE business architecture for an organization.
+        A business architecture is one, top-down, cohesive view of everything an organization does.
+      A business architecture is described at a high level of detail
+      A business architecture is reusable
+        An organization's business architecture persists in a knowledgebase that is accessible to anyone.
+    Business Architecture, the WHY?
+      Business Architecture facilitates relentless customer value delivery: shifting from an internal inside-out perspective to a customer-focused outside-in perspective.
+      Business Architecture facilitates cross-organization collaboration: shifting from silo orientation to enterprise optimization and cross-business unit partnership
+      Business Architecture facilitates big picture thinking: shifting from narrowly focused investments and problem-solving to systematic thinking and approaches
+      Business Architecture facilitates end-to-end organizational agility: shifting from a bias towards action and a focus on execution agility to focusing on doing the right things and agility from strategy through execution
+      Business Architecture facilitates intentional design: shifting from solutions that meet the needs of today to an effectively architected and designed environment that will meet the needs of tomorrow
+      Business Architecture facilitates business first thinking: shifting from leading with technology and solutions to leading with business goals and outcomes first.
+      Business Architecture is a means to an end, but we must make sure that we don't make the means the end and forget what we were trying to achieve in the first place.
+    The ability to move business direction into action, and constantly innovate and adapt to change, have now become competitive advantage. The organization that can execute in a coordinated way - and with agility - will win.
+      Business Architecture gives organizations the ability to move business direction into action quickly and well.
+      In for-profit organizations, having a business architecture can be a competitive advantage.
+      For governmental, non-governmental, and non-profit organizations, business architecture enables more effective delivery on policy and mission.
+    Value of Business Architecture
+      Facilitating effective strategy execution
+        Business architecture, particularly through the leans of capabilities, ensures that there is alignment between an organization's strategy and how the people, processes, and technology are structured and working together to deliver it.
+        When an organization adjusts a strategy or introduces a new one, business architecture plays a critical role to inform and translate that strategy into a shared vision for the future as well as coordinated set of changes across the organization.
+        Business architecture also provides the end-to-end traceability that aligns strategies, investments, initiatives, and results.
+      Improving the design of organizations and business ecosystems
+        Business Blueprints are ideal for analyzing an organization at a high level to identify opportunities for optimization and simplification in the business and technology environment
+        While we can leverage business architecture to retroactively improve and simplify the current state, it should also be leveraged to architect the business and technology environment with intention going forward.
+      Informing decision-making
+        Business architecture's holistic blueprint provides more valuable information to the decision-making process than was previously available.
+        Business architecture facilitates greater objectivity and transparency.
+        Business architecture can contribute to countless decision-making scenarios within an organization.
+    Two steps using Business Architecture in Strategy Execution
+      First, leverage business architecture to translate business direction into a coordinated set of business-framed initiatives across the organization to execute that direction.
+      Second, leverage business architecture to ensure alignment - from strategies and objectives to initiatives and investments, and from initiative results back to the original strategies and objectives.
+  Representing an Organization Through Business Architecture
+  Leveraging the Unique Value of Business Architecture
+  Integrating with Other Teams and Disciplines
+  Maximizing the Business Architecture Team
+  Building an Internal Business Architecture Practice
+  Shaping the Future of Business Architecture
