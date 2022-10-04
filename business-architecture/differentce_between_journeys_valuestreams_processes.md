@@ -1,6 +1,6 @@
 # Differences between Journeys, Values Streams and Processes
 
-_Source: Strategy to Realitym, by Whynde Kuehn_
+_Source: Strategy to Reality, by Whynde Kuehn_
 
 On the surface, cusotmer journeys, values streams, and processes may all seem like the same flows, but they differ in **why they are created, when they are created, who creates them, and how they are created**. Each represetnation is _fit for purpose_, so it is important to understand their intertions, where they apply within an enterprise context, and how they fit together.
 
