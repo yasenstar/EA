@@ -294,6 +294,5 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-5360f51154644a609c3324f6b2550d3d" source="id-67062a133962467399df746a6563607d" target="id-e0eb5f3c495f4425ac023945288e2c81" archimateRelationship="id-92f0744c97674ed6a87bcd2789dd4bc0"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="BusinessModel_BusinessArchitecture" id="id-007f360782994eb293f5d37936ead8dc"/>
   </folder>
 </archimate:model>
