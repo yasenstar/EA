@@ -98,7 +98,7 @@
     <element xsi:type="archimate:AssignmentRelationship" id="id-92f0744c97674ed6a87bcd2789dd4bc0" source="id-48cf944d7eb04c07a6d04b6ed852457b" target="id-487c39722bd74eada78206c3741f3ab2"/>
   </folder>
   <folder name="Views" id="id-69f2d02342e645998829de0cf2c2f802" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Journey-ValueStream-Capability-Process" id="id-aebd4e2f5526406083c7a3485fe9918b">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Journey-ValueStream-Process" id="id-aebd4e2f5526406083c7a3485fe9918b">
       <child xsi:type="archimate:DiagramObject" id="id-e4ae277db644407e8f819a9a42625448" archimateElement="id-42137441a6074dfab52111496361ca01" type="1">
         <bounds x="24" y="132" width="877" height="121"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d7b3c21c9ef34597862f988f304d2404" source="id-e4ae277db644407e8f819a9a42625448" target="id-d0fce57a79db4e4b92223d1d3cd49c60" archimateRelationship="id-4208d9c56a3e48d993d39a0841bccf6d"/>
@@ -177,7 +177,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-3fcdb001aedc4e7e9f2c7751de36454f" source="id-ff49dcf5990a412a9ee60222cc3d2206" target="id-c9476e430f4a440980f26f8417ab9029" archimateRelationship="id-115eaaab97b14b28a63ac8c5a7abac8c"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Journey-ValueStream-Process (copy)" id="id-a027c0dfcac346ce973c89fc1d531d6d">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Journey-ValueStream-Capability-Process" id="id-a027c0dfcac346ce973c89fc1d531d6d">
       <child xsi:type="archimate:DiagramObject" id="id-af0ae0445fbb414e84665a287d2bf27e" targetConnections="id-ff19106a019c49a6a57a9a28f7aae1fe id-ccc85ecbf9134db5a3632cb80375298c" archimateElement="id-42137441a6074dfab52111496361ca01" type="1">
         <bounds x="24" y="132" width="877" height="121"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a5f400901cc4445e8bb93884dfe35d4f" source="id-af0ae0445fbb414e84665a287d2bf27e" target="id-ee193d43ea1141f995b5fcb8d0fd0aaa" archimateRelationship="id-4208d9c56a3e48d993d39a0841bccf6d"/>

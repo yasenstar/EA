@@ -19,6 +19,26 @@ Business Model artifacts are used to:
 - Create a critical link between the business strategy and the required blueprints of the Enterprise Architecture that define what the business needs to transform to, along with the plans that describe how to do it
 
 ```mermaid
-graph TD
-    Customer Value Proposition-->Profit Formula
+graph LR
+    A[Customer Value Proposition]-->B[Profit Formula]
+    B-->A
+    A-->C[Key Processes]
+    C-->A
+    C-->D[Key Resources]
+    D-->C
+    B-->C
+    C-->B
 ```
+
+Key compoonents in one Business Model Canvas:
+
+1. Key Partnerships
+2. Key Activities
+3. Key Resources
+4. Value Propositions
+5. Customer Relationships
+6. Channels
+7. Customer Segments
+8. Cost Structures
+9. Revenue Streams
+
