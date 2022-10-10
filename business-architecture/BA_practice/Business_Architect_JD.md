@@ -1,5 +1,108 @@
 # Job Description Reference for Business Architect
 
+## Senior Business Architect (Sun Life, Canada)
+
+Industry: Financial (Opened at: Oct 2022)
+
+You are as unique as your background, experience and point of view. Here, you’ll be encouraged, empowered and challenged to be your best self. You'll work with dynamic colleagues - experts in their fields - who are eager to share their knowledge with you. Your leaders will inspire and help you reach your potential and soar to new heights. Every day, you'll have new and exciting opportunities to make life brighter for our Clients - who are at the heart of everything we do. Discover how you can make a difference in the lives of individuals, families and communities around the world.
+
+### Job Description:
+
+- We are looking for an energetic, innovative, and results-driven business architect for our diverse and highly skilled team. Reporting to Director, Business Architecture Group Benefits, the Senior Business Architect will play a key role in structuring the enterprise in terms of its governance, business processes, tech stack, and data sources. In this role, you will also help align strategic goals and objectives with decisions regarding products and services; partners and suppliers; organization; capabilities; and key business and IT initiatives.
+
+- As a Senior Business Architect, you will be in a unique position to have visibility to business motivations, business operations, business analysis frameworks, and related networks that link these aspects of the enterprise together. As a result, you will be able to develop an integrated view of the enterprise using a repeatable approach, cohesive framework, and available industry-standard techniques to meet the highest standards of decision-making and service.
+
+### What will you do?
+
+- Lead and implement the development of architecture principles, patterns, standards, and reference materials to enable the creation of a comprehensive strategy for Sun Life Group Benefits technology investments and mapping these investments to our value streams
+- Create, maintain, and govern a technology strategy roadmap for Group Benefits, including supporting the definition and maintenance of technology and integration frameworks and services for all solutions
+- Participate in Project Governance activities and guide the team to ensure compliance with enterprise and business architecture standards and conformance with the roadmap
+- Provide business architecture support to Group Benefits portfolio of projects. Oversee the definition, development, and implementation of solutions from a business architecture perspective. Provide guidance to project teams to ensure effective use of tools & technologies as well as alignment with business strategy & roadmap
+- Provide thought leadership based on industry trend research and the applicability of industry research to Sun Life environments
+- Partner and collaborate with product management, business strategy and segment leadership to define evergreen business and data architecture future state
+
+### What do you need to succeed?
+
+- Bachelor's Degree in Computer Science, Engineering, or related field
+- 6 – 8 years of progressive technical and project management roles – having experienced the entire software development and project lifecycle
+- Strategy development and management with experience working in a B2B model
+- A thought leader, inquisitive and comfortable in challenging the status quo
+- Experience in design and modeling of business solutions
+- Deep analytical skills including effectively using modeling tools and methodologies to fully understand the business need
+- Executive level presentation skills - written and oral - to effectively communicate and influence at all levels within the organization
+- Ability to lead through influence in a complex and evolving environment, to meet challenging timelines and organizational goals, and work in ambiguous situations
+- Experience building Target Operating Models (TOM) and multi-year technology roadmaps
+- Experience using model-based representations that can be adjusted as required to collect, aggregate, or disaggregate complex and conflicting information about the business
+
+### What will be nice to have?
+
+- TOGAF Business Architecture Certification
+- Post Graduate degree in Business/Commerce or Business Administration
+- Deep knowledge of GB systems and processes
+
+### What’s in it for you?
+
+- Being a member of the Sun Life family, a group of people united by our Purpose: to help Clients and Employees achieve lifetime financial security and live healthier lives
+- Pension, stock, and savings programs to help build and enhance your future financial security
+- Fitness and wellness programs that help you balance work and life and enjoy a healthier lifestyle
+- Flexible hours and work from home options
+- A friendly, collaborative, and inclusive culture
+- An environment of continuous learning and improvement
+
+## Senior Business Architect (IG Wealth Management, Canada)
+
+Industry: Financial (Opened at: Oct 2022)
+
+Location: Winnipeg/Toronto
+
+### Division: IGM Technology
+
+- IGM Financial Inc. is one of Canada's leading diversified wealth and asset management companies with approximately $271 billion in total assets under managements. The company provides a broad range of financial planning and investment management services to help more than two million Canadians meet their financial goals. Its activities are carried out principally through IG Wealth Management, Mackenzie Investments and Investment Planning Counsel.
+
+- Under IGM Financial’s unique business model based on leading brands and multi-channel distribution strategy, we’re IG Wealth Management. For over 90 years of business we have grown to become one of the largest most respected companies in Canada. We are a leader in providing the best advice, experience and outcomes for our clients, personalized throughout their lifetime. We are proud to be recognized among Canada’s Top 100 Employers (2022) by Mediacorp Canada Inc. in the national ranking for our focus on supporting employees with a number of initiatives that promote personal wellness with a focus on four key pillars including physical, mental, social and financial health. This is your opportunity to build a career with a leading organization where you can learn, grow and thrive both professionally and personally.
+
+- At IG Wealth Management, our vision is to inspire financial confidence.
+
+- You will join a team that that believes our success starts with the success of our clients, while working together as a team to realize our greatest potential. You will join a team that strives towards excellence while developing and sharing skills and knowledge. You can make a difference for our clients, the world around us and be part of a team that cares. We are dedicated to offering a hybrid work environment when applicable.
+
+- IG Wealth Management is a diverse workplace committed to doing business inclusively - this starts with having a representative workforce! We encourage applications from all qualified candidates that represent the diversity present across Canada – including racialized persons, women, Indigenous persons, persons with disabilities, 2SLGBTQIA+ community, gender diverse and neurodiverse individuals, as well as all who may contribute to the further diversification of ideas.
+
+### The Role
+
+As an IGM Business Architect you are responsible for assisting IGM business lines and functions in defining, designing, enhancing and enabling business capabilities, processes, and platforms. The role supports the development of multi-year roadmaps that define the enhancement and development of core IGM business capabilities through collaboration with internal business, technology and operations stakeholders. The role will also work closely with counterparts in Technology to ensure that technical solutions are aligned to business needs.
+
+### Core Accountabilities
+
+- Structured Business Architecture approach
+- Business Capability Blueprints and Roadmaps
+- Stakeholder / Capability Impact & Gap Assessments
+- Align business and system requirements
+
+### Key Activities
+
+- Apply a structured business architecture approach and methodology for capturing and documenting the key views of the enterprise.
+- Capture tactical and strategic enterprise goals and map to defined, measurable objectives that provide ongoing guidance and accountability.
+- Describe key business functions and processes of the enterprise and distinguish between customer-facing, supplier-related, business execution and business management functions. Describe which people, resources and controls are involved in the processes.
+- Participate in the identification and definition of the information shared across the enterprise, the relationships between that information and the providers and users of the information.
+- Capture relationships among roles, capabilities and business units, the decomposition of those business units into subunits, and the internal or external management of those units. Identify and describe external entities such as customers, suppliers, and external systems and understand how these entities fit within the business model.
+- Synthesize information about strategy, process, information and roles to help design and develop business architecture models, business capability blueprints and roadmaps to drive desired business outcomes.
+- Work closely with business experts, technology account managers, technology development, enterprise architects, vendors, and contractors to understand business and system requirements.
+- Ability to act as liaison conveying information needs of the business to IT and data constraints to the business; applies equal conveyance regarding business strategy and IT strategy, business processes and work flow automation, business initiatives, IT initiatives, and benefit realization and service delivery
+
+### The Successful Candidate Will Demonstrate The Following Qualifications
+
+- 7+ years experience within financial services industry, or consulting firms; in depth knowledge of stated industry, of technology and of process, such as cross-functional business processes for major operational areas
+- Must have experience in the Financial Services Industry
+- Bachelor’s Degree or higher in a technical field or a related business discipline
+- Architecture certification CBA, BAIP, TOGAF
+- Strong process analysis and modeling skills along with ability to lead complex enterprise teams through business process integrations, converting business strategy into action-oriented objectives and measurable results
+- Strong organizational skills and interpersonal abilities
+- Exceptional communication skills, both written and verbal
+- Strong presentation and facilitation skills guide business partners through value-add discussions and enhance the decision-making process
+- Team player with the ability to influence others and move toward consensus
+- Ability to develop, maintain and manage relationships at various levels within the Company
+- Ability to work well under pressure to meet deadlines, and able to prioritize multiple projects at once
+
 ## Senior Business Architect / Business Architect(similar) (Company: Mackenzie Investments, Toronto, Canada)
 
 Industry: Financing (Opened at: Oct 2022)
