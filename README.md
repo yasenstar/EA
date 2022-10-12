@@ -3,11 +3,13 @@
 Here is the collections of Xiaoqi's view on Enterprise and Business Architecture domain knowledge.
 
 - General Enterprise Architecture
-- Business Architecture
+- [Business Architecture](./business-architecture/)
 - Information Architecture
 - Application Architecture
 - Technology Architecture
 - Integration Topic
+
+- [Architect related readings](./archi_reading/)
 
 ===
 
