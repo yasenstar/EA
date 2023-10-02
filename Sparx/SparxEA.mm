@@ -96,6 +96,80 @@
 <node TEXT="Part 3 - Building a Model" ID="ID_658469656" CREATED="1696211046225" MODIFIED="1696211053461"/>
 <node TEXT="Part 4 - Where to Now?" ID="ID_1137386641" CREATED="1696211053858" MODIFIED="1696211059629"/>
 </node>
+<node TEXT="The &apos;Lite&apos; Edition" ID="ID_1999349385" CREATED="1696277641043" MODIFIED="1696277646140"/>
+<node TEXT="Help and Support" ID="ID_1592723007" CREATED="1696277669397" MODIFIED="1696277672605">
+<node TEXT="Enterprise Architect Help" ID="ID_1055177411" CREATED="1696277679405" MODIFIED="1696277838447" LINK="https://sparxsystems.com/enterprise_architect_user_guide/16.1/getting_started/availablehelpfileformats.html">
+<node TEXT="PDF Help" ID="ID_931549517" CREATED="1696277854613" MODIFIED="1696277883209"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="text-align: left; text-indent: 0px; padding-top: 14px; padding-bottom: 14px; padding-right: 0px; padding-left: 0px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; line-height: 19px; color: rgb(64, 59, 59); font-family: calibri, arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; white-space: normal">
+      <span class="f_BodyTextTable" style="color: rgb(51, 51, 51);">On the Sparx Systems website:</span>
+    </p>
+    <p style="text-align: left; text-indent: 0px; padding-top: 14px; padding-bottom: 14px; padding-right: 0px; padding-left: 0px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; line-height: 19px; color: rgb(64, 59, 59); font-family: calibri, arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; white-space: normal">
+      <span class="f_BodyTextTable" style="color: rgb(51, 51, 51);">&#xa0;&#xa0;&#xa0;&#xa0;</span><span style="color: rgb(51, 51, 51);">&#xa0;</span><a href="http://sparxsystems.com/" style="text-decoration: none; color: rgb(0, 102, 221); line-height: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; padding-right: 0px; padding-left: 0px"><span class="f_BodyTextTable" style="text-decoration: none; color: rgb(0, 102, 221); line-height: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; padding-right: 0px; padding-left: 0px;">http://sparxsystems.com</span></a><span class="f_BodyTextTable" style="color: rgb(51, 51, 51);">/</span>
+    </p>
+    <ul style="margin-bottom: 3px; margin-top: 10px; color: rgb(64, 59, 59); font-family: calibri, arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <li>
+        In the header: Select 'Resources | PDF Library | &lt;document category&gt; | &lt;document name&gt;', or
+      </li>
+      <li>
+        In the footer:&#xa0;&#xa0;Select 'Resources' title;&#xa0;&#xa0;then from the 'Resources' page, select the 'User Guide Library' icon
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="HTML Help" ID="ID_1221539635" CREATED="1696277889382" MODIFIED="1696277909003"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="text-align: left; text-indent: 0px; padding-top: 14px; padding-bottom: 14px; padding-right: 0px; padding-left: 0px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; line-height: 19px; color: rgb(64, 59, 59); font-family: calibri, arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; white-space: normal">
+      <strong><span class="f_BodyTextTable" style="color: rgb(51, 51, 51);">For your installation of Enterprise Architect:</span></strong>
+    </p>
+    <ul style="margin-bottom: 3px; margin-top: 10px; color: rgb(64, 59, 59); font-family: calibri, arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <li>
+        Ribbon:&#xa0;&#xa0;Start &gt; Help &gt; Help &gt; Open Help System
+      </li>
+      <li>
+        Context Menu:&#xa0;&#xa0;Right-click on an object | Help option
+      </li>
+      <li>
+        Keyboard:&#xa0;&#xa0;Click on a screen window or display | Press&#xa0;<span class="ea-button" style="font-weight: 700;">F1</span>&#xa0;key
+      </li>
+      <li>
+        Other:&#xa0;&#xa0;On a dialog or toolbar, click on the&#xa0;<span class="ea-button" style="font-weight: 700;">Help button</span>&#xa0;or&#xa0;<img class="img_Table" src="https://sparxsystems.com/enterprise_architect_user_guide/16.1/images/helpicon.png" title="Help icon." alt="Help icon." style="border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium;"/>&#xa0;icon
+      </li>
+    </ul>
+    <p style="text-align: left; text-indent: 0px; padding-top: 14px; padding-bottom: 14px; padding-right: 0px; padding-left: 0px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; line-height: 19px; color: rgb(64, 59, 59); font-family: calibri, arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; white-space: normal">
+      <strong><span class="f_BodyTextTable" style="color: rgb(51, 51, 51);">For the latest release of Enterprise Architect:</span></strong>
+    </p>
+    <p style="text-align: left; text-indent: 0px; padding-top: 14px; padding-bottom: 14px; padding-right: 0px; padding-left: 0px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; line-height: 19px; color: rgb(64, 59, 59); font-family: calibri, arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; white-space: normal">
+      <span class="f_BodyTextTable" style="color: rgb(51, 51, 51);">&#xa0;&#xa0;&#xa0;&#xa0;</span><span style="color: rgb(51, 51, 51);">&#xa0;</span><a href="http://sparxsystems.com/" style="text-decoration: none; color: rgb(0, 102, 221); line-height: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; padding-right: 0px; padding-left: 0px"><span class="f_BodyTextTable" style="text-decoration: none; color: rgb(0, 102, 221); line-height: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; padding-right: 0px; padding-left: 0px;">http://sparxsystems.com</span></a><span class="f_BodyTextTable" style="color: rgb(51, 51, 51);">/</span>
+    </p>
+    <ul style="margin-bottom: 3px; margin-top: 10px; color: rgb(64, 59, 59); font-family: calibri, arial, helvetica, clean, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <li>
+        In the header: Select 'Support | User Guide/Help', or
+      </li>
+      <li>
+        In the footer:&#xa0;&#xa0;Select 'Support | Online Manual'
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Learning Center" ID="ID_1221928290" CREATED="1696277686908" MODIFIED="1696277827244" LINK="https://sparxsystems.com/enterprise_architect_user_guide/16.1/getting_started/instanthelpwindow.html"/>
+<node TEXT="Syarx Systems Website" ID="ID_1140540233" CREATED="1696277691560" MODIFIED="1696277813387" LINK="https://sparxsystems.com/"/>
+<node TEXT="Sparx Systems User Forum" ID="ID_1467041814" CREATED="1696277786580" MODIFIED="1696277803754" LINK="https://sparxsystems.com/forums/smf/"/>
+<node TEXT="Community Site" ID="ID_1016151588" CREATED="1696277698125" MODIFIED="1696277737940" LINK="https://community.sparxsystems.com/"/>
+</node>
 <node TEXT="Working in new Project" FOLDED="true" ID="ID_1713663239" CREATED="1696211722989" MODIFIED="1696211739275">
 <node TEXT="Creating a Project" ID="ID_432558480" CREATED="1696211739278" MODIFIED="1696211744991"/>
 <node TEXT="Setting your Perspective" ID="ID_25673601" CREATED="1696211745504" MODIFIED="1696211750233"/>
