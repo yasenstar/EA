@@ -36,6 +36,6 @@ Learn across multiple fields and work tirelessly on making connections.
 
 ===
 
-If you find the information here is interesting or useful, please consider [donate $1 dollar](https://paypal.me/zhaoxiaoqi/1) (secure Paypal link) for a coffee, thanks and enjoy! ;-)
+If you find the information here is interesting or useful, please consider [donate $1 dollar](https://paypal.me/zhaoxiaoqi/1) (secure Paypal link) for a coffee, thanks and enjoy!
 
 Any questions, [reach me here](mailto:xiaoqizhao@outlook.com) please.
