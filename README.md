@@ -1,4 +1,4 @@
-# Enterprise Architectur - Learning & Practice
+# Enterprise Architecture - Learning & Practice
 
 Here is the collections of Xiaoqi's view on Enterprise and Business Architecture domain knowledge.
 
