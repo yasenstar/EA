@@ -1,4 +1,4 @@
-# README
+# Enterprise Architectur - Learning & Practice
 
 Here is the collections of Xiaoqi's view on Enterprise and Business Architecture domain knowledge.
 
@@ -10,6 +10,13 @@ Here is the collections of Xiaoqi's view on Enterprise and Business Architecture
 - Integration Topic
 
 - [Architect related readings](./archi_reading/)
+- [Reference Models](/ref_models/)
+
+## Architecture Tool
+
+- [Archi - ArchiMate Tool](/archimate/)
+- [Sparx System Enterprise Architect](/Sparx/)
+
 
 ===
 
