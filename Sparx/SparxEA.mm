@@ -3,7 +3,7 @@
 <node TEXT="Sparx EA" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1696209697986" LINK="https://sparxsystems.com/enterprise_architect_user_guide/16.1/welcome/index.html">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
 
 <map_styles>
@@ -90,14 +90,14 @@
 <node TEXT="Key Usages" ID="ID_287752085" CREATED="1696209830906" MODIFIED="1696209832998"/>
 </node>
 <node TEXT="02.02 Editions &amp; Licensing" FOLDED="true" ID="ID_1482565837" CREATED="1696209761073" MODIFIED="1696209768350">
-<node TEXT="The Trial Edition" ID="ID_229102405" CREATED="1696211023266" MODIFIED="1696211033320">
+<node TEXT="The Trial Edition" FOLDED="true" ID="ID_229102405" CREATED="1696211023266" MODIFIED="1696211033320">
 <node TEXT="Part 1 - Concepts" ID="ID_1301533409" CREATED="1696211033323" MODIFIED="1696211038444"/>
 <node TEXT="Part 2 - First Contact" ID="ID_1043733830" CREATED="1696211038628" MODIFIED="1696211046051"/>
 <node TEXT="Part 3 - Building a Model" ID="ID_658469656" CREATED="1696211046225" MODIFIED="1696211053461"/>
 <node TEXT="Part 4 - Where to Now?" ID="ID_1137386641" CREATED="1696211053858" MODIFIED="1696211059629"/>
 </node>
 <node TEXT="The &apos;Lite&apos; Edition" ID="ID_1999349385" CREATED="1696277641043" MODIFIED="1696277646140"/>
-<node TEXT="Help and Support" ID="ID_1592723007" CREATED="1696277669397" MODIFIED="1696277672605">
+<node TEXT="Help and Support" FOLDED="true" ID="ID_1592723007" CREATED="1696277669397" MODIFIED="1696277672605">
 <node TEXT="Enterprise Architect Help" ID="ID_1055177411" CREATED="1696277679405" MODIFIED="1696277838447" LINK="https://sparxsystems.com/enterprise_architect_user_guide/16.1/getting_started/availablehelpfileformats.html">
 <node TEXT="PDF Help" ID="ID_931549517" CREATED="1696277854613" MODIFIED="1696277883209"><richcontent TYPE="NOTE">
 <html>
@@ -177,12 +177,12 @@
 <node TEXT="Adding Model Content" ID="ID_1754599648" CREATED="1696211750668" MODIFIED="1696211756679"/>
 <node TEXT="Viewing Your Content" ID="ID_609108515" CREATED="1696211758111" MODIFIED="1696211761544"/>
 <node TEXT="Publishing Your Content" ID="ID_1729278309" CREATED="1696211761797" MODIFIED="1696211766201"/>
-<node TEXT="Navigating and Serching" ID="ID_1330876404" CREATED="1696211766436" MODIFIED="1696211772526"/>
+<node TEXT="Navigating and Searching" ID="ID_1330876404" CREATED="1696211766436" MODIFIED="1696281036249"/>
 <node TEXT="Collaborating and Sharing" ID="ID_1637839162" CREATED="1696211772702" MODIFIED="1696211777505"/>
 <node TEXT="Getting Help" ID="ID_1329690296" CREATED="1696211777809" MODIFIED="1696211780294"/>
 <node TEXT="Where to Next" ID="ID_1497687463" CREATED="1696211780932" MODIFIED="1696211788880"/>
 </node>
-<node TEXT="02.03 A Tutorial Modeling Session" FOLDED="true" ID="ID_1327237184" CREATED="1696209768641" MODIFIED="1696209780781">
+<node TEXT="02.03 A Tutorial Modeling Session" ID="ID_1327237184" CREATED="1696209768641" MODIFIED="1696209780781">
 <node TEXT="Startup" ID="ID_1579206896" CREATED="1696211807292" MODIFIED="1696211811625"/>
 <node TEXT="Create a Project" ID="ID_662819506" CREATED="1696211812069" MODIFIED="1696211817690"/>
 <node TEXT="Add a View to your Model" ID="ID_782863392" CREATED="1696211817868" MODIFIED="1696211822965"/>
