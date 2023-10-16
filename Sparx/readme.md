@@ -1,6 +1,6 @@
 # Learning and Practice in SPARX Enterprise Architect
 
-Learning mindmap (keep updating), you can view the MM file directly using FreePlane:
+Learning mindmap (keep updating), you can view the [MM file](SparxEA.mm) directly using FreePlane:
 
 <img src="./SparxEA.jpg" alt="sparx mm" width="800">
 
