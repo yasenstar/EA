@@ -15,7 +15,7 @@ Here is the collections of Xiaoqi's view on Enterprise and Business Architecture
 ## Architecture Tool
 
 - [Archi - ArchiMate Tool](/archimate/)
-- [Sparx System Enterprise Architect](/Sparx/)
+- [Sparx System Enterprise Architect](/Sparx/readme.md)
 
 
 ===
