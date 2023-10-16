@@ -1,5 +1,9 @@
 # Learning and Practice in SPARX Enterprise Architect
 
+Learning mindmap (keep updating), you can view the MM file directly using FreePlane:
+
+<img src="./SparxEA.jpg" alt="sparx mm" width="800">
+
 Here are video lists in my YouTube Channel:
 
 [<img src="./img/sparx-001.png" alt="sparx-001" width="500" href="https://youtu.be/5A4PrqEPf7E">](https://youtu.be/5A4PrqEPf7E)
@@ -15,3 +19,7 @@ Here are video lists in my YouTube Channel:
 [<img src="./img/sparx-006.png" alt="sparx-006" width="500" href="https://youtu.be/5A4PrqEPf7E">](https://youtu.be/K87l3NMPHa4)
 
 [<img src="./img/sparx-007.png" alt="sparx-0072" width="500" href="https://youtu.be/5A4PrqEPf7E">](https://youtu.be/8sr3jYS_GQo)
+
+Keeping adding more...
+
+Thanks for visiting.
