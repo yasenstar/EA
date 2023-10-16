@@ -1,5 +1,7 @@
 # Learning and Practice in SPARX Enterprise Architect
 
+![About Sparx Systems](./img/about_sparx.png)
+
 Learning mindmap (keep updating), you can view the [MM file](SparxEA.mm) directly using FreePlane:
 
 <img src="./SparxEA.jpg" alt="sparx mm" width="800">
