@@ -212,7 +212,7 @@
 <node TEXT="02 The Ribbon Menu" ID="ID_548892185" CREATED="1697475043617" MODIFIED="1697475815800" LINK="https://sparxsystems.com/enterprise_architect_user_guide/16.1/the_application_desktop/ribbons.html">
 <node TEXT="File Management" ID="ID_551677" CREATED="1697475150744" MODIFIED="1697475922832" LINK="https://sparxsystems.com/enterprise_architect_user_guide/16.1/the_application_desktop/fm_filemenu.html"/>
 <node TEXT="Explore Panel" ID="ID_202459857" CREATED="1697475154368" MODIFIED="1697475928348" LINK="https://sparxsystems.com/enterprise_architect_user_guide/16.1/the_application_desktop/ribbon_show_tab.html"/>
-<node TEXT="Start Ribbon" FOLDED="true" ID="ID_49226858" CREATED="1697475158552" MODIFIED="1697475163306">
+<node TEXT="Start Ribbon" ID="ID_49226858" CREATED="1697475158552" MODIFIED="1697475163306">
 <node TEXT="All Windows Panel" ID="ID_379162907" CREATED="1697475933256" MODIFIED="1697475938778"/>
 <node TEXT="Appearance Panel" ID="ID_1233684284" CREATED="1697475938960" MODIFIED="1697475943848"/>
 <node TEXT="Collaborate Panel" ID="ID_270138197" CREATED="1697475944000" MODIFIED="1697475948645"/>
