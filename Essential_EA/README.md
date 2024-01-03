@@ -1,5 +1,10 @@
 # Essential Enterprise Architecture Tool
 
+## Mindmap on the learning
+
+Mindmap file: [Essential EA Tool](./Essential-EA-Tool.mm)
+
+![mm](img/Essential-EA-Tool.jpg)
 
 ## Reference Videos Published
 
