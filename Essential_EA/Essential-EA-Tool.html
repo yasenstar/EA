@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8"><title>Essential EA Tool</title>
+<style type="text/css">
+    body {color: #051552; font-size: 10pt; font-family: &quot;SansSerif&quot;, sans-serif; }
+li { list-style: none;  margin: 0; }
+p { margin: 0; }
+
+span.l { color: red; font-weight: bold; }
+
+a.mapnode:link,
+a.mapnode:visited,
+a.mapnode:active,
+a.mapnode:hover {
+    text-decoration: none; color: black;
+}
+a.mapnode:hover { background: #eeeee0; }
+
+</style>
+</head>
+<body style="background-color:#d6e8e8;">
+<div style="background-color:#053d8b;">
+<p><span style="color: #ffffff; font-size: 18pt; font-weight: bold; ">Essential EA Tool</span></div>
+<ul>
+<li><div style="background-color:#1164b0;">
+<span style="color: #ffffff; font-size: 16pt; "><a href="https://youtu.be/5CJjwiWxPjA" target="_blank">001 Introduction</a>
+</span></div>
+<ul>
+<li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/" target="_blank">Essential Project Home Wedsite</a>
+</span></div>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/university/" target="_blank">Essential University</a>
+</span></div>
+</li></ul>
+</li><li><div style="background-color:#1164b0;">
+<span style="color: #ffffff; font-size: 16pt; "><a href="https://youtu.be/JwERUE5VLFY" target="_blank">002 Download and Install Essential Open-Source Packages</a>
+</span></div>
+<ul>
+<li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/products/essential-open-source/essential-os-download/" target="_blank">Essential Open Source EA Tool download</a>
+</span></div>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; ">Pre-Requisites</span></div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">1. Java: ensure version 1.8 or above&#10;(I'm using openjdk 11.0.16.1 which is ok)</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">2. Protege Ontology Editor</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">Only support v3.5, use the package in this site</span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">You can still use other Protege version along with this one for your other Ontologies, no conflict within Program Files</span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">lax.nl.java.option.java.heap.size.max set to 2048000000</span></div>
+</li></ul>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">3. Tomcat, only support v8 or v9</span>
+    <p>
+      Essential Viewer can be used with any Java web application server but 
+      the installer assumes Tomcat
+    </p>
+  </div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">4. Optional components</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">Database: you can ignore if you don't connect to DB</span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">JDBC Driver: for selected DB</span></div>
+</li></ul>
+</li></ul>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; ">Essential Core components</span></div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">1. Widgets (v6.7)</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">A set of custom-built plug-ins for the Protege Ontology Editor. Run the installer and follow the on-screen instructions.</span></div>
+</li></ul>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">2. Meta-Model (v6.18)</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">The main repository files for Essential. Save this to a user accessible area such as your Documents folder, unzip and then open using Protege.</span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">Rename the pprj file to your desired project name</span></div>
+</li></ul>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">3. Viewer (v6.18.7)</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">A Java Web Application for publishing, analysing and reporting against enterprise architecture models captured using the Essential Meta-Model. Copy this file to your Tomcat install 'webapps' folder</span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">Rename the war file and copy to your active Tomcat webapps folder, wait it extracted</span></div>
+</li></ul>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">4. Import Utility (v2.8)</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">A Java Web Application for importing existing content from spreadsheets into the Essential repository. Copy this file to your Tomcat install 'webapps' folder</span></div>
+</li></ul>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">5. Import Utility Example Configuration (v2.0)</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">An example configuration of Import Activities for the Import Utility. Save this to a user accessible area such as your Documents folder and select it from within the Import Utility's System Settings tab, using the "Import Configuration..." button</span></div>
+</li></ul>
+</li></ul>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; ">Installation Guide</span></div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; "><a href="https://enterprise-architecture.org/docs/essential_os_installation/singleuser_install/" target="_blank">Standalone Install</a>
+</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; "><a href="https://enterprise-architecture.org/docs/essential_os_installation/multiuser_install/" target="_blank">Multi-User Install</a>
+</span></div>
+</li></ul>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; ">Practice after installation</span></div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">1. Open Meta-Model project in Protege</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">2. Open Viewer through web browser using viewer URL</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">3. Connect viewer from Protege and able to publish repository to viewer</span></div>
+</li></ul>
+</li></ul>
+</li></ul>
+</body>
+</html>
