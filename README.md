@@ -1,23 +1,22 @@
-# Enterprise Architecture - Learning & Practice
+# Enterprise Architecture (EA) - Learning & Practice
 
 Here is the collections of Xiaoqi's view on Enterprise and Business Architecture domain knowledge.
 
 - General Enterprise Architecture
-- [Business Architecture](./business-architecture/)
+- [Business Architecture](./architect_role/business-architecture/)
 - Information Architecture
 - Application Architecture
 - Technology Architecture
 - Integration Topic
 
-- [Architect related readings](./archi_reading/)
+- [Architect related readings](./archi_reading_tools/)
 - [Reference Models](/ref_models/)
 
-## Architecture Tool
+## Enterprise Architecture Tool
 
 - [Archi - ArchiMate Tool](/archimate/)
 - [Sparx System Enterprise Architect](/Sparx)
 - [Essential Project EA Tool](./Essential_EA/)
-
 
 ---
 
