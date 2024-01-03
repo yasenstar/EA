@@ -2,7 +2,7 @@
 
 ## Mindmap on the learning
 
-Mindmap file: [Essential EA Tool](./Essential-EA-Tool.mm), here is the exported [HTML format](./Essential-EA-Tool.html) and [Markdown format](./Essential-EA-Tool.md)
+Mindmap file: [Essential EA Tool](./Essential-EA-Tool.mm), here is the exported [HTML format](./Essential-EA-Tool.html)
 
 ![mm](img/Essential-EA-Tool.jpg)
 
