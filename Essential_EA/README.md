@@ -10,4 +10,4 @@
 
 - [Essential Opensource   Business Process Flow cannot display activity with special characters](https://youtu.be/eK9ImP8yfLI), 2023/06/28
 - [Essential Open Source Edition - Problem of Slot Position in Screen](https://youtu.be/kKqpHkW_kXU), 2023/06/15
-- [AppDependencyModel v2 SourceApp Data Display Issue]([AppDependencyModel v2 SourceApp Data Display Issue](https://youtu.be/P2IQSSUlxKE)), 2023/04/10
+- [AppDependencyModel v2 SourceApp Data Display Issue](https://youtu.be/P2IQSSUlxKE), 2023/04/10
