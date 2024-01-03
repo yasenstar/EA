@@ -15,10 +15,11 @@ Here is the collections of Xiaoqi's view on Enterprise and Business Architecture
 ## Architecture Tool
 
 - [Archi - ArchiMate Tool](/archimate/)
-- [Sparx System Enterprise Architect](/Sparx/readme.md)
+- [Sparx System Enterprise Architect](/Sparx)
+- [Essential Project EA Tool](./Essential_EA/)
 
 
-===
+---
 
 One interesting but relavent article here: [How Elon Musk Learns Faster Than Everyone Else](https://medium.com/@mariastepanova7/how-elon-musk-learns-faster-than-everyone-else-26c5cf4c2ef5), this can be also the disppline that one Enterprise Architect practice:
 
