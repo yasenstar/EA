@@ -80,12 +80,12 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="001 Introduction" POSITION="bottom_or_right" ID="ID_1744860772" CREATED="1704291510247" MODIFIED="1704291699053" LINK="https://youtu.be/5CJjwiWxPjA">
+<node TEXT="001 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_1744860772" CREATED="1704291510247" MODIFIED="1704291699053" LINK="https://youtu.be/5CJjwiWxPjA">
 <icon BUILTIN="video"/>
 <node TEXT="Essential Project Home Wedsite" ID="ID_1034284306" CREATED="1704291571263" MODIFIED="1704291584772" LINK="https://enterprise-architecture.org/"/>
 <node TEXT="Essential University" ID="ID_473845825" CREATED="1704291589430" MODIFIED="1704291621066" LINK="https://enterprise-architecture.org/university/"/>
 </node>
-<node TEXT="002 Download and Install Essential Open-Source Packages" POSITION="bottom_or_right" ID="ID_1416638504" CREATED="1704291625567" MODIFIED="1704304414899" LINK="https://youtu.be/JwERUE5VLFY">
+<node TEXT="002 Download and Install Essential Open-Source Packages" FOLDED="true" POSITION="bottom_or_right" ID="ID_1416638504" CREATED="1704291625567" MODIFIED="1704304414899" LINK="https://youtu.be/JwERUE5VLFY">
 <icon BUILTIN="video"/>
 <node TEXT="Essential Open Source EA Tool download" ID="ID_1938095588" CREATED="1704299639920" MODIFIED="1704299663746" LINK="https://enterprise-architecture.org/products/essential-open-source/essential-os-download/"/>
 <node TEXT="Pre-Requisites" ID="ID_122086783" CREATED="1704303486541" MODIFIED="1704303783519">
@@ -140,6 +140,29 @@
 <node TEXT="1. Open Meta-Model project in Protege" ID="ID_357787393" CREATED="1704304282078" MODIFIED="1704304303223"/>
 <node TEXT="2. Open Viewer through web browser using viewer URL" ID="ID_999901147" CREATED="1704304303840" MODIFIED="1704304335604"/>
 <node TEXT="3. Connect viewer from Protege and able to publish repository to viewer" ID="ID_1254315931" CREATED="1704304336288" MODIFIED="1704304357871"/>
+</node>
+</node>
+<node TEXT="003 Essential Overview" POSITION="bottom_or_right" ID="ID_1646018562" CREATED="1704311145355" MODIFIED="1704311161129">
+<node TEXT="1. Getting started (what is Essential?)" ID="ID_418075616" CREATED="1704311161131" MODIFIED="1704311218584" LINK="https://enterprise-architecture.org/university/getting-started-what-is-essential/">
+<node TEXT="Anyone in the organisation can help create the enterprise architecture – Essential enables people to capture data without having to understand the business model" ID="ID_1262236653" CREATED="1704311289281" MODIFIED="1704311291861"/>
+<node TEXT="You capture the facts about the organisation and their inter-relationships; Essential generates views to provide clarity and enable analysis for decision-making" ID="ID_28017266" CREATED="1704311296722" MODIFIED="1704311300339"/>
+<node TEXT="Skilled enterprise architects can focus their energies on value add activities" ID="ID_556688337" CREATED="1704311297567" MODIFIED="1704311305781"/>
+<node TEXT="You don’t draw pictures, you let Essential create the visualisations" ID="ID_1655286326" CREATED="1704311297738" MODIFIED="1704311310611"/>
+<node TEXT="Essential uses advanced algorithms to work out where there are potential issues, opportunities and risks" ID="ID_1674834179" CREATED="1704311297964" MODIFIED="1704311316378"/>
+</node>
+<node TEXT="2. Essential Information Eco-system" ID="ID_1724033869" CREATED="1704311425317" MODIFIED="1704311525694" LINK="https://enterprise-architecture.org/university/the-essential-information-eco-system/">
+<node TEXT="Using the Everyone’s Essential Editors – easy to use, zero-training editors that enable the wider business to populate the repository (Note this is Cloud/Docker Only)" ID="ID_1772836764" CREATED="1704311448002" MODIFIED="1704311451781"/>
+<node TEXT="Via the Import Utility, which allows import of data from Excel spreadsheets.  We can provide Launchpad or users can create their own import specifications" ID="ID_1394924819" CREATED="1704311457093" MODIFIED="1704311459891"/>
+<node TEXT="Via the APIs, which is recommended when other tools master data (load from other systems and enrich in Essential).  Cloud/Docker have a range of REST APIs, Open Source has a simple API mechanism" ID="ID_1857661226" CREATED="1704311457249" MODIFIED="1704311465939"/>
+<node TEXT="Via the Data Capture, this is via Protege for Open Source and via the web Data Capture in Cloud/Docker" ID="ID_680686364" CREATED="1704311457733" MODIFIED="1704311475481"/>
+</node>
+<node TEXT="3. Essential viewer" ID="ID_197958696" CREATED="1704311490559" MODIFIED="1704311496586">
+<node TEXT="The Essential Viewer has around 140 out of the box views." ID="ID_231015655" CREATED="1704311496588" MODIFIED="1704311508052"/>
+</node>
+<node TEXT="4. Essential Meta Model Overview" ID="ID_1714130189" CREATED="1704311703061" MODIFIED="1704311719638" LINK="https://enterprise-architecture.org/university/essential-meta-model-overview/">
+<node TEXT="Mapped Essential to multiple frameworks, e.g. MODAF, FEAF, and TOGAF" ID="ID_1135834041" CREATED="1704311840125" MODIFIED="1704311866735"/>
+<node TEXT="4 layers x 3 views each form total 12 domains in core Meta Model" ID="ID_1706227317" CREATED="1704311764098" MODIFIED="1704311814150"/>
+<node TEXT="Keep growing the supporting meta models" ID="ID_761891817" CREATED="1704311814604" MODIFIED="1704311834405"/>
 </node>
 </node>
 </node>
