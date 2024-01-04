@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.074">
+<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.072">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
 
 <map_styles>
@@ -142,7 +142,8 @@
 <node TEXT="3. Connect viewer from Protege and able to publish repository to viewer" ID="ID_1254315931" CREATED="1704304336288" MODIFIED="1704304357871"/>
 </node>
 </node>
-<node TEXT="003 Essential Overview" FOLDED="true" POSITION="bottom_or_right" ID="ID_1646018562" CREATED="1704311145355" MODIFIED="1704311161129">
+<node TEXT="003 Essential Overview" FOLDED="true" POSITION="bottom_or_right" ID="ID_1646018562" CREATED="1704311145355" MODIFIED="1704395621185" LINK="https://youtu.be/c51kPBLY66k">
+<icon BUILTIN="video"/>
 <node TEXT="1. Getting started (what is Essential?)" ID="ID_418075616" CREATED="1704311161131" MODIFIED="1704311218584" LINK="https://enterprise-architecture.org/university/getting-started-what-is-essential/">
 <node TEXT="Anyone in the organisation can help create the enterprise architecture – Essential enables people to capture data without having to understand the business model" ID="ID_1262236653" CREATED="1704311289281" MODIFIED="1704311291861"/>
 <node TEXT="You capture the facts about the organisation and their inter-relationships; Essential generates views to provide clarity and enable analysis for decision-making" ID="ID_28017266" CREATED="1704311296722" MODIFIED="1704311300339"/>
@@ -273,6 +274,31 @@
 <node TEXT="If you&apos;re an existing user using legacy business capability views, this layout will be consistent with those." ID="ID_103490427" CREATED="1704395151847" MODIFIED="1704395181263"/>
 </node>
 </node>
+</node>
+<node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
+<node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
+<node TEXT="Business Views" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
+<node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704411703272">
+<icon BUILTIN="button_ok"/>
+<arrowlink DESTINATION="ID_580443486"/>
+</node>
+<node TEXT="Business Capabilities to Technology Tree Force" ID="ID_12901" CREATED="1704411542744" MODIFIED="1704411561046"/>
+<node TEXT="Business Service Interaction Model" ID="ID_1860780037" CREATED="1704411561786" MODIFIED="1704411575092"/>
+<node TEXT="Business Domain Process Analysis" ID="ID_141488650" CREATED="1704411575272" MODIFIED="1704411584459"/>
+<node TEXT="Business Capability Summary" ID="ID_363034107" CREATED="1704411585139" MODIFIED="1704411715188">
+<icon BUILTIN="button_ok"/>
+<arrowlink DESTINATION="ID_1989301444"/>
+</node>
+<node TEXT="Business Service Summary" ID="ID_1524092646" CREATED="1704411600778" MODIFIED="1704411626363"/>
+<node TEXT="Value Stream Views" ID="ID_654384629" CREATED="1704411626570" MODIFIED="1704411634977"/>
+<node TEXT="Business Objective Summary" ID="ID_1475423692" CREATED="1704411635522" MODIFIED="1704411646142"/>
+<node TEXT="Business Performance Model" ID="ID_913367222" CREATED="1704411652731" MODIFIED="1704411660405"/>
+<node TEXT="Business Function Service Model" ID="ID_640757870" CREATED="1704411660677" MODIFIED="1704411667157"/>
+<node TEXT="Business Process Application Mapping" ID="ID_1732952765" CREATED="1704411667420" MODIFIED="1704411685893"/>
+</node>
+<node TEXT="Information Views" ID="ID_1770118328" CREATED="1704411501705" MODIFIED="1704411506938"/>
+<node TEXT="Application Views" ID="ID_1640623018" CREATED="1704411507255" MODIFIED="1704411510405"/>
+<node TEXT="Technology Views" ID="ID_121469285" CREATED="1704411510715" MODIFIED="1704411515928"/>
 </node>
 </node>
 </map>
