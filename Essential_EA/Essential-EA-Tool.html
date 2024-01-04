@@ -16,17 +16,142 @@ a.mapnode:hover {
     text-decoration: none; color: black;
 }
 a.mapnode:hover { background: #eeeee0; }
+span.foldopened, span.foldclosed  {
+    font-size: xx-small;
+    border-width: 1;
+    font-family: monospace;
+    padding: 0em 0.25em 0em 0.25em;
+    background: #e0e0e0;
+    cursor:pointer;
+}
+span.foldopened  {
+    color: white;
+    VISIBILITY: visible;
+}
+span.foldclosed {
+    color: #666666;
+    VISIBILITY: hidden;
+}
+span.foldspecial {
+    color: #666666;
+    font-size: xx-small;
+    border-style: none solid solid none;
+    border-color: #CCCCCC;
+    border-width: 1;
+    font-family: sans-serif;
+    padding: 0em 0.1em 0em 0.1em;
+    background: #e0e0e0;
+    cursor:pointer;
+}
 
 </style>
 </head>
 <body style="background-color:#d6e8e8;">
+<script type="text/javascript">
+// Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+// Mozilla 0.9.6.
+
+if (document.layers) {
+    //Netscape 4 specific code
+    pre = 'document.';
+    post = ''; }
+if (document.getElementById) {
+    //Netscape 6 specific code
+    pre = 'document.getElementById("';
+    post = '").style'; }
+if (document.all) {
+    //IE4+ specific code
+    pre = 'document.all.';
+    post = '.style'; }
+
+function layer_exists(layer) {
+    try {
+	eval(pre + layer + post);
+	return true; }
+    catch (error) {
+	return false; }}
+
+function show_layer(layer) {
+    eval(pre + layer + post).position = 'relative';
+    eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+    eval(pre + layer + post).visibility = 'hidden';
+    eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder);
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+	show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+	show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+	hide_folding_layer(folder+'_'+i); }
+
+    hide_layer('hide'+folder);
+    hide_layer('show'+folder);
+    hide_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+    var i;
+    var folder = '1';
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+	hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+    var i;
+    var folder = '1';
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+	show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="unfold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="fold_document()">All -</SPAN>
 <div style="background-color:#053d8b;">
 <p><span style="color: #ffffff; font-size: 18pt; font-weight: bold; ">Essential EA Tool</span></div>
 <ul>
 <li><div style="background-color:#1164b0;">
+<span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
 <span style="color: #ffffff; font-size: 16pt; "><a href="https://youtu.be/5CJjwiWxPjA" target="_blank">001 Introduction</a>
 </span></div>
-<ul>
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;">
 <li><div style="background-color:#298bc8;">
 <span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/" target="_blank">Essential Project Home Wedsite</a>
 </span></div>
@@ -35,9 +160,10 @@ a.mapnode:hover { background: #eeeee0; }
 </span></div>
 </li></ul>
 </li><li><div style="background-color:#1164b0;">
+<span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
 <span style="color: #ffffff; font-size: 16pt; "><a href="https://youtu.be/JwERUE5VLFY" target="_blank">002 Download and Install Essential Open-Source Packages</a>
 </span></div>
-<ul>
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;">
 <li><div style="background-color:#298bc8;">
 <span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/products/essential-open-source/essential-os-download/" target="_blank">Essential Open Source EA Tool download</a>
 </span></div>
@@ -131,6 +257,153 @@ a.mapnode:hover { background: #eeeee0; }
 <span style="color: #ffffff; font-size: 12pt; ">3. Connect viewer from Protege and able to publish repository to viewer</span></div>
 </li></ul>
 </li></ul>
+</li><li><div style="background-color:#1164b0;">
+<span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+<span style="color: #ffffff; font-size: 16pt; "><a href="https://youtu.be/c51kPBLY66k" target="_blank">003 Essential Overview</a>
+</span></div>
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;">
+<li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/university/getting-started-what-is-essential/" target="_blank">1. Getting started (what is Essential?)</a>
+</span></div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Anyone in the organisation can help create the enterprise architecture – Essential enables people to capture data without having to understand the business model</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">You capture the facts about the organisation and their inter-relationships; Essential generates views to provide clarity and enable analysis for decision-making</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Skilled enterprise architects can focus their energies on value add activities</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">You don’t draw pictures, you let Essential create the visualisations</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Essential uses advanced algorithms to work out where there are potential issues, opportunities and risks</span></div>
 </li></ul>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/university/the-essential-information-eco-system/" target="_blank">2. Essential Information Eco-system</a>
+</span></div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Using the Everyone’s Essential Editors – easy to use, zero-training editors that enable the wider business to populate the repository (Note this is Cloud/Docker Only)</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Via the Import Utility, which allows import of data from Excel spreadsheets.  We can provide Launchpad or users can create their own import specifications</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Via the APIs, which is recommended when other tools master data (load from other systems and enrich in Essential).  Cloud/Docker have a range of REST APIs, Open Source has a simple API mechanism</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Via the Data Capture, this is via Protege for Open Source and via the web Data Capture in Cloud/Docker</span></div>
+</li></ul>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; ">3. Essential viewer</span></div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">The Essential Viewer has around 140 out of the box views.</span></div>
+</li></ul>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/university/essential-meta-model-overview/" target="_blank">4. Essential Meta Model Overview</a>
+</span></div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Mapped Essential to multiple frameworks, e.g. MODAF, FEAF, and TOGAF</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">4 layers x 3 views each form total 12 domains in core Meta Model</span></div>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">Keep growing the supporting meta models</span></div>
+</li></ul>
+</li></ul>
+</li><li><div style="background-color:#1164b0;">
+<span id="show1_4" class="foldclosed" onClick="show_folder('1_4')" style="POSITION: absolute">+</span> <span id="hide1_4" class="foldopened" onClick="hide_folder('1_4')">-</span>
+<span style="color: #ffffff; font-size: 16pt; ">004 Start from Business Capability Model</span></div>
+<ul id="fold1_4" style="POSITION: relative; VISIBILITY: visible;">
+<li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/resources/free-ea-models/" target="_blank">Reference Business Capability Models</a>
+</span></div>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/university/business-capability-summary/" target="_blank">View: Business Capability Summary</a>
+</span></div>
+</li><li><div style="background-color:#298bc8;">
+<span style="color: #ffffff; font-size: 14pt; "><a href="https://enterprise-architecture.org/university/business-capability-dashboard/" target="_blank">View: Business Capability Dashboard</a>
+</span>
+    <p>
+      Updated 31 October 2023
+    </p>
+  </div>
+<ul>
+<li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">1. If the report is not enabled, then enable it on the homepage</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">
+    <p>
+      Go to <span style="font-weight: bold;">EA Support &gt; Essential Viewer &gt; Report</span>&nbsp;&nbsp;and 
+      find Core: Business Capability Dashboard, click enabled on the homepage
+    </p>
+  </span></div>
+</li></ul>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">2. Ensure have a root business capability set, this will be a capability that is your org's name or what your org does.</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">
+    <p>
+      In the class tree go to <span style="font-weight: bold;">EA Support &gt; Essential 
+      Viewer &gt; Report Configuration &gt; Report Constant</span><span style="font-weight: normal;">, 
+      find </span><span style="font-weight: bold;">Root Business Capability</span><span style="font-weight: normal;">&nbsp;&nbsp;and 
+      set its </span><span style="font-weight: bold;">associated instance</span><span style="font-weight: normal;">&nbsp;&nbsp;slot 
+      to your root capability</span>
+    </p>
+  </span></div>
+</li></ul>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">3. If your application lifecycles do not have colours then make sure you have set colours for the lifecycles</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">
+    <p>
+      Go to <span style="font-weight: bold;">EA Support &gt; Utilities &gt; Enumeration</span><span style="font-weight: normal;">&nbsp;&nbsp;and 
+      find the </span><span style="font-weight: bold;">Lifecycle Status</span><span style="font-weight: normal;">&nbsp;&nbsp;class. 
+      </span>
+    </p>
+    <p>
+      <span style="font-weight: normal;">Look for the </span><span style="font-weight: bold;">'element 
+      styling classes'</span><span style="font-weight: normal;">&nbsp;slot and create a style if one 
+      doesn't exist. </span>
+    </p>
+    <p>
+      <span style="font-weight: normal;">In the style set the element colour and element 
+      text colours to hex colour (type hex colour into any search engine to 
+      get some)</span>
+    </p>
+  </span></div>
+</li></ul>
+</li><li><div style="background-color:#3fb7db;">
+<span style="color: #ffffff; font-size: 12pt; ">4. Ordering the Capabilities</span></div>
+<ul>
+<li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">
+    <p>
+      The view looks to see if <span style="font-weight: bold;">front/middle/back (FMB)</span>&nbsp;&nbsp;positions 
+      have been defined, Launchpad does this and allows you to group by those 
+      positions, and then it uses the <span style="font-weight: bold;">business capability 
+      index</span><span style="font-weight: normal;">&nbsp;slot.</span>
+    </p>
+  </span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">If no FMB is defined for the capability then it just uses an index and they go at the top of the view and any capabilities tied to FMB go next.</span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">If FMB is defined for a capability then it applies that first and then orders the capabilities within that group based on the index.</span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">
+    <p>
+      The FMB is used in some legacy views, we recommend that you just use the <span style="font-weight: bold;">business 
+      capability index</span><span style="font-weight: normal;">&nbsp;if you are a new user.</span>
+    </p>
+  </span></div>
+</li><li><div style="background-color:#5cd5e8;">
+<span style="font-size: 11pt; ">If you're an existing user using legacy business capability views, this layout will be consistent with those.</span></div>
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+<SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
 </body>
 </html>
