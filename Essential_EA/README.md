@@ -22,6 +22,12 @@ Mindmap file: [Essential EA Tool](./Essential-EA-Tool.mm), here is the exported 
 
 ![003 Essential Overview](img/Essential-EA-Tool-003.jpg)
 
+### 004 
+
+[Video: Essential EA 004 - Start Repository from Capability Model (50 mins)](https://youtu.be/5EkG5nmONr8)
+
+![004 Business Capability](./img/Essential-EA-Tool-004.jpg)
+
 ---
 
 ## Reference Videos Published
