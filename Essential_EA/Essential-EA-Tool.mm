@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="0.826">
+<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.074">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
 
 <map_styles>
@@ -142,7 +142,7 @@
 <node TEXT="3. Connect viewer from Protege and able to publish repository to viewer" ID="ID_1254315931" CREATED="1704304336288" MODIFIED="1704304357871"/>
 </node>
 </node>
-<node TEXT="003 Essential Overview" POSITION="bottom_or_right" ID="ID_1646018562" CREATED="1704311145355" MODIFIED="1704311161129">
+<node TEXT="003 Essential Overview" FOLDED="true" POSITION="bottom_or_right" ID="ID_1646018562" CREATED="1704311145355" MODIFIED="1704311161129">
 <node TEXT="1. Getting started (what is Essential?)" ID="ID_418075616" CREATED="1704311161131" MODIFIED="1704311218584" LINK="https://enterprise-architecture.org/university/getting-started-what-is-essential/">
 <node TEXT="Anyone in the organisation can help create the enterprise architecture – Essential enables people to capture data without having to understand the business model" ID="ID_1262236653" CREATED="1704311289281" MODIFIED="1704311291861"/>
 <node TEXT="You capture the facts about the organisation and their inter-relationships; Essential generates views to provide clarity and enable analysis for decision-making" ID="ID_28017266" CREATED="1704311296722" MODIFIED="1704311300339"/>
@@ -163,6 +163,115 @@
 <node TEXT="Mapped Essential to multiple frameworks, e.g. MODAF, FEAF, and TOGAF" ID="ID_1135834041" CREATED="1704311840125" MODIFIED="1704311866735"/>
 <node TEXT="4 layers x 3 views each form total 12 domains in core Meta Model" ID="ID_1706227317" CREATED="1704311764098" MODIFIED="1704311814150"/>
 <node TEXT="Keep growing the supporting meta models" ID="ID_761891817" CREATED="1704311814604" MODIFIED="1704311834405"/>
+</node>
+</node>
+<node TEXT="004 Start from Business Capability Model" POSITION="bottom_or_right" ID="ID_1844645028" CREATED="1704394473151" MODIFIED="1704394494789">
+<node TEXT="Reference Business Capability Models" ID="ID_1428920925" CREATED="1704395294558" MODIFIED="1704395334349" LINK="https://enterprise-architecture.org/resources/free-ea-models/"/>
+<node TEXT="View: Business Capability Summary" ID="ID_1989301444" CREATED="1704395484709" MODIFIED="1704395503494" LINK="https://enterprise-architecture.org/university/business-capability-summary/"/>
+<node TEXT="View: Business Capability Dashboard" ID="ID_580443486" CREATED="1704394494794" MODIFIED="1704395198741" LINK="https://enterprise-architecture.org/university/business-capability-dashboard/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Updated 31 October 2023
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="1. If the report is not enabled, then enable it on the homepage" ID="ID_1327206410" CREATED="1704394513514" MODIFIED="1704394679746">
+<node ID="ID_819486135" CREATED="1704394679748" MODIFIED="1704394840647"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Go to <span style="font-weight: bold;">EA Support &gt; Essential Viewer &gt; Report</span>&#xa0;&#xa0;and find Core: Business Capability Dashboard, click enabled on the homepage
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="2. Ensure have a root business capability set, this will be a capability that is your org&apos;s name or what your org does." ID="ID_96277250" CREATED="1704394575436" MODIFIED="1704394659547">
+<node ID="ID_571517193" CREATED="1704394659549" MODIFIED="1704394843959"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In the class tree go to <span style="font-weight: bold;">EA Support &gt; Essential Viewer &gt; Report Configuration &gt; Report Constant</span><span style="font-weight: normal;">, find </span><span style="font-weight: bold;">Root Business Capability</span><span style="font-weight: normal;">&#xa0;&#xa0;and set its </span><span style="font-weight: bold;">associated instance</span><span style="font-weight: normal;">&#xa0;&#xa0;slot to your root capability</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="3. If your application lifecycles do not have colours then make sure you have set colours for the lifecycles" ID="ID_497640328" CREATED="1704394772322" MODIFIED="1704394802970">
+<node ID="ID_749110564" CREATED="1704394802973" MODIFIED="1704394924708"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Go to <span style="font-weight: bold;">EA Support &gt; Utilities &gt; Enumeration</span><span style="font-weight: normal;">&#xa0;&#xa0;and find the </span><span style="font-weight: bold;">Lifecycle Status</span><span style="font-weight: normal;">&#xa0;&#xa0;class. </span>
+    </p>
+    <p>
+      <span style="font-weight: normal;">Look for the </span><span style="font-weight: bold;">'element styling classes'</span><span style="font-weight: normal;">&#xa0;slot and create a style if one doesn't exist. </span>
+    </p>
+    <p>
+      <span style="font-weight: normal;">In the style set the element colour and element text colours to hex colour (type hex colour into any search engine to get some)</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="4. Ordering the Capabilities" ID="ID_1092211051" CREATED="1704394937913" MODIFIED="1704394969907">
+<node ID="ID_414562887" CREATED="1704394969916" MODIFIED="1704395044593"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The view looks to see if <span style="font-weight: bold;">front/middle/back (FMB)</span>&#xa0;&#xa0;positions have been defined, Launchpad does this and allows you to group by those positions, and then it uses the <span style="font-weight: bold;">business capability index</span><span style="font-weight: normal;">&#xa0;slot.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="If no FMB is defined for the capability then it just uses an index and they go at the top of the view and any capabilities tied to FMB go next." ID="ID_1982243978" CREATED="1704395047476" MODIFIED="1704395083250"/>
+<node TEXT="If FMB is defined for a capability then it applies that first and then orders the capabilities within that group based on the index." ID="ID_1225415963" CREATED="1704395083783" MODIFIED="1704395115502"/>
+<node ID="ID_916088929" CREATED="1704395115750" MODIFIED="1704395151327"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The FMB is used in some legacy views, we recommend that you just use the <span style="font-weight: bold;">business capability index</span><span style="font-weight: normal;">&#xa0;if you are a new user.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="If you&apos;re an existing user using legacy business capability views, this layout will be consistent with those." ID="ID_103490427" CREATED="1704395151847" MODIFIED="1704395181263"/>
+</node>
 </node>
 </node>
 </node>

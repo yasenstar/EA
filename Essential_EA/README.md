@@ -1,10 +1,28 @@
 # Essential Enterprise Architecture Tool
 
-## Mindmap on the learning
+## Step by Step building EA Repository
 
 Mindmap file: [Essential EA Tool](./Essential-EA-Tool.mm), here is the exported [HTML format](./Essential-EA-Tool.html)
 
-![mm](img/Essential-EA-Tool.jpg)
+### 001 Opening and Introduction
+
+[Video: Essential EA Tool 001 - Opening & Introduction](https://youtu.be/5CJjwiWxPjA)
+
+![001 Introduction](img/Essential-EA-Tool-001.jpg)
+
+### 002 Essential OpenSource Package Download and Installation
+
+[Video: Essential EA Tool 002 - OpenSource Package Installation](https://youtu.be/JwERUE5VLFY)
+
+![002 OS Installation](img/Essential-EA-Tool-002.jpg)
+
+### 003 Essential System Overview
+
+[Video: Essential EA Tool 003 - Essential Overview](https://youtu.be/c51kPBLY66k)
+
+![003 Essential Overview](img/Essential-EA-Tool-003.jpg)
+
+---
 
 ## Reference Videos Published
 
@@ -16,3 +34,7 @@ Mindmap file: [Essential EA Tool](./Essential-EA-Tool.mm), here is the exported 
 - [Essential Opensource   Business Process Flow cannot display activity with special characters](https://youtu.be/eK9ImP8yfLI), 2023/06/28
 - [Essential Open Source Edition - Problem of Slot Position in Screen](https://youtu.be/kKqpHkW_kXU), 2023/06/15
 - [AppDependencyModel v2 SourceApp Data Display Issue](https://youtu.be/P2IQSSUlxKE), 2023/04/10
+
+---
+
+Thanks and welcome to your comments and suggestions, [email here](mailto:xiaoqizhao@outlook.com) and I'll try my best to respond.
