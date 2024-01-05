@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.072">
+<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="0.487">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
 
 <map_styles>
@@ -166,7 +166,8 @@
 <node TEXT="Keep growing the supporting meta models" ID="ID_761891817" CREATED="1704311814604" MODIFIED="1704311834405"/>
 </node>
 </node>
-<node TEXT="004 Start from Business Capability Model" POSITION="bottom_or_right" ID="ID_1844645028" CREATED="1704394473151" MODIFIED="1704394494789">
+<node TEXT="004 Start from Business Capability Model" POSITION="bottom_or_right" ID="ID_1844645028" CREATED="1704394473151" MODIFIED="1704412067637" LINK="https://youtu.be/5EkG5nmONr8">
+<icon BUILTIN="video"/>
 <node TEXT="Reference Business Capability Models" ID="ID_1428920925" CREATED="1704395294558" MODIFIED="1704395334349" LINK="https://enterprise-architecture.org/resources/free-ea-models/"/>
 <node TEXT="View: Business Capability Summary" ID="ID_1989301444" CREATED="1704395484709" MODIFIED="1704395503494" LINK="https://enterprise-architecture.org/university/business-capability-summary/"/>
 <node TEXT="View: Business Capability Dashboard" ID="ID_580443486" CREATED="1704394494794" MODIFIED="1704395198741" LINK="https://enterprise-architecture.org/university/business-capability-dashboard/"><richcontent TYPE="NOTE">
@@ -278,9 +279,9 @@
 <node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
 <node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
 <node TEXT="Business Views" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
-<node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704411703272">
+<node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704411787649">
 <icon BUILTIN="button_ok"/>
-<arrowlink DESTINATION="ID_580443486"/>
+<arrowlink DESTINATION="ID_580443486" STARTINCLINATION="1325.24996 pt;0 pt;" ENDINCLINATION="2007.74994 pt;0 pt;"/>
 </node>
 <node TEXT="Business Capabilities to Technology Tree Force" ID="ID_12901" CREATED="1704411542744" MODIFIED="1704411561046"/>
 <node TEXT="Business Service Interaction Model" ID="ID_1860780037" CREATED="1704411561786" MODIFIED="1704411575092"/>
