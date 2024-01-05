@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="0.487">
+<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.391">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
 
 <map_styles>
@@ -85,7 +85,7 @@
 <node TEXT="Essential Project Home Wedsite" ID="ID_1034284306" CREATED="1704291571263" MODIFIED="1704291584772" LINK="https://enterprise-architecture.org/"/>
 <node TEXT="Essential University" ID="ID_473845825" CREATED="1704291589430" MODIFIED="1704291621066" LINK="https://enterprise-architecture.org/university/"/>
 </node>
-<node TEXT="002 Download and Install Essential Open-Source Packages" FOLDED="true" POSITION="bottom_or_right" ID="ID_1416638504" CREATED="1704291625567" MODIFIED="1704304414899" LINK="https://youtu.be/JwERUE5VLFY">
+<node TEXT="002 Download and Install Essential Open-Source Packages" POSITION="bottom_or_right" ID="ID_1416638504" CREATED="1704291625567" MODIFIED="1704304414899" LINK="https://youtu.be/JwERUE5VLFY">
 <icon BUILTIN="video"/>
 <node TEXT="Essential Open Source EA Tool download" ID="ID_1938095588" CREATED="1704299639920" MODIFIED="1704299663746" LINK="https://enterprise-architecture.org/products/essential-open-source/essential-os-download/"/>
 <node TEXT="Pre-Requisites" ID="ID_122086783" CREATED="1704303486541" MODIFIED="1704303783519">
@@ -119,11 +119,27 @@
 </node>
 <node TEXT="2. Meta-Model (v6.18)" ID="ID_570656221" CREATED="1704303834492" MODIFIED="1704303842625">
 <node TEXT="The main repository files for Essential. Save this to a user accessible area such as your Documents folder, unzip and then open using Protege." ID="ID_1350516432" CREATED="1704303842627" MODIFIED="1704303849811"/>
-<node TEXT="Rename the pprj file to your desired project name" ID="ID_689776567" CREATED="1704303853122" MODIFIED="1704303890938"/>
+<node TEXT="Understand files &amp; extension" ID="ID_412407217" CREATED="1704416071172" MODIFIED="1704416111786">
+<node TEXT="essential_baseline_v6_18.pprj" ID="ID_1865707135" CREATED="1704416082235" MODIFIED="1704416129951">
+<node TEXT="default project with meta-model structure" ID="ID_1916457485" CREATED="1704416129953" MODIFIED="1704416141152"/>
+</node>
+<node TEXT="essential_baseline_v6_18.pont" ID="ID_1840832087" CREATED="1704416143848" MODIFIED="1704416153752">
+<node TEXT="classes file" ID="ID_1988090150" CREATED="1704416172609" MODIFIED="1704416179125"/>
+</node>
+<node TEXT="essential_baseline_v6_18.pins" ID="ID_1289062762" CREATED="1704416153915" MODIFIED="1704416160646">
+<node TEXT="instances file" ID="ID_1681203641" CREATED="1704416179855" MODIFIED="1704416183633"/>
+</node>
+<node TEXT="config.eip" ID="ID_807769360" CREATED="1704416160821" MODIFIED="1704416165250"/>
+</node>
+<node TEXT="(corrected) Just unzip and open the default pprj file first in Protege, after it&apos;s opened, you can &quot;save as&quot; the project to another desired name, in the pop up you can change the pont and pins files to the same name to your new project file name" ID="ID_689776567" CREATED="1704303853122" MODIFIED="1704416051279">
+<icon BUILTIN="idea"/>
+</node>
 </node>
 <node TEXT="3. Viewer (v6.18.7)" ID="ID_1162860886" CREATED="1704303897833" MODIFIED="1704303907579">
 <node TEXT="A Java Web Application for publishing, analysing and reporting against enterprise architecture models captured using the Essential Meta-Model. Copy this file to your Tomcat install &apos;webapps&apos; folder" ID="ID_1860810384" CREATED="1704303907581" MODIFIED="1704303915240"/>
-<node TEXT="Rename the war file and copy to your active Tomcat webapps folder, wait it extracted" ID="ID_505084072" CREATED="1704303915800" MODIFIED="1704303936666"/>
+<node TEXT="Rename the war file and copy to your active Tomcat webapps folder, wait it extracted" ID="ID_505084072" CREATED="1704303915800" MODIFIED="1704416065944">
+<icon BUILTIN="info"/>
+</node>
 </node>
 <node TEXT="4. Import Utility (v2.8)" ID="ID_1281495609" CREATED="1704303955223" MODIFIED="1704303966929">
 <node TEXT="A Java Web Application for importing existing content from spreadsheets into the Essential repository. Copy this file to your Tomcat install &apos;webapps&apos; folder" ID="ID_189712213" CREATED="1704303966931" MODIFIED="1704303976856"/>
@@ -166,7 +182,7 @@
 <node TEXT="Keep growing the supporting meta models" ID="ID_761891817" CREATED="1704311814604" MODIFIED="1704311834405"/>
 </node>
 </node>
-<node TEXT="004 Start from Business Capability Model" POSITION="bottom_or_right" ID="ID_1844645028" CREATED="1704394473151" MODIFIED="1704412067637" LINK="https://youtu.be/5EkG5nmONr8">
+<node TEXT="004 Start from Business Capability Model" FOLDED="true" POSITION="bottom_or_right" ID="ID_1844645028" CREATED="1704394473151" MODIFIED="1704412067637" LINK="https://youtu.be/5EkG5nmONr8">
 <icon BUILTIN="video"/>
 <node TEXT="Reference Business Capability Models" ID="ID_1428920925" CREATED="1704395294558" MODIFIED="1704395334349" LINK="https://enterprise-architecture.org/resources/free-ea-models/"/>
 <node TEXT="View: Business Capability Summary" ID="ID_1989301444" CREATED="1704395484709" MODIFIED="1704395503494" LINK="https://enterprise-architecture.org/university/business-capability-summary/"/>
@@ -276,9 +292,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
+<node TEXT="Key Essential Views" FOLDED="true" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
 <node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
-<node TEXT="Business Views" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
+<node TEXT="Business Views" FOLDED="true" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
 <node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704411787649">
 <icon BUILTIN="button_ok"/>
 <arrowlink DESTINATION="ID_580443486" STARTINCLINATION="1325.24996 pt;0 pt;" ENDINCLINATION="2007.74994 pt;0 pt;"/>
