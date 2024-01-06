@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.391">
+<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.07">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
 
 <map_styles>
@@ -85,7 +85,7 @@
 <node TEXT="Essential Project Home Wedsite" ID="ID_1034284306" CREATED="1704291571263" MODIFIED="1704291584772" LINK="https://enterprise-architecture.org/"/>
 <node TEXT="Essential University" ID="ID_473845825" CREATED="1704291589430" MODIFIED="1704291621066" LINK="https://enterprise-architecture.org/university/"/>
 </node>
-<node TEXT="002 Download and Install Essential Open-Source Packages" POSITION="bottom_or_right" ID="ID_1416638504" CREATED="1704291625567" MODIFIED="1704304414899" LINK="https://youtu.be/JwERUE5VLFY">
+<node TEXT="002 Download and Install Essential Open-Source Packages" FOLDED="true" POSITION="bottom_or_right" ID="ID_1416638504" CREATED="1704291625567" MODIFIED="1704304414899" LINK="https://youtu.be/JwERUE5VLFY">
 <icon BUILTIN="video"/>
 <node TEXT="Essential Open Source EA Tool download" ID="ID_1938095588" CREATED="1704299639920" MODIFIED="1704299663746" LINK="https://enterprise-architecture.org/products/essential-open-source/essential-os-download/"/>
 <node TEXT="Pre-Requisites" ID="ID_122086783" CREATED="1704303486541" MODIFIED="1704303783519">
@@ -186,7 +186,7 @@
 <icon BUILTIN="video"/>
 <node TEXT="Reference Business Capability Models" ID="ID_1428920925" CREATED="1704395294558" MODIFIED="1704395334349" LINK="https://enterprise-architecture.org/resources/free-ea-models/"/>
 <node TEXT="View: Business Capability Summary" ID="ID_1989301444" CREATED="1704395484709" MODIFIED="1704395503494" LINK="https://enterprise-architecture.org/university/business-capability-summary/"/>
-<node TEXT="View: Business Capability Dashboard" ID="ID_580443486" CREATED="1704394494794" MODIFIED="1704395198741" LINK="https://enterprise-architecture.org/university/business-capability-dashboard/"><richcontent TYPE="NOTE">
+<node TEXT="View: Business Capability Dashboard" FOLDED="true" ID="ID_580443486" CREATED="1704394494794" MODIFIED="1704395198741" LINK="https://enterprise-architecture.org/university/business-capability-dashboard/"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -292,6 +292,10 @@
 </node>
 </node>
 </node>
+<node TEXT="005 Manually Input Business Capability Model (e.g. ArchiSurance)" POSITION="bottom_or_right" ID="ID_1697321961" CREATED="1704482374643" MODIFIED="1704502598389">
+<node TEXT="" ID="ID_1655526979" CREATED="1704502598394" MODIFIED="1704502598394"/>
+</node>
+<node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1704482525821"/>
 <node TEXT="Key Essential Views" FOLDED="true" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
 <node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
 <node TEXT="Business Views" FOLDED="true" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
