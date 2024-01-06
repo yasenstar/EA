@@ -28,6 +28,12 @@ Mindmap file: [Essential EA Tool](./Essential-EA-Tool.mm), here is the exported 
 
 ![004 Business Capability](./img/Essential-EA-Tool-004.jpg)
 
+### 005 
+
+[Video: Essential EA 0056 - Build Capability Model Manually (60 mins)](https://youtu.be/iceqTqxW7Tk)
+
+![005 Business Capability Model Built by Manually](./img/Essential-EA-Tool-005.jpg)
+
 ---
 
 ## Reference Videos Published

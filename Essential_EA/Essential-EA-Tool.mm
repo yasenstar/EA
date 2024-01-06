@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.07">
+<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="0.823">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
 
 <map_styles>
@@ -186,7 +186,7 @@
 <icon BUILTIN="video"/>
 <node TEXT="Reference Business Capability Models" ID="ID_1428920925" CREATED="1704395294558" MODIFIED="1704395334349" LINK="https://enterprise-architecture.org/resources/free-ea-models/"/>
 <node TEXT="View: Business Capability Summary" ID="ID_1989301444" CREATED="1704395484709" MODIFIED="1704395503494" LINK="https://enterprise-architecture.org/university/business-capability-summary/"/>
-<node TEXT="View: Business Capability Dashboard" FOLDED="true" ID="ID_580443486" CREATED="1704394494794" MODIFIED="1704395198741" LINK="https://enterprise-architecture.org/university/business-capability-dashboard/"><richcontent TYPE="NOTE">
+<node TEXT="View: Business Capability Dashboard" ID="ID_580443486" CREATED="1704394494794" MODIFIED="1704395198741" LINK="https://enterprise-architecture.org/university/business-capability-dashboard/"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -292,23 +292,47 @@
 </node>
 </node>
 </node>
-<node TEXT="005 Manually Input Business Capability Model (e.g. ArchiSurance)" POSITION="bottom_or_right" ID="ID_1697321961" CREATED="1704482374643" MODIFIED="1704502598389">
-<node TEXT="" ID="ID_1655526979" CREATED="1704502598394" MODIFIED="1704502598394"/>
+<node TEXT="005 Manually Input Business Capability Model (e.g. ArchiSurance)" POSITION="bottom_or_right" ID="ID_1697321961" CREATED="1704482374643" MODIFIED="1704565374547" LINK="https://youtu.be/iceqTqxW7Tk">
+<icon BUILTIN="video"/>
+<node TEXT="Step 1: Create and assign Root Business Capability" ID="ID_1655526979" CREATED="1704502598394" MODIFIED="1704564919876"/>
+<node TEXT="Step 2: Layer by Layer adding capability element manually, assigning Business Capability Level and Business Capability Index" ID="ID_44833878" CREATED="1704564920562" MODIFIED="1704564986203">
+<node TEXT="Business Capability Level: the Hierarchy level for the capability group" ID="ID_1386643943" CREATED="1704564986211" MODIFIED="1704565014564"/>
+<node TEXT="Business Capability Index: the sequence order of the capability item under its Parent capability group" ID="ID_506701249" CREATED="1704565015219" MODIFIED="1704565047635"/>
+</node>
+<node TEXT="Step 3: Input Parent Business Capabilities or Contained Business Canabilities" ID="ID_1877696105" CREATED="1704565053620" MODIFIED="1704565097742"/>
+<node TEXT="Tip: can use Tools &gt; Create Multiple Instances as shortcut, but need to follow the naming standard" ID="ID_317519837" CREATED="1704565098428" MODIFIED="1704565139560"/>
+<node TEXT="Populated Views within these capabilities" ID="ID_337099834" CREATED="1704565141563" MODIFIED="1704565167946">
+<node TEXT="Business Capability Cashboard" ID="ID_747941657" CREATED="1704565167947" MODIFIED="1704565335798">
+<arrowlink DESTINATION="ID_1641714643"/>
+</node>
+<node TEXT="Business Capability Model: need FMB setting" ID="ID_1163965869" CREATED="1704565197843" MODIFIED="1704565332085">
+<arrowlink DESTINATION="ID_1641714643"/>
+</node>
+<node TEXT="Business Capability Catalogue by Name" ID="ID_682482423" CREATED="1704565282310" MODIFIED="1704565324078">
+<arrowlink DESTINATION="ID_1641714643"/>
+</node>
+<node TEXT="Business Capability Catalogue by Table" ID="ID_960381357" CREATED="1704565293445" MODIFIED="1704565328260">
+<arrowlink DESTINATION="ID_1641714643"/>
+</node>
+<node TEXT="Business Capability Summary" ID="ID_1641714643" CREATED="1704565306805" MODIFIED="1704565311857"/>
+</node>
 </node>
 <node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1704482525821"/>
-<node TEXT="Key Essential Views" FOLDED="true" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
+<node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
 <node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
-<node TEXT="Business Views" FOLDED="true" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
-<node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704411787649">
+<node TEXT="Business Views" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
+<node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704565190683">
 <icon BUILTIN="button_ok"/>
 <arrowlink DESTINATION="ID_580443486" STARTINCLINATION="1325.24996 pt;0 pt;" ENDINCLINATION="2007.74994 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_747941657"/>
 </node>
 <node TEXT="Business Capabilities to Technology Tree Force" ID="ID_12901" CREATED="1704411542744" MODIFIED="1704411561046"/>
 <node TEXT="Business Service Interaction Model" ID="ID_1860780037" CREATED="1704411561786" MODIFIED="1704411575092"/>
 <node TEXT="Business Domain Process Analysis" ID="ID_141488650" CREATED="1704411575272" MODIFIED="1704411584459"/>
-<node TEXT="Business Capability Summary" ID="ID_363034107" CREATED="1704411585139" MODIFIED="1704411715188">
+<node TEXT="Business Capability Summary" ID="ID_363034107" CREATED="1704411585139" MODIFIED="1704565378837">
 <icon BUILTIN="button_ok"/>
 <arrowlink DESTINATION="ID_1989301444"/>
+<arrowlink DESTINATION="ID_1641714643" STARTINCLINATION="1162.49997 pt;0 pt;" ENDINCLINATION="1852.49994 pt;0 pt;"/>
 </node>
 <node TEXT="Business Service Summary" ID="ID_1524092646" CREATED="1704411600778" MODIFIED="1704411626363"/>
 <node TEXT="Value Stream Views" ID="ID_654384629" CREATED="1704411626570" MODIFIED="1704411634977"/>
@@ -316,6 +340,9 @@
 <node TEXT="Business Performance Model" ID="ID_913367222" CREATED="1704411652731" MODIFIED="1704411660405"/>
 <node TEXT="Business Function Service Model" ID="ID_640757870" CREATED="1704411660677" MODIFIED="1704411667157"/>
 <node TEXT="Business Process Application Mapping" ID="ID_1732952765" CREATED="1704411667420" MODIFIED="1704411685893"/>
+<node TEXT="Deprecated: Business Capability Model" ID="ID_750079030" CREATED="1704565216421" MODIFIED="1704565254330">
+<arrowlink DESTINATION="ID_1163965869"/>
+</node>
 </node>
 <node TEXT="Information Views" ID="ID_1770118328" CREATED="1704411501705" MODIFIED="1704411506938"/>
 <node TEXT="Application Views" ID="ID_1640623018" CREATED="1704411507255" MODIFIED="1704411510405"/>
