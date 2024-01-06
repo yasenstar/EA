@@ -292,7 +292,7 @@
 </node>
 </node>
 </node>
-<node TEXT="005 Manually Input Business Capability Model (e.g. ArchiSurance)" POSITION="bottom_or_right" ID="ID_1697321961" CREATED="1704482374643" MODIFIED="1704565374547" LINK="https://youtu.be/iceqTqxW7Tk">
+<node TEXT="005 Manually Input Business Capability Model (e.g. ArchiSurance)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1697321961" CREATED="1704482374643" MODIFIED="1704565374547" LINK="https://youtu.be/iceqTqxW7Tk">
 <icon BUILTIN="video"/>
 <node TEXT="Step 1: Create and assign Root Business Capability" ID="ID_1655526979" CREATED="1704502598394" MODIFIED="1704564919876"/>
 <node TEXT="Step 2: Layer by Layer adding capability element manually, assigning Business Capability Level and Business Capability Index" ID="ID_44833878" CREATED="1704564920562" MODIFIED="1704564986203">
@@ -317,7 +317,110 @@
 <node TEXT="Business Capability Summary" ID="ID_1641714643" CREATED="1704565306805" MODIFIED="1704565311857"/>
 </node>
 </node>
-<node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1704482525821"/>
+<node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1704482525821">
+<node TEXT="Essential Import Utility: used to import bulk data from spreadsheets to quickly populate key classes and views" ID="ID_337187400" CREATED="1704575771842" MODIFIED="1704575812839" LINK="https://enterprise-architecture.org/university/essential-import-utility-to-bulk-load-data/"/>
+<node TEXT="Creating an Import" ID="ID_1192215735" CREATED="1704575774996" MODIFIED="1704576148888" LINK="https://enterprise-architecture.org/university/creating-imports-by-defining-an-import-specification/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Key Terms:
+    </p>
+    <ul>
+      <li>
+        Capture Spreadsheet: the spreadsheet that allows the capture of bulk data
+      </li>
+      <li>
+        Import Specification: specifies which classes and slots to send the data in the spreadsheet to
+      </li>
+      <li>
+        Reference Repository (Cloud Only): defined in import settings, supplies the classes and slots available to the import utility
+      </li>
+      <li>
+        Target Repository (Open Source Only): defined in import settings, supplies the classes and slots available to the import utility
+      </li>
+      <li>
+        Data Sources: defines the source of data for an import, usually an excel spreadsheet
+      </li>
+      <li>
+        DUP (Data Update Pack): contains the data from the Capture Spreadsheet in a form that can be applied to Essential directly
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Part 1: creating the worksheet that will be used to capture the data and creating the import specification that will be used to import" ID="ID_1639639081" CREATED="1704575860237" MODIFIED="1704575938041">
+<node TEXT="Completing the Capture Spreadsheet: the pre-defined capture spreadsheet has 3 types of the worksheet" ID="ID_1214109308" CREATED="1704576183659" MODIFIED="1704576207058">
+<node ID="ID_666299332" CREATED="1704576207062" MODIFIED="1704576287103"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Definition Worksheets</span>: where you define lists of instances to be imported
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1270160438" CREATED="1704576227394" MODIFIED="1704576293255"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Mapping Worksheets</span>: where you map related instances together
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1234509607" CREATED="1704576255948" MODIFIED="1704576298336"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Reference Worksheets</span>: worksheets containing Essential Reference information such as Lifecycle or Deployment Status
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Defining the Worksheet" ID="ID_970996137" CREATED="1704576322702" MODIFIED="1704576329764">
+<node TEXT="1. The key part of the process is in identifying upfront the information you need to capture. Having identified the question you want to answer, and the view that will enable you to provide the answer, you need to assess what information is required to populate that view." ID="ID_1669337365" CREATED="1704576329765" MODIFIED="1704576394227"/>
+<node TEXT="2. Having done this, you need to break the information down into the instances you will create in the definition worksheets and the relationships you need to create in the mapping worksheets." ID="ID_89806524" CREATED="1704576359860" MODIFIED="1704576397393"/>
+<node TEXT="3. You need to understand the classes and slots that the views use; you can see this from the How To&apos;s on the website, or from analysing the view itself" ID="ID_1886540329" CREATED="1704576382970" MODIFIED="1704576430582"/>
+<node TEXT="4. Once you understand the data required, you also need to understand the relationships between the data, you can use the How To&apos;s on the website or you can look in the repository itself" ID="ID_286132367" CREATED="1704576430783" MODIFIED="1704576472223"/>
+<node TEXT="Sample: if you want to understand what services are provided by your applications, you would need to capture:" ID="ID_1706163579" CREATED="1704576481803" MODIFIED="1704576506227">
+<node TEXT="The applications in a definition worksheet" ID="ID_1338355075" CREATED="1704576506228" MODIFIED="1704576536370"/>
+<node TEXT="The application services in a definition worksheet" ID="ID_1817947312" CREATED="1704576517980" MODIFIED="1704576530789"/>
+<node TEXT="The relationships between them in a mapping worksheet, to populate the Application Provider Role class" ID="ID_440872091" CREATED="1704576537107" MODIFIED="1704576559954"/>
+</node>
+</node>
+<node TEXT="Creating the Worksheet" ID="ID_151290200" CREATED="1704576565340" MODIFIED="1704576570868"/>
+<node TEXT="Creating the Import Speficiation" ID="ID_1932483855" CREATED="1704576598166" MODIFIED="1704576603640">
+<node TEXT="Define the Requirements" ID="ID_1777186480" CREATED="1704576656668" MODIFIED="1704576662477"/>
+<node TEXT="Simple Instance" ID="ID_177522513" CREATED="1704576640854" MODIFIED="1704576645016"/>
+<node TEXT="Derived Instance" ID="ID_1448716991" CREATED="1704576645236" MODIFIED="1704576649712"/>
+</node>
+<node TEXT="Test the Import Specification" ID="ID_477777690" CREATED="1704576621723" MODIFIED="1704576629521"/>
+</node>
+<node TEXT="Part 2: map the data to the correct class and slot in Essential" ID="ID_653944919" CREATED="1704575939306" MODIFIED="1704575953649"/>
+</node>
+</node>
 <node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
 <node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
 <node TEXT="Business Views" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
