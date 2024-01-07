@@ -317,8 +317,18 @@
 <node TEXT="Business Capability Summary" ID="ID_1641714643" CREATED="1704565306805" MODIFIED="1704565311857"/>
 </node>
 </node>
-<node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1704482525821">
-<node TEXT="Essential Import Utility: used to import bulk data from spreadsheets to quickly populate key classes and views" ID="ID_337187400" CREATED="1704575771842" MODIFIED="1704575812839" LINK="https://enterprise-architecture.org/university/essential-import-utility-to-bulk-load-data/"/>
+<node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1704657226689" LINK="https://enterprise-architecture.org/university/essential-import-utility-to-bulk-load-data/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Essential Import Utility: used to import bulk data from spreadsheets to quickly populate key classes and views
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Creating an Import" ID="ID_1192215735" CREATED="1704575774996" MODIFIED="1704576148888" LINK="https://enterprise-architecture.org/university/creating-imports-by-defining-an-import-specification/"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -352,7 +362,8 @@
 </html>
 </richcontent>
 <node TEXT="Part 1: creating the worksheet that will be used to capture the data and creating the import specification that will be used to import" ID="ID_1639639081" CREATED="1704575860237" MODIFIED="1704575938041">
-<node TEXT="Completing the Capture Spreadsheet: the pre-defined capture spreadsheet has 3 types of the worksheet" ID="ID_1214109308" CREATED="1704576183659" MODIFIED="1704576207058">
+<node TEXT="Completing the Capture Spreadsheet: the pre-defined capture spreadsheet has 3 types of the worksheet" ID="ID_1214109308" CREATED="1704576183659" MODIFIED="1704657102198">
+<arrowlink DESTINATION="ID_1077708576"/>
 <node ID="ID_666299332" CREATED="1704576207062" MODIFIED="1704578970522"><richcontent TYPE="NODE">
 
 <html>
@@ -443,7 +454,32 @@
 </node>
 </node>
 <node TEXT="Creating the Import Speficiation" ID="ID_1932483855" CREATED="1704576598166" MODIFIED="1704576603640">
-<node TEXT="Define the Requirements" ID="ID_1777186480" CREATED="1704576656668" MODIFIED="1704576662477">
+<node TEXT="Define the Requirements" ID="ID_1777186480" CREATED="1704576656668" MODIFIED="1704592014485"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In brief:
+    </p>
+    <ol>
+      <li>
+        Start by ensuring you understand what you need to create.
+      </li>
+      <li>
+        Look at the metal model to understand the classes, relationships and class and slot types
+      </li>
+      <li>
+        Draw a model or diagram to help you plan the import
+      </li>
+      <li>
+        Make a note of the class and slots, the slot types and names and any AutoText naming conventions
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
 <node TEXT="As with creating the capture worksheet, the first step is to ensure that you understand the classes and slots you want to populate through the import specification." ID="ID_68165832" CREATED="1704590450476" MODIFIED="1704590490101"/>
 <node TEXT="Sample (Obvious): Business Process Definition Worksheet" ID="ID_1235120873" CREATED="1704590533596" MODIFIED="1704590672253">
 <node TEXT="Will create the business process with a description and often a parent business capability." ID="ID_1409249843" CREATED="1704590552009" MODIFIED="1704590573706"/>
@@ -538,12 +574,258 @@
 </node>
 </node>
 </node>
-<node TEXT="Simple Instance" ID="ID_177522513" CREATED="1704576640854" MODIFIED="1704576645016"/>
+<node TEXT="Create the Import Specification: Simple Instance" ID="ID_177522513" CREATED="1704576640854" MODIFIED="1704656312574"/>
 <node TEXT="Derived Instance" ID="ID_1448716991" CREATED="1704576645236" MODIFIED="1704576649712"/>
 </node>
 <node TEXT="Test the Import Specification" ID="ID_477777690" CREATED="1704576621723" MODIFIED="1704576629521"/>
 </node>
 <node TEXT="Part 2: map the data to the correct class and slot in Essential" ID="ID_653944919" CREATED="1704575939306" MODIFIED="1704575953649"/>
+</node>
+<node TEXT="Using the Essential Import Utility" ID="ID_853785949" CREATED="1704657056905" MODIFIED="1704657072710" LINK="https://enterprise-architecture.org/university/using-the-essential-import-utility/">
+<node TEXT="Key Terms" ID="ID_222739513" CREATED="1704657068073" MODIFIED="1704657082174">
+<node TEXT="Capture Spreadsheet: the spreadsheet that allows the capture of bulk data" ID="ID_1077708576" CREATED="1704657082177" MODIFIED="1704657124310"/>
+<node TEXT="Import Spec: specifies which classes and slots to send the data in the spreadsheet to" ID="ID_1289891310" CREATED="1704657125788" MODIFIED="1704657152954"/>
+<node TEXT="Reference Repository (Cloud Only): defined in import settings, supplies the classes and slots available to the import utility" ID="ID_1217778817" CREATED="1704657154118" MODIFIED="1704657285663"/>
+<node TEXT="Target Repository (Open Source Only): defined in import settings, supplies the classes and slots available to the import utility" ID="ID_96518245" CREATED="1704657286216" MODIFIED="1704657318817"/>
+<node TEXT="Data Sources: defines the source of data for an import, usually an excel spreadsheet" POSITION="bottom_or_right" ID="ID_337187400" CREATED="1704575771842" MODIFIED="1704657429750"/>
+<node TEXT="DUP: Data Update Pack – contains the data from the Capture Spreadsheet in a form that can be applied to Essential" POSITION="bottom_or_right" ID="ID_1812853266" CREATED="1704657451969" MODIFIED="1704657495900"/>
+</node>
+<node TEXT="Import Utility for Essential Cloud or Docker" ID="ID_261300903" CREATED="1704658401192" MODIFIED="1704658459374">
+<node TEXT="Step 1: Reference Repositories (for Cloud and Docker)" POSITION="bottom_or_right" ID="ID_587273567" CREATED="1704657521325" MODIFIED="1704657578543">
+<node TEXT="To define a new import setting, set the Reference Repository ( Production, Pre Production or Sandbox) in which the import will be based on in terms of classes and slots defined by ticking the relevent checkbox . Click New." ID="ID_1948680616" CREATED="1704657595968" MODIFIED="1704657601528"/>
+<node TEXT="**NOTE: **You only need to update the Reference Repository if new classes or slots are added to the meta model. If you add a new one, make sure the Reference? box is ticked." ID="ID_313765276" CREATED="1704657616819" MODIFIED="1704657639218">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node TEXT="Step 2: Data Sources" POSITION="bottom_or_right" ID="ID_546413868" CREATED="1704657646014" MODIFIED="1704657655725">
+<node TEXT="To define a data source click New. In the ‘Create Source Repository’ window, add the name of the data source, usually a spreadsheet. Click OK." ID="ID_821976299" CREATED="1704657655733" MODIFIED="1704657662294"/>
+<node TEXT="NOTE: You will need to add a new data source each time you want to create a new type of import." ID="ID_1481052087" CREATED="1704657687598" MODIFIED="1704657696282">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node TEXT="Step 3: Create Import Activity" POSITION="bottom_or_right" ID="ID_1225612890" CREATED="1704657700848" MODIFIED="1704657720358">
+<node TEXT="1. Go back to the homepage and select the Manage Imports tab." ID="ID_771354499" CREATED="1704657726503" MODIFIED="1704657730209"/>
+<node TEXT="2. To set up a new Import Activity Click New and the ‘Create Import Activity’ window will appear." ID="ID_1976326834" CREATED="1704657735136" MODIFIED="1704657739304">
+<node TEXT="1) Name the activity" ID="ID_1690902690" CREATED="1704657750509" MODIFIED="1704657756741"/>
+<node TEXT="2) Select Excel as your import type" ID="ID_801308902" CREATED="1704657756919" MODIFIED="1704657764886"/>
+<node TEXT="3) Choose the Data Source you set up in Step 2" ID="ID_374394889" CREATED="1704657765069" MODIFIED="1704657775581"/>
+<node ID="ID_741334575" CREATED="1704657775765" MODIFIED="1704657810681"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4) Click <span style="font-weight: bold;">Upload</span><span style="font-weight: normal;">&#xa0;and navigate to and select the spreadsheet to be imported, e.g. the Launchpad Spreadsheet</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_441870056" CREATED="1704657811070" MODIFIED="1704657820299"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      5) Ignore the other fields and click <span style="font-weight: bold;">OK</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node POSITION="bottom_or_right" ID="ID_127021757" CREATED="1704657823487" MODIFIED="1704657845099"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Step 4: Select the Import Activity and click <span style="font-weight: bold;">Open</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Step 5: Upload Import Spec" POSITION="bottom_or_right" ID="ID_1483576451" CREATED="1704657845282" MODIFIED="1704657866858">
+<node ID="ID_1537417760" CREATED="1704657866860" MODIFIED="1704657899752"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In Import Activity screen, Use the <span style="font-weight: bold;">Upload Import Specification</span>&#xa0;button to upload the Import Spec for this activity. It will be an XML file; note it must be zipped.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="NOTE: You can edit import specifications with the Edit Import Specification button. If you are using specification provided by the Essential Team then there is no need to edit/amend these for the imports to work." ID="ID_1337624716" CREATED="1704657916517" MODIFIED="1704657925550">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node TEXT="1. Select Worksheets" ID="ID_1866532983" CREATED="1704657938728" MODIFIED="1704657951877">
+<node TEXT="To ensure that you bring in only the data you want, you can tick and untick worksheets and amend the start and end rows." ID="ID_1560643942" CREATED="1704657951878" MODIFIED="1704657961603"/>
+<node TEXT="Note: You don’t have to bring in all the worksheets in a spreadsheet, for example, you could bring in only the Applications worksheet from the Launchpad worksheet if that is all the data you have initially. The views populated will be dependent on the data you have imported. Equally, if you have added additional rows to the worksheet you can choose to just import these rows." ID="ID_1427021054" CREATED="1704657987005" MODIFIED="1704657997312">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node TEXT="Note: The import matches on ID and then Name, so if you want to add additional information, such as lifecycle, to applications you have already imported you can simply add the data and re-import as it will match to the existing applications in the repository. You can also use this to update data, for example, if you want to change an application name you can do so and then re-import – it will match on the ID and then update the name (although this would be easier to do in the repository itself!)." ID="ID_1987789451" CREATED="1704657998910" MODIFIED="1704658016413">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node TEXT="2. Generate Data Update Pack (DUP)" ID="ID_1217943099" CREATED="1704658139000" MODIFIED="1704658149350">
+<node ID="ID_1544048984" CREATED="1704658149352" MODIFIED="1704658215698"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1) Click the <span style="font-weight: bold;">Generate DUP</span><span style="font-weight: normal;">&#xa0;&#xa0;button. When it is complete you will see the screen showing status</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_810008634" CREATED="1704658185202" MODIFIED="1704658220457"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2) Click the <span style="font-weight: bold;">Download DUP File</span><span style="font-weight: normal;">&#xa0;&#xa0;button and save the DUP somewhere</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Step 6: Load DUP in Essential" POSITION="bottom_or_right" ID="ID_919356996" CREATED="1704658225102" MODIFIED="1704658240865">
+<node TEXT="1. Go back into the Essential Platform and ensure you are in the repository you want to apply the data to" ID="ID_956188170" CREATED="1704658240866" MODIFIED="1704658261383"/>
+<node TEXT="2. Now select Import then select Data Import from the menu, you will see the Data Import screen" ID="ID_1227297231" CREATED="1704658261760" MODIFIED="1704658285228"/>
+<node ID="ID_1116642311" CREATED="1704658285368" MODIFIED="1704658307494"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3. Click the <span style="font-weight: bold;">Browse</span><span style="font-weight: normal;">&#xa0;button and select the DUP you generated and saved</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="4. The Summary line will show you which repository is selected" ID="ID_557989185" CREATED="1704658307647" MODIFIED="1704658326462"/>
+<node ID="ID_301876392" CREATED="1704658326658" MODIFIED="1704658346535"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      5. Click the <span style="font-weight: bold;">Apply Updates</span><span style="font-weight: normal;">&#xa0;&#xa0;button to add the data to your repository</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="NOTE (Cloud): We recommend taking a snapshot before any import and also suggest importing into the Sandbox repository first, so you can check the data before importing into your pre-production or production repositories" ID="ID_583432396" CREATED="1704658360347" MODIFIED="1704658380131">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+</node>
+<node TEXT="Import Utility for Essential Open Source" ID="ID_1996905313" CREATED="1704658459995" MODIFIED="1704658469729">
+<node TEXT="Step 0: Setting Up the Import Utility" ID="ID_256375160" CREATED="1704658469732" MODIFIED="1704658503370">
+<node TEXT="First you need to set up the Import Utility. From the homepage click on the Import Settings tab" ID="ID_1788564504" CREATED="1704658503373" MODIFIED="1704658510374"/>
+</node>
+<node TEXT="Step 1: Target Environment" ID="ID_158836762" CREATED="1704658528973" MODIFIED="1704666787700">
+<node TEXT="Create Production Environment" ID="ID_722133353" CREATED="1704666689290" MODIFIED="1704666695091">
+<node POSITION="bottom_or_right" ID="ID_798645425" CREATED="1704666789236" MODIFIED="1704666800902"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      0. You need to define a target repository, ie. a baseline to use, this is defined as a Target Environment. Click <span style="font-weight: bold;">New Live</span>&#xa0;&#xa0;to see the ‘Create Production Environment screen’.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="1. Create an environment name, usually the repository name" POSITION="bottom_or_right" ID="ID_1035512232" CREATED="1704658536400" MODIFIED="1704666501424"/>
+<node TEXT="2. Select the deployment type, either Local or Server depending on your install" POSITION="bottom_or_right" ID="ID_997366403" CREATED="1704666478802" MODIFIED="1704666515601"/>
+<node POSITION="bottom_or_right" ID="ID_942088736" CREATED="1704666515833" MODIFIED="1704666556771"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3. Use the <span style="font-weight: bold;">Upload</span><span style="font-weight: normal;">&#xa0;button to navigate to and upload a zipped version of the repository</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Note: The target repository should be your latest production repository, unless you are going to use the DUP option." ID="ID_1861642993" CREATED="1704666556773" MODIFIED="1704666588124">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node TEXT="If you&apos;re server based, enter server detail" ID="ID_1274016671" CREATED="1704666589209" MODIFIED="1704666608322"/>
+</node>
+<node TEXT="4. Enter the path to your viewer if you&apos;d like to test or publish the repository directly" POSITION="bottom_or_right" ID="ID_1748407914" CREATED="1704666611330" MODIFIED="1704666629614">
+<node TEXT="This should be a test viewer as you should not test imports in the production viewer" ID="ID_465410112" CREATED="1704666644144" MODIFIED="1704666653315">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+</node>
+<node TEXT="Create Dev/QA Environment" ID="ID_1063579532" CREATED="1704666704853" MODIFIED="1704666711347">
+<node ID="ID_845786035" CREATED="1704666711349" MODIFIED="1704666807949"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      0. Back on the Import Settings page, in the Target Environments section click the <span style="font-weight: bold;">New Dev/QA</span><span style="font-weight: normal;">&#xa0;button to set up a test environment</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="1. Create an environment name, usually the same as the production environment name but with Test or QA after" ID="ID_1316251748" CREATED="1704666809002" MODIFIED="1704666837644"/>
+<node TEXT="2. Select a Deployment Role, either Dev or QA" ID="ID_1347903138" CREATED="1704666837818" MODIFIED="1704666857851"/>
+<node TEXT="3. Selected the related Production Environment, this will be the one you created in the previous step" ID="ID_1215069607" CREATED="1704666858074" MODIFIED="1704666875778"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
