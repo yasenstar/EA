@@ -443,7 +443,101 @@
 </node>
 </node>
 <node TEXT="Creating the Import Speficiation" ID="ID_1932483855" CREATED="1704576598166" MODIFIED="1704576603640">
-<node TEXT="Define the Requirements" ID="ID_1777186480" CREATED="1704576656668" MODIFIED="1704576662477"/>
+<node TEXT="Define the Requirements" ID="ID_1777186480" CREATED="1704576656668" MODIFIED="1704576662477">
+<node TEXT="As with creating the capture worksheet, the first step is to ensure that you understand the classes and slots you want to populate through the import specification." ID="ID_68165832" CREATED="1704590450476" MODIFIED="1704590490101"/>
+<node TEXT="Sample (Obvious): Business Process Definition Worksheet" ID="ID_1235120873" CREATED="1704590533596" MODIFIED="1704590672253">
+<node TEXT="Will create the business process with a description and often a parent business capability." ID="ID_1409249843" CREATED="1704590552009" MODIFIED="1704590573706"/>
+<node ID="ID_513142283" CREATED="1704590574491" MODIFIED="1704590662806"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In this case, the import spec needs to populate the <span style="font-weight: bold; text-decoration: underline;">business process class</span>, and also the <span style="font-weight: bold; text-decoration: underline;">description slot</span>&#xa0;and the <span style="font-weight: bold; text-decoration: underline;">realises_business_capability slot</span>.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Sample (not so obvious): Physical Process with a supporting application" ID="ID_1087789559" CREATED="1704590672864" MODIFIED="1704590765170"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You will have to traverse the meta model in Essential to understand all the classes, relationship classes and slots to be created.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_322081813" CREATED="1704590766894" MODIFIED="1704590877690"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You need to create the logical process (<span style="font-weight: bold;">Business Process</span>), the organisation (<span style="font-weight: bold;">Group Actor</span>), the application (<span style="font-weight: bold;">Composite Application Provider</span>) and also the relationship between them all, the <span style="font-weight: bold;">APP_PRO_TO_PHYS_BUS_RELATION</span>&#xa0;&#xa0;(Application Provider Role to Physical Business Process relationship class)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Each worksheet is self-contained and so must have all the classes required in it, e.g. if you&apos;re importing business processes and parent capability, the parent capability must be in the business process worksheet - you can&apos;t re-use from other worksheets in the same Spreadsheet or Import Spec." ID="ID_268897239" CREATED="1704590889415" MODIFIED="1704590960928"/>
+<node TEXT="When creating the Import Activity, remember that the import words in sequential order, so you must create all the classes you are going to use first, which is often not the same order as the worksheet you are importing from." ID="ID_791364751" CREATED="1704590979510" MODIFIED="1704591042180">
+<icon BUILTIN="messagebox_warning"/>
+<node TEXT="Example: a business process worksheet in a capture spreadsheet, with parent capability, will be ordered as following:" ID="ID_1725338055" CREATED="1704591042182" MODIFIED="1704591152624">
+<node TEXT="1. ID" ID="ID_1760069524" CREATED="1704591129954" MODIFIED="1704591134344"/>
+<node TEXT="2. Bus Process Name" ID="ID_259355575" CREATED="1704591134802" MODIFIED="1704591140004"/>
+<node TEXT="3. Description" ID="ID_1327597262" CREATED="1704591140322" MODIFIED="1704591143655"/>
+<node TEXT="4. Parent Capability" ID="ID_1397724639" CREATED="1704591143892" MODIFIED="1704591148554"/>
+</node>
+<node TEXT="However, when creating the import spec you need to import the business capability first to ensure you use it in the business process as the parent capability slot, so the order in the Import you create will be:" ID="ID_1726799899" CREATED="1704591108533" MODIFIED="1704591192455">
+<node TEXT="1. Parent Capability" ID="ID_1378530681" CREATED="1704591192456" MODIFIED="1704591197603"/>
+<node TEXT="2. Bus Process Name and ID" ID="ID_86305007" CREATED="1704591197770" MODIFIED="1704591202710"/>
+<node TEXT="3. Description" ID="ID_1041756415" CREATED="1704591202880" MODIFIED="1704591207079"/>
+</node>
+<node TEXT="You must import the classes and the slots required for each class." ID="ID_1955488655" CREATED="1704591212612" MODIFIED="1704591282640">
+<node TEXT="In some cases no slots will be required, e.g. in the example above the business capability class does not require any slots, but the business process uses two slots - description and realises_business_capability." ID="ID_1568434232" CREATED="1704591282643" MODIFIED="1704591334055"/>
+<node TEXT="In more complex relationships many slots may be required." ID="ID_1034307351" CREATED="1704591334473" MODIFIED="1704591349087"/>
+</node>
+</node>
+<node TEXT="Class Types" ID="ID_538434048" CREATED="1704591358322" MODIFIED="1704591495880">
+<icon BUILTIN="bell"/>
+<node TEXT="Derived Instance" ID="ID_1478356570" CREATED="1704591496902" MODIFIED="1704591508356">
+<node TEXT="used to import all relationship classes, e.g. ACTOR_TO_ROLE_RELATION, Application Provider Role, Physical Process." ID="ID_883093643" CREATED="1704591508358" MODIFIED="1704591554986"/>
+<node TEXT="This is because they join two classes and the name must be built in the import according to the AutoText defined in Essential" ID="ID_1700468781" CREATED="1704591555460" MODIFIED="1704591591912"/>
+</node>
+<node TEXT="Simple Instance" ID="ID_360069930" CREATED="1704591592781" MODIFIED="1704591597933">
+<node TEXT="used to import standard classes, e.g. business process, application provider" ID="ID_806804276" CREATED="1704591597935" MODIFIED="1704591614613"/>
+</node>
+</node>
+<node TEXT="Slot Types" ID="ID_797884949" CREATED="1704591366584" MODIFIED="1704591479651">
+<icon BUILTIN="bell"/>
+<node TEXT="Simple Slot" ID="ID_1441561946" CREATED="1704591617161" MODIFIED="1704591621819">
+<node TEXT="import simple slots, e.g. description." ID="ID_839535403" CREATED="1704591621821" MODIFIED="1704591634508"/>
+<node TEXT="The slot in the Essential meta model will NOT be Instance for these slots, usually String." ID="ID_1501819969" CREATED="1704591634965" MODIFIED="1704591659342"/>
+</node>
+<node TEXT="Derived Slot" ID="ID_1587465383" CREATED="1704591671724" MODIFIED="1704591676160">
+<node TEXT="import derived simple slot." ID="ID_482734265" CREATED="1704591676162" MODIFIED="1704591686525"/>
+<node TEXT="These are simple slots, e.g. NOT an Instance slot, where some standard text needs to be imported i.e. time_year, time_quarter (to set a derived date)." ID="ID_1195800877" CREATED="1704591687191" MODIFIED="1704591732493"/>
+</node>
+<node TEXT="Instance Slot" ID="ID_176100928" CREATED="1704591733564" MODIFIED="1704591740695">
+<node TEXT="import instance slots, i.e. those slots in the Essential meta model where the type is &quot;Instance Of&quot; a different class - business_process_supplier (Supplier Class); business_process_performed_by_role (Business Role Class)" ID="ID_1079303375" CREATED="1704591740697" MODIFIED="1704591802666"/>
+</node>
+<node TEXT="Primitive Slot" ID="ID_1621230150" CREATED="1704591812572" MODIFIED="1704591819187">
+<node TEXT="imports primitive slots, i.e. those slots in the Essential meta model where the type is Integer (number), Boolean (true or false), Float (decimal number) - obj_to_svr_quality_is_key (boolean - determines if the objective is a KPI)" ID="ID_1688380043" CREATED="1704591819189" MODIFIED="1704591888211"/>
+</node>
+</node>
+</node>
 <node TEXT="Simple Instance" ID="ID_177522513" CREATED="1704576640854" MODIFIED="1704576645016"/>
 <node TEXT="Derived Instance" ID="ID_1448716991" CREATED="1704576645236" MODIFIED="1704576649712"/>
 </node>
@@ -454,7 +548,7 @@
 </node>
 <node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
 <node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
-<node TEXT="Business Views" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
+<node TEXT="Business Views" FOLDED="true" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
 <node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704565190683">
 <icon BUILTIN="button_ok"/>
 <arrowlink DESTINATION="ID_580443486" STARTINCLINATION="1325.24996 pt;0 pt;" ENDINCLINATION="2007.74994 pt;0 pt;"/>
