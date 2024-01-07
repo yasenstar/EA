@@ -353,7 +353,7 @@
 </richcontent>
 <node TEXT="Part 1: creating the worksheet that will be used to capture the data and creating the import specification that will be used to import" ID="ID_1639639081" CREATED="1704575860237" MODIFIED="1704575938041">
 <node TEXT="Completing the Capture Spreadsheet: the pre-defined capture spreadsheet has 3 types of the worksheet" ID="ID_1214109308" CREATED="1704576183659" MODIFIED="1704576207058">
-<node ID="ID_666299332" CREATED="1704576207062" MODIFIED="1704576287103"><richcontent TYPE="NODE">
+<node ID="ID_666299332" CREATED="1704576207062" MODIFIED="1704578970522"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -367,6 +367,7 @@
 </html>
 
 </richcontent>
+<arrowlink DESTINATION="ID_1723755759"/>
 </node>
 <node ID="ID_1270160438" CREATED="1704576227394" MODIFIED="1704576293255"><richcontent TYPE="NODE">
 
@@ -410,7 +411,37 @@
 <node TEXT="The relationships between them in a mapping worksheet, to populate the Application Provider Role class" ID="ID_440872091" CREATED="1704576537107" MODIFIED="1704576559954"/>
 </node>
 </node>
-<node TEXT="Creating the Worksheet" ID="ID_151290200" CREATED="1704576565340" MODIFIED="1704576570868"/>
+<node TEXT="Creating the Worksheet" ID="ID_151290200" CREATED="1704576565340" MODIFIED="1704576570868">
+<node TEXT="Definition Worksheets" ID="ID_1723755759" CREATED="1704576685012" MODIFIED="1704579026854">
+<node TEXT="Your definition worksheet should always have 3 columns in B, C and D" ID="ID_847082721" CREATED="1704579018576" MODIFIED="1704579032952">
+<node TEXT="B - The ID Column: ensure this is a unique identifier. (We usually use one or two letters of the class name and a number, ie. for Business Process BP001 onwards. Ensure each sheet has a unique identifier.)" POSITION="bottom_or_right" ID="ID_1745008374" CREATED="1704576733213" MODIFIED="1704578675482"/>
+<node TEXT="C - Name: a free format field for the name of the class you are creating" POSITION="bottom_or_right" ID="ID_136192973" CREATED="1704578676011" MODIFIED="1704578700905"/>
+<node TEXT="D - Description: a free format field for the description" POSITION="bottom_or_right" ID="ID_347447816" CREATED="1704578701601" MODIFIED="1704578720568"/>
+<node TEXT="There may also be other columns related to the class you&apos;re creating." POSITION="bottom_or_right" ID="ID_1147273028" CREATED="1704578720823" MODIFIED="1704578830494">
+<node TEXT="These can either be free format or a validated field, populated by linking to another class from an earlier worksheet, such as Parent Capability for a Business Capability for a Business Process" ID="ID_1707063439" CREATED="1704578820483" MODIFIED="1704578823138"/>
+<node TEXT="Or from the reference worksheet, for example lifecycle." ID="ID_1420942729" CREATED="1704578831237" MODIFIED="1704578849901"/>
+<node TEXT="In either case you use the named range and Data Validation option to validate the field and create the dropdown." ID="ID_358872395" CREATED="1704578850392" MODIFIED="1704578875761"/>
+</node>
+</node>
+<node TEXT="NOTE: it&apos;s very important that you use the drop down list provided to complete the validated columns to avoid errors, e.g. a misspelling, which will create a duplicate and impact the relationships that are built." ID="ID_307701099" CREATED="1704578885913" MODIFIED="1704578944537">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node TEXT="Mapping Worksheets" ID="ID_202048913" CREATED="1704578992240" MODIFIED="1704579015875">
+<node TEXT="Your Mapping Worksheets will contain two or more columns that allow you to create relationships between instances that you have captured in definition worksheets, e.g., applications to application services." ID="ID_1009178924" CREATED="1704579048353" MODIFIED="1704589113811"/>
+<node TEXT="They have no ID column and should not be used to create new instances." ID="ID_1368151479" CREATED="1704589114062" MODIFIED="1704589143348"/>
+<node TEXT="Use the named range and Data Validation option to validate the field and create the dropdown." ID="ID_1082335986" CREATED="1704589144538" MODIFIED="1704589192314"/>
+<node TEXT="NOTE: it is very important that you use the drop down list provided to complete the validated columns to avoid errors, such as misspelling, which will create a duplicate and impact the relationships that are built." ID="ID_752525196" CREATED="1704589193125" MODIFIED="1704589252591">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node TEXT="Reference Worksheets" ID="ID_1939061202" CREATED="1704576692851" MODIFIED="1704576696701">
+<node TEXT="You would create a Reference Worksheet to hold reference data that will populate certain of the validated columns, such as lifecycle status" ID="ID_589381303" CREATED="1704589314228" MODIFIED="1704589351259"/>
+<node TEXT="NOTE: Remeber to give each worksheet a tab name, e.g. Bus Cap, Application, App 2 App Service. This will be used when you create the import." ID="ID_894841974" CREATED="1704589356395" MODIFIED="1704589410759">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+</node>
 <node TEXT="Creating the Import Speficiation" ID="ID_1932483855" CREATED="1704576598166" MODIFIED="1704576603640">
 <node TEXT="Define the Requirements" ID="ID_1777186480" CREATED="1704576656668" MODIFIED="1704576662477"/>
 <node TEXT="Simple Instance" ID="ID_177522513" CREATED="1704576640854" MODIFIED="1704576645016"/>
