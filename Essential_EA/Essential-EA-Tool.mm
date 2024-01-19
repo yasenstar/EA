@@ -825,6 +825,251 @@
 <node TEXT="3. Selected the related Production Environment, this will be the one you created in the previous step" ID="ID_1215069607" CREATED="1704666858074" MODIFIED="1704666875778"/>
 </node>
 </node>
+<node TEXT="Step 2: Data Sources" ID="ID_1891808437" CREATED="1704679142494" MODIFIED="1704679148729">
+<node ID="ID_137780344" CREATED="1704679270860" MODIFIED="1704759204338"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      To define a data source, click <span style="font-weight: bold;">New</span><span style="font-weight: normal;">. In the &quot;Create Source Repository&quot; window, add the name of the data source, usually a spreadsheet. Click </span><span style="font-weight: bold;">OK</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink DESTINATION="ID_401828524"/>
+</node>
+<node TEXT="NOTE: you will need to add a new data source each time you want to create a new type of import." ID="ID_1035812102" CREATED="1704684454563" MODIFIED="1704684484292">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node TEXT="Step 3: Create Import Activity" ID="ID_1669448764" CREATED="1704759091357" MODIFIED="1704759108554">
+<node TEXT="Go back to the homepage and select the Manage Imports tab, to set up a new Import Activity click New and the &quot;Create Import Activity&quot; window will appear." ID="ID_1033293270" CREATED="1704759108561" MODIFIED="1704759155332"/>
+<node TEXT="1. Name the activity" ID="ID_156732415" CREATED="1704759160535" MODIFIED="1704759166044"/>
+<node TEXT="2. Select Excel as your import type" ID="ID_975657587" CREATED="1704759166214" MODIFIED="1704759180603"/>
+<node TEXT="3. Choose the Data Source you set up in Step 2" ID="ID_401828524" CREATED="1704759180798" MODIFIED="1704759199837"/>
+<node TEXT="4. Click Upload and navigate to and select the spreadsheet to be imported, e.g. the Launchpad spreadsheet" ID="ID_1722773585" CREATED="1704759210906" MODIFIED="1704760087206">
+<arrowlink DESTINATION="ID_1614498554"/>
+</node>
+<node TEXT="5. Ignore the other fields and click OK" ID="ID_1161939958" CREATED="1704759240802" MODIFIED="1704759248256"/>
+</node>
+<node TEXT="Step 4: Open the Import Activity" ID="ID_1351310349" CREATED="1704759249064" MODIFIED="1704759265100">
+<node ID="ID_1999641835" CREATED="1704759265104" MODIFIED="1704759318028"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Select the Import Activity and click <span style="font-weight: bold;">Open</span><span style="font-weight: normal;">, you will see the Import Activity Screen</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Step 5: Upload Import Spec" ID="ID_619085002" CREATED="1704759279033" MODIFIED="1704759294411">
+<node ID="ID_368983950" CREATED="1704759294414" MODIFIED="1704759351159"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Use the <span style="font-weight: bold;">Upload Import Specification</span><span style="font-weight: normal;">&#xa0;&#xa0;button to upload the Import Spec&#xa0;&#xa0;for this activity. It will be an XML file; note it must be zipped</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="NOTE: You can edit import specifications with the Edit Import Specification button. If you are using specification provided by the Essential Team then there is no need to edit/amend these for the imports to work." ID="ID_667399995" CREATED="1704759351528" MODIFIED="1704760061590">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node TEXT="1. Source Spreadsheet" FOLDED="true" POSITION="bottom_or_right" ID="ID_1614498554" CREATED="1704759295033" MODIFIED="1704760075425">
+<node TEXT="This will contain the spreadsheet you uploaded in step 3.4. Note: You can upload later versions of the spreadsheet using the Upload Spreadsheet button" ID="ID_1207216993" CREATED="1704760075429" MODIFIED="1704760083739"/>
+</node>
+<node TEXT="2. Select Worksheets" POSITION="bottom_or_right" ID="ID_953384528" CREATED="1704760099942" MODIFIED="1704760104431">
+<node TEXT="To ensure that you bring in only the data you want, you can tick and untick worksheets and amend the start and end rows." ID="ID_136968988" CREATED="1704760120299" MODIFIED="1704760124190"/>
+<node TEXT="Note: You don’t have to bring in all the worksheets in a spreadsheet, for example, you could bring in only the Applications worksheet from the Launchpad worksheet if that is all the data you have initially. The views populated will be dependent on the data you have imported. Equally, if you have added additional rows to the worksheet you can choose to just import these rows" ID="ID_897933578" CREATED="1704760131149" MODIFIED="1704760138940">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node TEXT="The import matches on ID and then Name, so if you want to add additional information, such as lifecycle, to applications you have already imported you can simply add the data and re-import as it will match to the existing applications in the repository. You can also use this to update data, for example, if you want to change an application name you can do so and then re-import – it will match on the ID and then update the name (although this would be easier to do in the repository itself!)." ID="ID_945550468" CREATED="1704760168877" MODIFIED="1704760171558"/>
+</node>
+<node TEXT="3. Test Import" POSITION="bottom_or_right" ID="ID_191991006" CREATED="1704760174662" MODIFIED="1704760178672">
+<node TEXT="Select the Test Environment from the dropdown, this will be the Dev/QA repository that you created earlier" ID="ID_1309133178" CREATED="1704760178673" MODIFIED="1704760184979"/>
+<node ID="ID_1296179078" CREATED="1704760189827" MODIFIED="1704760197122"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Click <span style="font-weight: bold;">Test</span>&#xa0;<span style="font-weight: bold;">Import</span>&#xa0;and you will see the ‘Test Import’ Screen
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Step 6: Run Import" ID="ID_590025291" CREATED="1704760201212" MODIFIED="1704760452761">
+<node ID="ID_1374003440" CREATED="1704760224889" MODIFIED="1704760241481"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1. If you have changed the target repository click <span style="font-weight: bold;">Refresh</span>&#xa0;&#xa0;to update the target repository.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_793569515" CREATED="1704760243749" MODIFIED="1704760269114"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2. Click <span style="font-weight: bold;">Run Import</span>&#xa0;– you will see the import working through the sheets. Depending on the amount of data this may take some time
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1813083876" CREATED="1704760270102" MODIFIED="1704760289411"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3. Click <span style="font-weight: bold;">Download Messages</span>&#xa0;and search for ‘warning’ and ‘exceptions’ to ensure there are no errors in the data
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1511597799" CREATED="1704760289831" MODIFIED="1704760297092"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4. If OK click <span style="font-weight: bold;">Download</span>&#xa0;to download a copy of the repository with the new data. You can then open the repository to check the data and publish, if required.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1176609486" CREATED="1704760311220" MODIFIED="1704760341977"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      5. You can optionally click <span style="font-weight: bold;">Publish to Test Viewer</span>&#xa0;&#xa0;to directly publish to the viewer you added in Step 1 to test the data.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="6. You can optionally click Promote to Local Live to overwrite the target repository that you added in step 1" ID="ID_1165357905" CREATED="1704760342126" MODIFIED="1704760378158">
+<arrowlink DESTINATION="ID_158836762"/>
+<node TEXT="NOTE: You should test the result before doing this and you only use this if you want to replace the target repository." ID="ID_702055581" CREATED="1704760398649" MODIFIED="1704760405892">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node TEXT="If you are using a local version of Essential Open Source once you are happy with the result you can promote this repository to your production environment." ID="ID_722727441" CREATED="1704760430397" MODIFIED="1704760433177"/>
+</node>
+<node TEXT="Step 7: Execute Import" ID="ID_732265222" CREATED="1704760438338" MODIFIED="1704760463767">
+<node TEXT="If you are using a server based version of Essential Open Source you need to complete this step." ID="ID_457501133" CREATED="1704760463769" MODIFIED="1704760483297"/>
+<node TEXT="If you are using a local version you do not have to complete this step if you have completed steps 5 and 6 in Step 6." ID="ID_209920748" CREATED="1704760490428" MODIFIED="1704760492677"/>
+<node TEXT="Two options for Execute the Import" ID="ID_1887700749" CREATED="1704760504118" MODIFIED="1704760521765">
+<node ID="ID_1969202487" CREATED="1704760521767" MODIFIED="1704760556885"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Option 1: Click the <span style="font-weight: bold;">Execute Import </span><span style="font-weight: normal;">button</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="You will see the ‘Live Import’ screen.&#xa;&#xa;Upload the repository you want to add the data to&#xa;Click Run Import&#xa;– If you set up a server based repository in step 1 it will apply the changes directly to the repository&#xa;&#xa;– If you added a local repository it will apply the changes and update the target repository – much like clicking Promote to Local Live in the Test section&#xa;&#xa;Click Publish to Viewer to publish to the viewer you added in Step 2" ID="ID_509210668" CREATED="1704760556889" MODIFIED="1704760570143"/>
+</node>
+<node ID="ID_320690304" CREATED="1704760585056" MODIFIED="1704760618247"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Option 2: Click the <span style="font-weight: bold;">Generate Import File</span>&#xa0;button
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="This will download a DUP to your downloads file, you should save the DUP somewhere sensible." ID="ID_364186566" CREATED="1704760619227" MODIFIED="1704760627377"/>
+<node ID="ID_206317308" CREATED="1704760633380" MODIFIED="1704760658671"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      - Open your production repository and select the Essential Update tab
+    </p>
+    <p>
+      - Click Choose and navigate to the DUP and select it
+    </p>
+    <p>
+      - Check the Detailed progress box and click <span style="font-weight: bold;">Apply Updates</span>&#xa0;button to add the data to your repository
+    </p>
+    <p>
+      - Save the repository with a new name, maybe as the next version.
+    </p>
+    <p>
+      - Publish to the viewer
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
