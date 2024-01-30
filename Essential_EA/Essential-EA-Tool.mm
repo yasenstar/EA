@@ -1,7 +1,7 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="0.823">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
+<node TEXT="Essential EA Tool" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1704291509130" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.069">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sky_element_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -105,8 +105,7 @@
       Essential Viewer can be used with any Java web application server but the installer assumes Tomcat
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="4. Optional components" ID="ID_792722817" CREATED="1704303730792" MODIFIED="1704303740000">
 <node TEXT="Database: you can ignore if you don&apos;t connect to DB" ID="ID_167877267" CREATED="1704303740002" MODIFIED="1704303759086"/>
@@ -196,8 +195,7 @@
       Updated 31 October 2023
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="1. If the report is not enabled, then enable it on the homepage" ID="ID_1327206410" CREATED="1704394513514" MODIFIED="1704394679746">
 <node ID="ID_819486135" CREATED="1704394679748" MODIFIED="1704394840647"><richcontent TYPE="NODE">
 
@@ -211,7 +209,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -228,7 +225,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -251,7 +247,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -268,7 +263,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="If no FMB is defined for the capability then it just uses an index and they go at the top of the view and any capabilities tied to FMB go next." ID="ID_1982243978" CREATED="1704395047476" MODIFIED="1704395083250"/>
@@ -285,7 +279,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="If you&apos;re an existing user using legacy business capability views, this layout will be consistent with those." ID="ID_103490427" CREATED="1704395151847" MODIFIED="1704395181263"/>
@@ -317,7 +310,7 @@
 <node TEXT="Business Capability Summary" ID="ID_1641714643" CREATED="1704565306805" MODIFIED="1704565311857"/>
 </node>
 </node>
-<node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1704657226689" LINK="https://enterprise-architecture.org/university/essential-import-utility-to-bulk-load-data/"><richcontent TYPE="NOTE">
+<node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1706648756510"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -327,9 +320,13 @@
       Essential Import Utility: used to import bulk data from spreadsheets to quickly populate key classes and views
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Creating an Import" ID="ID_1192215735" CREATED="1704575774996" MODIFIED="1704576148888" LINK="https://enterprise-architecture.org/university/creating-imports-by-defining-an-import-specification/"><richcontent TYPE="NOTE">
+</html></richcontent>
+<node TEXT="Pages in Essential University" ID="ID_1605246990" CREATED="1706648740376" MODIFIED="1706648767664">
+<node TEXT="Bulk Data Imports" ID="ID_1235474925" CREATED="1706648767669" MODIFIED="1706648806786" LINK="https://enterprise-architecture.org/university/bulk-data-imports/"/>
+<node TEXT="Essential Import Utility" ID="ID_1749633700" CREATED="1706648775216" MODIFIED="1706648811980" LINK="https://enterprise-architecture.org/university/open-exchange-xml-data-loader-cloud-docker/"/>
+</node>
+<node TEXT="Get LuanchPad: https://enterprise-architecture.org/products/essential-launchpad/" ID="ID_386506889" CREATED="1706648228500" MODIFIED="1706648242518" LINK="https://enterprise-architecture.org/products/essential-launchpad/"/>
+<node TEXT="Creating an Import" ID="ID_1192215735" CREATED="1704575774996" MODIFIED="1706648744180" LINK="https://enterprise-architecture.org/university/creating-imports-by-defining-an-import-specification/"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -361,8 +358,8 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Part 1: creating the worksheet that will be used to capture the data and creating the import specification that will be used to import" ID="ID_1639639081" CREATED="1704575860237" MODIFIED="1704575938041">
-<node TEXT="Completing the Capture Spreadsheet: the pre-defined capture spreadsheet has 3 types of the worksheet" ID="ID_1214109308" CREATED="1704576183659" MODIFIED="1704657102198">
+<node TEXT="Part 1: creating the worksheet that will be used to capture the data and creating the import specification that will be used to import" FOLDED="true" ID="ID_1639639081" CREATED="1704575860237" MODIFIED="1704575938041">
+<node TEXT="Completing the Capture Spreadsheet: the pre-defined capture spreadsheet has 3 types of the worksheet" FOLDED="true" ID="ID_1214109308" CREATED="1704576183659" MODIFIED="1704657102198">
 <arrowlink DESTINATION="ID_1077708576"/>
 <node ID="ID_666299332" CREATED="1704576207062" MODIFIED="1704578970522"><richcontent TYPE="NODE">
 
@@ -376,7 +373,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink DESTINATION="ID_1723755759"/>
 </node>
@@ -392,7 +388,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1234509607" CREATED="1704576255948" MODIFIED="1704576298336"><richcontent TYPE="NODE">
@@ -407,11 +402,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Defining the Worksheet" ID="ID_970996137" CREATED="1704576322702" MODIFIED="1704576329764">
+<node TEXT="Defining the Worksheet" FOLDED="true" ID="ID_970996137" CREATED="1704576322702" MODIFIED="1704576329764">
 <node TEXT="1. The key part of the process is in identifying upfront the information you need to capture. Having identified the question you want to answer, and the view that will enable you to provide the answer, you need to assess what information is required to populate that view." ID="ID_1669337365" CREATED="1704576329765" MODIFIED="1704576394227"/>
 <node TEXT="2. Having done this, you need to break the information down into the instances you will create in the definition worksheets and the relationships you need to create in the mapping worksheets." ID="ID_89806524" CREATED="1704576359860" MODIFIED="1704576397393"/>
 <node TEXT="3. You need to understand the classes and slots that the views use; you can see this from the How To&apos;s on the website, or from analysing the view itself" ID="ID_1886540329" CREATED="1704576382970" MODIFIED="1704576430582"/>
@@ -422,7 +416,7 @@
 <node TEXT="The relationships between them in a mapping worksheet, to populate the Application Provider Role class" ID="ID_440872091" CREATED="1704576537107" MODIFIED="1704576559954"/>
 </node>
 </node>
-<node TEXT="Creating the Worksheet" ID="ID_151290200" CREATED="1704576565340" MODIFIED="1704576570868">
+<node TEXT="Creating the Worksheet" FOLDED="true" ID="ID_151290200" CREATED="1704576565340" MODIFIED="1704576570868">
 <node TEXT="Definition Worksheets" ID="ID_1723755759" CREATED="1704576685012" MODIFIED="1704579026854">
 <node TEXT="Your definition worksheet should always have 3 columns in B, C and D" ID="ID_847082721" CREATED="1704579018576" MODIFIED="1704579032952">
 <node TEXT="B - The ID Column: ensure this is a unique identifier. (We usually use one or two letters of the class name and a number, ie. for Business Process BP001 onwards. Ensure each sheet has a unique identifier.)" POSITION="bottom_or_right" ID="ID_1745008374" CREATED="1704576733213" MODIFIED="1704578675482"/>
@@ -453,7 +447,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Creating the Import Speficiation" ID="ID_1932483855" CREATED="1704576598166" MODIFIED="1704576603640">
+<node TEXT="Creating the Import Speficiation" FOLDED="true" ID="ID_1932483855" CREATED="1704576598166" MODIFIED="1704576603640">
 <node TEXT="Define the Requirements" ID="ID_1777186480" CREATED="1704576656668" MODIFIED="1704592014485"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -478,8 +472,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="As with creating the capture worksheet, the first step is to ensure that you understand the classes and slots you want to populate through the import specification." ID="ID_68165832" CREATED="1704590450476" MODIFIED="1704590490101"/>
 <node TEXT="Sample (Obvious): Business Process Definition Worksheet" ID="ID_1235120873" CREATED="1704590533596" MODIFIED="1704590672253">
 <node TEXT="Will create the business process with a description and often a parent business capability." ID="ID_1409249843" CREATED="1704590552009" MODIFIED="1704590573706"/>
@@ -495,7 +488,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -509,8 +501,7 @@
       You will have to traverse the meta model in Essential to understand all the classes, relationship classes and slots to be created.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_322081813" CREATED="1704590766894" MODIFIED="1704590877690"><richcontent TYPE="NODE">
 
 <html>
@@ -523,7 +514,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -582,7 +572,7 @@
 <node TEXT="Part 2: map the data to the correct class and slot in Essential" ID="ID_653944919" CREATED="1704575939306" MODIFIED="1704575953649"/>
 </node>
 <node TEXT="Using the Essential Import Utility" ID="ID_853785949" CREATED="1704657056905" MODIFIED="1704657072710" LINK="https://enterprise-architecture.org/university/using-the-essential-import-utility/">
-<node TEXT="Key Terms" ID="ID_222739513" CREATED="1704657068073" MODIFIED="1704657082174">
+<node TEXT="Key Terms" FOLDED="true" ID="ID_222739513" CREATED="1704657068073" MODIFIED="1704657082174">
 <node TEXT="Capture Spreadsheet: the spreadsheet that allows the capture of bulk data" ID="ID_1077708576" CREATED="1704657082177" MODIFIED="1704657124310"/>
 <node TEXT="Import Spec: specifies which classes and slots to send the data in the spreadsheet to" ID="ID_1289891310" CREATED="1704657125788" MODIFIED="1704657152954"/>
 <node TEXT="Reference Repository (Cloud Only): defined in import settings, supplies the classes and slots available to the import utility" ID="ID_1217778817" CREATED="1704657154118" MODIFIED="1704657285663"/>
@@ -591,19 +581,19 @@
 <node TEXT="DUP: Data Update Pack – contains the data from the Capture Spreadsheet in a form that can be applied to Essential" POSITION="bottom_or_right" ID="ID_1812853266" CREATED="1704657451969" MODIFIED="1704657495900"/>
 </node>
 <node TEXT="Import Utility for Essential Cloud or Docker" ID="ID_261300903" CREATED="1704658401192" MODIFIED="1704658459374">
-<node TEXT="Step 1: Reference Repositories (for Cloud and Docker)" POSITION="bottom_or_right" ID="ID_587273567" CREATED="1704657521325" MODIFIED="1704657578543">
+<node TEXT="Step 1: Reference Repositories (for Cloud and Docker)" FOLDED="true" POSITION="bottom_or_right" ID="ID_587273567" CREATED="1704657521325" MODIFIED="1704657578543">
 <node TEXT="To define a new import setting, set the Reference Repository ( Production, Pre Production or Sandbox) in which the import will be based on in terms of classes and slots defined by ticking the relevent checkbox . Click New." ID="ID_1948680616" CREATED="1704657595968" MODIFIED="1704657601528"/>
 <node TEXT="**NOTE: **You only need to update the Reference Repository if new classes or slots are added to the meta model. If you add a new one, make sure the Reference? box is ticked." ID="ID_313765276" CREATED="1704657616819" MODIFIED="1704657639218">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Step 2: Data Sources" POSITION="bottom_or_right" ID="ID_546413868" CREATED="1704657646014" MODIFIED="1704657655725">
+<node TEXT="Step 2: Data Sources" FOLDED="true" POSITION="bottom_or_right" ID="ID_546413868" CREATED="1704657646014" MODIFIED="1704657655725">
 <node TEXT="To define a data source click New. In the ‘Create Source Repository’ window, add the name of the data source, usually a spreadsheet. Click OK." ID="ID_821976299" CREATED="1704657655733" MODIFIED="1704657662294"/>
 <node TEXT="NOTE: You will need to add a new data source each time you want to create a new type of import." ID="ID_1481052087" CREATED="1704657687598" MODIFIED="1704657696282">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Step 3: Create Import Activity" POSITION="bottom_or_right" ID="ID_1225612890" CREATED="1704657700848" MODIFIED="1704657720358">
+<node TEXT="Step 3: Create Import Activity" FOLDED="true" POSITION="bottom_or_right" ID="ID_1225612890" CREATED="1704657700848" MODIFIED="1704657720358">
 <node TEXT="1. Go back to the homepage and select the Manage Imports tab." ID="ID_771354499" CREATED="1704657726503" MODIFIED="1704657730209"/>
 <node TEXT="2. To set up a new Import Activity Click New and the ‘Create Import Activity’ window will appear." ID="ID_1976326834" CREATED="1704657735136" MODIFIED="1704657739304">
 <node TEXT="1) Name the activity" ID="ID_1690902690" CREATED="1704657750509" MODIFIED="1704657756741"/>
@@ -621,7 +611,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_441870056" CREATED="1704657811070" MODIFIED="1704657820299"><richcontent TYPE="NODE">
@@ -636,7 +625,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -653,10 +641,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="Step 5: Upload Import Spec" POSITION="bottom_or_right" ID="ID_1483576451" CREATED="1704657845282" MODIFIED="1704657866858">
+<node TEXT="Step 5: Upload Import Spec" FOLDED="true" POSITION="bottom_or_right" ID="ID_1483576451" CREATED="1704657845282" MODIFIED="1704657866858">
 <node ID="ID_1537417760" CREATED="1704657866860" MODIFIED="1704657899752"><richcontent TYPE="NODE">
 
 <html>
@@ -669,7 +656,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="NOTE: You can edit import specifications with the Edit Import Specification button. If you are using specification provided by the Essential Team then there is no need to edit/amend these for the imports to work." ID="ID_1337624716" CREATED="1704657916517" MODIFIED="1704657925550">
@@ -697,7 +683,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_810008634" CREATED="1704658185202" MODIFIED="1704658220457"><richcontent TYPE="NODE">
@@ -712,12 +697,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Step 6: Load DUP in Essential" POSITION="bottom_or_right" ID="ID_919356996" CREATED="1704658225102" MODIFIED="1704658240865">
+<node TEXT="Step 6: Load DUP in Essential" FOLDED="true" POSITION="bottom_or_right" ID="ID_919356996" CREATED="1704658225102" MODIFIED="1704658240865">
 <node TEXT="1. Go back into the Essential Platform and ensure you are in the repository you want to apply the data to" ID="ID_956188170" CREATED="1704658240866" MODIFIED="1704658261383"/>
 <node TEXT="2. Now select Import then select Data Import from the menu, you will see the Data Import screen" ID="ID_1227297231" CREATED="1704658261760" MODIFIED="1704658285228"/>
 <node ID="ID_1116642311" CREATED="1704658285368" MODIFIED="1704658307494"><richcontent TYPE="NODE">
@@ -732,7 +716,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="4. The Summary line will show you which repository is selected" ID="ID_557989185" CREATED="1704658307647" MODIFIED="1704658326462"/>
@@ -748,7 +731,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="NOTE (Cloud): We recommend taking a snapshot before any import and also suggest importing into the Sandbox repository first, so you can check the data before importing into your pre-production or production repositories" ID="ID_583432396" CREATED="1704658360347" MODIFIED="1704658380131">
@@ -757,10 +739,10 @@
 </node>
 </node>
 <node TEXT="Import Utility for Essential Open Source" ID="ID_1996905313" CREATED="1704658459995" MODIFIED="1704658469729">
-<node TEXT="Step 0: Setting Up the Import Utility" ID="ID_256375160" CREATED="1704658469732" MODIFIED="1704658503370">
+<node TEXT="Step 0: Setting Up the Import Utility" FOLDED="true" ID="ID_256375160" CREATED="1704658469732" MODIFIED="1704658503370">
 <node TEXT="First you need to set up the Import Utility. From the homepage click on the Import Settings tab" ID="ID_1788564504" CREATED="1704658503373" MODIFIED="1704658510374"/>
 </node>
-<node TEXT="Step 1: Target Environment" ID="ID_158836762" CREATED="1704658528973" MODIFIED="1704666787700">
+<node TEXT="Step 1: Target Environment" FOLDED="true" ID="ID_158836762" CREATED="1704658528973" MODIFIED="1704666787700">
 <node TEXT="Create Production Environment" ID="ID_722133353" CREATED="1704666689290" MODIFIED="1704666695091">
 <node POSITION="bottom_or_right" ID="ID_798645425" CREATED="1704666789236" MODIFIED="1704666800902"><richcontent TYPE="NODE">
 
@@ -774,7 +756,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="1. Create an environment name, usually the repository name" POSITION="bottom_or_right" ID="ID_1035512232" CREATED="1704658536400" MODIFIED="1704666501424"/>
@@ -791,7 +772,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Note: The target repository should be your latest production repository, unless you are going to use the DUP option." ID="ID_1861642993" CREATED="1704666556773" MODIFIED="1704666588124">
 <icon BUILTIN="messagebox_warning"/>
@@ -817,7 +797,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="1. Create an environment name, usually the same as the production environment name but with Test or QA after" ID="ID_1316251748" CREATED="1704666809002" MODIFIED="1704666837644"/>
@@ -838,7 +817,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink DESTINATION="ID_401828524"/>
 </node>
@@ -846,7 +824,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Step 3: Create Import Activity" ID="ID_1669448764" CREATED="1704759091357" MODIFIED="1704759108554">
+<node TEXT="Step 3: Create Import Activity" FOLDED="true" ID="ID_1669448764" CREATED="1704759091357" MODIFIED="1704759108554">
 <node TEXT="Go back to the homepage and select the Manage Imports tab, to set up a new Import Activity click New and the &quot;Create Import Activity&quot; window will appear." ID="ID_1033293270" CREATED="1704759108561" MODIFIED="1704759155332"/>
 <node TEXT="1. Name the activity" ID="ID_156732415" CREATED="1704759160535" MODIFIED="1704759166044"/>
 <node TEXT="2. Select Excel as your import type" ID="ID_975657587" CREATED="1704759166214" MODIFIED="1704759180603"/>
@@ -869,11 +847,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Step 5: Upload Import Spec" ID="ID_619085002" CREATED="1704759279033" MODIFIED="1704759294411">
+<node TEXT="Step 5: Upload Import Spec" FOLDED="true" ID="ID_619085002" CREATED="1704759279033" MODIFIED="1704759294411">
 <node ID="ID_368983950" CREATED="1704759294414" MODIFIED="1704759351159"><richcontent TYPE="NODE">
 
 <html>
@@ -886,7 +863,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="NOTE: You can edit import specifications with the Edit Import Specification button. If you are using specification provided by the Essential Team then there is no need to edit/amend these for the imports to work." ID="ID_667399995" CREATED="1704759351528" MODIFIED="1704760061590">
@@ -916,12 +892,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Step 6: Run Import" ID="ID_590025291" CREATED="1704760201212" MODIFIED="1704760452761">
+<node TEXT="Step 6: Run Import" FOLDED="true" ID="ID_590025291" CREATED="1704760201212" MODIFIED="1704760452761">
 <node ID="ID_1374003440" CREATED="1704760224889" MODIFIED="1704760241481"><richcontent TYPE="NODE">
 
 <html>
@@ -934,7 +909,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_793569515" CREATED="1704760243749" MODIFIED="1704760269114"><richcontent TYPE="NODE">
@@ -949,7 +923,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1813083876" CREATED="1704760270102" MODIFIED="1704760289411"><richcontent TYPE="NODE">
@@ -964,7 +937,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1511597799" CREATED="1704760289831" MODIFIED="1704760297092"><richcontent TYPE="NODE">
@@ -979,7 +951,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1176609486" CREATED="1704760311220" MODIFIED="1704760341977"><richcontent TYPE="NODE">
@@ -994,7 +965,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="6. You can optionally click Promote to Local Live to overwrite the target repository that you added in step 1" ID="ID_1165357905" CREATED="1704760342126" MODIFIED="1704760378158">
@@ -1005,7 +975,7 @@
 </node>
 <node TEXT="If you are using a local version of Essential Open Source once you are happy with the result you can promote this repository to your production environment." ID="ID_722727441" CREATED="1704760430397" MODIFIED="1704760433177"/>
 </node>
-<node TEXT="Step 7: Execute Import" ID="ID_732265222" CREATED="1704760438338" MODIFIED="1704760463767">
+<node TEXT="Step 7: Execute Import" FOLDED="true" ID="ID_732265222" CREATED="1704760438338" MODIFIED="1704760463767">
 <node TEXT="If you are using a server based version of Essential Open Source you need to complete this step." ID="ID_457501133" CREATED="1704760463769" MODIFIED="1704760483297"/>
 <node TEXT="If you are using a local version you do not have to complete this step if you have completed steps 5 and 6 in Step 6." ID="ID_209920748" CREATED="1704760490428" MODIFIED="1704760492677"/>
 <node TEXT="Two options for Execute the Import" ID="ID_1887700749" CREATED="1704760504118" MODIFIED="1704760521765">
@@ -1021,7 +991,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="You will see the ‘Live Import’ screen.&#xa;&#xa;Upload the repository you want to add the data to&#xa;Click Run Import&#xa;– If you set up a server based repository in step 1 it will apply the changes directly to the repository&#xa;&#xa;– If you added a local repository it will apply the changes and update the target repository – much like clicking Promote to Local Live in the Test section&#xa;&#xa;Click Publish to Viewer to publish to the viewer you added in Step 2" ID="ID_509210668" CREATED="1704760556889" MODIFIED="1704760570143"/>
 </node>
@@ -1037,7 +1006,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="This will download a DUP to your downloads file, you should save the DUP somewhere sensible." ID="ID_364186566" CREATED="1704760619227" MODIFIED="1704760627377"/>
 <node ID="ID_206317308" CREATED="1704760633380" MODIFIED="1704760658671"><richcontent TYPE="NODE">
@@ -1064,7 +1032,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1086,8 +1053,8 @@
 <node TEXT="Business Domain Process Analysis" ID="ID_141488650" CREATED="1704411575272" MODIFIED="1704411584459"/>
 <node TEXT="Business Capability Summary" ID="ID_363034107" CREATED="1704411585139" MODIFIED="1704565378837">
 <icon BUILTIN="button_ok"/>
-<arrowlink DESTINATION="ID_1989301444"/>
 <arrowlink DESTINATION="ID_1641714643" STARTINCLINATION="1162.49997 pt;0 pt;" ENDINCLINATION="1852.49994 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_1989301444"/>
 </node>
 <node TEXT="Business Service Summary" ID="ID_1524092646" CREATED="1704411600778" MODIFIED="1704411626363"/>
 <node TEXT="Value Stream Views" ID="ID_654384629" CREATED="1704411626570" MODIFIED="1704411634977"/>
