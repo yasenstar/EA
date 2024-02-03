@@ -358,7 +358,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Part 1: creating the worksheet that will be used to capture the data and creating the import specification that will be used to import" FOLDED="true" ID="ID_1639639081" CREATED="1704575860237" MODIFIED="1704575938041">
+<node TEXT="Part 1: creating the worksheet that will be used to capture the data and creating the import specification that will be used to import" ID="ID_1639639081" CREATED="1704575860237" MODIFIED="1704575938041">
 <node TEXT="Completing the Capture Spreadsheet: the pre-defined capture spreadsheet has 3 types of the worksheet" FOLDED="true" ID="ID_1214109308" CREATED="1704576183659" MODIFIED="1704657102198">
 <arrowlink DESTINATION="ID_1077708576"/>
 <node ID="ID_666299332" CREATED="1704576207062" MODIFIED="1704578970522"><richcontent TYPE="NODE">
@@ -405,7 +405,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Defining the Worksheet" FOLDED="true" ID="ID_970996137" CREATED="1704576322702" MODIFIED="1704576329764">
+<node TEXT="Defining the Worksheet" ID="ID_970996137" CREATED="1704576322702" MODIFIED="1704576329764">
 <node TEXT="1. The key part of the process is in identifying upfront the information you need to capture. Having identified the question you want to answer, and the view that will enable you to provide the answer, you need to assess what information is required to populate that view." ID="ID_1669337365" CREATED="1704576329765" MODIFIED="1704576394227"/>
 <node TEXT="2. Having done this, you need to break the information down into the instances you will create in the definition worksheets and the relationships you need to create in the mapping worksheets." ID="ID_89806524" CREATED="1704576359860" MODIFIED="1704576397393"/>
 <node TEXT="3. You need to understand the classes and slots that the views use; you can see this from the How To&apos;s on the website, or from analysing the view itself" ID="ID_1886540329" CREATED="1704576382970" MODIFIED="1704576430582"/>
@@ -572,7 +572,7 @@
 <node TEXT="Part 2: map the data to the correct class and slot in Essential" ID="ID_653944919" CREATED="1704575939306" MODIFIED="1704575953649"/>
 </node>
 <node TEXT="Using the Essential Import Utility" ID="ID_853785949" CREATED="1704657056905" MODIFIED="1704657072710" LINK="https://enterprise-architecture.org/university/using-the-essential-import-utility/">
-<node TEXT="Key Terms" FOLDED="true" ID="ID_222739513" CREATED="1704657068073" MODIFIED="1704657082174">
+<node TEXT="Key Terms" ID="ID_222739513" CREATED="1704657068073" MODIFIED="1704657082174">
 <node TEXT="Capture Spreadsheet: the spreadsheet that allows the capture of bulk data" ID="ID_1077708576" CREATED="1704657082177" MODIFIED="1704657124310"/>
 <node TEXT="Import Spec: specifies which classes and slots to send the data in the spreadsheet to" ID="ID_1289891310" CREATED="1704657125788" MODIFIED="1704657152954"/>
 <node TEXT="Reference Repository (Cloud Only): defined in import settings, supplies the classes and slots available to the import utility" ID="ID_1217778817" CREATED="1704657154118" MODIFIED="1704657285663"/>
@@ -587,13 +587,13 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Step 2: Data Sources" FOLDED="true" POSITION="bottom_or_right" ID="ID_546413868" CREATED="1704657646014" MODIFIED="1704657655725">
+<node TEXT="Step 2: Data Sources" POSITION="bottom_or_right" ID="ID_546413868" CREATED="1704657646014" MODIFIED="1704657655725">
 <node TEXT="To define a data source click New. In the ‘Create Source Repository’ window, add the name of the data source, usually a spreadsheet. Click OK." ID="ID_821976299" CREATED="1704657655733" MODIFIED="1704657662294"/>
 <node TEXT="NOTE: You will need to add a new data source each time you want to create a new type of import." ID="ID_1481052087" CREATED="1704657687598" MODIFIED="1704657696282">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Step 3: Create Import Activity" FOLDED="true" POSITION="bottom_or_right" ID="ID_1225612890" CREATED="1704657700848" MODIFIED="1704657720358">
+<node TEXT="Step 3: Create Import Activity" POSITION="bottom_or_right" ID="ID_1225612890" CREATED="1704657700848" MODIFIED="1704657720358">
 <node TEXT="1. Go back to the homepage and select the Manage Imports tab." ID="ID_771354499" CREATED="1704657726503" MODIFIED="1704657730209"/>
 <node TEXT="2. To set up a new Import Activity Click New and the ‘Create Import Activity’ window will appear." ID="ID_1976326834" CREATED="1704657735136" MODIFIED="1704657739304">
 <node TEXT="1) Name the activity" ID="ID_1690902690" CREATED="1704657750509" MODIFIED="1704657756741"/>
