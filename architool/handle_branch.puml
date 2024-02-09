@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title Handing Archi Model between "master" and user's "working" branches, v3.0, 2021-09-30
+
+autonumber
+
+User_Local -> User_Local: Working on self branch and commit
+User_Local -> User_Remote: From Menu [Collaboration] choose [Publish]
+User_Local -> Master_Local: Double Click "Master" in Archi Branch List, Switch to "Master_Local"
+Master_Local -> Master_Local: Click Any Item in Model Tree to Activate Master_Local Branch
+Master_Remote -> Master_Local: From Menu [Collaboration] choose [Refresh Model]
+Master_Local -> User_Local: Double Click User Working Branch to Switch Back User_Local
+Master_Local -> User_Local: If User Working Branch is Behind Master Branch, Right Click Master_Local and Choose Merge, using "Local" Option
+User_Local -> User_Local: If Any Issue Happens, Troubleshooting Problems with Colleagues
+User_Local -> User_Remote: If Merge Success, Then From Menu [Collaboration] choose [Publish]
+User_Local -> User_Local: Double Confirm There's 0 Behind to Master in DevOps Site
+User_Local -> Master_Local: If 0 Behind, Double Click "Master" in Archi Branch List to Switch to "Master_Local"
+Master_Local -> Master_Local: Click Any Item in Model Tree to Activate Master_Local Branch
+User_Local -> Master_Local: Right Click User Branch, Choose Merge with "Local" Option, Merge You Work to "Master_Local"
+Master_Local -> Master_Remote: From Menu [Collaboration] choose [Publish]
+Master_Local -> Master_Local: Once Complete Publish, Confirm There's 0 Ahead to Master in DevOps Site
+Master_Local -> User_Local: Double Click User's Working Branch to Switch Back, DONE!
+
+@enduml
