@@ -9,5 +9,3 @@ Archi 4.0 Chinese Translated Package: http://www.zhoujingen.cn/itbang/526.html
 ## plantuml
 
 [PlantUML HomePage](https://plantuml.com/)
-
-[chart](./handle_branch.puml)
