@@ -82,20 +82,32 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Products, Product Entitlements &amp; Customer Service Optimization" POSITION="bottom_or_right" ID="ID_1525919945" CREATED="1708961080674" MODIFIED="1708961227869"><richcontent TYPE="NOTE">
+<node TEXT="2024" OBJECT="java.lang.Long|2024" POSITION="bottom_or_right" ID="ID_1505802859" CREATED="1708973738373" MODIFIED="1708973741159">
+<node TEXT="Products, Product Entitlements &amp; Customer Service Optimization" FOLDED="true" POSITION="bottom_or_right" ID="ID_1525919945" CREATED="1708961080674" MODIFIED="1708973610848"><richcontent TYPE="NOTE">
 <html>
   <head>
     
   </head>
   <body>
-    <p>
+    <h2 class="name" style="margin-top: -3px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-family: muli, sans-serif; font-weight: bold; line-height: 40px; color: rgb(51, 51, 51); font-size: 22px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255)">
       William Ulrich
+    </h2>
+    <div class="bio" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(51, 51, 51); font-family: muli, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255)">
+      <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px">
+        William Ulrich&#xa0;of&#xa0;<a href="http://www.tsgconsultinginc.com/" target="_blank" rel="nofollow noopener noreferrer" style="color: rgb(242, 84, 19); text-decoration: none; font-weight: normal"><span style="color: rgb(242, 84, 19); text-decoration: none; font-weight: normal;">TSG, INC</span></a>, is a strategic planning consultant. He has written several books, published hundreds of articles and papers, and has worked with numerous large corporations and government agencies. William participates in various industry events and is a featured speaker at many of these events. William&#xa0;&#xa0;latest book is titled&#xa0;<a href="http://www.mkpress.com/BA/" target="_blank" rel="nofollow noopener noreferrer" style="color: rgb(242, 84, 19); text-decoration: none; font-weight: normal"><span style="color: rgb(242, 84, 19); text-decoration: none; font-weight: normal;">Business Architecture: the Art and Practice of Business Transformation</span></a>.&#xa0;William is Partner and Cofounder of Business Architecture Associates and Cutter Consortium Fellow. William serves on the Board of Directors, Editorial Board and is&#xa0;President of the Business Architecture Guild.
+      </p>
+    </div>
+    <p>
+      
     </p>
     <p>
       January 2024
     </p>
     <p>
       Learn at 2024/02/26
+    </p>
+    <p>
+      Verification Code: PCSO268
     </p>
   </body>
 </html>
@@ -416,17 +428,48 @@
 </node>
 </node>
 </node>
-<node TEXT="5. In Summary" ID="ID_1047902034" CREATED="1708961499353" MODIFIED="1708971893152">
+<node TEXT="5. In Summary" FOLDED="true" ID="ID_1047902034" CREATED="1708961499353" MODIFIED="1708971893152">
 <node TEXT="Poor customer service leads to lost trust and lost customers" ID="ID_1961628669" CREATED="1708971893154" MODIFIED="1708971904878"/>
 <node TEXT="Excellent customer service leads to improved financial results and long-term customer loyalty" ID="ID_93651033" CREATED="1708971905217" MODIFIED="1708971935118"/>
 <node TEXT="Business architecture provides a means of improving customer service by targeting product entitlements" ID="ID_1298868526" CREATED="1708971935273" MODIFIED="1708971951086"/>
 <node TEXT="Product entitlement improvements are realized through capability investments that enable those entitlements, which parallel capability investments in value streams" ID="ID_1263628672" CREATED="1708971951274" MODIFIED="1708971986941"/>
-<node TEXT="Organizations can shift to a customer service delivery improvement culture by:" ID="ID_526023371" CREATED="1708971987823" MODIFIED="1708972004532">
+<node TEXT="Organizations can shift to a customer service delivery improvement culture by:" FOLDED="true" ID="ID_526023371" CREATED="1708971987823" MODIFIED="1708972004532">
 <node TEXT="Deemphasizing internal service mapping in favor of investing in improving services to end customers" ID="ID_1883345247" CREATED="1708972004536" MODIFIED="1708972026730"/>
 <node TEXT="Formalizing a business architecture that includes a viable baseline coupled with product mapping" ID="ID_305128127" CREATED="1708972026897" MODIFIED="1708972045995"/>
 <node TEXT="Formally driving IT investments from through a business architecture lens" ID="ID_1738861111" CREATED="1708972046170" MODIFIED="1708972068747"/>
 </node>
 <node TEXT="Finally, scaling product line investments may require transforming budget and compensation models to enable cross-ecosystem investments" ID="ID_1724448013" CREATED="1708972069593" MODIFIED="1708972112332"/>
+</node>
+</node>
+</node>
+<node TEXT="2018" OBJECT="java.lang.Long|2018" POSITION="bottom_or_right" ID="ID_1614323744" CREATED="1708973746471" MODIFIED="1708973748135">
+<node TEXT="Advancement of Business Architecture in the TOGAF Ecosystem" POSITION="bottom_or_right" ID="ID_1816131258" CREATED="1708973695668" MODIFIED="1708973846327"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Led by a team of Certified Business Architects® from the Business Architecture Guild, the Business Architecture Workstream, within the Open Group Architecture Forum, has updated the TOGAF® Ecosystem to apply key principles and methods. TOGAF® Version 9.2, made available in April 2018, includes critical artifacts and methods for the modern business architecture practice, supported by a series of guides that delve deeper into methods and artifacts. This session will summarize these updates and the successes to date at integrating the discipline into the enterprise architecture domain.
+    </p>
+    <p>
+      2018/12/19
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Speaker: Steve Dupont / Bryan Laid
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="1. Introduction" ID="ID_1002839264" CREATED="1708973851030" MODIFIED="1708974138471"/>
+<node TEXT="2. Business Architecture Improvements" ID="ID_449338834" CREATED="1708974138718" MODIFIED="1708974144449"/>
+<node TEXT="3. Business Model" ID="ID_982445165" CREATED="1708974144606" MODIFIED="1708974148911"/>
+<node TEXT="4. Business Capability" ID="ID_787651010" CREATED="1708974149166" MODIFIED="1708974153441"/>
+<node TEXT="5. Value Steams" ID="ID_980441352" CREATED="1708974153638" MODIFIED="1708974159062"/>
+<node TEXT="6. What&apos;s Next?" ID="ID_139256936" CREATED="1708974159636" MODIFIED="1708974162924"/>
 </node>
 </node>
 </node>
