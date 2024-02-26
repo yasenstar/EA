@@ -100,7 +100,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="1. Customer Service Definition &amp; Piroritization" ID="ID_866984744" CREATED="1708961457200" MODIFIED="1708961467319">
+<node TEXT="1. Customer Service Definition &amp; Piroritization" FOLDED="true" ID="ID_866984744" CREATED="1708961457200" MODIFIED="1708961467319">
 <node TEXT="Defining Customer Services" FOLDED="true" ID="ID_1755048749" CREATED="1708961558852" MODIFIED="1708961568064">
 <node TEXT="A direct one-on-one interaction between a consumer and company representative, commonly engaged when a consumer is buying a product or service" ID="ID_254337183" CREATED="1708961568067" MODIFIED="1708961611655"/>
 <node TEXT="Misconception #1: A customer service is only delivered by a company representative" ID="ID_59060021" CREATED="1708961616032" MODIFIED="1708961636270">
@@ -236,12 +236,13 @@
 <node TEXT="Customer service can lead to more revenue" ID="ID_1267912819" CREATED="1708963113397" MODIFIED="1708963122965"/>
 </node>
 <node TEXT="With the state of customer service poor and benefits of excellent service clear, one would assume that organizations would be laser focused on maximizing quality customer service" ID="ID_648754694" CREATED="1708963124022" MODIFIED="1708963168446"/>
-<node TEXT="Why then do organizations appear more focused on delivering internally targeted services vs. investing in delivering excellent service to the actual customer?" ID="ID_1213211999" CREATED="1708963373037" MODIFIED="1708963415856">
+<node TEXT="Why then do organizations appear more focused on delivering internally targeted services vs. investing in delivering excellent service to the actual customer?" ID="ID_1213211999" CREATED="1708963373037" MODIFIED="1708969671102">
 <icon BUILTIN="help"/>
+<arrowlink DESTINATION="ID_1089560513"/>
 </node>
 </node>
 </node>
-<node TEXT="2. Intersection of Customer Service Delivery &amp; Business Architecture" ID="ID_701704807" CREATED="1708961467518" MODIFIED="1708961478256">
+<node TEXT="2. Intersection of Customer Service Delivery &amp; Business Architecture" FOLDED="true" ID="ID_701704807" CREATED="1708961467518" MODIFIED="1708961478256">
 <node TEXT="Business Architecture formalizes Customer Service Delivery" FOLDED="true" ID="ID_284361909" CREATED="1708964236125" MODIFIED="1708964250101">
 <node TEXT="Customer services are delivered through value streams, such as Execute Financial Transaction, Obtain Funding, Send Shipment, Service Vehicle, Settle Claim, Trade Financial Instrument and Take a Trip" ID="ID_1916338390" CREATED="1708964250103" MODIFIED="1708964325255"/>
 <node TEXT="Consier a Settle Claim Value Stream" ID="ID_851366126" CREATED="1708964330712" MODIFIED="1708964413000">
@@ -319,7 +320,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Product Entitlement Descriptions" POSITION="bottom_or_right" ID="ID_1312938815" CREATED="1708967150455" MODIFIED="1708967162831">
+<node TEXT="Product Entitlement Descriptions" FOLDED="true" POSITION="bottom_or_right" ID="ID_1312938815" CREATED="1708967150455" MODIFIED="1708967162831">
 <node TEXT="Product Entitlements are described in language that is readily interpreted by business professionals." ID="ID_40538589" CREATED="1708967169825" MODIFIED="1708967209729"/>
 <node TEXT="Each product entitlement has a buisness friendly, formal description" ID="ID_1422750967" CREATED="1708967210755" MODIFIED="1708967230465"/>
 <node TEXT="Organizations should try to standardize terms across related product lines, like insurance lines" ID="ID_1034751554" CREATED="1708967230857" MODIFIED="1708967252104"/>
@@ -336,10 +337,97 @@
 <node TEXT="Vehicle Protection Best Practices Notification: Delivers periodic information to the customer" ID="ID_1259847632" CREATED="1708968014517" MODIFIED="1708968035878"/>
 </node>
 </node>
+<node TEXT="Product Entitlements are Enabled by Capabilities" POSITION="bottom_or_right" ID="ID_900519060" CREATED="1708968107030" MODIFIED="1708968131741">
+<node TEXT="Product Entitlement / Capability cross-mapping targets investments into customer services" FOLDED="true" ID="ID_719171943" CREATED="1708968131745" MODIFIED="1708968152231">
+<node TEXT="Capability enablement of products is derived from the capabilities required to deliver those entitlements" ID="ID_129914843" CREATED="1708968152234" MODIFIED="1708968177808"/>
+<node TEXT="Cross-mapping product entitlements to enabling capabilities highlights investment targets for improving customer services" ID="ID_1845404530" CREATED="1708968426305" MODIFIED="1708968464980"/>
+<node TEXT="Product entitlement wording is framed based on the phrase, &quot;As a customer I am entitled to...&quot;" ID="ID_1984173667" CREATED="1708968465416" MODIFIED="1708968505221"/>
 </node>
-<node TEXT="3. Cross Product Line Investment Scaling" ID="ID_1089560513" CREATED="1708961478453" MODIFIED="1708961487127"/>
-<node TEXT="4. Shifting to a Customer Service Focused Enterprise" ID="ID_919555450" CREATED="1708961487306" MODIFIED="1708961499100"/>
-<node TEXT="5. Moving Forward" ID="ID_1047902034" CREATED="1708961499353" MODIFIED="1708961504341"/>
+<node TEXT="Product entitlement mapping template below cross-maps entitlements to the capabilities that enable them" POSITION="bottom_or_right" ID="ID_1123434331" CREATED="1708968506592" MODIFIED="1708968568646">
+<hook URI="product-entitlement_capability.png" SIZE="0.4882018" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="3. Cross Product Line Investment Scaling" FOLDED="true" ID="ID_1089560513" CREATED="1708961478453" MODIFIED="1708961487127">
+<node ID="ID_1426055279" CREATED="1708969634521" MODIFIED="1708969729669"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Capability Investment in Value Streams <span style="font-weight: normal; text-decoration: underline;">mirror</span>&#xa0;Capability Investment in Product Entitlements
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Product Entitlements are typically delivered through multiple value streams" ID="ID_1720814557" CREATED="1708969711058" MODIFIED="1708969758753"/>
+<node TEXT="Auto Insurance product entitlements link back to 3 value streams with a 4th potential targeted after the fact" ID="ID_1895406754" CREATED="1708969759237" MODIFIED="1708969785246"/>
+<node TEXT="In the example, most entitlements are delivered thorugh Settle Claim value stream with the exceptions of" ID="ID_1950149648" CREATED="1708969786148" MODIFIED="1708969973798">
+<hook URI="product-entitlement_value-stream.png" SIZE="0.51903117" NAME="ExternalObject"/>
+<node TEXT="Fraud investigation into a claim, which may be triggered during or post-settlement as a standalone value stream called Resolve Fraud" ID="ID_1659088346" CREATED="1708969817603" MODIFIED="1708969852028"/>
+<node TEXT="Standalone requests for information to various parties, including scheduled notifications to customers, are sent via the Disseminate Information value stream" ID="ID_1826166585" CREATED="1708969852199" MODIFIED="1708969878070"/>
+<node TEXT="Acquire Coverage value stream may be triggered internally to adjust the insured customer&apos;s rates" ID="ID_73960309" CREATED="1708969878347" MODIFIED="1708969903038"/>
+</node>
+</node>
+<node TEXT="Scaling Product Planning &amp; Customer Service Design" ID="ID_1032369176" CREATED="1708970157573" MODIFIED="1708970326739">
+<hook URI="scaling-product-planning.png" SIZE="0.48859936" NAME="ExternalObject"/>
+<node TEXT="Organizations can scale product, product entitlement / customer service and value stream investments by identifying shared enabling capabilities across business units and product lines" ID="ID_675205336" CREATED="1708970170145" MODIFIED="1708970209134"/>
+<node TEXT="Targeting capabilities that optimize customer service delivery maximizes cross-portfolio investments" ID="ID_1582057319" CREATED="1708970209783" MODIFIED="1708970238782"/>
+</node>
+</node>
+<node TEXT="4. Shifting to a Customer Service Focused Enterprise" FOLDED="true" ID="ID_919555450" CREATED="1708961487306" MODIFIED="1708961499100">
+<node TEXT="Positioning an Organization to Establish Customer Service-Driven, Capability Investment Model" FOLDED="true" ID="ID_1509745935" CREATED="1708970432288" MODIFIED="1708970459840">
+<node TEXT="Refocus the culture away from internal business service exchanges, where the end customer is deprioritized" ID="ID_1433266121" CREATED="1708970459842" MODIFIED="1708970491578"/>
+<node TEXT="Internal service exchange can be destabilized by even simple reorganizations involving merged, new or discontinued business untis" ID="ID_178452857" CREATED="1708970493027" MODIFIED="1708970537550">
+<node TEXT="Internal service level commitments, which may be useful in some scenarios, deliver a false sense of security and undermine efforts to work collectively to maximize end customer value" ID="ID_1833647360" CREATED="1708970537552" MODIFIED="1708970574655"/>
+<node TEXT="Internal service exchange concept reinforces business unit silos, undermining the investment scalability benefits across business units and product lines" ID="ID_1644509589" CREATED="1708970574848" MODIFIED="1708970634358">
+<arrowlink DESTINATION="ID_1032369176"/>
+</node>
+<node TEXT="Most critically, internal service investments turn critical investment dollars away from delivering value to the end customer" ID="ID_44932364" CREATED="1708970638313" MODIFIED="1708970662298"/>
+</node>
+</node>
+<node TEXT="Establishing Business Architecture Baseline to Facilitate Cross-Ecosystem Customer Service Investments" FOLDED="true" ID="ID_944072225" CREATED="1708970714362" MODIFIED="1708971532864">
+<hook URI="product-mapping.png" SIZE="0.94043887" NAME="ExternalObject"/>
+<node TEXT="Business Architecture mappings" ID="ID_1963378479" CREATED="1708970738010" MODIFIED="1708971396610">
+<node TEXT="Capabilities, information concepts, organization and value stream" ID="ID_1098957546" CREATED="1708971396612" MODIFIED="1708971412763"/>
+<node TEXT="Product map with product lines,products and product entitlements" ID="ID_1267610563" CREATED="1708971413109" MODIFIED="1708971424167"/>
+</node>
+<node TEXT="Business Architecture cross-mappings" ID="ID_1432256682" CREATED="1708971425233" MODIFIED="1708971432032">
+<node TEXT="Capabilities-to-ValueStreams" ID="ID_163239720" CREATED="1708971432033" MODIFIED="1708971443383"/>
+<node TEXT="Capabilties-to-BusinessUnits to highlight capability instances" ID="ID_1252715428" CREATED="1708971443832" MODIFIED="1708971467336"/>
+<node TEXT="Capability instances-to-product entitlements" ID="ID_1281519945" CREATED="1708971467878" MODIFIED="1708971480725"/>
+<node TEXT="Product lines/business units" ID="ID_570069796" CREATED="1708971480942" MODIFIED="1708971488728"/>
+</node>
+<node TEXT="A means of capturing, representing and tracking this information in formal knowledgebase" ID="ID_873169887" CREATED="1708971489678" MODIFIED="1708971508560"/>
+</node>
+<node TEXT="Establishing a Business Architecture-Driven, IT Architecture Transformation Baseline" ID="ID_1430315452" CREATED="1708971612294" MODIFIED="1708971694303">
+<hook URI="ba-driven-software-service-mapping.png" SIZE="0.96308184" NAME="ExternalObject"/>
+<node TEXT="Business Architecture to IT Architecture mappings form the basis for driving IT transformation" ID="ID_1184585163" CREATED="1708971638481" MODIFIED="1708971662730"/>
+<node TEXT="Capabilities, capability instances and capability behaviors inform software service design" ID="ID_830963898" CREATED="1708971696944" MODIFIED="1708971723128">
+<node TEXT="Capabilities are non-redundant, object-based and outcome specific" ID="ID_161366887" CREATED="1708971723130" MODIFIED="1708971738790"/>
+<node TEXT="Capabilities decompose to multiple levels of granularity to inform software service design at multiple levels" ID="ID_888727866" CREATED="1708971739209" MODIFIED="1708971764467"/>
+</node>
+<node TEXT="Information concepts required and modified by capabilities inform data architecture" ID="ID_1985559332" CREATED="1708971765889" MODIFIED="1708971784622">
+<node TEXT="Information concepts are well defined, non-redundant and object based perspectives" ID="ID_257398788" CREATED="1708971784624" MODIFIED="1708971821946"/>
+<node TEXT="Using information concepts as data modeling inputs ensures that capability-based software services have the data they require" ID="ID_1683422628" CREATED="1708971822138" MODIFIED="1708971844315"/>
+</node>
+</node>
+</node>
+<node TEXT="5. In Summary" ID="ID_1047902034" CREATED="1708961499353" MODIFIED="1708971893152">
+<node TEXT="Poor customer service leads to lost trust and lost customers" ID="ID_1961628669" CREATED="1708971893154" MODIFIED="1708971904878"/>
+<node TEXT="Excellent customer service leads to improved financial results and long-term customer loyalty" ID="ID_93651033" CREATED="1708971905217" MODIFIED="1708971935118"/>
+<node TEXT="Business architecture provides a means of improving customer service by targeting product entitlements" ID="ID_1298868526" CREATED="1708971935273" MODIFIED="1708971951086"/>
+<node TEXT="Product entitlement improvements are realized through capability investments that enable those entitlements, which parallel capability investments in value streams" ID="ID_1263628672" CREATED="1708971951274" MODIFIED="1708971986941"/>
+<node TEXT="Organizations can shift to a customer service delivery improvement culture by:" ID="ID_526023371" CREATED="1708971987823" MODIFIED="1708972004532">
+<node TEXT="Deemphasizing internal service mapping in favor of investing in improving services to end customers" ID="ID_1883345247" CREATED="1708972004536" MODIFIED="1708972026730"/>
+<node TEXT="Formalizing a business architecture that includes a viable baseline coupled with product mapping" ID="ID_305128127" CREATED="1708972026897" MODIFIED="1708972045995"/>
+<node TEXT="Formally driving IT investments from through a business architecture lens" ID="ID_1738861111" CREATED="1708972046170" MODIFIED="1708972068747"/>
+</node>
+<node TEXT="Finally, scaling product line investments may require transforming budget and compensation models to enable cross-ecosystem investments" ID="ID_1724448013" CREATED="1708972069593" MODIFIED="1708972112332"/>
+</node>
 </node>
 </node>
 </map>
