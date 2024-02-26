@@ -3,7 +3,7 @@
 <node TEXT="BAGuild Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708961047631">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
 
 <map_styles>
@@ -464,12 +464,171 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="1. Introduction" ID="ID_1002839264" CREATED="1708973851030" MODIFIED="1708974138471"/>
-<node TEXT="2. Business Architecture Improvements" ID="ID_449338834" CREATED="1708974138718" MODIFIED="1708974144449"/>
-<node TEXT="3. Business Model" ID="ID_982445165" CREATED="1708974144606" MODIFIED="1708974148911"/>
-<node TEXT="4. Business Capability" ID="ID_787651010" CREATED="1708974149166" MODIFIED="1708974153441"/>
-<node TEXT="5. Value Steams" ID="ID_980441352" CREATED="1708974153638" MODIFIED="1708974159062"/>
-<node TEXT="6. What&apos;s Next?" ID="ID_139256936" CREATED="1708974159636" MODIFIED="1708974162924"/>
+<node TEXT="1. Introduction" FOLDED="true" ID="ID_1002839264" CREATED="1708973851030" MODIFIED="1708974138471">
+<node TEXT="TOGAF 9.1 first introduced in 2011" ID="ID_837595098" CREATED="1708978525122" MODIFIED="1708978535039"/>
+<node TEXT="Business architecture discipline evolved significantly since then" ID="ID_166846017" CREATED="1708978535473" MODIFIED="1708978550055"/>
+<node TEXT="TOGAF 9.2, available in April 2018, provides major improvements in business architecture" ID="ID_714593313" CREATED="1708978550261" MODIFIED="1708978573577"/>
+<node TEXT="Incremental guide approach to a more complete business architecture set of practices" ID="ID_638548640" CREATED="1708978574395" MODIFIED="1708978586979"/>
+</node>
+<node TEXT="2. Business Architecture Improvements" FOLDED="true" ID="ID_449338834" CREATED="1708974138718" MODIFIED="1708974144449">
+<node TEXT="Content Metamodel Additions" ID="ID_39203231" CREATED="1708978707464" MODIFIED="1708978836825">
+<hook URI="TOGAF-content-metamodel-additions.png" SIZE="0.3294893" NAME="ExternalObject"/>
+</node>
+<node TEXT="Architecture Development Method (ADM) Improvements" FOLDED="true" ID="ID_1938917048" CREATED="1708978894546" MODIFIED="1708978919083">
+<node TEXT="Phase A - Architecture Vision" FOLDED="true" ID="ID_1540256048" CREATED="1708978919084" MODIFIED="1708978931263">
+<node TEXT="Introduction of &quot;course of action&quot; concept with ties to strategy and architecture" ID="ID_1884654629" CREATED="1708978931264" MODIFIED="1708978947327"/>
+<node TEXT="Phase A introduces initial business capabilities and value streams" ID="ID_655388560" CREATED="1708978947525" MODIFIED="1708978966132"/>
+<node TEXT="&quot;Develop Architecture Vision&quot; step expanded" ID="ID_1377917339" CREATED="1708978966331" MODIFIED="1708978977770">
+<node TEXT="Policy development and strategic decisions captured" ID="ID_1565738698" CREATED="1708978977771" MODIFIED="1708978990014"/>
+<node TEXT="Ties architecture vision to selected course of action" ID="ID_1243696161" CREATED="1708978990493" MODIFIED="1708978999759"/>
+</node>
+<node TEXT="&quot;Creating Architecture Vision&quot; subsection expanded" ID="ID_533746764" CREATED="1708979000662" MODIFIED="1708979011515">
+<node TEXT="Business models as strategy artifact" ID="ID_798012022" CREATED="1708979011517" MODIFIED="1708979019770"/>
+<node TEXT="Examination and research of business architecture concepts: business capabilities, value streams, and organization maps" ID="ID_781133885" CREATED="1708979020141" MODIFIED="1708979047696"/>
+</node>
+<node TEXT="Added outputs" ID="ID_963962653" CREATED="1708979048562" MODIFIED="1708979052210">
+<node TEXT="Business Model diagram" ID="ID_1046616427" CREATED="1708979052211" MODIFIED="1708979057310"/>
+<node TEXT="Business Capability Map" ID="ID_1871020634" CREATED="1708979057676" MODIFIED="1708979061531"/>
+<node TEXT="Value Stream Map" ID="ID_863260874" CREATED="1708979061733" MODIFIED="1708979069822"/>
+</node>
+</node>
+<node TEXT="Phase B - Business Architecture" ID="ID_720547325" CREATED="1708979072243" MODIFIED="1708979079227">
+<node TEXT="Improves business architecture phase to be more holistic, multi-dimensional, and strategic in nature" ID="ID_1759337104" CREATED="1708979166716" MODIFIED="1708979190940"/>
+<node TEXT="Business architecture is tied to &quot;other&quot; activities, e.g., enterprise planning" ID="ID_450108117" CREATED="1708979191163" MODIFIED="1708979209688"/>
+<node TEXT="Key additions to steps, outputs, and approach:" FOLDED="true" ID="ID_439898947" CREATED="1708979209851" MODIFIED="1708979237460">
+<node TEXT="Business Capability Mapping" ID="ID_1356758498" CREATED="1708979237465" MODIFIED="1708979300575"/>
+<node TEXT="Value Stream Mapping" ID="ID_472711327" CREATED="1708979313366" MODIFIED="1708979442701">
+<hook URI="valuestream-heatmapping.png" SIZE="0.82079345" NAME="ExternalObject"/>
+</node>
+<node TEXT="Organization Mapping" ID="ID_747458149" CREATED="1708979333350" MODIFIED="1708979337368"/>
+</node>
+<node TEXT="&quot;Business Modeling&quot; concept shifts to strategic value-oriented concept introduced in Phase A" ID="ID_1310189533" CREATED="1708979338172" MODIFIED="1708979370447"/>
+</node>
+</node>
+<node TEXT="TOGAF Series Guides" ID="ID_322106853" CREATED="1708979593750" MODIFIED="1708979600591">
+<node TEXT="TOGAF Series Guides (new) - represent the same level of openness, interoperability and consensus as Standards from The Open Group" ID="ID_791718706" CREATED="1708979600593" MODIFIED="1708979634990"/>
+<node TEXT="New TOGAF Series Guides in Business Architecture" ID="ID_1686768540" CREATED="1708979635164" MODIFIED="1708979651686">
+<node TEXT="Business Capabilities" ID="ID_122444385" CREATED="1708979651687" MODIFIED="1708979656293"/>
+<node TEXT="Value Streams" ID="ID_192694442" CREATED="1708979656868" MODIFIED="1708979660971"/>
+<node TEXT="Business Models" ID="ID_487770177" CREATED="1708979661141" MODIFIED="1708979664151"/>
+</node>
+</node>
+</node>
+<node TEXT="3. Business Model" FOLDED="true" ID="ID_982445165" CREATED="1708974144606" MODIFIED="1708974148911">
+<node TEXT="Business Model Guide overview" FOLDED="true" ID="ID_99365518" CREATED="1708980738584" MODIFIED="1708980751107">
+<node TEXT="Familiarizes architects with the concept and purpose of business models" POSITION="bottom_or_right" ID="ID_1449080279" CREATED="1708979683414" MODIFIED="1708979704358"/>
+<node TEXT="Explains how business models relate to and influence the TOGAF ADM" POSITION="bottom_or_right" ID="ID_914395329" CREATED="1708979704519" MODIFIED="1708979719061"/>
+<node TEXT="Explores a common framework for creating and leveraging business model artifacts" POSITION="bottom_or_right" ID="ID_910974134" CREATED="1708979719240" MODIFIED="1708979913998"/>
+</node>
+<node TEXT="Business Model Defined" FOLDED="true" ID="ID_1994601913" CREATED="1708980783816" MODIFIED="1708980790101">
+<node TEXT="Business model describes the rationale for how an organization creates, delivers, and captures value" POSITION="bottom_or_right" ID="ID_448304499" CREATED="1708979945847" MODIFIED="1708980001232"/>
+<node TEXT="A business model may be" FOLDED="true" POSITION="bottom_or_right" ID="ID_1144043595" CREATED="1708980001416" MODIFIED="1708980007055">
+<node TEXT="an abstract concept that may exist in a leader&apos;s mind or" ID="ID_831418351" CREATED="1708980007061" MODIFIED="1708980027886"/>
+<node TEXT="a concrete concept whereby business model artifacts provide specific views of an instance of a business model" ID="ID_1850986480" CREATED="1708980029327" MODIFIED="1708980048274"/>
+</node>
+</node>
+<node TEXT="Relationships to Strategy and Architecture" FOLDED="true" ID="ID_1648055296" CREATED="1708980804670" MODIFIED="1708980812781">
+<node TEXT="Business models are elevated to a strategic role in TOGAF" POSITION="bottom_or_right" ID="ID_1503472504" CREATED="1708980092337" MODIFIED="1708980105110"/>
+<node TEXT="A business model creates alignment for achieving business strategy" POSITION="bottom_or_right" ID="ID_1139599507" CREATED="1708980105300" MODIFIED="1708980119530"/>
+<node TEXT="Business Architecture articulates the different perspectives and impacts of the business model" FOLDED="true" POSITION="bottom_or_right" ID="ID_329241059" CREATED="1708980119730" MODIFIED="1708980136358">
+<node TEXT="Relationships among Strategy, Business Models and Architecture" ID="ID_428769778" CREATED="1708980143876" MODIFIED="1708980190261">
+<hook URI="strategy-bizmodel-architecture.png" SIZE="0.52910054" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="Business Model Framework Example" FOLDED="true" ID="ID_75129201" CREATED="1708980270807" MODIFIED="1708980284063">
+<node TEXT="The Business Model Canvas (BMC) is a popular framework" ID="ID_673132214" CREATED="1708980284064" MODIFIED="1708980300086">
+<node TEXT="Example Artifact: Retailer Business Model Diagram - Future State" ID="ID_1480141530" CREATED="1708980417352" MODIFIED="1708980471022">
+<hook URI="retailer-bizmodeldiagram.png" SIZE="0.48231512" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="The Framework consists of 9 key building blocks" FOLDED="true" ID="ID_598143949" CREATED="1708980300279" MODIFIED="1708980320529">
+<node TEXT="Sample from strategyzer.com" ID="ID_739697190" CREATED="1708980380824" MODIFIED="1708980394876">
+<hook URI="BMF-from-strategyzer.png" SIZE="0.5946482" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="The BMC format is an intuitive technique for creating a sketch of a business model" ID="ID_1082729558" CREATED="1708980320705" MODIFIED="1708980342540"/>
+</node>
+<node TEXT="Using Business Model in TOGAF ADM" FOLDED="true" ID="ID_1064922843" CREATED="1708980498313" MODIFIED="1708980507377">
+<node TEXT="Phase A - Vision" ID="ID_1788519610" CREATED="1708980507378" MODIFIED="1708980511935">
+<node TEXT="Business models help describe the essential business problem and the vision of the change being processes" ID="ID_382606049" CREATED="1708980511937" MODIFIED="1708980536857"/>
+<node TEXT="Aids in determining the Business Architecture statement of work and the types of Business Architecture models or artifacts required" ID="ID_184763415" CREATED="1708980537035" MODIFIED="1708980565071"/>
+</node>
+<node TEXT="Phase B - Business Architecture" ID="ID_598061991" CREATED="1708980565825" MODIFIED="1708980572471">
+<node TEXT="Provides context and a starting point for baseline and target Business Architecture development" ID="ID_845346019" CREATED="1708980572473" MODIFIED="1708980599939"/>
+<node TEXT="Transition business models, if available, are valuable inputs to creating transition Business Architecture and business roadmaps" ID="ID_1571945957" CREATED="1708980600457" MODIFIED="1708980624210"/>
+</node>
+<node TEXT="Phase C - H" ID="ID_388895335" CREATED="1708980625265" MODIFIED="1708980628529">
+<node TEXT="Business models help keep initiatives focused on the organization&apos;s value-producing logic during planning and execution fo TOGAF ADM phases" ID="ID_1705284161" CREATED="1708980628532" MODIFIED="1708980667032"/>
+</node>
+</node>
+</node>
+<node TEXT="4. Business Capability" FOLDED="true" ID="ID_787651010" CREATED="1708974149166" MODIFIED="1708974153441">
+<node TEXT="Business Capability Guide Overview" FOLDED="true" ID="ID_1649603325" CREATED="1708980710201" MODIFIED="1708980848141">
+<node TEXT="Defines the &quot;business capability&quot; concept" ID="ID_461630726" CREATED="1708980848986" MODIFIED="1708980857739"/>
+<node TEXT="Describes the significance of business capabilities to Business/Enterprise Architecture" ID="ID_424365092" CREATED="1708980857897" MODIFIED="1708980875743"/>
+<node TEXT="Provides guidance for developing and using them in practice" ID="ID_425243383" CREATED="1708980875940" MODIFIED="1708980888379"/>
+</node>
+<node TEXT="Business Capability Defined" FOLDED="true" ID="ID_1570542127" CREATED="1708980899761" MODIFIED="1708980906361">
+<node TEXT="What is it?" ID="ID_1837582241" CREATED="1708980906363" MODIFIED="1708980910402">
+<node TEXT="&quot;A business capability is a particular ability or capacity that a business may possess or exchange to achieve a specific purpose or outcome." ID="ID_1691353530" CREATED="1708980920952" MODIFIED="1708981004489"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Source: Ulrich Homann, A Business-Oriented Foundation for Service Orientation White Paper, Feb 2006
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="What it isn&apos;t" ID="ID_292018489" CREATED="1708980910746" MODIFIED="1708980919369">
+<node TEXT="A business capability is not how, why or where a business uses the capability" ID="ID_1362334610" CREATED="1708980919370" MODIFIED="1708981019687"/>
+<node TEXT="What about Functions and Services?" ID="ID_376084438" CREATED="1708981019885" MODIFIED="1708981026199"/>
+</node>
+</node>
+<node TEXT="Name &amp; Description" FOLDED="true" ID="ID_1870336113" CREATED="1708981040883" MODIFIED="1708981045143">
+<node TEXT="Name" ID="ID_1435177835" CREATED="1708981045145" MODIFIED="1708981046834">
+<node TEXT="Clear" ID="ID_960646532" CREATED="1708981046835" MODIFIED="1708981048293"/>
+<node TEXT="Usually a noun vs. verb" ID="ID_1004394715" CREATED="1708981048778" MODIFIED="1708981055443"/>
+</node>
+<node TEXT="Description" ID="ID_1167003212" CREATED="1708981056386" MODIFIED="1708981058828">
+<node TEXT="Be Concise" ID="ID_821673471" CREATED="1708981058829" MODIFIED="1708981062050"/>
+<node TEXT="Be Precise" ID="ID_1728046556" CREATED="1708981062228" MODIFIED="1708981068445"/>
+</node>
+<node TEXT="Example" ID="ID_1383685981" CREATED="1708981069553" MODIFIED="1708981072077">
+<node TEXT="Recruitment Management" ID="ID_1996810451" CREATED="1708981072080" MODIFIED="1708981080196"/>
+<node TEXT="The ability to solicit, qualify, and provide support for hiring new employees into the organization" ID="ID_1671875634" CREATED="1708981081067" MODIFIED="1708981107905"/>
+</node>
+</node>
+<node TEXT="Capability Leveling" FOLDED="true" ID="ID_1515773399" CREATED="1708981126192" MODIFIED="1708981132160">
+<node TEXT="Decomposition of Level 1 Capabilities" ID="ID_1900945248" CREATED="1708981132161" MODIFIED="1708981140251"/>
+<node TEXT="Decompose 3-6 deep depending on the size and complexity of the organization" ID="ID_1000409302" CREATED="1708981140441" MODIFIED="1708981154150"/>
+</node>
+<node TEXT="Business Capability can be mapped with Roles, Processes, Information and Resources" ID="ID_27501276" CREATED="1708981170699" MODIFIED="1708981198858"/>
+</node>
+<node TEXT="5. Value Steams" FOLDED="true" ID="ID_980441352" CREATED="1708974153638" MODIFIED="1708974159062">
+<node TEXT="Value Stream Guide oversion" ID="ID_838904599" CREATED="1708981290498" MODIFIED="1708981307435">
+<node TEXT="Defines value and the &quot;value stream&quot; concept" ID="ID_1389266154" CREATED="1708981307438" MODIFIED="1708981370677"/>
+<node TEXT="Describes the significance of value streams to Business / Enterprise Architecture" ID="ID_668936816" CREATED="1708981370845" MODIFIED="1708981388588"/>
+<node TEXT="Provides guidance for developing and using them in practice" ID="ID_1806651315" CREATED="1708981388763" MODIFIED="1708981400067"/>
+<node TEXT="Provide key scenarios" ID="ID_1366050890" CREATED="1708981400221" MODIFIED="1708981403883"/>
+</node>
+<node TEXT="Guidance" ID="ID_1282476316" CREATED="1708981433027" MODIFIED="1708981524353">
+<hook URI="valuestream-AcquireRetailProduct.png" SIZE="0.508044" NAME="ExternalObject"/>
+<node TEXT="There must be a clearly defined triggering stakeholders" ID="ID_1386658733" CREATED="1708981436376" MODIFIED="1708981455036"/>
+<node TEXT="Start with external (usually customer-based) value" ID="ID_1660651205" CREATED="1708981455230" MODIFIED="1708981464904"/>
+<node TEXT="Value streams are not capabilities, nor components of capabilities" ID="ID_1361837377" CREATED="1708981465087" MODIFIED="1708981479268"/>
+<node TEXT="Kepe in concise" ID="ID_1416693966" CREATED="1708981479443" MODIFIED="1708981485281"/>
+</node>
+</node>
+<node TEXT="6. What&apos;s Next?" ID="ID_139256936" CREATED="1708974159636" MODIFIED="1708974162924">
+<node TEXT="Continue to improve the TOGAF standard in business architecture following the Architecture Forum roadmap and strategy for the standard evolution" ID="ID_1192127813" CREATED="1708981617457" MODIFIED="1708981823071"/>
+<node TEXT="Continue to refine TOGAF Series Guides for Business Architecture and consider additional topics for delivering guidance" ID="ID_1272515421" CREATED="1708981823608" MODIFIED="1708981845801"/>
+</node>
 </node>
 </node>
 </node>
