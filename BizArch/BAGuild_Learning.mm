@@ -3,7 +3,7 @@
 <node TEXT="BAGuild Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708961047631">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
 
 <map_styles>
@@ -83,7 +83,7 @@
 </map_styles>
 </hook>
 <node TEXT="2024" OBJECT="java.lang.Long|2024" POSITION="bottom_or_right" ID="ID_1505802859" CREATED="1708973738373" MODIFIED="1708973741159">
-<node TEXT="Products, Product Entitlements &amp; Customer Service Optimization" FOLDED="true" POSITION="bottom_or_right" ID="ID_1525919945" CREATED="1708961080674" MODIFIED="1708973610848"><richcontent TYPE="NOTE">
+<node TEXT="2024/01 - Products, Product Entitlements &amp; Customer Service Optimization" FOLDED="true" POSITION="bottom_or_right" ID="ID_1525919945" CREATED="1708961080674" MODIFIED="1708993774215"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -442,8 +442,13 @@
 </node>
 </node>
 </node>
+<node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
+<node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994115723">
+<node TEXT="" ID="ID_1128165665" CREATED="1708994177083" MODIFIED="1708994177083"/>
+</node>
+</node>
 <node TEXT="2018" OBJECT="java.lang.Long|2018" POSITION="bottom_or_right" ID="ID_1614323744" CREATED="1708973746471" MODIFIED="1708973748135">
-<node TEXT="Advancement of Business Architecture in the TOGAF Ecosystem" POSITION="bottom_or_right" ID="ID_1816131258" CREATED="1708973695668" MODIFIED="1708973846327"><richcontent TYPE="NOTE">
+<node TEXT="2018/12/19 - Advancement of Business Architecture in the TOGAF Ecosystem" FOLDED="true" POSITION="bottom_or_right" ID="ID_1816131258" CREATED="1708973695668" MODIFIED="1708993532024"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -470,12 +475,12 @@
 <node TEXT="TOGAF 9.2, available in April 2018, provides major improvements in business architecture" ID="ID_714593313" CREATED="1708978550261" MODIFIED="1708978573577"/>
 <node TEXT="Incremental guide approach to a more complete business architecture set of practices" ID="ID_638548640" CREATED="1708978574395" MODIFIED="1708978586979"/>
 </node>
-<node TEXT="2. Business Architecture Improvements" FOLDED="true" ID="ID_449338834" CREATED="1708974138718" MODIFIED="1708974144449">
+<node TEXT="2. Business Architecture Improvements" ID="ID_449338834" CREATED="1708974138718" MODIFIED="1708974144449">
 <node TEXT="Content Metamodel Additions" ID="ID_39203231" CREATED="1708978707464" MODIFIED="1708978836825">
 <hook URI="TOGAF-content-metamodel-additions.png" SIZE="0.3294893" NAME="ExternalObject"/>
 </node>
-<node TEXT="Architecture Development Method (ADM) Improvements" FOLDED="true" ID="ID_1938917048" CREATED="1708978894546" MODIFIED="1708978919083">
-<node TEXT="Phase A - Architecture Vision" FOLDED="true" ID="ID_1540256048" CREATED="1708978919084" MODIFIED="1708978931263">
+<node TEXT="Architecture Development Method (ADM) Improvements" ID="ID_1938917048" CREATED="1708978894546" MODIFIED="1708978919083">
+<node TEXT="Phase A - Architecture Vision" ID="ID_1540256048" CREATED="1708978919084" MODIFIED="1708978931263">
 <node TEXT="Introduction of &quot;course of action&quot; concept with ties to strategy and architecture" ID="ID_1884654629" CREATED="1708978931264" MODIFIED="1708978947327"/>
 <node TEXT="Phase A introduces initial business capabilities and value streams" ID="ID_655388560" CREATED="1708978947525" MODIFIED="1708978966132"/>
 <node TEXT="&quot;Develop Architecture Vision&quot; step expanded" ID="ID_1377917339" CREATED="1708978966331" MODIFIED="1708978977770">
@@ -563,13 +568,13 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Business Capability" FOLDED="true" ID="ID_787651010" CREATED="1708974149166" MODIFIED="1708974153441">
-<node TEXT="Business Capability Guide Overview" FOLDED="true" ID="ID_1649603325" CREATED="1708980710201" MODIFIED="1708980848141">
+<node TEXT="4. Business Capability" ID="ID_787651010" CREATED="1708974149166" MODIFIED="1708974153441">
+<node TEXT="Business Capability Guide Overview" ID="ID_1649603325" CREATED="1708980710201" MODIFIED="1708980848141">
 <node TEXT="Defines the &quot;business capability&quot; concept" ID="ID_461630726" CREATED="1708980848986" MODIFIED="1708980857739"/>
 <node TEXT="Describes the significance of business capabilities to Business/Enterprise Architecture" ID="ID_424365092" CREATED="1708980857897" MODIFIED="1708980875743"/>
 <node TEXT="Provides guidance for developing and using them in practice" ID="ID_425243383" CREATED="1708980875940" MODIFIED="1708980888379"/>
 </node>
-<node TEXT="Business Capability Defined" FOLDED="true" ID="ID_1570542127" CREATED="1708980899761" MODIFIED="1708980906361">
+<node TEXT="Business Capability Defined" ID="ID_1570542127" CREATED="1708980899761" MODIFIED="1708980906361">
 <node TEXT="What is it?" ID="ID_1837582241" CREATED="1708980906363" MODIFIED="1708980910402">
 <node TEXT="&quot;A business capability is a particular ability or capacity that a business may possess or exchange to achieve a specific purpose or outcome." ID="ID_1691353530" CREATED="1708980920952" MODIFIED="1708981004489"><richcontent TYPE="NOTE">
 <html>
@@ -590,7 +595,7 @@
 <node TEXT="What about Functions and Services?" ID="ID_376084438" CREATED="1708981019885" MODIFIED="1708981026199"/>
 </node>
 </node>
-<node TEXT="Name &amp; Description" FOLDED="true" ID="ID_1870336113" CREATED="1708981040883" MODIFIED="1708981045143">
+<node TEXT="Name &amp; Description" ID="ID_1870336113" CREATED="1708981040883" MODIFIED="1708981045143">
 <node TEXT="Name" ID="ID_1435177835" CREATED="1708981045145" MODIFIED="1708981046834">
 <node TEXT="Clear" ID="ID_960646532" CREATED="1708981046835" MODIFIED="1708981048293"/>
 <node TEXT="Usually a noun vs. verb" ID="ID_1004394715" CREATED="1708981048778" MODIFIED="1708981055443"/>
@@ -604,7 +609,7 @@
 <node TEXT="The ability to solicit, qualify, and provide support for hiring new employees into the organization" ID="ID_1671875634" CREATED="1708981081067" MODIFIED="1708981107905"/>
 </node>
 </node>
-<node TEXT="Capability Leveling" FOLDED="true" ID="ID_1515773399" CREATED="1708981126192" MODIFIED="1708981132160">
+<node TEXT="Capability Leveling" ID="ID_1515773399" CREATED="1708981126192" MODIFIED="1708981132160">
 <node TEXT="Decomposition of Level 1 Capabilities" ID="ID_1900945248" CREATED="1708981132161" MODIFIED="1708981140251"/>
 <node TEXT="Decompose 3-6 deep depending on the size and complexity of the organization" ID="ID_1000409302" CREATED="1708981140441" MODIFIED="1708981154150"/>
 </node>
@@ -628,6 +633,41 @@
 <node TEXT="6. What&apos;s Next?" ID="ID_139256936" CREATED="1708974159636" MODIFIED="1708974162924">
 <node TEXT="Continue to improve the TOGAF standard in business architecture following the Architecture Forum roadmap and strategy for the standard evolution" ID="ID_1192127813" CREATED="1708981617457" MODIFIED="1708981823071"/>
 <node TEXT="Continue to refine TOGAF Series Guides for Business Architecture and consider additional topics for delivering guidance" ID="ID_1272515421" CREATED="1708981823608" MODIFIED="1708981845801"/>
+</node>
+<node TEXT="7. Quiz" ID="ID_1710859065" CREATED="1708983676043" MODIFIED="1708983680431">
+<node TEXT="1) The TOGAF 9.2 standard provides the most significant business-architecture related updates to what two parts of the TOGAF standards?" ID="ID_1710515917" CREATED="1708983680434" MODIFIED="1708983710818">
+<node TEXT="A. TOGAF ADM, TOGAF Content Metamodel" ID="ID_1614803216" CREATED="1708983710822" MODIFIED="1708983777423">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="B. TOGAF Content Metamodel, Enterprise Continuum and Tools" ID="ID_1823084842" CREATED="1708983728778" MODIFIED="1708983899101">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="C. TOGAF Guides, Enterprise Continuum and Tools" ID="ID_1449004288" CREATED="1708983747326" MODIFIED="1708983899101">
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node TEXT="2) The TOGAF 9.2 Content Metamodel introduces what three new entities in the Business Architecture domain?" ID="ID_490904534" CREATED="1708983779155" MODIFIED="1708983803976">
+<node TEXT="A. Business Capability, Value Stream, business model" ID="ID_1824216687" CREATED="1708983803979" MODIFIED="1708983899101">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="B. Business Capability, Business object, Value Stream" ID="ID_1031414044" CREATED="1708983841854" MODIFIED="1708983899101">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="C. Business Capability, Value Stream, Course of Action" ID="ID_1167610636" CREATED="1708983874288" MODIFIED="1708983892449">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node TEXT="3) In TOGAF 9.2, the business capability map is first introduced in what ADM Phase?" ID="ID_1599330536" CREATED="1708983901313" MODIFIED="1708983923905">
+<node TEXT="A. Preliminary" ID="ID_42934747" CREATED="1708983923907" MODIFIED="1708984013131">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="B. Architecture Vision" ID="ID_185655269" CREATED="1708983934257" MODIFIED="1708984030146">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="C. Business Architecture" ID="ID_1779501812" CREATED="1708983938872" MODIFIED="1708984013130">
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
 </node>
 </node>
 </node>
