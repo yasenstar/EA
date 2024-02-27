@@ -443,8 +443,173 @@
 </node>
 </node>
 <node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
-<node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994115723">
-<node TEXT="" ID="ID_1128165665" CREATED="1708994177083" MODIFIED="1708994177083"/>
+<node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994319007"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Neal McWhorter
+    </p>
+    <p>
+      Zurich North America
+    </p>
+    <p>
+      As a founding member of the Business Architecture Guild, former co-chair of the OMG Business Architecture Working Group and Co-Author fo the book &quot;Business Architecture: The Art and Practice of Business Transformation&quot; Neal has been deeply involved with Business Architecture since the very beginning. Neal has been both a key thinker in the domain as well as a deep practitioner through nearly 25 years of work with boutique consulting firms as well as years of experience providing leadership within a major international insurer.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="01. The problem" FOLDED="true" ID="ID_1128165665" CREATED="1708994177083" MODIFIED="1708995459921">
+<node ID="ID_631473712" CREATED="1708994373190" MODIFIED="1708994513995"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Organizations face an increasingly complex competitive landscape. In order to respond to the demands of this environment, executives must balance a daunting set of strategies, objectives and mandates. Managing to gain alignment at this level is challenging in its own right but translating those challenges into concrete operational outcomes via Initiatives is even more difficult. Gaining insight into how these Initiatives are delivering the desired outcomes requires going <span style="font-weight: bold;">Beyond Initiative Mapping!</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="02. Initiative Mapping and the BIZBOK" FOLDED="true" ID="ID_1335317198" CREATED="1708994519725" MODIFIED="1708995463762">
+<node TEXT="Initiative mapping delivers cross-business transparency of initiatives and related investments in those initiatives." ID="ID_408182186" CREATED="1708994590416" MODIFIED="1708994618248">
+<node TEXT="This essentially clarifies the context and impact of an initiative insofar as businesses require a level of transparency on initiatives to understand where their investments are being sell spent and where they may be misaligned to business objectives or are at risk of clashing with related investments across business units." ID="ID_126859624" CREATED="1708994618253" MODIFIED="1708994688848"/>
+</node>
+<node TEXT="Initiative mapping highlights areas of potential redundancy and overlap across multiple initiatives." ID="ID_1740374107" CREATED="1708994689825" MODIFIED="1708994716430">
+<node TEXT="Redundancy, overlap, and the resulting conflict experienced by projects, particularly where both projects are targeting the same capabilities and by inference the same information, is a major issue for many businesses." ID="ID_988897915" CREATED="1708994716431" MODIFIED="1708994804920"/>
+<node TEXT="Initiative mapping highlights these issues as a foundation for business-wide analysis of initiatives that are often defined in siloes." ID="ID_304858184" CREATED="1708994806158" MODIFIED="1708994835480"/>
+</node>
+<node TEXT="Initiative mapping demonstrates how well a business&apos; portfolio of initiatives is aligned with its business objectives" ID="ID_1472780576" CREATED="1708994836310" MODIFIED="1708994867736">
+<node TEXT="Basic initiative mapping links initiatives to objectives, which may be linked to other initiatives." ID="ID_1937747229" CREATED="1708994867738" MODIFIED="1708994888175"/>
+<node TEXT="Sophisticated initiative-to-objective mapping incorporates relationships among lower level and higher-level objectives that can link two initiatives in ways that would otherwise not be transparent to the business." ID="ID_961946643" CREATED="1708994889118" MODIFIED="1708994930613"/>
+<node TEXT="Objective-to-initiative mapping is a critical initiative mapping perspective." ID="ID_204961721" CREATED="1708994932929" MODIFIED="1708994951587"/>
+</node>
+<node TEXT="Initiative mapping highlights gaps between stated business objectives and current or planned initiatives" ID="ID_1688698508" CREATED="1708994952437" MODIFIED="1708994973198">
+<node TEXT="Many times, organizations find that they have strategic objectives that have no corresponding initiative either planned or inflight to satisfy those objectives." ID="ID_1936480701" CREATED="1708994973199" MODIFIED="1708995005024"/>
+<node TEXT="In other cases, initiatives are planned or underway that cannot be tied back to a valid business initiative." ID="ID_1776004043" CREATED="1708995005917" MODIFIED="1708995048137"/>
+<node TEXT="Both cases represent scenarios where money is being spent unwisely on the one hand while priority business objectives are ignored on the other hand." ID="ID_818155770" CREATED="1708995048579" MODIFIED="1708995076259"/>
+</node>
+<node TEXT="Initiative mapping provides insights into how initiatives are focused on improving stakeholder value delivery" ID="ID_380183043" CREATED="1708995077582" MODIFIED="1708995102424">
+<node TEXT="In the absence of understanding where an initiative investment will improve delivery of value to customers, partners, or internal stakeholders, it is difficult to fully justify an investment in that initiative." ID="ID_1066032790" CREATED="1708995102427" MODIFIED="1708995148588"/>
+<node TEXT="Some initiatives communicate value as a cost savings vehicle, but even these investments have a stakeholder value delivery context." ID="ID_227917773" CREATED="1708995151061" MODIFIED="1708995182176"/>
+<node TEXT="The stakeholder value delivery improvement perspective should at least be a consideration if not the motivation for these types of investments." ID="ID_309132608" CREATED="1708995182551" MODIFIED="1708995216245"/>
+</node>
+<node TEXT="Initiatives mapping identifies which initiatives impact or target business capabilities" ID="ID_334805823" CREATED="1708995217663" MODIFIED="1708995242512">
+<node TEXT="Ultimately initiatives will impact a number of capabilities and it is always important to understand how these capabilities will be impacted across one or more business units, where capability improvements can be leveraged in other areas, and the quantifiable improvements business are seeking in those capabilities." ID="ID_670405175" CREATED="1708995242514" MODIFIED="1708995316809"/>
+</node>
+</node>
+<node TEXT="03. From Initiatives to Value" FOLDED="true" ID="ID_1720856380" CREATED="1708995464185" MODIFIED="1708995474433">
+<node TEXT="Initiatives have two ways to deliver the value that they are driving towards" ID="ID_901238298" CREATED="1708995474435" MODIFIED="1708995494043">
+<node TEXT="1) Rearrange processes into a higher value generating arrangement" ID="ID_266305159" CREATED="1708995494044" MODIFIED="1708995508326">
+<node TEXT="Process change is an expense item that doesn&apos;t rely on increasing an organization&apos;s assets." ID="ID_1288630112" CREATED="1708995535281" MODIFIED="1708995564370"/>
+<node TEXT="It solely relies on better utilizing those assest." ID="ID_1486080574" CREATED="1708995564559" MODIFIED="1708995592570"/>
+</node>
+<node TEXT="2) Deliver new capabilities that enable new value propositions that were not previously viable" ID="ID_1259973732" CREATED="1708995508583" MODIFIED="1708995524900">
+<node TEXT="Creating new capabilities involves investment in creating new assets." ID="ID_215071874" CREATED="1708995593935" MODIFIED="1708995608242"/>
+</node>
+</node>
+</node>
+<node TEXT="04. Towards a Business Architecture Dashboard" FOLDED="true" ID="ID_462875614" CREATED="1708995714680" MODIFIED="1708996167372">
+<node TEXT="While dashboards are common for monitoring operational metrics, within the strategy function dashboards are a rare occurrence." ID="ID_1751106587" CREATED="1708995737230" MODIFIED="1708995782793"/>
+<node ID="ID_1007278297" CREATED="1708995783138" MODIFIED="1708995833193"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      One reason for this difference is that <span style="font-weight: bold; text-decoration: underline;">operational metrics</span>&#xa0;are driven by day-to-day operational data feeds that measure concrete events within the organization.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="How much time/money" ID="ID_1581332418" CREATED="1708995913722" MODIFIED="1708995921888"/>
+<node TEXT="Were the deliverables met" ID="ID_1447407969" CREATED="1708995922116" MODIFIED="1708995932066"/>
+<node TEXT="Are the deliverables expected to be achieved on the planned date?" ID="ID_643673901" CREATED="1708995932229" MODIFIED="1708995946414"/>
+<node TEXT="Is the cost of the effort within the budgeted amount?" ID="ID_1769802808" CREATED="1708995946553" MODIFIED="1708995957652"/>
+<node TEXT="Is the resource utilization rate within the projected availability?" ID="ID_387874618" CREATED="1708995958034" MODIFIED="1708995976081"/>
+</node>
+<node ID="ID_766808371" CREATED="1708995834549" MODIFIED="1708995913164"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A <span style="font-weight: normal;">strategy dashboard&#xa0;is, by its nature, driven by items (</span><span style="font-weight: bold; text-decoration: underline;">strategic metrics</span><span style="font-weight: normal;">) that have much less readily available data to support them</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="The outcome is not quantifiable because the ultimate metric is in the future" ID="ID_1642599263" CREATED="1708995977248" MODIFIED="1708995994609"/>
+<node TEXT="The outcome can only be quantified by a measure of relative risk" ID="ID_1195876185" CREATED="1708995994786" MODIFIED="1708996005301"/>
+<node TEXT="The outcome can only be quantified by a measure of opportunity cost" ID="ID_1330858854" CREATED="1708996005465" MODIFIED="1708996082938"/>
+</node>
+</node>
+<node TEXT="05. Using Initiatives with Capabilities" FOLDED="true" ID="ID_1653107774" CREATED="1708996209069" MODIFIED="1708996220355">
+<node TEXT="Strategic objectives often involve a decision to make an investment in developing new capabilities that are required for an organization to deliver operational benefits." ID="ID_1890890275" CREATED="1708996220359" MODIFIED="1708996292459">
+<hook URI="initiative-with-capability.png" SIZE="0.4379562" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Initiative in BA and Mapping" FOLDED="true" ID="ID_1971630619" CREATED="1708996748182" MODIFIED="1708996765435">
+<node TEXT="The Initiative&apos;s Place in Business Architecture" POSITION="bottom_or_right" ID="ID_564136548" CREATED="1708996414876" MODIFIED="1708996469315">
+<hook URI="initiative-in-bizarch.png" SIZE="0.7017544" NAME="ExternalObject"/>
+</node>
+<node TEXT="Basic Initiative Mapping" POSITION="bottom_or_right" ID="ID_1390831887" CREATED="1708996768039" MODIFIED="1708996800455">
+<hook URI="basic-initiative-mapping.png" SIZE="0.5071851" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Initiative Assessments" FOLDED="true" POSITION="bottom_or_right" ID="ID_1065218526" CREATED="1708996804111" MODIFIED="1708997207765">
+<node TEXT="One of the shortcomings of simple Initiative Mappings is that the insight it provides is not compelling." ID="ID_998062378" CREATED="1708996807761" MODIFIED="1708996835889"/>
+<node TEXT="In order to be able to add value it is essential that a more sophisticated concept of value contribution be captured." ID="ID_765361637" CREATED="1708996836366" MODIFIED="1708996862647"/>
+<node TEXT="Because there are always more investment opportunities than funds able to be deployed to pursue them..." ID="ID_1531274756" CREATED="1708996862831" MODIFIED="1708996897538"/>
+<node TEXT="One of the keys to being able to value a contribution is being able to assess the relative contribution of initiatives across the portfolio" ID="ID_563862496" CREATED="1708996906679" MODIFIED="1708996942291"/>
+<node TEXT="Assessing the Initiative&apos;s Contribution" FOLDED="true" POSITION="bottom_or_right" ID="ID_1683031414" CREATED="1708997039370" MODIFIED="1708997050673">
+<node TEXT="Borrowing from QFD&apos;s (Quality Function Design) ranking" ID="ID_1764255516" CREATED="1708997055105" MODIFIED="1708997107711">
+<hook URI="initiative-assess.png" SIZE="0.7067138" NAME="ExternalObject"/>
+<node TEXT="1 The Initiative delivers minimal value" ID="ID_1593989501" CREATED="1708997109169" MODIFIED="1708997171749"/>
+<node TEXT="3 The Initiative delivers significant value" ID="ID_1362919047" CREATED="1708997127793" MODIFIED="1708997176893"/>
+<node TEXT="9 The Initiative delivers highly differentiated value" ID="ID_608552462" CREATED="1708997139936" MODIFIED="1708997179604"/>
+</node>
+</node>
+</node>
+<node TEXT="A Dataset to Answer Questions" FOLDED="true" POSITION="bottom_or_right" ID="ID_511561380" CREATED="1708997361442" MODIFIED="1708997372757">
+<node TEXT="Modeling is not the goal!" ID="ID_1717071638" CREATED="1708997372758" MODIFIED="1708997378930">
+<node TEXT="&quot;All models are wrong but some are useful&quot; -- George E.P. Box" ID="ID_841781607" CREATED="1708997622323" MODIFIED="1708997637861"/>
+<node TEXT="The goal is the make analytics and deliver the insights" ID="ID_1287996084" CREATED="1708997685920" MODIFIED="1708997698833"/>
+</node>
+<node TEXT="Linking investments to the initiatives that are driving them" ID="ID_1924691457" CREATED="1708997380593" MODIFIED="1708997390081"/>
+<node TEXT="Show capability maturity paths related to Initiative Roadmaps" ID="ID_1147443082" CREATED="1708997390293" MODIFIED="1708997403716"/>
+<node TEXT="Show relative contribution of Initiatives across a portfolio" ID="ID_965093534" CREATED="1708997404010" MODIFIED="1708997423109"/>
+</node>
+<node TEXT="Nine Questions to answer" POSITION="bottom_or_right" ID="ID_550998332" CREATED="1708997719205" MODIFIED="1708997730588">
+<node TEXT="Q1: What Investments are needed to achieve the objectives and what benefits are at stake?" ID="ID_632636231" CREATED="1708997730590" MODIFIED="1708997753535">
+<node TEXT="Q1" ID="ID_265957916" CREATED="1708997771213" MODIFIED="1708998006327">
+<hook URI="initiative-q1.png" SIZE="0.32362458" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Q2: How do projects align to the organizations strategic plan for investments?" ID="ID_1262775850" CREATED="1708998010243" MODIFIED="1708998028634">
+<node TEXT="Q2" ID="ID_1822034722" CREATED="1708998028636" MODIFIED="1708998053874">
+<hook URI="initiative-q2.png" SIZE="0.31813362" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Q3: What objectives are at risk?" ID="ID_1476508569" CREATED="1708998177910" MODIFIED="1708998188735">
+<node TEXT="Q3" ID="ID_1001070136" CREATED="1708998188740" MODIFIED="1708998211571">
+<hook URI="initiative-q3.png" SIZE="0.31914893" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="2018" OBJECT="java.lang.Long|2018" POSITION="bottom_or_right" ID="ID_1614323744" CREATED="1708973746471" MODIFIED="1708973748135">
