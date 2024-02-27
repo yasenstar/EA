@@ -609,6 +609,36 @@
 <hook URI="initiative-q3.png" SIZE="0.31914893" NAME="ExternalObject"/>
 </node>
 </node>
+<node TEXT="Q4: Where are there potential conflicts between initiatives in strategic investment targets?" ID="ID_1105843437" CREATED="1708998282400" MODIFIED="1708998352682">
+<node TEXT="Q4" ID="ID_151244507" CREATED="1708998286676" MODIFIED="1708998376815">
+<hook URI="initiative-q4.png" SIZE="0.3243243" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Q5: Which projects make the largest contribution to the strategic investment target?" ID="ID_408162552" CREATED="1708998282655" MODIFIED="1708998523246">
+<node TEXT="Q5" ID="ID_1889315683" CREATED="1708998291142" MODIFIED="1708998563688">
+<hook URI="initiative-q5.png" SIZE="0.31678987" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Q6: What is the current timeline for achieving objectives?" ID="ID_92283090" CREATED="1708998282912" MODIFIED="1708998822996">
+<node TEXT="Q6" ID="ID_1123243963" CREATED="1708998291929" MODIFIED="1708998832071">
+<hook URI="initiative-q6.png" SIZE="0.32590982" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Q7: What investments are needed to deliver on a specific longer-term value proposition?" ID="ID_1580220052" CREATED="1708998283688" MODIFIED="1708999118810">
+<node TEXT="Q7" ID="ID_1953546927" CREATED="1708998292511" MODIFIED="1708999099261">
+<hook URI="initiative-q7.png" SIZE="0.31595576" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Q8: How do the investments within a program align to the strategic investment targets?" ID="ID_1916423401" CREATED="1708998283911" MODIFIED="1708999319207">
+<node TEXT="Q8" ID="ID_251768667" CREATED="1708998293023" MODIFIED="1708999341457">
+<hook URI="initiative-q8.png" SIZE="0.3215434" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Q9: Where does a portfolio have the largest business cpaability impact?" ID="ID_447598149" CREATED="1708998284191" MODIFIED="1708999580043">
+<node TEXT="Q9" ID="ID_1514285571" CREATED="1708998293555" MODIFIED="1708999585662">
+<hook URI="initiative-q9.png" SIZE="0.32206118" NAME="ExternalObject"/>
+</node>
+</node>
 </node>
 </node>
 </node>

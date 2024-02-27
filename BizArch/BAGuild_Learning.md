@@ -348,7 +348,179 @@ Capability Investment in Value Streamsmirror Capability Investment in Product En
 
 ## 2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)
 
-### 
+Neal McWhorter
+
+Zurich North America
+
+As a founding member of the Business Architecture Guild, former co-chair of the OMG Business Architecture Working Group and Co-Author fo the book "Business Architecture: The Art and Practice of Business Transformation" Neal has been deeply involved with Business Architecture since the very beginning. Neal has been both a key thinker in the domain as well as a deep practitioner through nearly 25 years of work with boutique consulting firms as well as years of experience providing leadership within a major international insurer.
+
+
+### 01. The problem
+ 
+Organizations face an increasingly complex competitive landscape. In order to respond to the demands of this environment, executives must balance a daunting set of strategies, objectives and mandates. Managing to gain alignment at this level is challenging in its own right but translating those challenges into concrete operational outcomes via Initiatives is even more difficult. Gaining insight into how these Initiatives are delivering the desired outcomes requires goingBeyond Initiative Mapping!
+
+
+### 02. Initiative Mapping and the BIZBOK
+
+#### Initiative mapping delivers cross-business transparency of initiatives and related investments in those initiatives.
+
+##### This essentially clarifies the context and impact of an initiative insofar as businesses require a level of transparency on initiatives to understand where their investments are being sell spent and where they may be misaligned to business objectives or are at risk of clashing with related investments across business units.
+
+#### Initiative mapping highlights areas of potential redundancy and overlap across multiple initiatives.
+
+##### Redundancy, overlap, and the resulting conflict experienced by projects, particularly where both projects are targeting the same capabilities and by inference the same information, is a major issue for many businesses.
+
+##### Initiative mapping highlights these issues as a foundation for business-wide analysis of initiatives that are often defined in siloes.
+
+#### Initiative mapping demonstrates how well a business' portfolio of initiatives is aligned with its business objectives
+
+##### Basic initiative mapping links initiatives to objectives, which may be linked to other initiatives.
+
+##### Sophisticated initiative-to-objective mapping incorporates relationships among lower level and higher-level objectives that can link two initiatives in ways that would otherwise not be transparent to the business.
+
+##### Objective-to-initiative mapping is a critical initiative mapping perspective.
+
+#### Initiative mapping highlights gaps between stated business objectives and current or planned initiatives
+
+##### Many times, organizations find that they have strategic objectives that have no corresponding initiative either planned or inflight to satisfy those objectives.
+
+##### In other cases, initiatives are planned or underway that cannot be tied back to a valid business initiative.
+
+##### Both cases represent scenarios where money is being spent unwisely on the one hand while priority business objectives are ignored on the other hand.
+
+#### Initiative mapping provides insights into how initiatives are focused on improving stakeholder value delivery
+
+##### In the absence of understanding where an initiative investment will improve delivery of value to customers, partners, or internal stakeholders, it is difficult to fully justify an investment in that initiative.
+
+##### Some initiatives communicate value as a cost savings vehicle, but even these investments have a stakeholder value delivery context.
+
+##### The stakeholder value delivery improvement perspective should at least be a consideration if not the motivation for these types of investments.
+
+#### Initiatives mapping identifies which initiatives impact or target business capabilities
+
+##### Ultimately initiatives will impact a number of capabilities and it is always important to understand how these capabilities will be impacted across one or more business units, where capability improvements can be leveraged in other areas, and the quantifiable improvements business are seeking in those capabilities.
+
+### 03. From Initiatives to Value
+
+#### Initiatives have two ways to deliver the value that they are driving towards
+
+##### 1) Rearrange processes into a higher value generating arrangement
+
+###### Process change is an expense item that doesn't rely on increasing an organization's assets.
+
+###### It solely relies on better utilizing those assest.
+
+##### 2) Deliver new capabilities that enable new value propositions that were not previously viable
+
+###### Creating new capabilities involves investment in creating new assets.
+
+### 04. Towards a Business Architecture Dashboard
+
+#### While dashboards are common for monitoring operational metrics, within the strategy function dashboards are a rare occurrence.
+ 
+One reason for this difference is thatoperational metrics are driven by day-to-day operational data feeds that measure concrete events within the organization.
+
+
+##### How much time/money
+
+##### Were the deliverables met
+
+##### Are the deliverables expected to be achieved on the planned date?
+
+##### Is the cost of the effort within the budgeted amount?
+
+##### Is the resource utilization rate within the projected availability?
+ 
+Astrategy dashboard is, by its nature, driven by items (strategic metrics) that have much less readily available data to support them
+
+
+##### The outcome is not quantifiable because the ultimate metric is in the future
+
+##### The outcome can only be quantified by a measure of relative risk
+
+##### The outcome can only be quantified by a measure of opportunity cost
+
+### 05. Using Initiatives with Capabilities
+
+#### Strategic objectives often involve a decision to make an investment in developing new capabilities that are required for an organization to deliver operational benefits.
+
+### Initiative in BA and Mapping
+
+#### The Initiative's Place in Business Architecture
+
+#### Basic Initiative Mapping
+
+### Initiative Assessments
+
+#### One of the shortcomings of simple Initiative Mappings is that the insight it provides is not compelling.
+
+#### In order to be able to add value it is essential that a more sophisticated concept of value contribution be captured.
+
+#### Because there are always more investment opportunities than funds able to be deployed to pursue them...
+
+#### One of the keys to being able to value a contribution is being able to assess the relative contribution of initiatives across the portfolio
+
+#### Assessing the Initiative's Contribution
+
+##### Borrowing from QFD's (Quality Function Design) ranking
+
+###### 1 The Initiative delivers minimal value
+
+###### 3 The Initiative delivers significant value
+
+###### 9 The Initiative delivers highly differentiated value
+
+### A Dataset to Answer Questions
+
+#### Modeling is not the goal!
+
+##### "All models are wrong but some are useful" -- George E.P. Box
+
+##### The goal is the make analytics and deliver the insights
+
+#### Linking investments to the initiatives that are driving them
+
+#### Show capability maturity paths related to Initiative Roadmaps
+
+#### Show relative contribution of Initiatives across a portfolio
+
+### Nine Questions to answer
+
+#### Q1: What Investments are needed to achieve the objectives and what benefits are at stake?
+
+##### Q1
+
+#### Q2: How do projects align to the organizations strategic plan for investments?
+
+##### Q2
+
+#### Q3: What objectives are at risk?
+
+##### Q3
+
+#### Q4: Where are there potential conflicts between initiatives in strategic investment targets?
+
+##### Q4
+
+#### Q5: Which projects make the largest contribution to the strategic investment target?
+
+##### Q5
+
+#### Q6: What is the current timeline for achieving objectives?
+
+##### Q6
+
+#### Q7: What investments are needed to deliver on a specific longer-term value proposition?
+
+##### Q7
+
+#### Q8: How do the investments within a program align to the strategic investment targets?
+
+##### Q8
+
+#### Q9: Where does a portfolio have the largest business cpaability impact?
+
+##### Q9
 
 # 2018
 
