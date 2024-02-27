@@ -442,8 +442,13 @@
 </node>
 </node>
 </node>
+<node TEXT="2023" OBJECT="java.lang.Long|2023" POSITION="bottom_or_right" ID="ID_1961048300" CREATED="1709001988662" MODIFIED="1709001990587">
+<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709002024944">
+<node TEXT="" ID="ID_735901078" CREATED="1709002026633" MODIFIED="1709002026633"/>
+</node>
+</node>
 <node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
-<node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994319007"><richcontent TYPE="NOTE">
+<node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" FOLDED="true" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994319007"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -505,7 +510,7 @@
 <node TEXT="Ultimately initiatives will impact a number of capabilities and it is always important to understand how these capabilities will be impacted across one or more business units, where capability improvements can be leveraged in other areas, and the quantifiable improvements business are seeking in those capabilities." ID="ID_670405175" CREATED="1708995242514" MODIFIED="1708995316809"/>
 </node>
 </node>
-<node TEXT="03. From Initiatives to Value" FOLDED="true" ID="ID_1720856380" CREATED="1708995464185" MODIFIED="1708995474433">
+<node TEXT="03. From Initiatives to Value" ID="ID_1720856380" CREATED="1708995464185" MODIFIED="1708995474433">
 <node TEXT="Initiatives have two ways to deliver the value that they are driving towards" ID="ID_901238298" CREATED="1708995474435" MODIFIED="1708995494043">
 <node TEXT="1) Rearrange processes into a higher value generating arrangement" ID="ID_266305159" CREATED="1708995494044" MODIFIED="1708995508326">
 <node TEXT="Process change is an expense item that doesn&apos;t rely on increasing an organization&apos;s assets." ID="ID_1288630112" CREATED="1708995535281" MODIFIED="1708995564370"/>
@@ -593,51 +598,74 @@
 <node TEXT="Show capability maturity paths related to Initiative Roadmaps" ID="ID_1147443082" CREATED="1708997390293" MODIFIED="1708997403716"/>
 <node TEXT="Show relative contribution of Initiatives across a portfolio" ID="ID_965093534" CREATED="1708997404010" MODIFIED="1708997423109"/>
 </node>
-<node TEXT="Nine Questions to answer" POSITION="bottom_or_right" ID="ID_550998332" CREATED="1708997719205" MODIFIED="1708997730588">
-<node TEXT="Q1: What Investments are needed to achieve the objectives and what benefits are at stake?" ID="ID_632636231" CREATED="1708997730590" MODIFIED="1708997753535">
+<node TEXT="Nine Questions to answer" FOLDED="true" POSITION="bottom_or_right" ID="ID_550998332" CREATED="1708997719205" MODIFIED="1708997730588">
+<node TEXT="Q1: What Investments are needed to achieve the objectives and what benefits are at stake?" FOLDED="true" ID="ID_632636231" CREATED="1708997730590" MODIFIED="1708997753535">
 <node TEXT="Q1" ID="ID_265957916" CREATED="1708997771213" MODIFIED="1708998006327">
 <hook URI="initiative-q1.png" SIZE="0.32362458" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Q2: How do projects align to the organizations strategic plan for investments?" ID="ID_1262775850" CREATED="1708998010243" MODIFIED="1708998028634">
+<node TEXT="Q2: How do projects align to the organizations strategic plan for investments?" FOLDED="true" ID="ID_1262775850" CREATED="1708998010243" MODIFIED="1708998028634">
 <node TEXT="Q2" ID="ID_1822034722" CREATED="1708998028636" MODIFIED="1708998053874">
 <hook URI="initiative-q2.png" SIZE="0.31813362" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Q3: What objectives are at risk?" ID="ID_1476508569" CREATED="1708998177910" MODIFIED="1708998188735">
+<node TEXT="Q3: What objectives are at risk?" FOLDED="true" ID="ID_1476508569" CREATED="1708998177910" MODIFIED="1708998188735">
 <node TEXT="Q3" ID="ID_1001070136" CREATED="1708998188740" MODIFIED="1708998211571">
 <hook URI="initiative-q3.png" SIZE="0.31914893" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Q4: Where are there potential conflicts between initiatives in strategic investment targets?" ID="ID_1105843437" CREATED="1708998282400" MODIFIED="1708998352682">
+<node TEXT="Q4: Where are there potential conflicts between initiatives in strategic investment targets?" FOLDED="true" ID="ID_1105843437" CREATED="1708998282400" MODIFIED="1708998352682">
 <node TEXT="Q4" ID="ID_151244507" CREATED="1708998286676" MODIFIED="1708998376815">
 <hook URI="initiative-q4.png" SIZE="0.3243243" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Q5: Which projects make the largest contribution to the strategic investment target?" ID="ID_408162552" CREATED="1708998282655" MODIFIED="1708998523246">
+<node TEXT="Q5: Which projects make the largest contribution to the strategic investment target?" FOLDED="true" ID="ID_408162552" CREATED="1708998282655" MODIFIED="1708998523246">
 <node TEXT="Q5" ID="ID_1889315683" CREATED="1708998291142" MODIFIED="1708998563688">
 <hook URI="initiative-q5.png" SIZE="0.31678987" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Q6: What is the current timeline for achieving objectives?" ID="ID_92283090" CREATED="1708998282912" MODIFIED="1708998822996">
+<node TEXT="Q6: What is the current timeline for achieving objectives?" FOLDED="true" ID="ID_92283090" CREATED="1708998282912" MODIFIED="1708998822996">
 <node TEXT="Q6" ID="ID_1123243963" CREATED="1708998291929" MODIFIED="1708998832071">
 <hook URI="initiative-q6.png" SIZE="0.32590982" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Q7: What investments are needed to deliver on a specific longer-term value proposition?" ID="ID_1580220052" CREATED="1708998283688" MODIFIED="1708999118810">
+<node TEXT="Q7: What investments are needed to deliver on a specific longer-term value proposition?" FOLDED="true" ID="ID_1580220052" CREATED="1708998283688" MODIFIED="1708999118810">
 <node TEXT="Q7" ID="ID_1953546927" CREATED="1708998292511" MODIFIED="1708999099261">
 <hook URI="initiative-q7.png" SIZE="0.31595576" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Q8: How do the investments within a program align to the strategic investment targets?" ID="ID_1916423401" CREATED="1708998283911" MODIFIED="1708999319207">
+<node TEXT="Q8: How do the investments within a program align to the strategic investment targets?" FOLDED="true" ID="ID_1916423401" CREATED="1708998283911" MODIFIED="1708999319207">
 <node TEXT="Q8" ID="ID_251768667" CREATED="1708998293023" MODIFIED="1708999341457">
 <hook URI="initiative-q8.png" SIZE="0.3215434" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Q9: Where does a portfolio have the largest business cpaability impact?" ID="ID_447598149" CREATED="1708998284191" MODIFIED="1708999580043">
+<node TEXT="Q9: Where does a portfolio have the largest business cpaability impact?" FOLDED="true" ID="ID_447598149" CREATED="1708998284191" MODIFIED="1708999580043">
 <node TEXT="Q9" ID="ID_1514285571" CREATED="1708998293555" MODIFIED="1708999585662">
 <hook URI="initiative-q9.png" SIZE="0.32206118" NAME="ExternalObject"/>
 </node>
+</node>
+</node>
+<node TEXT="Questions" POSITION="bottom_or_right" ID="ID_1710234346" CREATED="1708999898496" MODIFIED="1708999914249">
+<node TEXT="1. Which of the following is NOT a benefit of using Initaitive Mapping?" ID="ID_1379036810" CREATED="1709000641700" MODIFIED="1709000655443">
+<node TEXT="A. Highlight areas of potential redundancy and overlap across multiple initiatives" ID="ID_367354799" CREATED="1709000655448" MODIFIED="1709000674751"/>
+<node TEXT="B. Highlights gaps between stated business objectives and current or planned initiatives" ID="ID_906421533" CREATED="1709000674955" MODIFIED="1709000698323"/>
+<node TEXT="C. Ensures that the capability map is align with business needs" ID="ID_1450642687" CREATED="1709000698482" MODIFIED="1709000751880">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node TEXT="2. Which answer is a way in which initiatives deliver business value?" ID="ID_551819614" CREATED="1709000754114" MODIFIED="1709000774537">
+<node TEXT="A: Delivering new capabilities that enable value proposition not previously viable" ID="ID_445418435" CREATED="1709000774542" MODIFIED="1709000848318">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="B. Providing a product centric view of an organization&apos;s capabilities" ID="ID_1467033471" CREATED="1709000810395" MODIFIED="1709000824619"/>
+<node TEXT="C. Ensuring that tasks are aligned to target dates and delivery sequences" ID="ID_1360854654" CREATED="1709000824964" MODIFIED="1709000843929"/>
+</node>
+<node TEXT="3. Investing in changing the characteristics of an existing capability is an example of which one of the following?" ID="ID_1170876403" CREATED="1709000851876" MODIFIED="1709000879741">
+<node TEXT="A. Capability maturity" ID="ID_1982900835" CREATED="1709000879744" MODIFIED="1709000938561">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="B. A Business Canvas" ID="ID_1432813058" CREATED="1709000890259" MODIFIED="1709000896532"/>
+<node TEXT="C. Capability Mapping" ID="ID_1246956528" CREATED="1709000896685" MODIFIED="1709000901415"/>
 </node>
 </node>
 </node>
