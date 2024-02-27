@@ -461,12 +461,12 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Recap of 3 parts" ID="ID_735901078" CREATED="1709002026633" MODIFIED="1709002501806">
+<node TEXT="Recap of 3 parts" FOLDED="true" ID="ID_735901078" CREATED="1709002026633" MODIFIED="1709002501806">
 <node TEXT="Part 1: alignment of Stakeholders, Capabilities, Information, Value Streams" ID="ID_1720148634" CREATED="1709002501808" MODIFIED="1709002526669"/>
 <node TEXT="Part 2: alignment of Organization, Strategies, Initiative, Metrics" ID="ID_1756911082" CREATED="1709002526952" MODIFIED="1709002556473"/>
 <node TEXT="Part 3: alignment of Product, Policy, Interdisciplinary alignment of Requirements, Customer Experience and Process" ID="ID_1028156701" CREATED="1709002556825" MODIFIED="1709002590701"/>
 </node>
-<node TEXT="Motivation for Alignment" ID="ID_1813303553" CREATED="1709002645774" MODIFIED="1709002651579">
+<node TEXT="Motivation for Alignment" FOLDED="true" ID="ID_1813303553" CREATED="1709002645774" MODIFIED="1709002651579">
 <node TEXT="Business Architecture models are complex; tools are needed to manage them" ID="ID_1079592522" CREATED="1709002651581" MODIFIED="1709002667287">
 <node TEXT="A single modeling standard is needed for consistency of practice and model interchange" ID="ID_1151168684" CREATED="1709002667290" MODIFIED="1709002689142"/>
 <node TEXT="The BIZBOK mixes modeling guidance with methodology, not aimed at tool vendors" ID="ID_608509863" CREATED="1709002689373" MODIFIED="1709002717798"/>
@@ -479,6 +479,47 @@
 <node TEXT="The OMG standardization process supports organized and coherent growth of standards" ID="ID_1116272196" CREATED="1709002810983" MODIFIED="1709002828714"/>
 <node TEXT="OMG standards are driven by OMG members" ID="ID_968310610" CREATED="1709003158002" MODIFIED="1709003168775"/>
 <node TEXT="The Guild and several of its founders and members are also members of the OMG" ID="ID_806655787" CREATED="1709003168934" MODIFIED="1709003182313"/>
+<node TEXT="OMG Models" POSITION="bottom_or_right" ID="ID_1470079755" CREATED="1709046282106" MODIFIED="1709046285201">
+<node TEXT="Unified Modeling Language (UML)" ID="ID_1316568277" CREATED="1709046285203" MODIFIED="1709046301613">
+<hook URI="OMG-UML.png" SIZE="0.77021825" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="BACM" ID="ID_4170923" CREATED="1709046381121" MODIFIED="1709046395229">
+<node TEXT="Product - Guild Metamodel" ID="ID_1906948421" CREATED="1709046395234" MODIFIED="1709046432991">
+<hook URI="BACM-Product.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Product relates to Product" ID="ID_193545696" CREATED="1709046434442" MODIFIED="1709046447945"/>
+<node TEXT="Business Unit delivers Product" ID="ID_507263883" CREATED="1709046448530" MODIFIED="1709046457973"/>
+<node TEXT="Strategy impacts Product" ID="ID_1607483350" CREATED="1709046459330" MODIFIED="1709046468852"/>
+<node TEXT="Capability enables Product" ID="ID_1361523780" CREATED="1709046470934" MODIFIED="1709046484069"/>
+<node TEXT="Product may contain Product Entitilement" ID="ID_741450188" CREATED="1709046484732" MODIFIED="1709046497065"/>
+<node TEXT="Product is part of Product Line" ID="ID_1621913070" CREATED="1709046522661" MODIFIED="1709046532359"/>
+<node TEXT="Product delivers Value Proposition" ID="ID_1164243473" CREATED="1709046533003" MODIFIED="1709046539805"/>
+<node TEXT="Initiative impacts Product" ID="ID_1873291237" CREATED="1709046541473" MODIFIED="1709046546342"/>
+<node TEXT="Customer targeted services are represented by Product Entitlement" ID="ID_1906147458" CREATED="1709046546924" MODIFIED="1709046573775"/>
+</node>
+<node TEXT="Product - Guild Example" FOLDED="true" ID="ID_545671846" CREATED="1709047038854" MODIFIED="1709047046920">
+<node TEXT="Product enabled by Capabilities is an analysis result" POSITION="bottom_or_right" ID="ID_1286945296" CREATED="1709046923211" MODIFIED="1709047060166">
+<hook URI="BACM-Product-sample.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="Sample from transportation reference model" POSITION="bottom_or_right" ID="ID_1798127873" CREATED="1709047090400" MODIFIED="1709047114132">
+<hook URI="BACM-Product-sample-transporation.png" SIZE="0.7741935" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="BACM - Offering &amp; ProductOfferting" ID="ID_796455854" CREATED="1709047206008" MODIFIED="1709047249107">
+<hook URI="BACM-productoffering.png" SIZE="0.86206895" NAME="ExternalObject"/>
+<node TEXT="Offering is a contract offered by the business to LegalEntities" ID="ID_1066907321" CREATED="1709047250796" MODIFIED="1709047271042"/>
+<node TEXT="Procurement and Merchandise Offerings are about goods (purchased and sold)" ID="ID_718614850" CREATED="1709047271601" MODIFIED="1709047306452"/>
+<node TEXT="Service and Outsourced Service Offerings are about providing and receiving Outcomes" ID="ID_143547273" CREATED="1709047307211" MODIFIED="1709047327691"/>
+<node TEXT="Offerings of multiple types may be aggregated" ID="ID_337307372" CREATED="1709047328169" MODIFIED="1709047340067"/>
+<node TEXT="Relations of any arity (数量) can be defined between Offerings" ID="ID_637815429" CREATED="1709047344844" MODIFIED="1709047375480"/>
+</node>
+<node TEXT="BACM - Service Offering" ID="ID_516043822" CREATED="1709047536955" MODIFIED="1709047569555">
+<hook URI="BACM-ServiceOffering.png" SIZE="0.73081607" NAME="ExternalObject"/>
+<node TEXT="ServiceOffering is a kind of ProductOffering for a business that provides Outcomes for a Customer using Capabilities possessed by the business" ID="ID_1953424975" CREATED="1709047572364" MODIFIED="1709047598588"/>
+<node TEXT="ServiceOutCome is an Outcome that is wanted by the Customer (e.g. being transported from one place to another)" ID="ID_846726475" CREATED="1709047599443" MODIFIED="1709047638952"/>
+<node TEXT="ServiceOutcomes are produced by Capabilities (of the business or provided by partners)" ID="ID_83221765" CREATED="1709047639208" MODIFIED="1709047666994"/>
 </node>
 </node>
 </node>
