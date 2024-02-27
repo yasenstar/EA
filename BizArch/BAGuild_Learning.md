@@ -344,6 +344,225 @@ Capability Investment in Value Streamsmirror Capability Investment in Product En
 
 #### Finally, scaling product line investments may require transforming budget and compensation models to enable cross-ecosystem investments
 
+# 2023
+
+## 2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3
+
+Delivering customer and related stakeholder value underpins a wide range of critical focal points for organizations including improving the customer experience, maximizing partner engagement, and ensuring that business leaders and other professionals can function at peak performance. Various disciplines look at value consumption, such as customer journey mapping while other disciplines focus on value creation. Bringing these two perspectives together establishes a focal point for maximizing investments to deliver stakeholder value while optimizing the capabilities needed to do so. This webinar will examine the value consumption / value creation concepts through the lens of business architecture and the role the dual view plays in selecting and shaping investments and related initiatives.
+
+
+
+Verification Code:BACM789
+
+
+### Recap of 3 parts
+
+#### Part 1: alignment of Stakeholders, Capabilities, Information, Value Streams
+
+#### Part 2: alignment of Organization, Strategies, Initiative, Metrics
+
+#### Part 3: alignment of Product, Policy, Interdisciplinary alignment of Requirements, Customer Experience and Process
+
+### Motivation for Alignment
+
+#### Business Architecture models are complex; tools are needed to manage them
+
+##### A single modeling standard is needed for consistency of practice and model interchange
+
+##### The BIZBOK mixes modeling guidance with methodology, not aimed at tool vendors
+
+##### The Business Architecture Guild is not a modeling standards organization
+
+##### Business architecture models must refer to other models of the business to support analysis
+
+#### The OMG providers business relevant standards, such as BPMN, UAF, VDML, CMMN, DMN, UML
+
+##### A business architecture standardization project was started at the OMG
+
+##### The resulting standard had many influences in addition to the Business Architecture Guild
+
+##### The OMG standardization process supports organized and coherent growth of standards
+
+##### OMG standards are driven by OMG members
+
+##### The Guild and several of its founders and members are also members of the OMG
+
+##### OMG Models
+
+###### Unified Modeling Language (UML)
+
+### BACM
+
+#### Product - Guild Metamodel
+
+##### Product relates to Product
+
+##### Business Unit delivers Product
+
+##### Strategy impacts Product
+
+##### Capability enables Product
+
+##### Product may contain Product Entitilement
+
+##### Product is part of Product Line
+
+##### Product delivers Value Proposition
+
+##### Initiative impacts Product
+
+##### Customer targeted services are represented by Product Entitlement
+
+#### BACM - Offering & ProductOfferting
+
+##### Offering is a contract offered by the business to LegalEntities
+
+##### Procurement and Merchandise Offerings are about goods (purchased and sold)
+
+##### Service and Outsourced Service Offerings are about providing and receiving Outcomes
+
+##### Offerings of multiple types may be aggregated
+
+##### Relations of any arity (数量) can be defined between Offerings
+
+##### Product - Guild Example
+
+###### Product enabled by Capabilities is an analysis result
+
+###### Sample from transportation reference model
+
+#### BACM - Service Offering
+
+##### ServiceOffering is a kind of ProductOffering for a business that provides Outcomes for a Customer using Capabilities possessed by the business
+
+##### ServiceOutCome is an Outcome that is wanted by the Customer (e.g. being transported from one place to another)
+
+##### ServiceOutcomes are produced by Capabilities (of the business or provided by partners)
+
+##### BACM - ServiceOffering Sample
+
+#### BACM - Policy
+
+##### BACM 1.0 beta 2 does not provide a policy concept. Policy can be implemented as an InformationItem scoping Capabilities (that are influenced). Stakeholder can be traced via an annotation. Issue has been raised against the specification
+
+###### Policy represents constraints on freedom of action.
+
+###### Policy influences Capability (and Capability Instances)
+
+###### Policy is adopted by Business Unit when Business Unit implements Capability influenced by Policy
+
+###### Policy is traceable to (guides) a strategy Objective
+
+###### Policy is decided / determined by a Stakeholder (internal or external)
+
+#### BACM - Requirement
+
+##### BACM 1.0 beta 2 does not provide a requirement concept. A variety of tools exist for managing requirements and the BACM can link to concepts in external tools via an External Relationship. Requirement management tools generally provide a linking capability that can link to concept in a BACM model
+
+###### Requirement specifies a change to the business (e.g. implement a capability behavior) which impacts capability behaviors (and their capabilities and instances)
+
+###### Requirements target Stakeholders responsible for achieving them
+
+###### Requirements are traceable to (fulfills) strategic objectives
+
+###### Requirements belong to initiatives
+
+###### Requirements relate to each other (constraints, alternatives, derived requirements, ...)
+
+###### Requirements are framed by Value Stream Stages where Value Items are expected to be enhanced
+
+#### BACM - Customer Experience
+
+##### BACM - Customer Experience - in Guild
+
+###### Customer Journey models the behavior of a customer
+
+###### The customer interacts with the business at Touchpoints where Value Items are exchanged
+
+###### Touchpoints are aggregated into stages that capture customer state of mind defining what must happen for the customer to move to the next stage.
+
+###### BACM - Customer Experience Sample - Trip
+
+##### BACM - Customer Experience - detail
+
+###### Customer Journey models the bahavior of a Customer
+
+###### CustomerSegment describes the customer state of mind in a stage
+
+###### Customers experience Outcomes at the Touchpoints in a stage
+
+###### The experienced Outcomes are incorporated into a ProductOffering
+
+###### ValueCharacteristic defines the degree to which the ValueItems provided by the business match the CustomerSegement characterizing a stage
+
+###### BACM - Customer Experience Sample - Trip - Detail
+
+#### BACM - Process
+
+##### BACM - Process - in Guild
+
+###### Process maps to Value Stream Stage and Value Stream
+
+###### Outcome is related to Process Outcome
+
+###### Process Outcome is input to and/or is output from Process
+
+###### Capability decomposes into Capability
+
+###### Capability needs and/or achieves Outcome
+
+###### Outcome is assigned to Value Item
+
+###### Value Stream Stage delivers Value Item
+
+###### BACM - Process - Example
+
+##### BACM - Process - Detail
+
+###### Processes and Capabilities create Outcomes and are related by these Outcomes
+
+###### Because of scope differences, Process Outcomes may be constituents of Capability Outcomes or vice versa.
+
+###### Processes may implement ValueStreams (or Stages) to create a high level process view of a value stream or stage
+
+###### Roles can be applied to Processes
+
+###### Processes can be decomposed; Activities may not be decomposed.
+
+###### BACM - Process - Example - Change Traveller Trip Arrangements
+
+* Payment Amount Outcome is part of Itinerary Change Fee Outcome
+
+* Implies Payment Amount Determination capability is implemented by a sub-process of Change Traveller Trip Arrangements
+
+* A Process may implement a Capability or Capability Behavior (but that is not the case in this example)
+
+### Sammary
+
+#### BACM and Guild Metamodel although very similar have difference in Terminology, Naming, and Details
+
+#### Proof of concept will be done by translating reference models into BACM
+ 
+Alignment whitepaper is published onhttps://learning.businessarchitectureguild.org/whitepapers
+
+
+## BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment- Part 1
+
+The Business Architecture Guild has an established metamodel that details essential knowledgebase domains and associations needed to deploy and scale a BIZBOK® Guide-aligned, business architecture practice, with the latest version of this metamodel described in a Guild whitepaper. In parallel, with full Guild participation and leadership, a group of vendor and related member organizations of the Object Management Group (OMG) created a formal specification called the Business Architecture Core Metamodel (BACM), which is targeted for publication in early 2024. While the Guild metamodel and BACM are conceptually aligned, they also differ in a number of ways, with BACM being tool-implementable. The Guild metamodel team published a whitepaper detailing similarities and differences to enable in-house practices using the Guild metamodel and relying on BACM compliant vendor tools. The BA Guild Metamodel / Business Architecture Core Metamodel v1.0 Alignment (Part 1) webinar highlights key points from the whitepaper along with best practices for deploying these metamodels in practice. Webinar Part 1 focuses on value stream, capability, information, and stakeholder domain alignment.
+
+
+
+Registration for this webinar is open 
+
+
+
+Presenter:Hermann Schlamann, Jim Rhyne, Lloyd Dugan
+
+
+
+
+### 
+
 # 2021
 
 ## 2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)
@@ -521,6 +740,32 @@ Astrategy dashboard is, by its nature, driven by items (strategic metrics) that 
 #### Q9: Where does a portfolio have the largest business cpaability impact?
 
 ##### Q9
+
+### Questions
+
+#### 1. Which of the following is NOT a benefit of using Initaitive Mapping?
+
+##### A. Highlight areas of potential redundancy and overlap across multiple initiatives
+
+##### B. Highlights gaps between stated business objectives and current or planned initiatives
+
+##### C. Ensures that the capability map is align with business needs
+
+#### 2. Which answer is a way in which initiatives deliver business value?
+
+##### A: Delivering new capabilities that enable value proposition not previously viable
+
+##### B. Providing a product centric view of an organization's capabilities
+
+##### C. Ensuring that tasks are aligned to target dates and delivery sequences
+
+#### 3. Investing in changing the characteristics of an existing capability is an example of which one of the following?
+
+##### A. Capability maturity
+
+##### B. A Business Canvas
+
+##### C. Capability Mapping
 
 # 2018
 

@@ -443,7 +443,7 @@
 </node>
 </node>
 <node TEXT="2023" OBJECT="java.lang.Long|2023" POSITION="bottom_or_right" ID="ID_1961048300" CREATED="1709001988662" MODIFIED="1709001990587">
-<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709002074221"><richcontent TYPE="NOTE">
+<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" FOLDED="true" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709050604243"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -456,7 +456,7 @@
       
     </p>
     <p>
-      Verification Code:
+      Verification Code: <span style="color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); display: inline !important; float: none;">BACM789</span>
     </p>
   </body>
 </html>
@@ -487,10 +487,10 @@
 </node>
 </node>
 <node TEXT="BACM" ID="ID_4170923" CREATED="1709046381121" MODIFIED="1709046395229">
-<node TEXT="Product - Guild Metamodel" ID="ID_1906948421" CREATED="1709046395234" MODIFIED="1709046432991">
+<node TEXT="Product - Guild Metamodel" FOLDED="true" ID="ID_1906948421" CREATED="1709046395234" MODIFIED="1709048159925" VGAP_QUANTITY="3 pt">
 <hook URI="BACM-Product.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Product relates to Product" ID="ID_193545696" CREATED="1709046434442" MODIFIED="1709046447945"/>
-<node TEXT="Business Unit delivers Product" ID="ID_507263883" CREATED="1709046448530" MODIFIED="1709046457973"/>
+<node TEXT="Business Unit delivers Product" ID="ID_507263883" CREATED="1709046448530" MODIFIED="1709048159925"/>
 <node TEXT="Strategy impacts Product" ID="ID_1607483350" CREATED="1709046459330" MODIFIED="1709046468852"/>
 <node TEXT="Capability enables Product" ID="ID_1361523780" CREATED="1709046470934" MODIFIED="1709046484069"/>
 <node TEXT="Product may contain Product Entitilement" ID="ID_741450188" CREATED="1709046484732" MODIFIED="1709046497065"/>
@@ -499,7 +499,14 @@
 <node TEXT="Initiative impacts Product" ID="ID_1873291237" CREATED="1709046541473" MODIFIED="1709046546342"/>
 <node TEXT="Customer targeted services are represented by Product Entitlement" ID="ID_1906147458" CREATED="1709046546924" MODIFIED="1709046573775"/>
 </node>
-<node TEXT="Product - Guild Example" FOLDED="true" ID="ID_545671846" CREATED="1709047038854" MODIFIED="1709047046920">
+<node TEXT="BACM - Offering &amp; ProductOfferting" FOLDED="true" ID="ID_796455854" CREATED="1709047206008" MODIFIED="1709047249107">
+<hook URI="BACM-productoffering.png" SIZE="0.86206895" NAME="ExternalObject"/>
+<node TEXT="Offering is a contract offered by the business to LegalEntities" ID="ID_1066907321" CREATED="1709047250796" MODIFIED="1709047271042"/>
+<node TEXT="Procurement and Merchandise Offerings are about goods (purchased and sold)" ID="ID_718614850" CREATED="1709047271601" MODIFIED="1709047306452"/>
+<node TEXT="Service and Outsourced Service Offerings are about providing and receiving Outcomes" ID="ID_143547273" CREATED="1709047307211" MODIFIED="1709047327691"/>
+<node TEXT="Offerings of multiple types may be aggregated" ID="ID_337307372" CREATED="1709047328169" MODIFIED="1709047340067"/>
+<node TEXT="Relations of any arity (数量) can be defined between Offerings" ID="ID_637815429" CREATED="1709047344844" MODIFIED="1709047375480"/>
+<node TEXT="Product - Guild Example" POSITION="bottom_or_right" ID="ID_545671846" CREATED="1709047038854" MODIFIED="1709047046920">
 <node TEXT="Product enabled by Capabilities is an analysis result" POSITION="bottom_or_right" ID="ID_1286945296" CREATED="1709046923211" MODIFIED="1709047060166">
 <hook URI="BACM-Product-sample.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -507,21 +514,137 @@
 <hook URI="BACM-Product-sample-transporation.png" SIZE="0.7741935" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="BACM - Offering &amp; ProductOfferting" ID="ID_796455854" CREATED="1709047206008" MODIFIED="1709047249107">
-<hook URI="BACM-productoffering.png" SIZE="0.86206895" NAME="ExternalObject"/>
-<node TEXT="Offering is a contract offered by the business to LegalEntities" ID="ID_1066907321" CREATED="1709047250796" MODIFIED="1709047271042"/>
-<node TEXT="Procurement and Merchandise Offerings are about goods (purchased and sold)" ID="ID_718614850" CREATED="1709047271601" MODIFIED="1709047306452"/>
-<node TEXT="Service and Outsourced Service Offerings are about providing and receiving Outcomes" ID="ID_143547273" CREATED="1709047307211" MODIFIED="1709047327691"/>
-<node TEXT="Offerings of multiple types may be aggregated" ID="ID_337307372" CREATED="1709047328169" MODIFIED="1709047340067"/>
-<node TEXT="Relations of any arity (数量) can be defined between Offerings" ID="ID_637815429" CREATED="1709047344844" MODIFIED="1709047375480"/>
 </node>
-<node TEXT="BACM - Service Offering" ID="ID_516043822" CREATED="1709047536955" MODIFIED="1709047569555">
+<node TEXT="BACM - Service Offering" FOLDED="true" ID="ID_516043822" CREATED="1709047536955" MODIFIED="1709047569555">
 <hook URI="BACM-ServiceOffering.png" SIZE="0.73081607" NAME="ExternalObject"/>
 <node TEXT="ServiceOffering is a kind of ProductOffering for a business that provides Outcomes for a Customer using Capabilities possessed by the business" ID="ID_1953424975" CREATED="1709047572364" MODIFIED="1709047598588"/>
 <node TEXT="ServiceOutCome is an Outcome that is wanted by the Customer (e.g. being transported from one place to another)" ID="ID_846726475" CREATED="1709047599443" MODIFIED="1709047638952"/>
 <node TEXT="ServiceOutcomes are produced by Capabilities (of the business or provided by partners)" ID="ID_83221765" CREATED="1709047639208" MODIFIED="1709047666994"/>
+<node TEXT="BACM - ServiceOffering Sample" ID="ID_322463986" CREATED="1709047788860" MODIFIED="1709047829566">
+<hook URI="BACM-Product-ServiceOffice-Sample.png" SIZE="0.8196721" NAME="ExternalObject"/>
 </node>
 </node>
+<node TEXT="BACM - Policy" FOLDED="true" ID="ID_885094660" CREATED="1709047922187" MODIFIED="1709047926407">
+<node TEXT="BACM 1.0 beta 2 does not provide a policy concept. Policy can be implemented as an InformationItem scoping Capabilities (that are influenced). Stakeholder can be traced via an annotation. Issue has been raised against the specification" FOLDED="true" ID="ID_1122985822" CREATED="1709047933251" MODIFIED="1709048020946">
+<hook URI="BACM-Policy.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Policy represents constraints on freedom of action." ID="ID_1142324996" CREATED="1709048032421" MODIFIED="1709048054617"/>
+<node TEXT="Policy influences Capability (and Capability Instances)" ID="ID_414365027" CREATED="1709048062393" MODIFIED="1709048077730"/>
+<node TEXT="Policy is adopted by Business Unit when Business Unit implements Capability influenced by Policy" ID="ID_766073842" CREATED="1709048078689" MODIFIED="1709048106369"/>
+<node TEXT="Policy is traceable to (guides) a strategy Objective" ID="ID_330327056" CREATED="1709048107919" MODIFIED="1709048123248"/>
+<node TEXT="Policy is decided / determined by a Stakeholder (internal or external)" ID="ID_1169520279" CREATED="1709048123599" MODIFIED="1709048148702"/>
+</node>
+</node>
+<node TEXT="BACM - Requirement" FOLDED="true" ID="ID_864698561" CREATED="1709048366895" MODIFIED="1709048372817">
+<node TEXT="BACM 1.0 beta 2 does not provide a requirement concept. A variety of tools exist for managing requirements and the BACM can link to concepts in external tools via an External Relationship. Requirement management tools generally provide a linking capability that can link to concept in a BACM model" ID="ID_1855719939" CREATED="1709048372818" MODIFIED="1709048458960">
+<hook URI="BACM-Requirement.png" SIZE="0.9569378" NAME="ExternalObject"/>
+<node TEXT="Requirement specifies a change to the business (e.g. implement a capability behavior) which impacts capability behaviors (and their capabilities and instances)" ID="ID_1576646908" CREATED="1709048463603" MODIFIED="1709048497874"/>
+<node TEXT="Requirements target Stakeholders responsible for achieving them" ID="ID_285301103" CREATED="1709048498236" MODIFIED="1709048511776"/>
+<node TEXT="Requirements are traceable to (fulfills) strategic objectives" ID="ID_1610060213" CREATED="1709048512139" MODIFIED="1709048525099"/>
+<node TEXT="Requirements belong to initiatives" ID="ID_810688489" CREATED="1709048525282" MODIFIED="1709048534592"/>
+<node TEXT="Requirements relate to each other (constraints, alternatives, derived requirements, ...)" ID="ID_754341419" CREATED="1709048534752" MODIFIED="1709048558760"/>
+<node TEXT="Requirements are framed by Value Stream Stages where Value Items are expected to be enhanced" ID="ID_504058557" CREATED="1709048559882" MODIFIED="1709048586196"/>
+</node>
+</node>
+<node TEXT="BACM - Customer Experience" FOLDED="true" ID="ID_368242602" CREATED="1709049041704" MODIFIED="1709049047581">
+<node TEXT="BACM - Customer Experience - in Guild" POSITION="bottom_or_right" ID="ID_1180046693" CREATED="1709048709298" MODIFIED="1709050050400">
+<hook URI="BACM-CustExpe.png" SIZE="0.9463722" NAME="ExternalObject"/>
+<node TEXT="Customer Journey models the behavior of a customer" ID="ID_1065644772" CREATED="1709048721355" MODIFIED="1709048739231"/>
+<node TEXT="The customer interacts with the business at Touchpoints where Value Items are exchanged" ID="ID_23098984" CREATED="1709048739403" MODIFIED="1709048756879"/>
+<node TEXT="Touchpoints are aggregated into stages that capture customer state of mind defining what must happen for the customer to move to the next stage." ID="ID_896502997" CREATED="1709048757036" MODIFIED="1709048802411"/>
+<node TEXT="BACM - Customer Experience Sample - Trip" ID="ID_806013043" CREATED="1709048866329" MODIFIED="1709048935667">
+<hook URI="BACM-CustExpe-sample-trip.png" SIZE="0.55197793" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="BACM - Customer Experience - detail" POSITION="bottom_or_right" ID="ID_1194787433" CREATED="1709049057628" MODIFIED="1709049071084">
+<hook URI="BACM-CustExpe-detail.png" SIZE="0.88757396" NAME="ExternalObject"/>
+<node TEXT="Customer Journey models the bahavior of a Customer" ID="ID_612575338" CREATED="1709049073234" MODIFIED="1709049089007"/>
+<node TEXT="CustomerSegment describes the customer state of mind in a stage" ID="ID_669880339" CREATED="1709049090578" MODIFIED="1709049102988"/>
+<node TEXT="Customers experience Outcomes at the Touchpoints in a stage" ID="ID_1122575092" CREATED="1709049103926" MODIFIED="1709049123262"/>
+<node TEXT="The experienced Outcomes are incorporated into a ProductOffering" ID="ID_1297902864" CREATED="1709049123433" MODIFIED="1709049136237"/>
+<node TEXT="ValueCharacteristic defines the degree to which the ValueItems provided by the business match the CustomerSegement characterizing a stage" ID="ID_549780862" CREATED="1709049136721" MODIFIED="1709049160887"/>
+<node TEXT="BACM - Customer Experience Sample - Trip - Detail" ID="ID_1359262655" CREATED="1709049223076" MODIFIED="1709049265474">
+<hook URI="BACM-CustExpe-sample-trip-detail.png" SIZE="0.80213904" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="BACM - Process" FOLDED="true" ID="ID_1658239989" CREATED="1709049644752" MODIFIED="1709049653527">
+<node TEXT="BACM - Process - in Guild" POSITION="bottom_or_right" ID="ID_1092583382" CREATED="1709049319294" MODIFIED="1709050038018">
+<hook URI="BACM-process.png" SIZE="0.9569378" NAME="ExternalObject"/>
+<node TEXT="Process maps to Value Stream Stage and Value Stream" ID="ID_1336767004" CREATED="1709049345249" MODIFIED="1709049356163"/>
+<node TEXT="Outcome is related to Process Outcome" ID="ID_917203349" CREATED="1709049356323" MODIFIED="1709049363350"/>
+<node TEXT="Process Outcome is input to and/or is output from Process" ID="ID_1437842767" CREATED="1709049363559" MODIFIED="1709049380503"/>
+<node TEXT="Capability decomposes into Capability" ID="ID_660289304" CREATED="1709049381302" MODIFIED="1709049389776"/>
+<node TEXT="Capability needs and/or achieves Outcome" ID="ID_255222293" CREATED="1709049390173" MODIFIED="1709049400004"/>
+<node TEXT="Outcome is assigned to Value Item" ID="ID_1795835307" CREATED="1709049400276" MODIFIED="1709049406500"/>
+<node TEXT="Value Stream Stage delivers Value Item" ID="ID_1701455869" CREATED="1709049406666" MODIFIED="1709049415436"/>
+<node TEXT="BACM - Process - Example" ID="ID_1274728245" CREATED="1709049466555" MODIFIED="1709049481016">
+<hook URI="BACM-Process-sample.png" SIZE="0.48622367" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="BACM - Process - Detail" POSITION="bottom_or_right" ID="ID_1808296353" CREATED="1709049604014" MODIFIED="1709049641819">
+<hook URI="BACM-process-detail.png" SIZE="0.8902077" NAME="ExternalObject"/>
+<node TEXT="Processes and Capabilities create Outcomes and are related by these Outcomes" ID="ID_1441972382" CREATED="1709049673407" MODIFIED="1709049696830"/>
+<node TEXT="Because of scope differences, Process Outcomes may be constituents of Capability Outcomes or vice versa." ID="ID_1058798247" CREATED="1709049697004" MODIFIED="1709049720881"/>
+<node TEXT="Processes may implement ValueStreams (or Stages) to create a high level process view of a value stream or stage" ID="ID_821800027" CREATED="1709049721047" MODIFIED="1709049744863"/>
+<node TEXT="Roles can be applied to Processes" ID="ID_1052688038" CREATED="1709049745047" MODIFIED="1709049751084"/>
+<node TEXT="Processes can be decomposed; Activities may not be decomposed." ID="ID_841069370" CREATED="1709049751270" MODIFIED="1709049764553"/>
+<node TEXT="BACM - Process - Example - Change Traveller Trip Arrangements" ID="ID_996059745" CREATED="1709049830061" MODIFIED="1709049879138">
+<hook URI="BACM-Process-sample-changetravellertriparrangement.png" SIZE="0.76045626" NAME="ExternalObject"/>
+<node TEXT="Payment Amount Outcome is part of Itinerary Change Fee Outcome" ID="ID_1385170717" CREATED="1709049880439" MODIFIED="1709049901926"/>
+<node TEXT="Implies Payment Amount Determination capability is implemented by a sub-process of Change Traveller Trip Arrangements" ID="ID_1403338739" CREATED="1709049902374" MODIFIED="1709049930064"/>
+<node TEXT="A Process may implement a Capability or Capability Behavior (but that is not the case in this example)" ID="ID_1922050034" CREATED="1709049930224" MODIFIED="1709049963627"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Sammary" ID="ID_858017138" CREATED="1709049983903" MODIFIED="1709049988743">
+<node TEXT="BACM and Guild Metamodel although very similar have difference in Terminology, Naming, and Details" ID="ID_1828325667" CREATED="1709049988744" MODIFIED="1709050019916"/>
+<node TEXT="Proof of concept will be done by translating reference models into BACM" ID="ID_852056311" CREATED="1709050059118" MODIFIED="1709050075682"/>
+<node ID="ID_1804856305" CREATED="1709050075968" MODIFIED="1709050114292" LINK="https://learning.businessarchitectureguild.org/whitepapers"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Alignment whitepaper is published on <span style="color: #ffffff;">https://learning.businessarchitectureguild.org/whitepapers</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment- Part 1" ID="ID_1394280010" CREATED="1709050737641" MODIFIED="1709050777211"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Business Architecture Guild has an established metamodel that details essential knowledgebase domains and associations needed to deploy and scale a BIZBOK® Guide-aligned, business architecture practice, with the latest version of this metamodel described in a Guild whitepaper. In parallel, with full Guild participation and leadership, a group of vendor and related member organizations of the Object Management Group (OMG) created a formal specification called the Business Architecture Core Metamodel (BACM), which is targeted for publication in early 2024. While the Guild metamodel and BACM are conceptually aligned, they also differ in a number of ways, with BACM being tool-implementable. The Guild metamodel team published a whitepaper detailing similarities and differences to enable in-house practices using the Guild metamodel and relying on BACM compliant vendor tools. The BA Guild Metamodel / Business Architecture Core Metamodel v1.0 Alignment (Part 1) webinar highlights key points from the whitepaper along with best practices for deploying these metamodels in practice. Webinar Part 1 focuses on value stream, capability, information, and stakeholder domain alignment.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Registration for this webinar is open&#xa0;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Presenter:Hermann Schlamann, Jim Rhyne, Lloyd Dugan
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="" ID="ID_1575135497" CREATED="1709050747741" MODIFIED="1709050747741"/>
 </node>
 </node>
 <node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
