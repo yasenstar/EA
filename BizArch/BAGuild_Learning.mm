@@ -443,8 +443,44 @@
 </node>
 </node>
 <node TEXT="2023" OBJECT="java.lang.Long|2023" POSITION="bottom_or_right" ID="ID_1961048300" CREATED="1709001988662" MODIFIED="1709001990587">
-<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709002024944">
-<node TEXT="" ID="ID_735901078" CREATED="1709002026633" MODIFIED="1709002026633"/>
+<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709002074221"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Delivering customer and related stakeholder value underpins a wide range of critical focal points for organizations including improving the customer experience, maximizing partner engagement, and ensuring that business leaders and other professionals can function at peak performance. Various disciplines look at value consumption, such as customer journey mapping while other disciplines focus on value creation. Bringing these two perspectives together establishes a focal point for maximizing investments to deliver stakeholder value while optimizing the capabilities needed to do so. This webinar will examine the value consumption / value creation concepts through the lens of business architecture and the role the dual view plays in selecting and shaping investments and related initiatives.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Verification Code:
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Recap of 3 parts" ID="ID_735901078" CREATED="1709002026633" MODIFIED="1709002501806">
+<node TEXT="Part 1: alignment of Stakeholders, Capabilities, Information, Value Streams" ID="ID_1720148634" CREATED="1709002501808" MODIFIED="1709002526669"/>
+<node TEXT="Part 2: alignment of Organization, Strategies, Initiative, Metrics" ID="ID_1756911082" CREATED="1709002526952" MODIFIED="1709002556473"/>
+<node TEXT="Part 3: alignment of Product, Policy, Interdisciplinary alignment of Requirements, Customer Experience and Process" ID="ID_1028156701" CREATED="1709002556825" MODIFIED="1709002590701"/>
+</node>
+<node TEXT="Motivation for Alignment" ID="ID_1813303553" CREATED="1709002645774" MODIFIED="1709002651579">
+<node TEXT="Business Architecture models are complex; tools are needed to manage them" ID="ID_1079592522" CREATED="1709002651581" MODIFIED="1709002667287">
+<node TEXT="A single modeling standard is needed for consistency of practice and model interchange" ID="ID_1151168684" CREATED="1709002667290" MODIFIED="1709002689142"/>
+<node TEXT="The BIZBOK mixes modeling guidance with methodology, not aimed at tool vendors" ID="ID_608509863" CREATED="1709002689373" MODIFIED="1709002717798"/>
+<node TEXT="The Business Architecture Guild is not a modeling standards organization" ID="ID_750068015" CREATED="1709002717992" MODIFIED="1709002734066"/>
+<node TEXT="Business architecture models must refer to other models of the business to support analysis" ID="ID_765851603" CREATED="1709002734260" MODIFIED="1709002750257"/>
+</node>
+<node TEXT="The OMG providers business relevant standards, such as BPMN, UAF, VDML, CMMN, DMN, UML" ID="ID_594192752" CREATED="1709002750887" MODIFIED="1709002776252">
+<node TEXT="A business architecture standardization project was started at the OMG" ID="ID_1818538593" CREATED="1709002776256" MODIFIED="1709002791412"/>
+<node TEXT="The resulting standard had many influences in addition to the Business Architecture Guild" ID="ID_1099502113" CREATED="1709002791576" MODIFIED="1709002810667"/>
+<node TEXT="The OMG standardization process supports organized and coherent growth of standards" ID="ID_1116272196" CREATED="1709002810983" MODIFIED="1709002828714"/>
+<node TEXT="OMG standards are driven by OMG members" ID="ID_968310610" CREATED="1709003158002" MODIFIED="1709003168775"/>
+<node TEXT="The Guild and several of its founders and members are also members of the OMG" ID="ID_806655787" CREATED="1709003168934" MODIFIED="1709003182313"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
