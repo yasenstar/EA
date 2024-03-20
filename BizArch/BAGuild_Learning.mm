@@ -1,10 +1,10 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="BAGuild Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1708961047631">
+<node TEXT="BAGuild Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1709578313610" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -110,8 +110,7 @@
       Verification Code: PCSO268
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="1. Customer Service Definition &amp; Piroritization" FOLDED="true" ID="ID_866984744" CREATED="1708961457200" MODIFIED="1708961467319">
 <node TEXT="Defining Customer Services" FOLDED="true" ID="ID_1755048749" CREATED="1708961558852" MODIFIED="1708961568064">
 <node TEXT="A direct one-on-one interaction between a consumer and company representative, commonly engaged when a consumer is buying a product or service" ID="ID_254337183" CREATED="1708961568067" MODIFIED="1708961611655"/>
@@ -137,8 +136,7 @@
       Source: Greg Geracie and Stephen Eppinger, <span style="font-style: italic;">The Guide to the Product Management and Marketing Body of Knowledge (ProdBOK)</span>&#xa0;&#xa0;(Association of International Product Marketing and Management, 2013)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_191026432" CREATED="1708962124654" MODIFIED="1708962159959"><richcontent TYPE="NODE">
 
@@ -152,7 +150,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_151366532" CREATED="1708962160399" MODIFIED="1708962231357"><richcontent TYPE="NODE">
@@ -167,7 +164,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -183,7 +179,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -198,8 +193,7 @@
       Source: The State of Customer Service, Netomi, 2023, https://www.netomi.com/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_917437114" CREATED="1708962457515" MODIFIED="1708962496262"><richcontent TYPE="NODE">
 
 <html>
@@ -212,7 +206,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="73% of consumers reported having experienced a customer service agent being rude to them and 44% have had an agent become agitated (激动)." ID="ID_737621438" CREATED="1708962500031" MODIFIED="1708962552288"/>
@@ -235,8 +228,7 @@
       Source: PwC's 2023 Trust Survey, https://www.pwc.com/us/en/library/trust-in-business-survey-2023.html#key2
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -281,7 +273,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="The ability or inability to keep or meet these commitments determines if an organization:" ID="ID_348329508" CREATED="1708965087906" MODIFIED="1708965117177">
@@ -373,7 +364,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Product Entitlements are typically delivered through multiple value streams" ID="ID_1720814557" CREATED="1708969711058" MODIFIED="1708969758753"/>
 <node TEXT="Auto Insurance product entitlements link back to 3 value streams with a 4th potential targeted after the fact" ID="ID_1895406754" CREATED="1708969759237" MODIFIED="1708969785246"/>
@@ -459,21 +449,21 @@
       Verification Code: <span style="color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255); display: inline !important; float: none;">BACM789</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Recap of 3 parts" FOLDED="true" ID="ID_735901078" CREATED="1709002026633" MODIFIED="1709002501806">
 <node TEXT="Part 1: alignment of Stakeholders, Capabilities, Information, Value Streams" ID="ID_1720148634" CREATED="1709002501808" MODIFIED="1709002526669"/>
 <node TEXT="Part 2: alignment of Organization, Strategies, Initiative, Metrics" ID="ID_1756911082" CREATED="1709002526952" MODIFIED="1709002556473"/>
 <node TEXT="Part 3: alignment of Product, Policy, Interdisciplinary alignment of Requirements, Customer Experience and Process" ID="ID_1028156701" CREATED="1709002556825" MODIFIED="1709002590701"/>
 </node>
-<node TEXT="Motivation for Alignment" FOLDED="true" ID="ID_1813303553" CREATED="1709002645774" MODIFIED="1709002651579">
-<node TEXT="Business Architecture models are complex; tools are needed to manage them" ID="ID_1079592522" CREATED="1709002651581" MODIFIED="1709002667287">
+<node TEXT="Motivation for Alignment" FOLDED="true" ID="ID_1813303553" CREATED="1709002645774" MODIFIED="1709578482747">
+<arrowlink DESTINATION="ID_1575135497"/>
+<node TEXT="Business Architecture models are complex; tools are needed to manage them" FOLDED="true" ID="ID_1079592522" CREATED="1709002651581" MODIFIED="1709002667287">
 <node TEXT="A single modeling standard is needed for consistency of practice and model interchange" ID="ID_1151168684" CREATED="1709002667290" MODIFIED="1709002689142"/>
 <node TEXT="The BIZBOK mixes modeling guidance with methodology, not aimed at tool vendors" ID="ID_608509863" CREATED="1709002689373" MODIFIED="1709002717798"/>
 <node TEXT="The Business Architecture Guild is not a modeling standards organization" ID="ID_750068015" CREATED="1709002717992" MODIFIED="1709002734066"/>
 <node TEXT="Business architecture models must refer to other models of the business to support analysis" ID="ID_765851603" CREATED="1709002734260" MODIFIED="1709002750257"/>
 </node>
-<node TEXT="The OMG providers business relevant standards, such as BPMN, UAF, VDML, CMMN, DMN, UML" ID="ID_594192752" CREATED="1709002750887" MODIFIED="1709002776252">
+<node TEXT="The OMG providers business relevant standards, such as BPMN, UAF, VDML, CMMN, DMN, UML" FOLDED="true" ID="ID_594192752" CREATED="1709002750887" MODIFIED="1709002776252">
 <node TEXT="A business architecture standardization project was started at the OMG" ID="ID_1818538593" CREATED="1709002776256" MODIFIED="1709002791412"/>
 <node TEXT="The resulting standard had many influences in addition to the Business Architecture Guild" ID="ID_1099502113" CREATED="1709002791576" MODIFIED="1709002810667"/>
 <node TEXT="The OMG standardization process supports organized and coherent growth of standards" ID="ID_1116272196" CREATED="1709002810983" MODIFIED="1709002828714"/>
@@ -486,7 +476,7 @@
 </node>
 </node>
 </node>
-<node TEXT="BACM" ID="ID_4170923" CREATED="1709046381121" MODIFIED="1709046395229">
+<node TEXT="BACM" FOLDED="true" ID="ID_4170923" CREATED="1709046381121" MODIFIED="1709046395229">
 <node TEXT="Product - Guild Metamodel" FOLDED="true" ID="ID_1906948421" CREATED="1709046395234" MODIFIED="1709048159925" VGAP_QUANTITY="3 pt">
 <hook URI="BACM-Product.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Product relates to Product" ID="ID_193545696" CREATED="1709046434442" MODIFIED="1709046447945"/>
@@ -597,7 +587,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Sammary" ID="ID_858017138" CREATED="1709049983903" MODIFIED="1709049988743">
+<node TEXT="Sammary" FOLDED="true" ID="ID_858017138" CREATED="1709049983903" MODIFIED="1709049988743">
 <node TEXT="BACM and Guild Metamodel although very similar have difference in Terminology, Naming, and Details" ID="ID_1828325667" CREATED="1709049988744" MODIFIED="1709050019916"/>
 <node TEXT="Proof of concept will be done by translating reference models into BACM" ID="ID_852056311" CREATED="1709050059118" MODIFIED="1709050075682"/>
 <node ID="ID_1804856305" CREATED="1709050075968" MODIFIED="1709050114292" LINK="https://learning.businessarchitectureguild.org/whitepapers"><richcontent TYPE="NODE">
@@ -612,12 +602,122 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment- Part 1" ID="ID_1394280010" CREATED="1709050737641" MODIFIED="1709050777211"><richcontent TYPE="NOTE">
+<node TEXT="2023/11/18 - Business Architecture: A Journey of Acceptance" FOLDED="true" ID="ID_644365388" CREATED="1709648791780" MODIFIED="1709649384182"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Gary Wright is a Senior Manager and Business Architect at VSP. He is an energetic, international business development professional who is experienced with Startups, Global 50, and Fortune 500 companies. Gary is an expert corporate presenter, motivational speaker, and podcast host. He is also a Certified Business Architect® (CBA®)
+    </p>
+    <p>
+      Passcode, if requested is *WrRA84@
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The socialization of business architecture to gain organizational acceptance is a unique and varied journey that in most cases is not prescriptive (规定性的).
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="The VSP Journey" FOLDED="true" ID="ID_975357196" CREATED="1709649336195" MODIFIED="1709649342131">
+<node TEXT="2017: Business Architecture Introduced (Define and Build BA Practice)" POSITION="bottom_or_right" ID="ID_401898838" CREATED="1709648866074" MODIFIED="1709649565517"/>
+<node TEXT="2018: Initial Projects (Capabilities, Value Streams, Stakeholders)" POSITION="bottom_or_right" ID="ID_819077628" CREATED="1709649565709" MODIFIED="1709649585350"/>
+<node TEXT="2019: First Large Project (Feature Definition, Business Impact Assessment)" POSITION="bottom_or_right" ID="ID_969807362" CREATED="1709649585529" MODIFIED="1709649605909"/>
+<node TEXT="Between 2019 and 2020, first Barriers: inability to get tight link from BA to strategy, informal BA group assigned" POSITION="bottom_or_right" ID="ID_241073362" CREATED="1709649660195" MODIFIED="1709649728551"/>
+<node TEXT="2020: Covid-19 (Remote Workforce, New Business Models)" POSITION="bottom_or_right" ID="ID_350293421" CREATED="1709649606165" MODIFIED="1709649624092"/>
+<node TEXT="After 2020, everything slow down a lot" POSITION="bottom_or_right" ID="ID_1925467079" CREATED="1709649734117" MODIFIED="1709649822338"/>
+<node TEXT="2021: Resource Constraints" POSITION="bottom_or_right" ID="ID_267409773" CREATED="1709649624410" MODIFIED="1709649633117"/>
+<node TEXT="2023 and forward: Strategy Team Partnership" POSITION="bottom_or_right" ID="ID_620809942" CREATED="1709649633335" MODIFIED="1709649655211"/>
+</node>
+<node TEXT="Barries to Acceptance" FOLDED="true" ID="ID_1914087668" CREATED="1709649342331" MODIFIED="1709649348592">
+<node TEXT="Organizational" ID="ID_1394925709" CREATED="1709649886365" MODIFIED="1709649889810">
+<node TEXT="BA reporting structure changed - decentralized" ID="ID_1120565284" CREATED="1709649897613" MODIFIED="1709649907641"/>
+<node TEXT="Legacy employee resistance to regors of BA practice" ID="ID_481743638" CREATED="1709649908282" MODIFIED="1709649918657"/>
+<node TEXT="Business Architect title was misused" ID="ID_1548285440" CREATED="1709649918861" MODIFIED="1709649926769"/>
+</node>
+<node TEXT="Strategic" ID="ID_1863229686" CREATED="1709649890015" MODIFIED="1709649893711">
+<node TEXT="Strategy office was recently created" ID="ID_1023537374" CREATED="1709649928100" MODIFIED="1709649935851"/>
+<node TEXT="Focuses on research and planning - outside consultants" ID="ID_1479195391" CREATED="1709649936013" MODIFIED="1709649950222"/>
+<node TEXT="Concern, business architecture slows down strategy team" ID="ID_750326957" CREATED="1709649950405" MODIFIED="1709649960037"/>
+<node TEXT="Not familiar with business architecture, its principles or how it would enable strategic initiatives and direction" ID="ID_1402598003" CREATED="1709649960218" MODIFIED="1709649984837"/>
+</node>
+<node TEXT="Technical" ID="ID_734049741" CREATED="1709649893927" MODIFIED="1709649896399">
+<node TEXT="IT had historically &apos;driven&apos; business projects" ID="ID_1849518800" CREATED="1709649985895" MODIFIED="1709649995429"/>
+<node TEXT="Business and enterprise architecture were not aligned" ID="ID_1002202879" CREATED="1709649995576" MODIFIED="1709650006288"/>
+<node TEXT="Perception, business does not know what its doing" ID="ID_181108723" CREATED="1709650006463" MODIFIED="1709650019593"/>
+<node TEXT="Lacked a common knowledgebase or agreement on artifacts" ID="ID_803206007" CREATED="1709650020213" MODIFIED="1709650032910"/>
+</node>
+</node>
+<node TEXT="Think Like a Stakeholder&#xa;(Ideas to minimize resistance)" FOLDED="true" ID="ID_1751239655" CREATED="1709650060181" MODIFIED="1709650077146">
+<node TEXT="IT Teams" FOLDED="true" ID="ID_830203214" CREATED="1709650077148" MODIFIED="1709650080649">
+<node TEXT="Meet to understand IT concerns, misconceptions, or frustratoins" ID="ID_1416202800" CREATED="1709650086041" MODIFIED="1709650102361"/>
+<node TEXT="Establish business architecture as an integral component of EA" ID="ID_1273947053" CREATED="1709650103049" MODIFIED="1709650114829"/>
+<node TEXT="Gain consensus and align on capabilities and value streams" ID="ID_1466684540" CREATED="1709650114993" MODIFIED="1709650131728"/>
+<node TEXT="Enhance journey maps and information mapping" ID="ID_979895251" CREATED="1709650131878" MODIFIED="1709650141207"/>
+<node TEXT="Align and define business architecture deliverables to enable the solution architecture enterprise capabilities assessment" ID="ID_897390717" CREATED="1709650141774" MODIFIED="1709650164170"/>
+</node>
+<node TEXT="Strategy Team" FOLDED="true" ID="ID_633439015" CREATED="1709650081681" MODIFIED="1709650085222">
+<node TEXT="Develop a presentation and playbook demonstrating the value of a business architecture and strategy partnership" ID="ID_492761321" CREATED="1709650165024" MODIFIED="1709650188318"/>
+<node TEXT="Remove the perception that business architecture will slow strategy down" ID="ID_406026913" CREATED="1709650188500" MODIFIED="1709650203972"/>
+<node TEXT="Inform the team that business architecture is a well defined and accredited global practice successfully used by many organizations" ID="ID_828439906" CREATED="1709650204435" MODIFIED="1709650244145"/>
+<node TEXT="Provide a solution to a current issue faced by the strategic team" ID="ID_1570687742" CREATED="1709650244368" MODIFIED="1709650256442"/>
+</node>
+<node TEXT="A siloed organization&#xa;(Limited view of strategic objectives and inefficient implementation and measurement of initiatives)" FOLDED="true" POSITION="bottom_or_right" ID="ID_509881964" CREATED="1709650272963" MODIFIED="1709650337785">
+<node TEXT="Strategy Office: Limited view of organizational impacts" ID="ID_306746348" CREATED="1709650337787" MODIFIED="1709650349710"/>
+<node TEXT="PMO: Prioritization, planning and execution of initiatives" ID="ID_624293778" CREATED="1709650349866" MODIFIED="1709650361249"/>
+<node TEXT="Business Teams: minimal interaction with strategy" ID="ID_1466051447" CREATED="1709650361409" MODIFIED="1709650372991"/>
+<node TEXT="IT Teams: are initiatives possible or cost effective with current technology" ID="ID_1477986544" CREATED="1709650373159" MODIFIED="1709650390148"/>
+</node>
+<node TEXT="Two-Pronged Approach" FOLDED="true" POSITION="bottom_or_right" ID="ID_273447762" CREATED="1709650593422" MODIFIED="1709650596385">
+<node TEXT="Align with IT Technical Teams" POSITION="bottom_or_right" ID="ID_248038989" CREATED="1709650439673" MODIFIED="1709650449792"/>
+<node TEXT="Partner with Strategy Office" POSITION="bottom_or_right" ID="ID_1666324259" CREATED="1709650450654" MODIFIED="1709650458792"/>
+<node TEXT="Bridge strategy and execution" POSITION="bottom_or_right" ID="ID_408619598" CREATED="1709650458976" MODIFIED="1709650465226"/>
+<node TEXT="Provide critical input to planning" POSITION="bottom_or_right" ID="ID_704045285" CREATED="1709650465382" MODIFIED="1709650473160"/>
+<node TEXT="Approach 1" POSITION="bottom_or_right" ID="ID_81667618" CREATED="1709650428196" MODIFIED="1709650602648">
+<hook URI="BA-2-pronged-approach.png" SIZE="0.75376886" NAME="ExternalObject"/>
+</node>
+<node TEXT="Approach 2" POSITION="bottom_or_right" ID="ID_675586085" CREATED="1709650615031" MODIFIED="1709650625805">
+<hook URI="BA-2-pronged-approach-2.png" SIZE="0.74812967" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Enterprise Architecture: Business Architecture is a critical component of Enterpriese Architecture" POSITION="bottom_or_right" ID="ID_177534581" CREATED="1709650632239" MODIFIED="1709650706566">
+<hook URI="EA-view.png" SIZE="0.66225165" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Path of Least Resistance" FOLDED="true" ID="ID_439350526" CREATED="1709649349017" MODIFIED="1709649354084">
+<node TEXT="From Strategy to BA to ITA" ID="ID_626744507" CREATED="1709651502540" MODIFIED="1709651519904">
+<hook URI="Strategy-BA-ITA.png" SIZE="0.464756" NAME="ExternalObject"/>
+</node>
+<node TEXT="IDEA Process" ID="ID_972634490" CREATED="1709651521146" MODIFIED="1709651558065">
+<hook URI="IDEA-process.png" SIZE="0.50377834" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Summary: Socializing business architecture can be a challenge, but the benefit of an organization that is fully aligned from strategy through execution is game changing efficiency" ID="ID_9522343" CREATED="1709651752827" MODIFIED="1709651789540">
+<node TEXT="Identify your Path of Least Resistance" ID="ID_209290614" CREATED="1709651789543" MODIFIED="1709651800446"/>
+<node TEXT="Partner where you can" ID="ID_1074856119" CREATED="1709651800635" MODIFIED="1709651804307"/>
+<node TEXT="Know your audience well" ID="ID_1387969047" CREATED="1709651804477" MODIFIED="1709651811356"/>
+<node TEXT="Think outside the box" ID="ID_713944466" CREATED="1709651811557" MODIFIED="1709651822029"/>
+<node TEXT="Identify a challenge your organization is currently facing" ID="ID_999402683" CREATED="1709651822196" MODIFIED="1709651835793"/>
+<node TEXT="Develop new artifacts that inform decision making" ID="ID_1780385397" CREATED="1709651836139" MODIFIED="1709651846619"/>
+<node TEXT="Be confident in your skills" ID="ID_847242984" CREATED="1709651846847" MODIFIED="1709651854345"/>
+</node>
+</node>
+<node TEXT="2023/10/23 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 2" FOLDED="true" ID="ID_45546597" CREATED="1709578441120" MODIFIED="1709652404831">
+<node TEXT="Organization" ID="ID_1432156424" CREATED="1709578704100" MODIFIED="1709578709391"/>
+<node TEXT="Strategy" ID="ID_1125492549" CREATED="1709578733370" MODIFIED="1709578735940"/>
+<node TEXT="Initiative" ID="ID_358495317" CREATED="1709578736156" MODIFIED="1709578739504"/>
+<node TEXT="Process" ID="ID_1508262931" CREATED="1709578740233" MODIFIED="1709578741823"/>
+<node TEXT="Product" ID="ID_140090376" CREATED="1709578742018" MODIFIED="1709578767753"/>
+</node>
+<node TEXT="2023/09/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 1" FOLDED="true" ID="ID_1394280010" CREATED="1709050737641" MODIFIED="1709652398813"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -638,13 +738,166 @@
     <p>
       Presenter:Hermann Schlamann, Jim Rhyne, Lloyd Dugan
     </p>
+  </body>
+</html></richcontent>
+<node TEXT="Motivation for Alignement" ID="ID_1575135497" CREATED="1709050747741" MODIFIED="1709578476984"/>
+<node TEXT="OMG Models / UML" FOLDED="true" ID="ID_199398589" CREATED="1709578779460" MODIFIED="1709578785667">
+<node TEXT="M0 - M1 - M2" ID="ID_1764308686" CREATED="1709578785669" MODIFIED="1709578791597"/>
+</node>
+<node TEXT="Value Stream Maps" FOLDED="true" POSITION="bottom_or_right" ID="ID_169711965" CREATED="1709578597819" MODIFIED="1709578630443">
+<node TEXT="Value Stream Guild Metamodel" ID="ID_32191689" CREATED="1709578833113" MODIFIED="1709578871603">
+<hook URI="valuestream.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Stakeholder triggers Value Stream" ID="ID_572877733" CREATED="1709578874331" MODIFIED="1709578881658"/>
+<node TEXT="Stakeholder desires Value Proposition" ID="ID_893842547" CREATED="1709578881827" MODIFIED="1709578894645"/>
+<node TEXT="Stakeholder participates in Value Stream Stage" ID="ID_1332240333" CREATED="1709578894787" MODIFIED="1709578904616"/>
+<node TEXT="Value Stream delivers Value Proposition" ID="ID_1580423531" CREATED="1709578904804" MODIFIED="1709578912088"/>
+<node TEXT="Value Stream contains Value Stream Stages" ID="ID_297018898" CREATED="1709578912237" MODIFIED="1709578923083"/>
+<node TEXT="Capability enables Values Stream Stage" ID="ID_507746859" CREATED="1709578923251" MODIFIED="1709578934147"/>
+<node TEXT="Capability achieves Outcome" ID="ID_1861038915" CREATED="1709578934346" MODIFIED="1709578943472"/>
+<node TEXT="Outcome is assigned to Value Item" ID="ID_719359498" CREATED="1709578943654" MODIFIED="1709578950875"/>
+<node TEXT="Example Value Stream" POSITION="bottom_or_right" ID="ID_634772545" CREATED="1709578996611" MODIFIED="1709579011566">
+<hook URI="valuestream-example.png" SIZE="0.63761955" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Value Stream Metamodel BACM" ID="ID_278891205" CREATED="1709579137423" MODIFIED="1709579162391">
+<hook URI="valuestream-BACM.png" SIZE="0.70422536" NAME="ExternalObject"/>
+<node TEXT="BACM is structurally similar to the Guild metamodel" ID="ID_76773255" CREATED="1709579164762" MODIFIED="1709579177205"/>
+<node TEXT="CutomerSegment defines the uses and desires of the Customer" ID="ID_496758774" CREATED="1709579177400" MODIFIED="1709579198378"/>
+<node TEXT="Outcomes are experienced by the Customer at Touchpoints" ID="ID_1808901536" CREATED="1709579199044" MODIFIED="1709579210236"/>
+<node TEXT="ProducOffering includes the contract terms and conditions governing the Outcomes produced by the business and experienced by the Customer" ID="ID_298113667" CREATED="1709579210405" MODIFIED="1709579236137"/>
+<node TEXT="ValuePropositions are about ProductOfferings" ID="ID_879009722" CREATED="1709579236644" MODIFIED="1709579245360"/>
+<node TEXT="ValueCharacteristic represents the &quot;fit&quot; of the ValueProposition to the Customer uses and desires (the CustomerSegments)" ID="ID_798302445" CREATED="1709579245564" MODIFIED="1709579270014"/>
+<node TEXT="The triggering relation from Stakeholder to Value Stream is not defined in the BACM specification" ID="ID_1545532114" CREATED="1709579270261" MODIFIED="1709579296349"/>
+<node TEXT="Example Value Stream (BACM)" POSITION="bottom_or_right" ID="ID_342244838" CREATED="1709579338613" MODIFIED="1709579353843">
+<hook URI="valuestream-BACM-sample-trip.png" SIZE="0.45420137" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="Capability Maps" POSITION="bottom_or_right" ID="ID_1465249021" CREATED="1709578621604" MODIFIED="1709578638381">
+<node TEXT="Capability Map Guild Metamodel" ID="ID_1443796977" CREATED="1709579545343" MODIFIED="1709579592086">
+<hook URI="capability-guild.png" SIZE="0.7290401" NAME="ExternalObject"/>
+<node TEXT="Capability decomposes into Capability" ID="ID_1217304725" CREATED="1709579594174" MODIFIED="1709579601780"/>
+<node TEXT="Capability Instance realizes Capability" ID="ID_322650960" CREATED="1709579601965" MODIFIED="1709579610215"/>
+<node TEXT="Capability achieves Outcome" ID="ID_50400759" CREATED="1709579610373" MODIFIED="1709579616368"/>
+<node TEXT="Capability needs Outcome" ID="ID_1641403751" CREATED="1709579616517" MODIFIED="1709579621656"/>
+<node TEXT="Capability enables Value Stream Stage" ID="ID_1268667917" CREATED="1709579621805" MODIFIED="1709579632419"/>
+<node TEXT="Outcome is assigned to Value Item" ID="ID_968693500" CREATED="1709579633179" MODIFIED="1709579640471"/>
+<node TEXT="Example Guild Capability Map" ID="ID_152411959" CREATED="1709579701981" MODIFIED="1709579716313">
+<hook URI="capability-guild-sample.png" SIZE="0.49382716" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Capability Metamodel BACM" ID="ID_106765544" CREATED="1709579799847" MODIFIED="1709579812535">
+<hook URI="capability-BACM.png" SIZE="0.9287926" NAME="ExternalObject"/>
+<node TEXT="Capability supports ValueStreamStage" ID="ID_20224947" CREATED="1709579814163" MODIFIED="1709579828375"/>
+<node TEXT="Capability owns Capability" ID="ID_1399944217" CREATED="1709579828578" MODIFIED="1709579835930"/>
+<node TEXT="Capability nees/produces Outcome" ID="ID_866110162" CREATED="1709579837226" MODIFIED="1709579844857"/>
+<node TEXT="Outcome generalizes Outcome" ID="ID_272940230" CREATED="1709579845040" MODIFIED="1709579854089"/>
+<node TEXT="Outcome triggers ValueStreamStage" ID="ID_88427181" CREATED="1709579854283" MODIFIED="1709579862525"/>
+<node TEXT="ValueItem values Outcome" ID="ID_136265958" CREATED="1709579862730" MODIFIED="1709579868042"/>
+<node TEXT="Touchpoint experiences Outcome" ID="ID_542368004" CREATED="1709579868499" MODIFIED="1709579878453"/>
+<node TEXT="Example Capability BACM" ID="ID_1956184971" CREATED="1709579933238" MODIFIED="1709579945575">
+<hook URI="capability-BACM-sample.png" SIZE="0.63965887" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="Information Concepts Maps" POSITION="bottom_or_right" ID="ID_1522611188" CREATED="1709578638635" MODIFIED="1709578653788">
+<node TEXT="Information Concept Map Guild Metamodel" FOLDED="true" ID="ID_54813279" CREATED="1709580099568" MODIFIED="1709580118229">
+<hook URI="information-Guild.png" SIZE="0.88365245" NAME="ExternalObject"/>
+<node TEXT="Stakeholder defines Information Concept" ID="ID_1843520705" CREATED="1709580119490" MODIFIED="1709580128210"/>
+<node TEXT="Information Concept relates to Information Concept" ID="ID_1212827300" CREATED="1709580128389" MODIFIED="1709580138811"/>
+<node TEXT="Capability uses/modifies Information Concept" ID="ID_3459836" CREATED="1709580138991" MODIFIED="1709580148059"/>
+<node TEXT="Information Concept makes explicit Business Object" ID="ID_210530165" CREATED="1709580148225" MODIFIED="1709580158930"/>
+<node TEXT="Capability achieves Outcome" ID="ID_1779966444" CREATED="1709580159117" MODIFIED="1709580167894"/>
+<node TEXT="Example Information Concept Model Guild" ID="ID_1469853386" CREATED="1709580168118" MODIFIED="1709580250586">
+<hook URI="information-Guild-sample-trip.png" SIZE="0.6741573" NAME="ExternalObject"/>
+<node TEXT="Trip agreement represents a contract between a Travel Business and a Customer that includes a Trip Plan" ID="ID_295439889" CREATED="1709580251379" MODIFIED="1709580273016"/>
+<node TEXT="The Trip Plan enables execution of a Trip that the Customer wishes to take" ID="ID_732365657" CREATED="1709580273219" MODIFIED="1709580288259"/>
+<node TEXT="The Trip Plan includes specific Conveyors and Routes that the Customer and Shipment may take" ID="ID_1569131659" CREATED="1709580288457" MODIFIED="1709580307283"/>
+<node TEXT="These concepts are all instances of the Information Concept meta-class" ID="ID_186623120" CREATED="1709580307455" MODIFIED="1709580323086"/>
+</node>
+</node>
+<node TEXT="Information Concept BACM Metamodel" ID="ID_369619134" CREATED="1709580395271" MODIFIED="1709580411886">
+<hook URI="information-BACM.png" SIZE="0.466563" NAME="ExternalObject"/>
+<node TEXT="Example Information Concept BACM" ID="ID_314020736" CREATED="1709580415944" MODIFIED="1709580632650">
+<hook URI="information-BACM-example.png" SIZE="0.6734007" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Capability are based on Information Concepts" ID="ID_1633033951" CREATED="1709580642795" MODIFIED="1709580653412">
+<node TEXT="When creating an information map, make sure to identify the Capabilities responsible for managing each Information Concept" ID="ID_1007583066" CREATED="1709580653414" MODIFIED="1709580671770"/>
+<node TEXT="Derive the Information Concept from the Capability, e.g. Agreement Management justifies the Agreement Information Concept" ID="ID_161847460" CREATED="1709580671977" MODIFIED="1709580705220"/>
+</node>
+</node>
+<node TEXT="Stakeholders Maps" FOLDED="true" POSITION="bottom_or_right" ID="ID_1365296754" CREATED="1709578654182" MODIFIED="1709578657894">
+<node TEXT="Stakeholder Metamodel Guild" FOLDED="true" ID="ID_1466783719" CREATED="1709580745244" MODIFIED="1709580764827">
+<hook URI="stakeholder-guild.png" SIZE="0.7528231" NAME="ExternalObject"/>
+<node TEXT="Stakeholder triggers Value Stream" ID="ID_1809901744" CREATED="1709580766920" MODIFIED="1709580777267"/>
+<node TEXT="Stakholder desires Value Proposition" ID="ID_213474685" CREATED="1709580777431" MODIFIED="1709580784469"/>
+<node TEXT="Stakeholder participates in Value Stream Stage" ID="ID_1913194171" CREATED="1709580784603" MODIFIED="1709580800223"/>
+<node TEXT="Stakeholder defines Information Concept" ID="ID_661229579" CREATED="1709580800418" MODIFIED="1709580808519"/>
+<node TEXT="Stakeholder contributes to Outcome" ID="ID_1162298052" CREATED="1709580808713" MODIFIED="1709580817759"/>
+<node TEXT="Stakeholder belongs to Business Unit" ID="ID_1993782864" CREATED="1709580817929" MODIFIED="1709580831553"/>
+<node TEXT="Capability enables Value Stream Stage" ID="ID_1015152253" CREATED="1709580831729" MODIFIED="1709580841991"/>
+<node TEXT="Capability achieves Outcome" ID="ID_1837270919" CREATED="1709580842175" MODIFIED="1709580848476"/>
+<node TEXT="Stakeholder Category categorizes Stakeholder" ID="ID_1147722090" CREATED="1709580848640" MODIFIED="1709580859111"/>
+<node TEXT="Example Guild Stakeholder Map" ID="ID_70610853" CREATED="1709580892666" MODIFIED="1709580906170">
+<hook URI="stakeholder-guild-sample.png" SIZE="0.79260236" NAME="ExternalObject"/>
+<node TEXT="3 stakeholder categories: Customer, Partner, Human Resource" ID="ID_203792892" CREATED="1709580907039" MODIFIED="1709580927769"/>
+<node TEXT="Customer, Partner are external, Human Resource is internal" ID="ID_1109026419" CREATED="1709580927945" MODIFIED="1709580947413"/>
+<node TEXT="Human Resource category stakeholders typically perform specific tasks under an employment contract and are not usually associated with a value proposition" ID="ID_770065963" CREATED="1709580947600" MODIFIED="1709580977583"/>
+<node TEXT="Partner stakeholders perform specific tasks under a contract and may/should be associated with a value proposition" ID="ID_573309902" CREATED="1709580977757" MODIFIED="1709581000698"/>
+<node TEXT="Customer stakeholders receive value from products and services and must be associated with a value proposition" ID="ID_144555447" CREATED="1709581000872" MODIFIED="1709581021271"/>
+</node>
+</node>
+<node TEXT="Example Stakeholder Map BACM" ID="ID_239854800" CREATED="1709581045962" MODIFIED="1709581081685">
+<hook URI="stakeholder-BACM-sample.png" SIZE="0.6557377" NAME="ExternalObject"/>
+<node TEXT="Customer categories translate to Customer" ID="ID_1845384395" CREATED="1709581083303" MODIFIED="1709581096094"/>
+<node TEXT="Partner categories translate to Customer" ID="ID_1156236385" CREATED="1709581096320" MODIFIED="1709581106245"/>
+<node TEXT="In BACM, Customer is a type of LegalEntity" ID="ID_1548337943" CREATED="1709581107224" MODIFIED="1709581116912"/>
+<node TEXT="Human Resource categories typically translate to Performer or one of its specializations" ID="ID_19680688" CREATED="1709581117364" MODIFIED="1709581137898"/>
+</node>
+</node>
+<node TEXT="Quiz" POSITION="bottom_or_right" ID="ID_1325392480" CREATED="1709581351744" MODIFIED="1709581354074">
+<node TEXT="1. Which BACM class most closely aligns to Capability Instance in the GUILD metamodel?" ID="ID_993546918" CREATED="1709581359424" MODIFIED="1709581390204">
+<node TEXT="A) CapabilityBehavior" ID="ID_1305415933" CREATED="1709581390207" MODIFIED="1709581398906"/>
+<node TEXT="B) BusinessObject" ID="ID_1037598178" CREATED="1709581399088" MODIFIED="1709581503527"/>
+<node TEXT="C) CapabilityImplementation" ID="ID_1083927071" CREATED="1709581404489" MODIFIED="1709581702921">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="D) Capability" ID="ID_1408773716" CREATED="1709581410458" MODIFIED="1709581710351">
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node TEXT="2. From the perspective of a Value Proposition recipient, which BACM class most closely corresponds to Stakeholder in the GUILD metamodel?" ID="ID_791538300" CREATED="1709581516273" MODIFIED="1709581548725">
+<node TEXT="A) Customer" ID="ID_230140590" CREATED="1709581548729" MODIFIED="1709581580789">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="B) Performer" ID="ID_711910762" CREATED="1709581556694" MODIFIED="1709581561753"/>
+<node TEXT="C_ Role" ID="ID_1275897856" CREATED="1709581564871" MODIFIED="1709581567879"/>
+<node TEXT="D_ InformationItem" ID="ID_14239040" CREATED="1709581568043" MODIFIED="1709581571655"/>
+</node>
+<node TEXT="3. Which BACM class most closely corresponds to Information Concept in the GUILD metamodel?" ID="ID_1791590637" CREATED="1709581603010" MODIFIED="1709581626884">
+<node TEXT="A) Information" ID="ID_781818194" CREATED="1709581626886" MODIFIED="1709581630256"/>
+<node TEXT="B) InformationData" ID="ID_710474260" CREATED="1709581630408" MODIFIED="1709581634120"/>
+<node TEXT="C) DataItem" ID="ID_1545393307" CREATED="1709581634520" MODIFIED="1709581638271"/>
+<node TEXT="D) InformationItem" ID="ID_1413207125" CREATED="1709581638442" MODIFIED="1709581660616">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="2023/08/16 - Value Streams" ID="ID_384862552" CREATED="1709652408435" MODIFIED="1709652457815"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
     <p>
-      
+      Delivering customer and related stakeholder value underpins a wide range of critical focal points for organizations including improving the customer experience, maximizing partner engagement, and ensuring that business leaders and other professionals can function at peak performance. Various disciplines look at value consumption, such as customer journey mapping while other disciplines focus on value creation. Bringing these two perspectives together establishes a focal point for maximizing investments to deliver stakeholder value while optimizing the capabilities needed to do so. This webinar will examine the value consumption / value creation concepts through the lens of business architecture and the role the dual view plays in selecting and shaping investments and related initiatives.
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="" ID="ID_1575135497" CREATED="1709050747741" MODIFIED="1709050747741"/>
 </node>
 </node>
 <node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
@@ -664,8 +917,7 @@
       As a founding member of the Business Architecture Guild, former co-chair of the OMG Business Architecture Working Group and Co-Author fo the book &quot;Business Architecture: The Art and Practice of Business Transformation&quot; Neal has been deeply involved with Business Architecture since the very beginning. Neal has been both a key thinker in the domain as well as a deep practitioner through nearly 25 years of work with boutique consulting firms as well as years of experience providing leadership within a major international insurer.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="01. The problem" FOLDED="true" ID="ID_1128165665" CREATED="1708994177083" MODIFIED="1708995459921">
 <node ID="ID_631473712" CREATED="1708994373190" MODIFIED="1708994513995"><richcontent TYPE="NODE">
 
@@ -679,7 +931,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -735,7 +986,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="How much time/money" ID="ID_1581332418" CREATED="1708995913722" MODIFIED="1708995921888"/>
 <node TEXT="Were the deliverables met" ID="ID_1447407969" CREATED="1708995922116" MODIFIED="1708995932066"/>
@@ -755,7 +1005,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="The outcome is not quantifiable because the ultimate metric is in the future" ID="ID_1642599263" CREATED="1708995977248" MODIFIED="1708995994609"/>
 <node TEXT="The outcome can only be quantified by a measure of relative risk" ID="ID_1195876185" CREATED="1708995994786" MODIFIED="1708996005301"/>
@@ -890,8 +1139,7 @@
       Speaker: Steve Dupont / Bryan Laid
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="1. Introduction" FOLDED="true" ID="ID_1002839264" CREATED="1708973851030" MODIFIED="1708974138471">
 <node TEXT="TOGAF 9.1 first introduced in 2011" ID="ID_837595098" CREATED="1708978525122" MODIFIED="1708978535039"/>
 <node TEXT="Business architecture discipline evolved significantly since then" ID="ID_166846017" CREATED="1708978535473" MODIFIED="1708978550055"/>
@@ -1009,8 +1257,7 @@
       Source: Ulrich Homann, A Business-Oriented Foundation for Service Orientation White Paper, Feb 2006
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="What it isn&apos;t" ID="ID_292018489" CREATED="1708980910746" MODIFIED="1708980919369">
