@@ -239,22 +239,137 @@ Technology_Layer
         Technology_Node
 EA_Support
     Business_Context_Management
+        Business_Environment_Factor
+        Business_Environment_Factor_Change
     Change_Management
+        Budget
+        Budgetary_Element
+            Adhoc_Budgetary_Element
+            Annual_Budgetary_Element
+            Monthly_Budgetary_Element
+            Quarterly_Budgetary_Element
+        Change_Activity
+            Initiative
+            Programme
+            Project
+            Project_Activity
+        Change_Milestone
     Cost_Management
+        Cost
+        Cost_Component
+            Adhoc_Cost_Component
+            Annual_Cost_Component
+            Monthly_Cost_Component
+            Quarterly_Cost_Component
+        Cost_Component_Change
     Dependency_Management
-    DE_Repository_Management
+        Correlation
+        Dependency
+            Correlation_Dependency
+                Business_Environment_Correlation_Dependency
+                Service_Quality_Correlation_Dependency
+            Weighted_Dependency
+                Business_Environment_Weighted_Dependency
+                Capability_Weighted_Dependency
+    EA_Repository_Management
     Essential_Viewer
     External_Integration
+        External_Instance_Reference
+        External_Reference_Link
+        External_Repository
     Governance
+        Control
+        Control_Assessment
+        Control_Framework
+        Control_Solution
+        Control_Solution_Assessment
+        Decision
+            Application_Decision
+            Business_Decision
+            Enterprise_Decision
+            Information_Decision
+            Technology_Decision
+        Exception
+            Application_Exception
+            Business_Exception
+            Information_Exception
+            Security_Exception
+            Technology_Exception
+        Framework_Management
+            Management_Framework
+            Management_Framework_Type
+        Governance_Body
+        Governance_Meeting
+        Policy
+            Application_Management_Policy
+            Business_Management_Policy
+            Info_Data_Management_Policy
+                Record_Management_Policy
+            Security_Policy
+            Technology_Management_Policy
     Innovation_Management
+        Idea_Option
     Legal_Management
     Lifecycle_Management
+        Lifecycle_Model
+            API_Lifecycle_Model
+            Disposition_Lifecycle_Model
+            Managed_Service_Lifecycle_Model
+            Product_Lifecycle_Model
+            Project_Lifecycle_Model
+            Vendor_Lifecycle_Model
+        Lifecycle_Model_Types
+            Lifecycle_Model_Start
+            Lifecycle_Model_Timeline_Point
+            Lifecycle_Status_Usage
+                API_Lifecycle_Status_Usage
+                Disposition_Lifecycle_Status_Usage
+                Managed_Service_Lifecycle_Status_Usage
+                Product_Lifecycle_Status_Usage
+                Project_Lifecycle_Status_Usage
+                Vendor_Lifecycle_Status_Usage
     Obligation_Management
+        Compliance_Obligation
+        Contract
+        Contractual_Obligation
+        License
+        Regulated_Data_Usage
+        Regulated_Data_Usage_Legal_Basis
+        Regulation
     Performance_Management
+        Performance_Measure
+            Application_Performance_Measure
+            Business_Performance_Measure
+            Information_Performance_Measure
+            Technology_Performance_Measure
     Resource_Management
+        Individual_Business_Role_At_Level
+        Resource_Allocation
+        Resource_Requirement
+        Skill
+        Skill_At_Level
+        Skill_Certification
+        Skill_Level_Dimension
+        Subject_Matter_Expertise
     Risk_Management
+        Risk
+        Risk_Assessment
     Security_Management
+        Security_Conceptual
+            Security_Capability
+            Security_Principle
+        Security_Logical
+            Security_Classification
+            Security_Classification_Framework
+            Security_Classification_Scheme
+            Security_Clearance_Level
+            Security_Solution
+        Security_Physical
+            Security_Deployment
     Service_Delivery
+        Managed_Service
+        Service_Delivery_Model
+        Support_Model
     Standards_Management
         Application_Standards_Management
             Application_Provider_Standard_Specification
@@ -262,10 +377,27 @@ EA_Support
                 Application_Reference_Architecture
                 Application_Reference_Architecture_Type
                     Reference_Application_Service_Usage
-                
+                Application_Reference_Implementation
+                Application_Reference_Implementation_Type
+                    Application_Provider_Reference_Usage
+                    Application_Reference_Implementation_Usage
         Business_Standards_Management
+            Business_Operating_Model_Standard_Specification
+            Business_Process_Standard_Specification
+            Business_Reference_Modeling
+                Business_Reference_Architecture
+                Business_Reference_Architecture_Type
+                    Business_Process_Reference_Usage
+                    Business_Reference_Architecture_Usage
+            Physical_Process_Standard_Specification
         Info_Data_Standards_Management
+            Data_Object_Attribute_Standard_Specification
+            Data_Object_Standard_Specification
+            Info_Data_Standard
+            Info_Data_Standard_Relationship
+            Info_View_Standard_Specification
         Technology_Standards_Management
+            Technology_Provider_Standard_Specification
     Strategy_Management
         Architecture_State
         Assumption
