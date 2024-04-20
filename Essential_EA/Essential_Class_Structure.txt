@@ -146,11 +146,75 @@ Application_Layer
             External_System_Event
             Time_Based_System_Event
     Application_Physical
+        Application_Deployment
+        Application_Deployment_Group
 Information_Layer
     Information_Conceptual
+        Business_Term
+        Data_Subject
+        Information_Architecture_Principle
+        Information_Concept
+        Information_Domain
+        Information_Driver
+        Information_Objective_Type
+            Information_Architecture_Goal
+            Information_Architecture_Objective
     Information_Logical
+        Data_Object_Type
+            Data_Object
+            Data_Object_Attribute
+        Data_Representation_Type
+            Data_Representation
+            Data_Representation_Attribute
+        Information_Representation_Type
+            Information_Representation
+            Information_Representation_Attribute
+        Information_View_Type
+            Information_View
+            Information_View_Attribute
+        Logical_Information_Model
+            Logical_Application_Model_Types
+                Information_Representation_Usage
+                Information_View_Usage
+        Primitive_Data_Object
     Information_Physical
+        Information_Store
+        Information_Store_Group
+        Physical_Data_Object
+        Physical_Information_Model
+            Physical_Information_Model_Types
 Technology_Layer
     Technology_Conceptual
+        Conceptual_Technology_Model
+            Conceptual_Technology_Architecture_Type
+                Technology_Capability_Usage
+            Technology_Capability_Architecture
+        Technology_Architecture_Principle
+        Technology_Capability
+        Technology_Domain
+        Technology_Driver
+        Technology_Function_Type
+        Technology_Objective_Type
+            Technology_Architecture_Goal
+            Technology_Architecture_Objective
     Technology_Logical
+        Logical_Technology_Model
+            Technology_Build_Architecture
+            Technology_Build_Architecture_Type
+                
+            Technology_Component_Architecture
+            Technology_Component_Architecture_Type
+            Technology_Product_Architecture
+            Technology_Product_Architecture_Type
+        Technology_Component
+            Technology_Composite
+        Technology_Function
+        Technology_Product_Family
+        Technology_Protocol
+        Technology_Provider
+            Technology_Product
+            Technology_Product_Build
+        Technology_Provider_Role
+            Technology_Product_Build_Role
+            Technology_Product_Role
     Technology_Physical
