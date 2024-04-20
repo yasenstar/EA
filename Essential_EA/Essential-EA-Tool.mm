@@ -80,12 +80,46 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="001 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_1744860772" CREATED="1704291510247" MODIFIED="1704291699053" LINK="https://youtu.be/5CJjwiWxPjA">
+<node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
+<node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
+<node TEXT="Business Views" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
+<node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704565190683">
+<icon BUILTIN="button_ok"/>
+<arrowlink DESTINATION="ID_580443486" STARTINCLINATION="1325.24996 pt;0 pt;" ENDINCLINATION="2007.74994 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_747941657"/>
+<node TEXT="ArchiSurance: Figure 12: Capability View" ID="ID_899081085" CREATED="1713625580315" MODIFIED="1713625600008"/>
+</node>
+<node TEXT="Business Capabilities to Technology Tree Force" ID="ID_12901" CREATED="1704411542744" MODIFIED="1704411561046"/>
+<node TEXT="Business Service Interaction Model" ID="ID_1860780037" CREATED="1704411561786" MODIFIED="1704411575092"/>
+<node TEXT="Business Domain Process Analysis" ID="ID_141488650" CREATED="1704411575272" MODIFIED="1704411584459"/>
+<node TEXT="Business Capability Summary" ID="ID_363034107" CREATED="1704411585139" MODIFIED="1704565378837">
+<icon BUILTIN="button_ok"/>
+<arrowlink DESTINATION="ID_1641714643" STARTINCLINATION="1162.49997 pt;0 pt;" ENDINCLINATION="1852.49994 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_1989301444"/>
+<node TEXT="ArchiSurance: Figure 12: Capability View" POSITION="top_or_left" ID="ID_116525509" CREATED="1713625580315" MODIFIED="1713625600008"/>
+</node>
+<node TEXT="Business Service Summary" ID="ID_1524092646" CREATED="1704411600778" MODIFIED="1704411626363"/>
+<node TEXT="Value Stream Views" ID="ID_654384629" CREATED="1704411626570" MODIFIED="1704411634977"/>
+<node TEXT="Business Objective Summary" ID="ID_1475423692" CREATED="1704411635522" MODIFIED="1704411646142"/>
+<node TEXT="Business Performance Model" ID="ID_913367222" CREATED="1704411652731" MODIFIED="1704411660405"/>
+<node TEXT="Business Function Service Model" ID="ID_640757870" CREATED="1704411660677" MODIFIED="1704411667157"/>
+<node TEXT="Business Process Application Mapping" ID="ID_1732952765" CREATED="1704411667420" MODIFIED="1704411685893"/>
+<node TEXT="Deprecated: Business Capability Model" ID="ID_750079030" CREATED="1704565216421" MODIFIED="1704565254330">
+<arrowlink DESTINATION="ID_1163965869"/>
+<node TEXT="ArchiSurance: Figure 12: Capability View" POSITION="top_or_left" ID="ID_957232217" CREATED="1713625580315" MODIFIED="1713625600008"/>
+</node>
+</node>
+<node TEXT="Information Views" ID="ID_1770118328" CREATED="1704411501705" MODIFIED="1704411506938"/>
+<node TEXT="Application Views" ID="ID_1640623018" CREATED="1704411507255" MODIFIED="1704411510405"/>
+<node TEXT="Technology Views" ID="ID_121469285" CREATED="1704411510715" MODIFIED="1704411515928"/>
+</node>
+<node TEXT="Essential EA Modeling" POSITION="bottom_or_right" ID="ID_1773688413" CREATED="1713625667139" MODIFIED="1713625675867">
+<node TEXT="001 Introduction" FOLDED="true" POSITION="top_or_left" ID="ID_1744860772" CREATED="1704291510247" MODIFIED="1704291699053" LINK="https://youtu.be/5CJjwiWxPjA">
 <icon BUILTIN="video"/>
 <node TEXT="Essential Project Home Wedsite" ID="ID_1034284306" CREATED="1704291571263" MODIFIED="1704291584772" LINK="https://enterprise-architecture.org/"/>
 <node TEXT="Essential University" ID="ID_473845825" CREATED="1704291589430" MODIFIED="1704291621066" LINK="https://enterprise-architecture.org/university/"/>
 </node>
-<node TEXT="002 Download and Install Essential Open-Source Packages" FOLDED="true" POSITION="bottom_or_right" ID="ID_1416638504" CREATED="1704291625567" MODIFIED="1704304414899" LINK="https://youtu.be/JwERUE5VLFY">
+<node TEXT="002 Download and Install Essential Open-Source Packages" FOLDED="true" POSITION="top_or_left" ID="ID_1416638504" CREATED="1704291625567" MODIFIED="1704304414899" LINK="https://youtu.be/JwERUE5VLFY">
 <icon BUILTIN="video"/>
 <node TEXT="Essential Open Source EA Tool download" ID="ID_1938095588" CREATED="1704299639920" MODIFIED="1704299663746" LINK="https://enterprise-architecture.org/products/essential-open-source/essential-os-download/"/>
 <node TEXT="Pre-Requisites" ID="ID_122086783" CREATED="1704303486541" MODIFIED="1704303783519">
@@ -157,7 +191,7 @@
 <node TEXT="3. Connect viewer from Protege and able to publish repository to viewer" ID="ID_1254315931" CREATED="1704304336288" MODIFIED="1704304357871"/>
 </node>
 </node>
-<node TEXT="003 Essential Overview" FOLDED="true" POSITION="bottom_or_right" ID="ID_1646018562" CREATED="1704311145355" MODIFIED="1704395621185" LINK="https://youtu.be/c51kPBLY66k">
+<node TEXT="003 Essential Overview" FOLDED="true" POSITION="top_or_left" ID="ID_1646018562" CREATED="1704311145355" MODIFIED="1704395621185" LINK="https://youtu.be/c51kPBLY66k">
 <icon BUILTIN="video"/>
 <node TEXT="1. Getting started (what is Essential?)" ID="ID_418075616" CREATED="1704311161131" MODIFIED="1704311218584" LINK="https://enterprise-architecture.org/university/getting-started-what-is-essential/">
 <node TEXT="Anyone in the organisation can help create the enterprise architecture – Essential enables people to capture data without having to understand the business model" ID="ID_1262236653" CREATED="1704311289281" MODIFIED="1704311291861"/>
@@ -181,7 +215,7 @@
 <node TEXT="Keep growing the supporting meta models" ID="ID_761891817" CREATED="1704311814604" MODIFIED="1704311834405"/>
 </node>
 </node>
-<node TEXT="004 Start from Business Capability Model" FOLDED="true" POSITION="bottom_or_right" ID="ID_1844645028" CREATED="1704394473151" MODIFIED="1704412067637" LINK="https://youtu.be/5EkG5nmONr8">
+<node TEXT="004 Start from Business Capability Model" FOLDED="true" POSITION="top_or_left" ID="ID_1844645028" CREATED="1704394473151" MODIFIED="1704412067637" LINK="https://youtu.be/5EkG5nmONr8">
 <icon BUILTIN="video"/>
 <node TEXT="Reference Business Capability Models" ID="ID_1428920925" CREATED="1704395294558" MODIFIED="1704395334349" LINK="https://enterprise-architecture.org/resources/free-ea-models/"/>
 <node TEXT="View: Business Capability Summary" ID="ID_1989301444" CREATED="1704395484709" MODIFIED="1704395503494" LINK="https://enterprise-architecture.org/university/business-capability-summary/"/>
@@ -285,7 +319,7 @@
 </node>
 </node>
 </node>
-<node TEXT="005 Manually Input Business Capability Model (e.g. ArchiSurance)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1697321961" CREATED="1704482374643" MODIFIED="1704565374547" LINK="https://youtu.be/iceqTqxW7Tk">
+<node TEXT="005 Manually Input Business Capability Model (e.g. ArchiSurance)" FOLDED="true" POSITION="top_or_left" ID="ID_1697321961" CREATED="1704482374643" MODIFIED="1704565374547" LINK="https://youtu.be/iceqTqxW7Tk">
 <icon BUILTIN="video"/>
 <node TEXT="Step 1: Create and assign Root Business Capability" ID="ID_1655526979" CREATED="1704502598394" MODIFIED="1704564919876"/>
 <node TEXT="Step 2: Layer by Layer adding capability element manually, assigning Business Capability Level and Business Capability Index" ID="ID_44833878" CREATED="1704564920562" MODIFIED="1704564986203">
@@ -310,7 +344,7 @@
 <node TEXT="Business Capability Summary" ID="ID_1641714643" CREATED="1704565306805" MODIFIED="1704565311857"/>
 </node>
 </node>
-<node TEXT="006 Build Business Capability Model through Import Utility" POSITION="bottom_or_right" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1706648756510"><richcontent TYPE="NOTE">
+<node TEXT="006/007 Build Business Capability Model through Import Utility" FOLDED="true" POSITION="top_or_left" ID="ID_553149907" CREATED="1704482508677" MODIFIED="1713625502640"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -326,7 +360,7 @@
 <node TEXT="Essential Import Utility" ID="ID_1749633700" CREATED="1706648775216" MODIFIED="1706648811980" LINK="https://enterprise-architecture.org/university/open-exchange-xml-data-loader-cloud-docker/"/>
 </node>
 <node TEXT="Get LuanchPad: https://enterprise-architecture.org/products/essential-launchpad/" ID="ID_386506889" CREATED="1706648228500" MODIFIED="1706648242518" LINK="https://enterprise-architecture.org/products/essential-launchpad/"/>
-<node TEXT="Creating an Import" ID="ID_1192215735" CREATED="1704575774996" MODIFIED="1706648744180" LINK="https://enterprise-architecture.org/university/creating-imports-by-defining-an-import-specification/"><richcontent TYPE="NOTE">
+<node TEXT="Creating an Import" FOLDED="true" ID="ID_1192215735" CREATED="1704575774996" MODIFIED="1706648744180" LINK="https://enterprise-architecture.org/university/creating-imports-by-defining-an-import-specification/"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -356,8 +390,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Part 1: creating the worksheet that will be used to capture the data and creating the import specification that will be used to import" ID="ID_1639639081" CREATED="1704575860237" MODIFIED="1704575938041">
 <node TEXT="Completing the Capture Spreadsheet: the pre-defined capture spreadsheet has 3 types of the worksheet" FOLDED="true" ID="ID_1214109308" CREATED="1704576183659" MODIFIED="1704657102198">
 <arrowlink DESTINATION="ID_1077708576"/>
@@ -571,7 +604,7 @@
 </node>
 <node TEXT="Part 2: map the data to the correct class and slot in Essential" ID="ID_653944919" CREATED="1704575939306" MODIFIED="1704575953649"/>
 </node>
-<node TEXT="Using the Essential Import Utility" ID="ID_853785949" CREATED="1704657056905" MODIFIED="1704657072710" LINK="https://enterprise-architecture.org/university/using-the-essential-import-utility/">
+<node TEXT="Using the Essential Import Utility" FOLDED="true" ID="ID_853785949" CREATED="1704657056905" MODIFIED="1704657072710" LINK="https://enterprise-architecture.org/university/using-the-essential-import-utility/">
 <node TEXT="Key Terms" ID="ID_222739513" CREATED="1704657068073" MODIFIED="1704657082174">
 <node TEXT="Capture Spreadsheet: the spreadsheet that allows the capture of bulk data" ID="ID_1077708576" CREATED="1704657082177" MODIFIED="1704657124310"/>
 <node TEXT="Import Spec: specifies which classes and slots to send the data in the spreadsheet to" ID="ID_1289891310" CREATED="1704657125788" MODIFIED="1704657152954"/>
@@ -1040,35 +1073,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Key Essential Views" POSITION="top_or_left" ID="ID_672048690" CREATED="1704411477023" MODIFIED="1704411483528">
-<node TEXT="Enterprise Views" ID="ID_1170688271" CREATED="1704411485266" MODIFIED="1704411497828"/>
-<node TEXT="Business Views" FOLDED="true" ID="ID_1205364447" CREATED="1704411498304" MODIFIED="1704411501493">
-<node TEXT="Business Capability Dashboard" ID="ID_1751930216" CREATED="1704411526003" MODIFIED="1704565190683">
-<icon BUILTIN="button_ok"/>
-<arrowlink DESTINATION="ID_580443486" STARTINCLINATION="1325.24996 pt;0 pt;" ENDINCLINATION="2007.74994 pt;0 pt;"/>
-<arrowlink DESTINATION="ID_747941657"/>
 </node>
-<node TEXT="Business Capabilities to Technology Tree Force" ID="ID_12901" CREATED="1704411542744" MODIFIED="1704411561046"/>
-<node TEXT="Business Service Interaction Model" ID="ID_1860780037" CREATED="1704411561786" MODIFIED="1704411575092"/>
-<node TEXT="Business Domain Process Analysis" ID="ID_141488650" CREATED="1704411575272" MODIFIED="1704411584459"/>
-<node TEXT="Business Capability Summary" ID="ID_363034107" CREATED="1704411585139" MODIFIED="1704565378837">
-<icon BUILTIN="button_ok"/>
-<arrowlink DESTINATION="ID_1641714643" STARTINCLINATION="1162.49997 pt;0 pt;" ENDINCLINATION="1852.49994 pt;0 pt;"/>
-<arrowlink DESTINATION="ID_1989301444"/>
+<node TEXT="Essential EA Viewer" POSITION="bottom_or_right" ID="ID_1407737928" CREATED="1713625703036" MODIFIED="1713625709768">
+<node TEXT="008 Populate Value Stream / Capability Mapping" ID="ID_357746491" CREATED="1713625714205" MODIFIED="1713625742704">
+<arrowlink DESTINATION="ID_654384629"/>
+<node TEXT="ArchiSurance: Figure 13: Value Stream - Capability Cross-Mapping" ID="ID_1155172533" CREATED="1713625752260" MODIFIED="1713625772393"/>
 </node>
-<node TEXT="Business Service Summary" ID="ID_1524092646" CREATED="1704411600778" MODIFIED="1704411626363"/>
-<node TEXT="Value Stream Views" ID="ID_654384629" CREATED="1704411626570" MODIFIED="1704411634977"/>
-<node TEXT="Business Objective Summary" ID="ID_1475423692" CREATED="1704411635522" MODIFIED="1704411646142"/>
-<node TEXT="Business Performance Model" ID="ID_913367222" CREATED="1704411652731" MODIFIED="1704411660405"/>
-<node TEXT="Business Function Service Model" ID="ID_640757870" CREATED="1704411660677" MODIFIED="1704411667157"/>
-<node TEXT="Business Process Application Mapping" ID="ID_1732952765" CREATED="1704411667420" MODIFIED="1704411685893"/>
-<node TEXT="Deprecated: Business Capability Model" ID="ID_750079030" CREATED="1704565216421" MODIFIED="1704565254330">
-<arrowlink DESTINATION="ID_1163965869"/>
-</node>
-</node>
-<node TEXT="Information Views" ID="ID_1770118328" CREATED="1704411501705" MODIFIED="1704411506938"/>
-<node TEXT="Application Views" ID="ID_1640623018" CREATED="1704411507255" MODIFIED="1704411510405"/>
-<node TEXT="Technology Views" ID="ID_121469285" CREATED="1704411510715" MODIFIED="1704411515928"/>
 </node>
 </node>
 </map>
