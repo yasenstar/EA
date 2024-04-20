@@ -201,11 +201,19 @@ Technology_Layer
         Logical_Technology_Model
             Technology_Build_Architecture
             Technology_Build_Architecture_Type
-                
+                Technology_Protocol_Usage
+                Technology_Provider_Function_Usage
+                Technology_Provider_Usage
             Technology_Component_Architecture
             Technology_Component_Architecture_Type
+                Technology_Component_Usage
+                Technology_Function_Usage
             Technology_Product_Architecture
             Technology_Product_Architecture_Type
+                Technology_Product_Dependency
+                Technology_Product_Function_Usage
+                Technology_Product_Protocol_Usage
+                Technology_Product_Usage
         Technology_Component
             Technology_Composite
         Technology_Function
