@@ -1074,8 +1074,9 @@
 </node>
 </node>
 </node>
+<node TEXT="008 Build Up Your Own Meta-Model for Using Essential" POSITION="bottom_or_right" ID="ID_1726770556" CREATED="1713650502753" MODIFIED="1713650518757"/>
 <node TEXT="Essential EA Viewer" POSITION="bottom_or_right" ID="ID_1407737928" CREATED="1713625703036" MODIFIED="1713625709768">
-<node TEXT="008 Populate Value Stream / Capability Mapping" ID="ID_357746491" CREATED="1713625714205" MODIFIED="1713625742704">
+<node TEXT="009 Populate Value Stream / Capability Mapping" FOLDED="true" ID="ID_357746491" CREATED="1713625714205" MODIFIED="1713650500482">
 <arrowlink DESTINATION="ID_654384629"/>
 <node TEXT="ArchiSurance: Figure 13: Value Stream - Capability Cross-Mapping" ID="ID_1155172533" CREATED="1713625752260" MODIFIED="1713625772393"/>
 </node>
