@@ -256,12 +256,59 @@ EA_Support
     Security_Management
     Service_Delivery
     Standards_Management
+        Application_Standards_Management
+            Application_Provider_Standard_Specification
+            Application_Reference_Modeling
+                Application_Reference_Architecture
+                Application_Reference_Architecture_Type
+                    Reference_Application_Service_Usage
+                
+        Business_Standards_Management
+        Info_Data_Standards_Management
+        Technology_Standards_Management
     Strategy_Management
+        Architecture_State
+        Assumption
+        Constraint
+        Roadmap
+        Roadmap_Model
+        Roadmap_Model_Group
+        Roadmap_Model_Types
+            Roadmap_Milestone
+            Roadmap_Start
+            Roadmap_Timeline_Point
+        Strategic_Plan
+            Application_Strategic_Plan
+            Business_Strategic_Plan
+            Enterprise_Strategic_Plan
+            Information_Strategic_Plan
+            Security_Strategic_Plan
+            Technology_Strategic_Plan
+        Stretegic_Requirement
+            Issue
+            Need
+        Strategic_Trend_Management
+            Strategic_Trend
+            Strategic_Trend_Implication
+        Strategic_Compliance
+            Principle_Compliance_Assessment
+                Application_Principle_Compliance_Assessment
+                Business_Principle_Compliance_Assessment
+                Information_Principle_Compliance_Assessment
+                Security_Principle_Compliance_Assessment
+                Technology_Principle_Compliance_Assessment
     Taxonomy_Management
+        Taxonomy
+        Taxonomy_Term
     Utilities
         Attribute
+            Contract_Attribute
+            Regulation_Attribute
         Attribute_Value
+            Contract_Attribute_Value
+            Regulation_Attribute_Value
         Commentary
+            Label
         Currency
         Enumeration
             Actor_Reporting_Line_Strength
@@ -273,7 +320,104 @@ EA_Support
             Business_Capability_Purpose
             Business_Capability_Role
             Business_Criticality
-            
+            Business_Differentiation_Level
+            Business_Environment_Category
+            Codebase_Status
+            Contract_Renewal_Model
+            Contract_Type
+            Control_Assessment_Frequency
+            Control_Group
+            Control_Remediation_Level
+            Cost_Category
+            Cost_Component_Type
+            Customer_Emotion
+            Customer_Experience_Rating
+            Data_Acquisition_Method
+            Data_Attribute_Cardinality
+            Data_Category
+            Data_Standard_Relationship_Type
+            Decision_Result
+            Decision_Type
+            Deployment_Role
+                Information_Deployment_Role
+                Managed_Service_Deployment_Role
+            Deployment_Status
+            Document_File_Type
+            Editor_Configuration_Enumeration
+                Editor_Component_Cardinality
+                Editor_Component_Type
+                Editor_Slot_Type
+            Expertise_Level
+            InfoData_Representation_Attribute_Type
+            InfoData_Responsibility_Aspect
+            Information_Representation_Category
+            Issue_Category
+            Legal_Consent_Type
+            License_Approval
+            License_Model
+            License_Type
+            Lifecycle_Status
+                API_Lifecycle_Status
+                Disposition_Lifecycle_Status
+                Group_Actor_Lifecycle_Status
+                Idea_Lifecycle_Status
+                InfoData_Representation_Lifecycle_Status
+                Managed_Service_Lifecycle_Status
+                Obligation_Lifecycle_Status
+                Product_Lifecycle_Status
+                Project_Lifecycle_Status
+                Purchase_Lifecycle_Status
+                Strategic_Requirement_Lifecycle_Status
+                Strategic_Tread_Implication_Lifecycle_Status
+                SYS_CONTENT_APPROVAL_STATUS
+                SYS_CONTENT_QUALITY_LIFECYCLE
+                    SYS_CONTENT_QUALITY_REVIEW_STATUS
+                    SYS_CONTENT_QUALITY_STATUS
+                Vendor_Lifecycle_Status
+            Management_Service_Criticality
+            Managed_Service_Scope
+            Menu_Item_Category
+            Operating_Model_Category
+            Performance_Measure_Category
+            Planning_Action
+            Planning_Status
+            Principle_Compliance_Level
+            Product_Family
+            Project_Approval_Status
+            Project_Status
+            Recovery_Point_Objective
+            Recovery_Time_Objective
+            Report_Geographic_Map
+            Report_Implementation_Type
+            Requirement_Impact
+            Requirement_Status
+            Retention_Period
+            Revenue_Component_Type
+            Risk_Category
+            Risk_Impact
+            Role_Responsibility_Category
+            Secured_Action
+            Service_Quality_Objective
+            Skill_Focus_Level
+            Skill_Level
+            Skill_Level_Dimension_Type
+            Software_Architecture_Layer
+            Standard_Strength
+            Standardisation_Level
+            Suplier_Relationship_Status
+            SYS_CONTENT_VISIBILITY
+            SYS_ENUMERATION
+                SYS_COMMUNICATION_METHOD
+                SYS_CONTENT_QUALITY_ENUMERATION
+                    SYS_CONTENT_QUALITY_RELATIONSHIP_TYPE
+                    SYS_SLOT_PRIORITY_LEVEL
+                SYS_FREQUENCY
+            Technology_Delivery_Model
+            Technology_Node_Type
+            Unit_Of_Measure
+            User_Count_Range
+            Viewer_Code_Library_Type
+            Widget_Style_Class
         Geography
             GeoCode
             Geographic_Location
