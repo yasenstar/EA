@@ -83,6 +83,45 @@
 </map_styles>
 </hook>
 <node TEXT="2024" OBJECT="java.lang.Long|2024" POSITION="bottom_or_right" ID="ID_1505802859" CREATED="1708973738373" MODIFIED="1708973741159">
+<node TEXT="2024/03 Successful Business Architecture" FOLDED="true" ID="ID_1829032143" CREATED="1714163695394" MODIFIED="1714163702585">
+<node TEXT="&quot;Nearly 65% of Corporate IT will be expected to do more with less budget this year&quot; -- Forbes, 2023" ID="ID_1251752185" CREATED="1714163704844" MODIFIED="1714164085257"/>
+<node TEXT="Commonalities across Industries" ID="ID_1338865849" CREATED="1714164206273" MODIFIED="1714164217236">
+<node TEXT="Pressure to demostrate the value delivered from technology investments" ID="ID_1967644332" CREATED="1714164217238" MODIFIED="1714164235608"/>
+<node TEXT="Increased enterprise focus on OKRs, yet challenging to align product development to business outcomes" ID="ID_1442809942" CREATED="1714164259425" MODIFIED="1714164286023"/>
+<node TEXT="Desire to empower teams to make better data-driven &amp; value-based decisions" ID="ID_1373887133" CREATED="1714164235793" MODIFIED="1714164259239"/>
+<node TEXT="Demostrating Business Value is both simple &amp; very complex, making it hard to know where and how to start" ID="ID_1873057913" CREATED="1714164288058" MODIFIED="1714164310317"/>
+</node>
+<node TEXT="What does success look like?" ID="ID_1250499157" CREATED="1714165802960" MODIFIED="1714165810589">
+<node TEXT="Understand and articulate your role" ID="ID_1285563869" CREATED="1714165810591" MODIFIED="1714165820356"/>
+<node TEXT="Ascertain what business partners want" ID="ID_1325082933" CREATED="1714165820963" MODIFIED="1714165836142"/>
+<node TEXT="Establish how to measure success, identifying the key to making the role successful" ID="ID_1694589668" CREATED="1714165836649" MODIFIED="1714165854641"/>
+<node TEXT="Develop and optimize models" ID="ID_1873610465" CREATED="1714165854832" MODIFIED="1714165860664"/>
+<node TEXT="Clarify strategies with clear metrics" ID="ID_891740616" CREATED="1714165866692" MODIFIED="1714165874593"/>
+<node TEXT="Drive alignment between technology and business to achieve business objectives and maximize IT investement values" ID="ID_1433289383" CREATED="1714165874790" MODIFIED="1714165903441"/>
+</node>
+<node TEXT="Lessons Learned" ID="ID_1922969297" CREATED="1714166032360" MODIFIED="1714166038980">
+<node TEXT="There is no single &quot;right&quot; way to do it" ID="ID_1756893803" CREATED="1714166038982" MODIFIED="1714166048028"/>
+<node TEXT="People are the most complicated part of the process" ID="ID_265929227" CREATED="1714166048242" MODIFIED="1714166056749"/>
+<node TEXT="Begin with a single product or a business area" ID="ID_623624888" CREATED="1714166056921" MODIFIED="1714166067585"/>
+<node TEXT="Begin mapping for one Objective and Key Result" ID="ID_470297280" CREATED="1714166067793" MODIFIED="1714166077068"/>
+<node TEXT="Iterate because there is no &quot;finished&quot; state, only baseline" ID="ID_1729959756" CREATED="1714166078203" MODIFIED="1714166093707"/>
+<node TEXT="Address Change Management" ID="ID_1966976607" CREATED="1714166094723" MODIFIED="1714166099505"/>
+<node TEXT="Understand your executives and there needs" ID="ID_454524673" CREATED="1714166099713" MODIFIED="1714166111819"/>
+<node TEXT="Information is power, so have your data ready" ID="ID_551642891" CREATED="1714166112332" MODIFIED="1714166120620"/>
+<node TEXT="Seek feedback" ID="ID_1689611265" CREATED="1714166120797" MODIFIED="1714166123237"/>
+<node TEXT="Engage a 3rd party" ID="ID_204902855" CREATED="1714166123406" MODIFIED="1714166130605"/>
+<node TEXT="Middle Management is key" ID="ID_1380158554" CREATED="1714166130948" MODIFIED="1714166135669"/>
+<node TEXT="Show WIIFM (value of business partners and executives)" ID="ID_1933645996" CREATED="1714166135948" MODIFIED="1714166147721"/>
+<node TEXT="Utilize your measurements" ID="ID_1157025578" CREATED="1714166148283" MODIFIED="1714166154017"/>
+</node>
+<node TEXT="Code: ODBA417" ID="ID_1843307365" CREATED="1714166707813" MODIFIED="1714166713949"/>
+</node>
+<node TEXT="2024/03 Business Requirements Harmonization Across Perspective: Bridging the Gap" ID="ID_1191583662" CREATED="1714167792779" MODIFIED="1714167821451">
+<node TEXT="ODBA320" ID="ID_765001381" CREATED="1714169550487" MODIFIED="1714169774257"/>
+</node>
+<node TEXT="2024/02 Organization Design and Business Architecture" ID="ID_175428015" CREATED="1714169881477" MODIFIED="1714169896062">
+<node TEXT="ODBA221" ID="ID_106111738" CREATED="1714169928315" MODIFIED="1714169933372"/>
+</node>
 <node TEXT="2024/01 - Products, Product Entitlements &amp; Customer Service Optimization" FOLDED="true" POSITION="bottom_or_right" ID="ID_1525919945" CREATED="1708961080674" MODIFIED="1708993774215"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -625,8 +664,7 @@
       The socialization of business architecture to gain organizational acceptance is a unique and varied journey that in most cases is not prescriptive (规定性的).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="The VSP Journey" FOLDED="true" ID="ID_975357196" CREATED="1709649336195" MODIFIED="1709649342131">
 <node TEXT="2017: Business Architecture Introduced (Define and Build BA Practice)" POSITION="bottom_or_right" ID="ID_401898838" CREATED="1709648866074" MODIFIED="1709649565517"/>
 <node TEXT="2018: Initial Projects (Capabilities, Value Streams, Stakeholders)" POSITION="bottom_or_right" ID="ID_819077628" CREATED="1709649565709" MODIFIED="1709649585350"/>
@@ -710,12 +748,13 @@
 <node TEXT="Be confident in your skills" ID="ID_847242984" CREATED="1709651846847" MODIFIED="1709651854345"/>
 </node>
 </node>
-<node TEXT="2023/10/23 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 2" FOLDED="true" ID="ID_45546597" CREATED="1709578441120" MODIFIED="1709652404831">
+<node TEXT="2023/10/23 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 2" ID="ID_45546597" CREATED="1709578441120" MODIFIED="1709652404831">
 <node TEXT="Organization" ID="ID_1432156424" CREATED="1709578704100" MODIFIED="1709578709391"/>
 <node TEXT="Strategy" ID="ID_1125492549" CREATED="1709578733370" MODIFIED="1709578735940"/>
 <node TEXT="Initiative" ID="ID_358495317" CREATED="1709578736156" MODIFIED="1709578739504"/>
 <node TEXT="Process" ID="ID_1508262931" CREATED="1709578740233" MODIFIED="1709578741823"/>
 <node TEXT="Product" ID="ID_140090376" CREATED="1709578742018" MODIFIED="1709578767753"/>
+<node TEXT="Code: BACM123" ID="ID_1317131636" CREATED="1714228191832" MODIFIED="1714228377685"/>
 </node>
 <node TEXT="2023/09/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 1" FOLDED="true" ID="ID_1394280010" CREATED="1709050737641" MODIFIED="1709652398813"><richcontent TYPE="NOTE">
 <html>
@@ -896,8 +935,7 @@
       Delivering customer and related stakeholder value underpins a wide range of critical focal points for organizations including improving the customer experience, maximizing partner engagement, and ensuring that business leaders and other professionals can function at peak performance. Various disciplines look at value consumption, such as customer journey mapping while other disciplines focus on value creation. Bringing these two perspectives together establishes a focal point for maximizing investments to deliver stakeholder value while optimizing the capabilities needed to do so. This webinar will examine the value consumption / value creation concepts through the lens of business architecture and the role the dual view plays in selecting and shaping investments and related initiatives.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">

@@ -1,4 +1,4 @@
-; Fri Jan 05 21:10:37 EST 2024
+; Wed Apr 24 22:50:29 EDT 2024
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -1428,6 +1428,16 @@
 	(is_root FALSE)
 	(name "Risk & Compliance Management")
 	(supports_business_capabilities [ArchiSurance_Class1])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([ArchiSurance_Class10000] of  Application_Provider
+
+	(distribute_costs TRUE)
+	(name "Test")
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
