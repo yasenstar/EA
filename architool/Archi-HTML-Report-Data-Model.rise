@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rise:model[<!--DTD for RISE XML 1.5 by R2B Software AB,copyright 2007-2010 -->
+<!ELEMENT rise:model (rise:modelInfo,rise:naming?,(rise:evolution,rise:publish?,rise:presentation?,rise:documentation?,rise:applications?))>
+<!ATTLIST rise:model xmlns:rise CDATA #FIXED "http://www.r2bsoftware/ns/rise/">
+<!ELEMENT rise:modelInfo (rise:name,rise:prefix,rise:guid,rise:about?,rise:engineVersion?,rise:integerSize?,rise:vendor,rise:base?)>
+<!ELEMENT rise:name (#PCDATA)>
+<!ELEMENT rise:prefix (#PCDATA)>
+<!ELEMENT rise:guid (#PCDATA)>
+<!ELEMENT rise:about (#PCDATA)>
+<!ELEMENT rise:engineVersion (#PCDATA)>
+<!ELEMENT rise:vendor (rise:name,rise:email,rise:www,rise:copyright)>
+<!ELEMENT rise:email (#PCDATA)>
+<!ELEMENT rise:www (#PCDATA)>
+<!ELEMENT rise:copyright (#PCDATA)>
+<!ELEMENT rise:base (rise:name,rise:guid,rise:sequenceNumber,rise:timeStamp?,rise:hint?)>
+<!ELEMENT rise:evolution ((rise:newEntity|rise:renameEntity|rise:deleteEntity|rise:newRelation|rise:renameRelation|rise:editRelation|rise:deleteRelation|rise:newAttribute|rise:renameAttribute|rise:editAttribute|rise:deleteAttribute|rise:release|rise:newSpecialization|rise:deleteSpecialization|rise:newIndex|rise:deleteIndex|rise:snapshot|rise:newInstance|rise:editInstance|rise:deleteInstance|rise:sortAttribute|rise:noop)*)>
+<!ELEMENT rise:newEntity (rise:sequenceNumber,rise:timeStamp,rise:entity)>
+<!ELEMENT rise:renameEntity (rise:sequenceNumber,rise:timeStamp,rise:entityName,rise:newEntityName)>
+<!ELEMENT rise:deleteEntity (rise:sequenceNumber,rise:timeStamp,rise:entityName)>
+<!ELEMENT rise:newRelation (rise:sequenceNumber,rise:timeStamp,rise:relation)>
+<!ELEMENT rise:renameRelation (rise:sequenceNumber,rise:timeStamp,rise:relationName,rise:newRelationName)>
+<!ELEMENT rise:editRelation (rise:sequenceNumber,rise:timeStamp,rise:relation)>
+<!ELEMENT rise:deleteRelation (rise:sequenceNumber,rise:timeStamp,rise:relationName)>
+<!ELEMENT rise:newAttribute (rise:sequenceNumber,rise:timeStamp,rise:entity)>
+<!ELEMENT rise:renameAttribute (rise:sequenceNumber,rise:timeStamp,rise:entityName,rise:attributeName,rise:newAttributeName)>
+<!ELEMENT rise:editAttribute (rise:sequenceNumber,rise:timeStamp,rise:entity)>
+<!ELEMENT rise:deleteAttribute (rise:sequenceNumber,rise:timeStamp,rise:entityName,rise:attributeName)>
+<!ELEMENT rise:release (rise:sequenceNumber,rise:timeStamp,rise:comment?)>
+<!ELEMENT rise:newSpecialization (rise:sequenceNumber,rise:timeStamp,rise:specialization)>
+<!ELEMENT rise:deleteSpecialization (rise:sequenceNumber,rise:timeStamp,rise:specializationName)>
+<!ELEMENT rise:newIndex (rise:sequenceNumber,rise:timeStamp,rise:entity)>
+<!ELEMENT rise:deleteIndex (rise:sequenceNumber,rise:timeStamp,rise:entityName,rise:indexName)>
+<!ELEMENT rise:snapshot (rise:sequenceNumber,rise:timeStamp,rise:releases,(rise:entity|rise:relation|rise:specialization)*)>
+<!ELEMENT rise:newInstance (rise:sequenceNumber,rise:timeStamp,(rise:entity|rise:relation|rise:specialization))>
+<!ELEMENT rise:editInstance (rise:sequenceNumber,rise:timeStamp,(rise:entity|rise:relation|rise:specialization))>
+<!ELEMENT rise:deleteInstance (rise:sequenceNumber,rise:timeStamp,(rise:entity|rise:relation|rise:specialization))>
+<!ELEMENT rise:sortAttribute (rise:sequenceNumber,rise:timeStamp,rise:entityName,rise:attributeName,rise:newPosition)>
+<!ELEMENT rise:sequenceNumber (#PCDATA)>
+<!ELEMENT rise:timeStamp (#PCDATA)>
+<!ELEMENT rise:entity (rise:name,rise:isDataType?,rise:attribute*,rise:index*,rise:deleted?,rise:maxID,rise:ID*)>
+<!ELEMENT rise:attribute (rise:name,rise:dataTypeAlias?,(rise:dataType,rise:dataSize?,rise:mustBeUnique?,rise:mustExist?,rise:default?,rise:check?,rise:fkAttribute?,rise:description?)?,rise:deleted?,rise:instance*)>
+<!ELEMENT rise:entityName (#PCDATA)>
+<!ELEMENT rise:newEntityName (#PCDATA)>
+<!ELEMENT rise:relation (rise:name,rise:node,rise:node,rise:deleted?,rise:maxID,rise:ID*,relationHint?)>
+<!ELEMENT rise:relationName (#PCDATA)>
+<!ELEMENT rise:newRelationName (#PCDATA)>
+<!ELEMENT rise:attributeName (#PCDATA)>
+<!ELEMENT rise:newAttributeName (#PCDATA)>
+<!ELEMENT rise:newPosition (#PCDATA)>
+<!ELEMENT rise:comment (#PCDATA)>
+<!ELEMENT rise:specialization (rise:name,rise:subEntity,rise:superEntity,rise:deleted?,rise:specialized*)>
+<!ELEMENT rise:specializationName (#PCDATA)>
+<!ELEMENT rise:index (rise:name,rise:mustBeUnique,rise:indexColumn+)>
+<!ELEMENT rise:indexColumn ((rise:attributeName|rise:relationName|rise:specializationName),rise:orderBy, rise:fkName?)>
+<!ELEMENT rise:releases (#PCDATA)>
+<!ELEMENT rise:fkName (#PCDATA)>
+<!ELEMENT rise:dataType (#PCDATA)>
+<!ELEMENT rise:dataSize (#PCDATA)>
+<!ELEMENT rise:mustBeUnique (#PCDATA)>
+<!ELEMENT rise:mustExist (#PCDATA)>
+<!ELEMENT rise:default (#PCDATA)>
+<!ELEMENT rise:check (#PCDATA)>
+<!ELEMENT rise:fkAttribute (rise:pkTable, rise:pkColumn)>
+<!ELEMENT rise:pkTable (#PCDATA)>
+<!ELEMENT rise:pkColumn (#PCDATA)>
+<!ELEMENT rise:node (rise:name,rise:entityName,rise:attributeName?,rise:cardinality,rise:reference*)>
+<!ELEMENT rise:cardinality (#PCDATA)>
+<!ELEMENT rise:subEntity (#PCDATA)>
+<!ELEMENT rise:superEntity (#PCDATA)>
+<!ELEMENT rise:deleted (#PCDATA)>
+<!ELEMENT rise:publish (rise:view*,rise:interface*)>
+<!ELEMENT rise:view (rise:name,rise:distinct?,rise:entityName,rise:viewAttribute*,rise:extendWith*,rise:whereClause?,rise:groupBy?)>
+<!ELEMENT rise:distinct (#PCDATA)>
+<!ELEMENT rise:extendWith (rise:name,(rise:specializationName|(rise:relationName,rise:nodeName)),rise:viewName?,rise:mandatory)>
+<!ELEMENT rise:viewAttribute (rise:name,rise:extendWithName?,rise:attributeName?,rise:postProcess?)>
+<!ELEMENT rise:whereClause (#PCDATA)>
+<!ELEMENT rise:groupBy (#PCDATA)>
+<!ELEMENT rise:nodeName (#PCDATA)>
+<!ELEMENT rise:mandatory (#PCDATA)>
+<!ELEMENT rise:extendWithName (#PCDATA)>
+<!ELEMENT rise:postProcess (#PCDATA)>
+<!ELEMENT rise:interface (rise:name,rise:method*,rise:isPrivate?)>
+<!ELEMENT rise:method (rise:name,(rise:entityMethod|rise:viewMethod|rise:customMethod|rise:composedMethod),rise:description?,rise:userManaged?,rise:isPrivate?)>
+<!ELEMENT rise:entityMethod (rise:entityName,rise:operation,rise:returnSet?,rise:argumentList?,rise:filterBy?,rise:orderBy?,rise:extendedQuery?)>
+<!ELEMENT rise:viewMethod (rise:viewName,rise:returnSet?,rise:argumentList?,rise:filterBy?,rise:orderBy?,rise:extendedQuery?)>
+<!ELEMENT rise:relationMethod (rise:relationName,rise:operation,rise:returnSet?,rise:argumentList?)>
+<!ELEMENT rise:customMethod (rise:include,rise:class,rise:isListing?,rise:returnSet?,rise:argumentList?,rise:noDatabase?)>
+<!ELEMENT rise:composedMethod (rise:composition,rise:returnSet?,rise:argumentList?,rise:runAsTransaction?)>
+<!ELEMENT rise:description (#PCDATA)>
+<!ELEMENT rise:userManaged (#PCDATA)>
+<!ELEMENT rise:viewName (#PCDATA)>
+<!ELEMENT rise:operation (#PCDATA)>
+<!ELEMENT rise:returnSet (rise:return+)>
+<!ELEMENT rise:argumentList (rise:argument+)>
+<!ELEMENT rise:filterBy (#PCDATA)>
+<!ELEMENT rise:orderBy (#PCDATA)>
+<!ELEMENT rise:extendedQuery (#PCDATA)>
+<!ELEMENT rise:include (#PCDATA)>
+<!ELEMENT rise:class (#PCDATA)>
+<!ELEMENT rise:return (rise:name,((rise:dataType,rise:mustExist?)|rise:attributeName|(rise:isID,((rise:relationName,rise:nodeName)|rise:specializationName)?)),rise:postProcess?)>
+<!ELEMENT rise:argument (rise:name,((rise:dataType,rise:mustExist?)|rise:attributeName|(rise:isID,((rise:relationName,rise:nodeName)|rise:specializationName)?)),rise:postProcess?)>
+<!ELEMENT rise:argumentName (#PCDATA)>
+<!ELEMENT rise:isID (#PCDATA)>
+<!ELEMENT rise:presentation (rise:diagram*)>
+<!ELEMENT rise:diagram (rise:name,(rise:drawEntity|rise:drawView|rise:drawInterface|rise:drawText)*,rise:drawingMode?,rise:drawingModeX?)>
+<!ELEMENT rise:drawEntity (rise:entityName,rise:showAttributes?,rise:boundingBox,rise:color?,rise:showAttributeDetails?,rise:showIndexes?)>
+<!ELEMENT rise:drawView (rise:viewName,rise:showAttributes?,rise:boundingBox,rise:color?)>
+<!ELEMENT rise:drawInterface (rise:interfaceName,rise:boundingBox,rise:color?)>
+<!ELEMENT rise:drawText (rise:textRef,rise:display,rise:boundingBox,rise:color?)>
+<!ELEMENT rise:showAttributes (#PCDATA)>
+<!ELEMENT rise:boundingBox (rise:x,rise:y,rise:sizeX,rise:sizeY)>
+<!ELEMENT rise:textRef (#PCDATA)>
+<!ELEMENT rise:display (#PCDATA)>
+<!ELEMENT rise:documentation (rise:text*)>
+<!ELEMENT rise:text (rise:textID,rise:title,rise:text,(rise:entityName|rise:viewName|rise:interfaceName|rise:relationName|rise:specializationName)*)>
+<!ELEMENT rise:textID (#PCDATA)>
+<!ELEMENT rise:title (#PCDATA)>
+<!ELEMENT rise:text (#PCDATA)>
+<!ELEMENT rise:interfaceName (#PCDATA)>
+<!ELEMENT rise:x (#PCDATA)>
+<!ELEMENT rise:y (#PCDATA)>
+<!ELEMENT rise:sizeX (#PCDATA)>
+<!ELEMENT rise:sizeY (#PCDATA)>
+<!ELEMENT rise:ID (#PCDATA)>
+<!ELEMENT rise:maxID (#PCDATA)>
+<!ELEMENT rise:refID (#PCDATA)>
+<!ELEMENT rise:subID (#PCDATA)>
+<!ELEMENT rise:superID (#PCDATA)>
+<!ELEMENT rise:data (#PCDATA)>
+<!ELEMENT rise:instance (rise:ID,rise:data?)>
+<!ELEMENT rise:reference (rise:ID,rise:refID)>
+<!ELEMENT rise:specialized (rise:subID,rise:superID)>
+<!ELEMENT rise:applications (rise:application*)>
+<!ELEMENT rise:application (rise:name,rise:timeStamp,rise:ajax?)>
+<!ELEMENT rise:ajax (#PCDATA)>
+<!ELEMENT rise:composition (rise:dataset,rise:call*,rise:dataset)>
+<!ELEMENT rise:call (rise:interfaceName,rise:methodName,rise:dataset,rise:flowControl?,rise:callPostProcess?)>
+<!ELEMENT rise:methodName (#PCDATA)>
+<!ELEMENT rise:dataset (rise:name,rise:member*)>
+<!ELEMENT rise:member (rise:name,(rise:sourceDatasetName,rise:sourceMemberName)?)>
+<!ELEMENT rise:sourceDatasetName (#PCDATA)>
+<!ELEMENT rise:sourceMemberName (#PCDATA)>
+<!ELEMENT rise:isPrivate (#PCDATA)>
+<!ELEMENT rise:isListing (#PCDATA)>
+<!ELEMENT rise:noDatabase (#PCDATA)>
+<!ELEMENT rise:flowControl (rise:flowControlType,rise:sourceDatasetName,rise:sourceMemberName)>
+<!ELEMENT rise:flowControlType (#PCDATA)>
+<!ELEMENT rise:integerSize (#PCDATA)>
+<!ELEMENT rise:dataTypeAlias (#PCDATA)>
+<!ELEMENT rise:isDataType (#PCDATA)>
+<!ELEMENT rise:bgColor (#PCDATA)>
+<!ELEMENT rise:textColor (#PCDATA)>
+<!ELEMENT rise:color (rise:bgColor,rise:textColor)>
+<!ELEMENT rise:drawingMode (#PCDATA)>
+<!ELEMENT rise:drawingModeX (#PCDATA)>
+<!ELEMENT relationHint (rise:direction,rise:aggregation)>
+<!ELEMENT rise:direction (#PCDATA)>
+<!ELEMENT rise:aggregation (#PCDATA)>
+<!ELEMENT rise:callPostProcess (#PCDATA)>
+<!ELEMENT rise:showAttributeDetails (#PCDATA)>
+<!ELEMENT rise:showIndexes (#PCDATA)>
+<!ELEMENT rise:runAsTransaction (#PCDATA)>
+<!ELEMENT rise:noop (rise:sequenceNumber,rise:timeStamp)>
+<!ELEMENT rise:naming (rise:dbNaming, rise:srcNaming, rise:customDataType*,rise:styles)>
+<!ELEMENT rise:dbNaming (rise:dbTablePrefix,rise:dbTableDeletedPrefix,rise:dbEntityTable,rise:dbRelationTable,rise:dbColumnPrefix,rise:dbColumnDeletedPrefix,rise:dbIdColumn,rise:dbAttributeColumn,rise:dbForeignKeyColumn,rise:dbDefaultValueConstraint,rise:dbUniqueConstraint,rise:dbCheckConstraint,rise:dbForeignKeyConstraint,rise:dbExternalForeignKeyConstraint,rise:dbIndex,rise:dbTable,rise:dbColumn,rise:dbView)>
+<!ELEMENT rise:dbTablePrefix (#PCDATA)>
+<!ELEMENT rise:dbTableDeletedPrefix (#PCDATA)>
+<!ELEMENT rise:dbEntityTable (#PCDATA)>
+<!ELEMENT rise:dbRelationTable (#PCDATA)>
+<!ELEMENT rise:dbColumnPrefix (#PCDATA)>
+<!ELEMENT rise:dbColumnDeletedPrefix (#PCDATA)>
+<!ELEMENT rise:dbIdColumn (#PCDATA)>
+<!ELEMENT rise:dbAttributeColumn (#PCDATA)>
+<!ELEMENT rise:dbForeignKeyColumn (#PCDATA)>
+<!ELEMENT rise:dbDefaultValueConstraint (#PCDATA)>
+<!ELEMENT rise:dbUniqueConstraint (#PCDATA)>
+<!ELEMENT rise:dbCheckConstraint (#PCDATA)>
+<!ELEMENT rise:dbForeignKeyConstraint (#PCDATA)>
+<!ELEMENT rise:dbExternalForeignKeyConstraint (#PCDATA)>
+<!ELEMENT rise:dbIndex (#PCDATA)>
+<!ELEMENT rise:dbTable (#PCDATA)>
+<!ELEMENT rise:dbColumn (#PCDATA)>
+<!ELEMENT rise:dbView (#PCDATA)>
+<!ELEMENT rise:srcNaming (rise:srcListEntity,rise:srcNewEntity,rise:srcDeleteEntity,rise:srcGetEntity,rise:srcSetEntity,rise:srcDownloadBlob,rise:srcUploadBlob,rise:srcListView,rise:srcReturnValue,rise:srcMethod,rise:srcListEntityByFk,rise:srcGetEntityByFk,rise:srcGetEntityByAttribute,rise:srcGetEntityByIndex,rise:srcListEntityByIndex,rise:srcListEntityByAttribute,rise:srcAttributeArg,rise:srcPkArg,rise:srcFkArg,rise:srcArgument)>
+<!ELEMENT rise:srcListEntity (#PCDATA)>
+<!ELEMENT rise:srcListEntityByFk (#PCDATA)>
+<!ELEMENT rise:srcNewEntity (#PCDATA)>
+<!ELEMENT rise:srcDeleteEntity (#PCDATA)>
+<!ELEMENT rise:srcGetEntity (#PCDATA)>
+<!ELEMENT rise:srcGetEntityByFk (#PCDATA)>
+<!ELEMENT rise:srcGetEntityByAttribute (#PCDATA)>
+<!ELEMENT rise:srcSetEntity (#PCDATA)>
+<!ELEMENT rise:srcDownloadBlob (#PCDATA)>
+<!ELEMENT rise:srcUploadBlob (#PCDATA)>
+<!ELEMENT rise:srcAttributeArg (#PCDATA)>
+<!ELEMENT rise:srcPkArg (#PCDATA)>
+<!ELEMENT rise:srcFkArg (#PCDATA)>
+<!ELEMENT rise:srcArgument (#PCDATA)>
+<!ELEMENT rise:srcListView (#PCDATA)>
+<!ELEMENT rise:srcReturnValue (#PCDATA)>
+<!ELEMENT rise:srcMethod (#PCDATA)>
+<!ELEMENT rise:customDataType (rise:dataTypeAlias,rise:dataType,rise:dataSize?)>
+<!ELEMENT rise:styles (rise:entityStyle,rise:viewStyle,rise:interfaceStyle,rise:textStyle,rise:drawingStyle?)>
+<!ELEMENT rise:entityStyle (rise:bgColor,rise:textColor,rise:showAttributeDetails,rise:showIndexes)>
+<!ELEMENT rise:viewStyle (rise:bgColor,rise:textColor)>
+<!ELEMENT rise:interfaceStyle (rise:bgColor,rise:textColor)>
+<!ELEMENT rise:textStyle (rise:bgColor,rise:textColor)>
+<!ELEMENT rise:drawingStyle (rise:drawingMode,rise:drawingModeX?)>
+<!ELEMENT rise:srcGetEntityByIndex (#PCDATA)>
+<!ELEMENT rise:srcListEntityByIndex (#PCDATA)>
+<!ELEMENT rise:srcListEntityByAttribute (#PCDATA)>
+]>
+<rise:model xmlns:rise="http://www.r2bsoftware/ns/rise/">
+  <rise:modelInfo>
+    <rise:name>Archi-HTML-Report-Data-Model</rise:name>
+    <rise:prefix />
+    <rise:guid>b7581ea9-35a3-4964-b555-0441197424c7</rise:guid>
+    <rise:engineVersion>4.4.5246.20187</rise:engineVersion>
+    <rise:integerSize>64</rise:integerSize>
+    <rise:vendor>
+      <rise:name />
+      <rise:email />
+      <rise:www />
+      <rise:copyright />
+    </rise:vendor>
+  </rise:modelInfo>
+  <rise:evolution>
+    <rise:release>
+      <rise:sequenceNumber>1</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:46:31</rise:timeStamp>
+      <rise:comment>Created from empty model Blank (,49944b71-12fc-41f2-81a9-bcde1d55782e) </rise:comment>
+    </rise:release>
+    <rise:newEntity>
+      <rise:sequenceNumber>2</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:47:09</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Entity</rise:name>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newEntity>
+    <rise:renameEntity>
+      <rise:sequenceNumber>3</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:47:20</rise:timeStamp>
+      <rise:entityName>Entity</rise:entityName>
+      <rise:newEntityName>Elements</rise:newEntityName>
+    </rise:renameEntity>
+    <rise:newEntity>
+      <rise:sequenceNumber>4</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:47:25</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Entity</rise:name>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newEntity>
+    <rise:renameEntity>
+      <rise:sequenceNumber>5</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:47:39</rise:timeStamp>
+      <rise:entityName>Entity</rise:entityName>
+      <rise:newEntityName>Properties</rise:newEntityName>
+    </rise:renameEntity>
+    <rise:newEntity>
+      <rise:sequenceNumber>6</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:47:44</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Entity</rise:name>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newEntity>
+    <rise:renameEntity>
+      <rise:sequenceNumber>7</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:47:52</rise:timeStamp>
+      <rise:entityName>Entity</rise:entityName>
+      <rise:newEntityName>Relationship</rise:newEntityName>
+    </rise:renameEntity>
+    <rise:renameEntity>
+      <rise:sequenceNumber>8</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:48:01</rise:timeStamp>
+      <rise:entityName>Relationship</rise:entityName>
+      <rise:newEntityName>Relationships</rise:newEntityName>
+    </rise:renameEntity>
+    <rise:newEntity>
+      <rise:sequenceNumber>9</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:48:47</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Entity</rise:name>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newEntity>
+    <rise:renameEntity>
+      <rise:sequenceNumber>10</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:48:54</rise:timeStamp>
+      <rise:entityName>Entity</rise:entityName>
+      <rise:newEntityName>Views</rise:newEntityName>
+    </rise:renameEntity>
+    <rise:newEntity>
+      <rise:sequenceNumber>11</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:50:13</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Entity</rise:name>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newEntity>
+    <rise:newEntity>
+      <rise:sequenceNumber>12</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:50:15</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Entity1</rise:name>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newEntity>
+    <rise:newEntity>
+      <rise:sequenceNumber>13</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:50:17</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Entity2</rise:name>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newEntity>
+    <rise:renameEntity>
+      <rise:sequenceNumber>14</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:50:30</rise:timeStamp>
+      <rise:entityName>Entity</rise:entityName>
+      <rise:newEntityName>ViewsContent</rise:newEntityName>
+    </rise:renameEntity>
+    <rise:renameEntity>
+      <rise:sequenceNumber>15</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:50:48</rise:timeStamp>
+      <rise:entityName>Entity1</rise:entityName>
+      <rise:newEntityName>Folders</rise:newEntityName>
+    </rise:renameEntity>
+    <rise:renameEntity>
+      <rise:sequenceNumber>16</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:50:59</rise:timeStamp>
+      <rise:entityName>Entity2</rise:entityName>
+      <rise:newEntityName>FoldersContent</rise:newEntityName>
+    </rise:renameEntity>
+    <rise:newAttribute>
+      <rise:sequenceNumber>17</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:53:10</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Elements</rise:name>
+        <rise:attribute>
+          <rise:name>id</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>18</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:53:25</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Elements</rise:name>
+        <rise:attribute>
+          <rise:name>type</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>19</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:53:36</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Elements</rise:name>
+        <rise:attribute>
+          <rise:name>specialization</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>20</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:53:39</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Elements</rise:name>
+        <rise:attribute>
+          <rise:name>name</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>21</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:53:48</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Elements</rise:name>
+        <rise:attribute>
+          <rise:name>documentation</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>22</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:54:46</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Properties</rise:name>
+        <rise:attribute>
+          <rise:name>conceptid</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>23</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:54:54</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Properties</rise:name>
+        <rise:attribute>
+          <rise:name>propkey</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>24</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:54:58</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Properties</rise:name>
+        <rise:attribute>
+          <rise:name>propvalue</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>25</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:55:35</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Relationships</rise:name>
+        <rise:attribute>
+          <rise:name>id</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>26</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:55:49</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Relationships</rise:name>
+        <rise:attribute>
+          <rise:name>type</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>27</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:55:52</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Relationships</rise:name>
+        <rise:attribute>
+          <rise:name>specialization</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>28</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:56:00</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Relationships</rise:name>
+        <rise:attribute>
+          <rise:name>name</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>29</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:56:03</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Relationships</rise:name>
+        <rise:attribute>
+          <rise:name>documentation</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>30</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:56:11</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Relationships</rise:name>
+        <rise:attribute>
+          <rise:name>sourceid</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>31</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:56:22</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Relationships</rise:name>
+        <rise:attribute>
+          <rise:name>targetid</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>32</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:56:43</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Views</rise:name>
+        <rise:attribute>
+          <rise:name>id</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>33</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:56:45</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Views</rise:name>
+        <rise:attribute>
+          <rise:name>type</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>34</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:56:47</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Views</rise:name>
+        <rise:attribute>
+          <rise:name>name</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>35</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:56:49</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Views</rise:name>
+        <rise:attribute>
+          <rise:name>documentation</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>36</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:57:10</rise:timeStamp>
+      <rise:entity>
+        <rise:name>ViewsContent</rise:name>
+        <rise:attribute>
+          <rise:name>viewid</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>37</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:57:21</rise:timeStamp>
+      <rise:entity>
+        <rise:name>ViewsContent</rise:name>
+        <rise:attribute>
+          <rise:name>contentid</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>38</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:57:33</rise:timeStamp>
+      <rise:entity>
+        <rise:name>ViewsContent</rise:name>
+        <rise:attribute>
+          <rise:name>contenttype</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>39</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:58:34</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Folders</rise:name>
+        <rise:attribute>
+          <rise:name>id</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>40</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:58:37</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Folders</rise:name>
+        <rise:attribute>
+          <rise:name>type</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>41</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:58:39</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Folders</rise:name>
+        <rise:attribute>
+          <rise:name>name</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>42</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:58:42</rise:timeStamp>
+      <rise:entity>
+        <rise:name>Folders</rise:name>
+        <rise:attribute>
+          <rise:name>documentation</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>43</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:59:01</rise:timeStamp>
+      <rise:entity>
+        <rise:name>FoldersContent</rise:name>
+        <rise:attribute>
+          <rise:name>folderid</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>44</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:59:04</rise:timeStamp>
+      <rise:entity>
+        <rise:name>FoldersContent</rise:name>
+        <rise:attribute>
+          <rise:name>contentid</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newAttribute>
+      <rise:sequenceNumber>45</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T21:59:09</rise:timeStamp>
+      <rise:entity>
+        <rise:name>FoldersContent</rise:name>
+        <rise:attribute>
+          <rise:name>contenttype</rise:name>
+          <rise:dataTypeAlias />
+          <rise:dataType>string</rise:dataType>
+          <rise:dataSize>50</rise:dataSize>
+          <rise:mustBeUnique>False</rise:mustBeUnique>
+          <rise:mustExist>False</rise:mustExist>
+        </rise:attribute>
+        <rise:maxID>0</rise:maxID>
+      </rise:entity>
+    </rise:newAttribute>
+    <rise:newRelation>
+      <rise:sequenceNumber>46</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:01:51</rise:timeStamp>
+      <rise:relation>
+        <rise:name>ElementsProperties</rise:name>
+        <rise:node>
+          <rise:name>Elements</rise:name>
+          <rise:entityName>Elements</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>Properties</rise:name>
+          <rise:entityName>Properties</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>47</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:02:29</rise:timeStamp>
+      <rise:relationName>ElementsProperties</rise:relationName>
+      <rise:newRelationName>Elements.id to Properties.conceptid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>48</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:02:51</rise:timeStamp>
+      <rise:relation>
+        <rise:name>RelationshipsProperties</rise:name>
+        <rise:node>
+          <rise:name>Relationships</rise:name>
+          <rise:entityName>Relationships</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>Properties</rise:name>
+          <rise:entityName>Properties</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>49</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:03:06</rise:timeStamp>
+      <rise:relationName>RelationshipsProperties</rise:relationName>
+      <rise:newRelationName>Relationships.id to Properties.conceptid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>50</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:03:31</rise:timeStamp>
+      <rise:relation>
+        <rise:name>ViewsProperties</rise:name>
+        <rise:node>
+          <rise:name>Views</rise:name>
+          <rise:entityName>Views</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>Properties</rise:name>
+          <rise:entityName>Properties</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>51</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:03:45</rise:timeStamp>
+      <rise:relationName>ViewsProperties</rise:relationName>
+      <rise:newRelationName>Views.id to Properties.conceptid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>52</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:03:49</rise:timeStamp>
+      <rise:relation>
+        <rise:name>FoldersProperties</rise:name>
+        <rise:node>
+          <rise:name>Folders</rise:name>
+          <rise:entityName>Folders</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>Properties</rise:name>
+          <rise:entityName>Properties</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>53</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:04:36</rise:timeStamp>
+      <rise:relationName>FoldersProperties</rise:relationName>
+      <rise:newRelationName>Folders.id to Properties.conceptid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>54</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:05:35</rise:timeStamp>
+      <rise:relation>
+        <rise:name>ElementsRelationships</rise:name>
+        <rise:node>
+          <rise:name>Elements</rise:name>
+          <rise:entityName>Elements</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>Relationships</rise:name>
+          <rise:entityName>Relationships</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>55</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:05:51</rise:timeStamp>
+      <rise:relationName>ElementsRelationships</rise:relationName>
+      <rise:newRelationName>Elements.id to Relationships.sourceid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>56</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:05:56</rise:timeStamp>
+      <rise:relation>
+        <rise:name>Elements1Relationships1</rise:name>
+        <rise:node>
+          <rise:name>Elements1</rise:name>
+          <rise:entityName>Elements</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>Relationships1</rise:name>
+          <rise:entityName>Relationships</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>57</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:06:07</rise:timeStamp>
+      <rise:relationName>Elements1Relationships1</rise:relationName>
+      <rise:newRelationName>Elements.id to Relationships.targetid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>58</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:07:24</rise:timeStamp>
+      <rise:relation>
+        <rise:name>ViewsViewsContent</rise:name>
+        <rise:node>
+          <rise:name>Views</rise:name>
+          <rise:entityName>Views</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>ViewsContent</rise:name>
+          <rise:entityName>ViewsContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>59</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:07:36</rise:timeStamp>
+      <rise:relationName>ViewsViewsContent</rise:relationName>
+      <rise:newRelationName>Views.id to ViewsContent.viewid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>60</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:07:45</rise:timeStamp>
+      <rise:relation>
+        <rise:name>FoldersFoldersContent</rise:name>
+        <rise:node>
+          <rise:name>Folders</rise:name>
+          <rise:entityName>Folders</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>FoldersContent</rise:name>
+          <rise:entityName>FoldersContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>61</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:07:58</rise:timeStamp>
+      <rise:relationName>FoldersFoldersContent</rise:relationName>
+      <rise:newRelationName>Folders.id to FoldersContent.folderid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>62</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:08:46</rise:timeStamp>
+      <rise:relation>
+        <rise:name>ElementsViewsContent</rise:name>
+        <rise:node>
+          <rise:name>Elements</rise:name>
+          <rise:entityName>Elements</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>ViewsContent</rise:name>
+          <rise:entityName>ViewsContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>63</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:09:00</rise:timeStamp>
+      <rise:relationName>ElementsViewsContent</rise:relationName>
+      <rise:newRelationName>Elements.id to ViewsContent.contentid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>64</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:09:10</rise:timeStamp>
+      <rise:relation>
+        <rise:name>RelationshipsViewsContent</rise:name>
+        <rise:node>
+          <rise:name>Relationships</rise:name>
+          <rise:entityName>Relationships</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>ViewsContent</rise:name>
+          <rise:entityName>ViewsContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>65</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:09:21</rise:timeStamp>
+      <rise:relationName>RelationshipsViewsContent</rise:relationName>
+      <rise:newRelationName>Relationships.id to ViewsContent.contentid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>66</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:09:35</rise:timeStamp>
+      <rise:relation>
+        <rise:name>Views1ViewsContent1</rise:name>
+        <rise:node>
+          <rise:name>Views1</rise:name>
+          <rise:entityName>Views</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>ViewsContent1</rise:name>
+          <rise:entityName>ViewsContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>67</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:09:47</rise:timeStamp>
+      <rise:relationName>Views1ViewsContent1</rise:relationName>
+      <rise:newRelationName>Views.id to ViewsContent.contentid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>68</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:10:04</rise:timeStamp>
+      <rise:relation>
+        <rise:name>ElementsFoldersContent</rise:name>
+        <rise:node>
+          <rise:name>Elements</rise:name>
+          <rise:entityName>Elements</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>FoldersContent</rise:name>
+          <rise:entityName>FoldersContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>69</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:10:19</rise:timeStamp>
+      <rise:relationName>ElementsFoldersContent</rise:relationName>
+      <rise:newRelationName>Elements.id to FoldersContent.contentid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>70</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:10:23</rise:timeStamp>
+      <rise:relation>
+        <rise:name>RelationshipsFoldersContent</rise:name>
+        <rise:node>
+          <rise:name>Relationships</rise:name>
+          <rise:entityName>Relationships</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>FoldersContent</rise:name>
+          <rise:entityName>FoldersContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>71</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:10:32</rise:timeStamp>
+      <rise:relationName>RelationshipsFoldersContent</rise:relationName>
+      <rise:newRelationName>Relationships.id to FoldersContent.contentid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>72</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:10:38</rise:timeStamp>
+      <rise:relation>
+        <rise:name>ViewsFoldersContent</rise:name>
+        <rise:node>
+          <rise:name>Views</rise:name>
+          <rise:entityName>Views</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>FoldersContent</rise:name>
+          <rise:entityName>FoldersContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>73</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:10:46</rise:timeStamp>
+      <rise:relationName>ViewsFoldersContent</rise:relationName>
+      <rise:newRelationName>Views.id to FoldersContent.contentid</rise:newRelationName>
+    </rise:renameRelation>
+    <rise:newRelation>
+      <rise:sequenceNumber>74</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:10:50</rise:timeStamp>
+      <rise:relation>
+        <rise:name>Folders1FoldersContent1</rise:name>
+        <rise:node>
+          <rise:name>Folders1</rise:name>
+          <rise:entityName>Folders</rise:entityName>
+          <rise:cardinality>1</rise:cardinality>
+        </rise:node>
+        <rise:node>
+          <rise:name>FoldersContent1</rise:name>
+          <rise:entityName>FoldersContent</rise:entityName>
+          <rise:cardinality>0toN</rise:cardinality>
+        </rise:node>
+        <rise:maxID>0</rise:maxID>
+      </rise:relation>
+    </rise:newRelation>
+    <rise:renameRelation>
+      <rise:sequenceNumber>75</rise:sequenceNumber>
+      <rise:timeStamp>2024-04-29T22:11:02</rise:timeStamp>
+      <rise:relationName>Folders1FoldersContent1</rise:relationName>
+      <rise:newRelationName>Folders.id to FoldersContent.contentid</rise:newRelationName>
+    </rise:renameRelation>
+  </rise:evolution>
+  <rise:publish />
+  <rise:presentation>
+    <rise:diagram>
+      <rise:name>Archi HTML</rise:name>
+      <rise:drawEntity>
+        <rise:entityName>Elements</rise:entityName>
+        <rise:showAttributeDetails>False</rise:showAttributeDetails>
+        <rise:showIndexes>False</rise:showIndexes>
+        <rise:boundingBox>
+          <rise:x>13</rise:x>
+          <rise:y>11</rise:y>
+          <rise:sizeX>120</rise:sizeX>
+          <rise:sizeY>150</rise:sizeY>
+        </rise:boundingBox>
+        <rise:color>
+          <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
+          <rise:textColor>255;0;0;0;Black</rise:textColor>
+        </rise:color>
+      </rise:drawEntity>
+      <rise:drawEntity>
+        <rise:entityName>Properties</rise:entityName>
+        <rise:showAttributeDetails>False</rise:showAttributeDetails>
+        <rise:showIndexes>False</rise:showIndexes>
+        <rise:boundingBox>
+          <rise:x>1513</rise:x>
+          <rise:y>2</rise:y>
+          <rise:sizeX>100</rise:sizeX>
+          <rise:sizeY>150</rise:sizeY>
+        </rise:boundingBox>
+        <rise:color>
+          <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
+          <rise:textColor>255;0;0;0;Black</rise:textColor>
+        </rise:color>
+      </rise:drawEntity>
+      <rise:drawEntity>
+        <rise:entityName>Relationships</rise:entityName>
+        <rise:showAttributeDetails>False</rise:showAttributeDetails>
+        <rise:showIndexes>False</rise:showIndexes>
+        <rise:boundingBox>
+          <rise:x>1017</rise:x>
+          <rise:y>119</rise:y>
+          <rise:sizeX>129</rise:sizeX>
+          <rise:sizeY>150</rise:sizeY>
+        </rise:boundingBox>
+        <rise:color>
+          <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
+          <rise:textColor>255;0;0;0;Black</rise:textColor>
+        </rise:color>
+      </rise:drawEntity>
+      <rise:drawEntity>
+        <rise:entityName>Views</rise:entityName>
+        <rise:showAttributeDetails>False</rise:showAttributeDetails>
+        <rise:showIndexes>False</rise:showIndexes>
+        <rise:boundingBox>
+          <rise:x>1258</rise:x>
+          <rise:y>488</rise:y>
+          <rise:sizeX>100</rise:sizeX>
+          <rise:sizeY>150</rise:sizeY>
+        </rise:boundingBox>
+        <rise:color>
+          <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
+          <rise:textColor>255;0;0;0;Black</rise:textColor>
+        </rise:color>
+      </rise:drawEntity>
+      <rise:drawEntity>
+        <rise:entityName>ViewsContent</rise:entityName>
+        <rise:showAttributeDetails>False</rise:showAttributeDetails>
+        <rise:showIndexes>False</rise:showIndexes>
+        <rise:boundingBox>
+          <rise:x>764</rise:x>
+          <rise:y>427</rise:y>
+          <rise:sizeX>100</rise:sizeX>
+          <rise:sizeY>150</rise:sizeY>
+        </rise:boundingBox>
+        <rise:color>
+          <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
+          <rise:textColor>255;0;0;0;Black</rise:textColor>
+        </rise:color>
+      </rise:drawEntity>
+      <rise:drawEntity>
+        <rise:entityName>Folders</rise:entityName>
+        <rise:showAttributeDetails>False</rise:showAttributeDetails>
+        <rise:showIndexes>False</rise:showIndexes>
+        <rise:boundingBox>
+          <rise:x>1447</rise:x>
+          <rise:y>705</rise:y>
+          <rise:sizeX>100</rise:sizeX>
+          <rise:sizeY>150</rise:sizeY>
+        </rise:boundingBox>
+        <rise:color>
+          <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
+          <rise:textColor>255;0;0;0;Black</rise:textColor>
+        </rise:color>
+      </rise:drawEntity>
+      <rise:drawEntity>
+        <rise:entityName>FoldersContent</rise:entityName>
+        <rise:showAttributeDetails>False</rise:showAttributeDetails>
+        <rise:showIndexes>False</rise:showIndexes>
+        <rise:boundingBox>
+          <rise:x>124</rise:x>
+          <rise:y>683</rise:y>
+          <rise:sizeX>117</rise:sizeX>
+          <rise:sizeY>150</rise:sizeY>
+        </rise:boundingBox>
+        <rise:color>
+          <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
+          <rise:textColor>255;0;0;0;Black</rise:textColor>
+        </rise:color>
+      </rise:drawEntity>
+    </rise:diagram>
+  </rise:presentation>
+  <rise:documentation />
+  <rise:applications />
+</rise:model>
