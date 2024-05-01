@@ -133,3 +133,51 @@ SELECT DISTINCT Elements.type FROM Elements;
 Then you can have below 38 Element Types as one list:
 
 ![archi-html-query-12](img/html-query-12.png)
+
+### List Sepcific Properties with their Value
+
+First, as we learnt just now, let's get the full list of the Properties (name) in your model, so that you can use them for querying:
+
+```sql
+SELECT DISTINCT Properties.propkey FROM Properties
+```
+
+Luckily, our `ArchiSurance` model doesn't have too many Properties, like below result:
+
+![archi-html-query-13](img/html-query-13.png)
+
+Then, let's try to query the value of Property with key as `Phase`, and hope the results are in unique value
+
+```sql
+SELECT DISTINCT propkey, propvalue FROM Properties WHERE propkey = 'Phase'
+```
+
+![archi-html-query-14](img/html-query-14.png)
+
+If you don't point out `DISTINCT`, below will be the result as reference:
+
+![archi-html-query-15](img/html-query-15.png)
+
+Using this way, you can query any values from those 7 tables.
+
+---
+
+## Query from Combined Tables
+
+Now let's move to next level, the actual power of learn from your Archi model is to general insights from multiple tables instead of single plain table, let's practice the `JOIN` clause
+
+### List Some Elements with their Properties
+
+In ArchiSurance model, we created two Properties - "Capability Level" & "Phase" - for some Business Capabilties, let's query those Capabilities together with those Properties Key and Value, as below:
+
+```sql
+SELECT e.name, p.propkey, p.propvalue
+FROM Elements e JOIN Properties p
+ON e.id = p.conceptid
+WHERE e.type = 'Capability'
+```
+
+You may aware, alasql automatically add `INNER` before `JOIN`, for Archi model, it's same as direct `JOIN` without `INNER`. However, if you use `OUTER JOIN` you will get wrong (incorrect) results.
+
+![archi-html-query-16](img/html-query-16.png)
+
