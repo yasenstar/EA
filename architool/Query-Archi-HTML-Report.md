@@ -14,7 +14,7 @@ Several methods:
 
 The third tab is the SQL window - alasql
 
-![archi-htmo-query-02](img/html-query-02.png)
+![archi-html-query-02](img/html-query-02.png)
 
 ## Show TABLES of the HTML Report
 
@@ -24,4 +24,12 @@ You may imagine there's relational database structure of the HTML report, so let
 SHOW TABLES
 ```
 
-## Understand the 
+You show see below list result:
+
+![archi-html-query-03](img/html-query-03.png)
+
+## Understand the Data Model
+
+Here is the table relationships (built by RISE EDITOR):
+
+![Archi-HTML-DB-Model](./ArchiHTML.png)
