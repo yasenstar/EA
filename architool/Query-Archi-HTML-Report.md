@@ -33,3 +33,16 @@ You show see below list result:
 Here is the table relationships (built by RISE EDITOR):
 
 ![Archi-HTML-DB-Model](./ArchiHTML.png)
+
+## Basic Query - Show Table Contents
+
+Let's use `TOP x` to limit the numbers of return items.
+
+To see first 10 rows of columns (fields) in the `Elements` table you may enter:
+
+```sql
+SELECT TOP 10 * FROM Elements
+```
+
+![archi-html-query-04](img/html-query-04.png)
+
