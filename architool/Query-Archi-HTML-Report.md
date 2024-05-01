@@ -20,7 +20,7 @@ The third tab is the SQL window - alasql
 
 You may imagine there's relational database structure of the HTML report, so let's use the first query statement to list the tables:
 
-```alasql
+```sql
 SHOW TABLES
 ```
 
