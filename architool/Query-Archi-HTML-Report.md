@@ -208,6 +208,18 @@ WHERE
 
 ![archi-html-query-18](img/html-query-18.png)
 
+If you want to see the name of Relationships, use below updated query:
+
+```sql
+SELECT r.sourceid, e1.name AS sourceName, r.type, r.name AS relationName, r.targetid, e2.name AS targetName
+FROM Relationships AS r
+INNER JOIN Elements AS e1 ON r.sourceid = e1.id
+INNER JOIN Elements AS e2 ON r.targetid = e2.id
+WHERE r.type = 'FlowRelationship' AND e1.type = 'ApplicationComponent' AND e2.type = 'ApplicationComponent'
+```
+
+![archi-html-query-19](img/html-query-19.png)
+
 ---
 
 ## Summary
