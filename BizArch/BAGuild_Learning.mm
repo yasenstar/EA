@@ -1017,8 +1017,8 @@
 </node>
 </node>
 <node TEXT="Value Creation Optimization" ID="ID_1904045507" CREATED="1714669230467" MODIFIED="1714669237290">
-<node TEXT="Modeling The Role of Capabilities in Value Creation" POSITION="bottom_or_right" ID="ID_1756842949" CREATED="1714671841599" MODIFIED="1714672247823">
-<hook URI="img/capability-valuecreation.png" SIZE="0.67643744" NAME="ExternalObject"/>
+<node TEXT="Modeling The Role of Capabilities in Value Creation" POSITION="bottom_or_right" ID="ID_1756842949" CREATED="1714671841599" MODIFIED="1714672308826">
+<hook URI="img/capability-valuecreation.png" SIZE="0.48038432" NAME="ExternalObject"/>
 <node TEXT="Visualizing the role of capabilties in value creation" ID="ID_260995287" CREATED="1714671863269" MODIFIED="1714671874395">
 <node TEXT="Enabling capabilities are assigned to value items that may need to be targeted for investment" ID="ID_296424741" CREATED="1714671874396" MODIFIED="1714671960112"/>
 <node TEXT="Stakeholders participating in each stage and contribute to capability outcomes also become an investment focus" ID="ID_228961019" CREATED="1714671960748" MODIFIED="1714671982077"/>
@@ -1027,9 +1027,62 @@
 </node>
 <node TEXT="Collectively, there insights provide the basis for targeting capability investments to improve value creation" ID="ID_1983939062" CREATED="1714672164896" MODIFIED="1714672187623"/>
 </node>
+<node TEXT="Modeling Customer Service Design Using Product Enablement" POSITION="bottom_or_right" ID="ID_662205484" CREATED="1714672438024" MODIFIED="1714672471167">
+<hook URI="img/customerservicedesign.png" SIZE="0.55401665" NAME="ExternalObject"/>
+<node TEXT="In the Take a Trip value stream, the rental care customer departs from and arrives at multiple interim destinations until arriving back at the rental center to terminate the trip" ID="ID_1480894088" CREATED="1714672473476" MODIFIED="1714672508630"/>
+<node TEXT="In-vehicle services that include a mapping service, fuel locator, entertainment, and emergency services are represented in business architecture as product entitlements associated with the car rental product" ID="ID_1008265345" CREATED="1714672508805" MODIFIED="1714672549363"/>
+<node TEXT="If in-vehicle navigation fails, this product entitlement commitment is violated, resulting in the customer getting lost, which can range from frustrating to life threatening" ID="ID_788987678" CREATED="1714672549564" MODIFIED="1714672588695"/>
+<node TEXT="Tracing entitlements to underperforming capability instances facilitates capability investment planning, which in turn enables the identification of failing software systems, data issues and structural failures" ID="ID_1339800386" CREATED="1714672589340" MODIFIED="1714672636662"/>
 </node>
-<node TEXT="Value Stream Navigation&apos;s Role in Value Consumption &amp; Creation" ID="ID_1701972696" CREATED="1714669237634" MODIFIED="1714669259042"/>
-<node TEXT="Investment Decisions Based on Consumption &amp; Creation Analysis" ID="ID_205985317" CREATED="1714669259546" MODIFIED="1714669274700"/>
+<node TEXT="Visualizing Value Creation using Value Stream Annotation" POSITION="bottom_or_right" ID="ID_1948899061" CREATED="1714672926191" MODIFIED="1714672947048">
+<node TEXT="Visualizing value creation involves mapping the capabilities, information concepts, stakeholders and products involved in delivering value items at each stage of a value stream" ID="ID_1417586272" CREATED="1714672947053" MODIFIED="1714672987691"/>
+<node TEXT="In the Take a Trip rental car example, the Ensure Permission stage value items &quot;journey confirmed&quot; would rely on multiple outcomes including matching a customer to a conveyor (i.e., a vehicle) and activating the rental car agreement" ID="ID_643346387" CREATED="1714672987908" MODIFIED="1714676122415">
+<node TEXT="The real-world implication of this matching capability failure is a customer not getting the care they reserved" ID="ID_187555847" CREATED="1714676122418" MODIFIED="1714676152615"/>
+</node>
+<node TEXT="If a value item is underperforming due to a product entitlement issues, degrading the customer experience, an organization would invest in the capability instance to address the behavioral issues causing the problem" ID="ID_164341230" CREATED="1714676153570" MODIFIED="1714676190729"/>
+<node TEXT="Value streams provide dual capability investment insight; capabilities that contribute to value items at each value stream stage are the same capabilities that enable product entitlements (or customer services) available during that stage" ID="ID_1987673144" CREATED="1714676191244" MODIFIED="1714676255645"/>
+</node>
+</node>
+<node TEXT="Value Stream Navigation&apos;s Role in Value Consumption &amp; Creation" ID="ID_1701972696" CREATED="1714669237634" MODIFIED="1714669259042">
+<node TEXT="Value stream stages are ordered in a de facto sequence using a (model-based) &quot;precedes&quot; relationship" ID="ID_672676931" CREATED="1714676329480" MODIFIED="1714676361780"/>
+<node TEXT="Real-time value stream navigation is dynamically controlled by value stream stage entrance and exit criteria and dictated by business object states, as representated by information concepts" ID="ID_1549320164" CREATED="1714676362480" MODIFIED="1714676414211"/>
+<node TEXT="Navigation relies on multiple, hierarchical finite object states* to control stage entrance and exit criteria, with the overriding object called the &quot;binding object&quot;, which in this value stream is &quot;Trip&quot; and subservient object being Trip Segment" ID="ID_1262920328" CREATED="1714676415078" MODIFIED="1714676465634"/>
+<node TEXT="If navigation is not defined, it undermines a value stream&apos;s ability to serve as a capability, stakeholder, information concepts and product investment focal point." ID="ID_1594100166" CREATED="1714676467184" MODIFIED="1714676505523"/>
+<node TEXT="Take a Trip Example: Value Consumption / Creation Investment" ID="ID_1890378879" CREATED="1714676730442" MODIFIED="1714676783622">
+<hook URI="img/TakeATrip.png" SIZE="0.9433962" NAME="ExternalObject"/>
+<node TEXT="Rental car customer plans a trip and makes a reservation in stage 1, Plan Trip" ID="ID_210010635" CREATED="1714676745027" MODIFIED="1714676763872"/>
+<node TEXT="Rental car customer picks up vehicle in stage 2, Ensure Permission, where they were entitled to get the vehicle they reserved, but that vehicle is unavailable*" ID="ID_471602306" CREATED="1714676785347" MODIFIED="1714676866172"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      * Customer reserved a high-end, high performance vehicle but had to leave driving a no frills subcompact.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="The situation can be summarized as follows:" ID="ID_1023186951" CREATED="1714676871003" MODIFIED="1714676880075">
+<node TEXT="Customer experience is degraded because a product entitlement (getting the car they reserved) was not met and the value item was compromised" ID="ID_816254079" CREATED="1714676880081" MODIFIED="1714676941246"/>
+<node TEXT="In this example, Vehicle/Agreement Matching, Customer Preference Management, Agreement Preference Management, Conveyor Location Management, Vehicle/Customer Matching and other capabilities underperformed" ID="ID_1903897486" CREATED="1714676941941" MODIFIED="1714676985064"/>
+<node TEXT="Issue was traced to a lack of viable information for most of these capabilities, which was traced to the software and data that automated these capabilities and implemented the required information in practice" ID="ID_536794160" CREATED="1714676985452" MODIFIED="1714677027638"/>
+</node>
+<node TEXT="Investment should target capability instances, related information gaps and stakeholders associated with this value stream, along with the software and data implementing these business architecture domains" ID="ID_1518058478" CREATED="1714677028684" MODIFIED="1714677088390"/>
+</node>
+</node>
+<node TEXT="Investment Decisions Based on Consumption &amp; Creation Analysis" ID="ID_205985317" CREATED="1714669259546" MODIFIED="1714669274700">
+<node TEXT="Viewing value consumption through the same lens as value creation allows an organization to maximize its investments in improving the customer and, more broadly, stakeholder experience" ID="ID_1873557141" CREATED="1714677215693" MODIFIED="1714677259174"/>
+<node TEXT="Value stream is the most versatile business architecture domain and facilitates concurrent viewing of stakeholder value consumption and capability-based value creation" ID="ID_670755242" CREATED="1714677259358" MODIFIED="1714677288722"/>
+<node TEXT="Value stream annotation is used to facilitate a wide range of analysis and planning activities" ID="ID_949646768" CREATED="1714677289442" MODIFIED="1714677306283"/>
+<node TEXT="Aligning stakeholder journey maps to value streams links customer experience analysis to a rigorous business architecture domain that facilitates capability, information, and product planning" ID="ID_1946955498" CREATED="1714677306470" MODIFIED="1714677355515"/>
+<node TEXT="Leveraging the value stream for examining value consumption and improving value creation helps target capability investments linked to" ID="ID_1347775559" CREATED="1714677356369" MODIFIED="1714677380498">
+<node TEXT="Creating and maximizing the delivery and quality of value items and the value proposition" ID="ID_768970874" CREATED="1714677380501" MODIFIED="1714677400290"/>
+<node TEXT="Improving customer service delivery by targeting investments in product entitlements" ID="ID_913916865" CREATED="1714677400467" MODIFIED="1714677422020"/>
+</node>
+<node TEXT="Investments in capabilities, information, products and stakeholders should begin with the value stream" ID="ID_1200664350" CREATED="1714677423776" MODIFIED="1714677440981"/>
+</node>
 </node>
 </node>
 <node TEXT="2021" OBJECT="java.lang.Long|2021" FOLDED="true" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
