@@ -222,6 +222,42 @@ WHERE r.type = 'FlowRelationship' AND e1.type = 'ApplicationComponent' AND e2.ty
 
 ---
 
+## Addition - Use `COUNT` to Check Scale of Your Model
+
+### Count Numbers of Items per Table
+
+```sql
+SELECT COUNT(*) FROM Elements
+```
+
+![archi-html-query-20](img/html-query-20.png)
+
+```sql
+SELECT COUNT(*) FROM Properties
+```
+
+![archi-html-query-21](img/html-query-21.png)
+
+```sql
+SELECT COUNT(*) FROM Relationships
+```
+
+![archi-html-query-22](img/html-query-22.png)
+
+### Count Numbers of Items per Certain Column with `GROUP BY`
+
+```sql
+SELECT Relationships.type, COUNT(*) FROM Relationships GROUP BY Relationships.type
+```
+
+![archi-html-query-23](img/html-query-23.png)
+
+## Demo Video
+
+[Here](https://youtu.be/cYuASoWtFPY) I've recorded one step-by-step demo videos go through above contents, feel free to watch.
+
+---
+
 ## Summary
 
 This article only list limited query use cases, however, I hope from basic to combined query demo, you are now familiar of the table structures of Archi's HTML exported report, and from those samples, you can write your query to fit in your own data scenario.
