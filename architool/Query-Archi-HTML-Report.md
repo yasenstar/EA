@@ -21,7 +21,8 @@ The third tab is the SQL window - alasql
 - [AlaSQL GitHub Projects](https://github.com/AlaSQL)
 - [The AlaSQL Wiki in GitHub](https://github.com/AlaSQL/alasql/wiki)
 - [alasql wiki site](https://alasql-wiki.readthedocs.io/en/latest/readme.html)
-- [A nice article: Analysis of Archimate models using SQL queries](https://fightingcomputers.nl/Guides/Analysis-of-Archimate-model-using-SQL-queries)
+- [SQL Queries in the HTML Report in Archi GitHub](https://github.com/archimatetool/archi/wiki/SQL-queries-in-the-HTML-report)
+  - [A nice article: Analysis of Archimate models using SQL queries](https://fightingcomputers.nl/Guides/Analysis-of-Archimate-model-using-SQL-queries)
 
 ## Show TABLES of the HTML Report
 
