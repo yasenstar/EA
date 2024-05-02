@@ -15,6 +15,7 @@ Here is the collections of Xiaoqi's view on Enterprise and Business Architecture
 ## Enterprise Architecture Tool
 
 - [Archi - ArchiMate Tool](/archimate/)
+  - [Play with Archi HTML Report Query](architool/Query-Archi-HTML-Report.md)
 - [Sparx System Enterprise Architect](/Sparx)
 - [Essential Project EA Tool](./Essential_EA/)
 
