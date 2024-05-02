@@ -4,6 +4,10 @@ Use ArchiSurance finished model as sample, export HTML report from Archi ver5.3,
 
 ![archi-html-query-01](img/html-query-01.png)
 
+Version of plug-in: this article is based on HTML Report Plugin v2, in my Windows OS, the detail version information is shown under `plugins` folder as `com.archimatetool.reports_5.3.0.202403191218`.
+
+Please visit [here](https://github.com/archimatetool/archi/wiki/HTML-export-v3) to learn the HTML Export tool's history (v1 to now v2) and planning for more advanced v3.
+
 ## Open the HTML Report
 
 Several methods:
