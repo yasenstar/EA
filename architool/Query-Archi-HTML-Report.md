@@ -256,6 +256,64 @@ SELECT Relationships.type, COUNT(*) FROM Relationships GROUP BY Relationships.ty
 
 ![archi-html-query-23](img/html-query-23.png)
 
+### Tip: How to Clear the alasql Query Console Screen
+
+When you open the exported Archi HTML report, you can use the 3rd tab - Query - to retrieve needed data in alasql syntax from the Archi model in broswer, like below:
+
+![archi-html-query-24](img/html-query-24.png)
+
+This is convenient if you want to have a list of items from Archi model for other analysis purpose, however, once you've exectued several queries, the console screen is getting busy and you have to scroll up/down to keep querying, so, how can I clear the screen and make the new query?
+
+Unfortunately, the commands, like "clear screen;" / "cl scr;" in Oracle SQL, or "cls" in MySQL Windows, or "clear" in MySQL Linux, etc.. are not able to have effective in this JavaScript based SQL engine - alasql, this How-To intends to introduce two workarounds as tips for you to achieve this objective.
+
+#### Workaround 1 - Refresh Screen through Switching to Model
+
+Using ArchiSurance model as sample, when you have several queries on the screen and want to clear the console, as below, simply click the Model name in the upper left, below the "Model Tree" text:
+
+![archi-html-query-25](img/html-query-25.png)
+
+Doing this, the right panel will be restored to the initialization state, the default tab - the first one "Purpose" - will be selected:
+
+![archi-html-query-26](img/html-query-26.png)
+
+Now, when you click the "Query" tab, it's showing the new Query prompt and you can start from clear screen:
+
+![archi-html-query-27](img/html-query-27.png)
+
+This workaround doesn't need any configuration change, however, you have to do those several clicks.
+
+#### Workaround 2 - "Hacking" a little to Add Real "Clear" Button
+
+Thanks for [Phil Beauvoir](https://forum.archimatetool.com/index.php?action=profile;u=1) giving quick insight, see the link in Archi Forum: https://forum.archimatetool.com/index.php?topic=1525.msg7848 for discussion.
+
+If you're interested to do some coding, here is the way that you can modify the "HTML Reporting" plug-in to add one "Clear" button, so it will be shown on any of your new generated HTML reports in more convenient way.
+
+Assume you're using Archi ver5.3 in Windows OS, within your Archi program file folder, find out the "HTML Report" plugin in the subfolder, we will need to position the "frame.stg" file as below:
+
+```powershell
+C:\Program Files\Archi\plugins\com.archimatetool.reports_5.3.0.202403191218\templates\st\frame.stg
+```
+
+![archi-html-query-28](img/html-query-28.png)
+
+Open this file in any code / text editor, ensure you have Administrator right, in line 337 add below line:
+
+```javascript
+<button onclick="$('#myconsole').html('');">Clear</button>
+```
+
+![archi-html-query-29](img/html-query-29.png)
+
+After that, save the file.
+
+Re-generate one new HTML report for your Archi model, when you open the report in web browser, you can see the "Clear" button is under your alasql query prompt:
+
+![archi-html-query-30](img/html-query-30.png)
+
+At any time, you can simply click this "Clear" button to make console screen clear, without need to switch outside the Query window.
+
+---
+
 ## Demo Video
 
 [Here](https://youtu.be/cYuASoWtFPY) I've recorded one step-by-step demo videos go through above contents, feel free to watch.
@@ -268,5 +326,4 @@ This article only list limited query use cases, however, I hope from basic to co
 
 Welcome to hear any of your comments.
 
-Author: Xiaoqi Zhao
-Date: May 1st, 2024 (Montreal)
+Author: Xiaoqi Zhao, Date: May 1st, 2024 @Montreal

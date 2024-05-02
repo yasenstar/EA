@@ -82,7 +82,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="2024" OBJECT="java.lang.Long|2024" POSITION="bottom_or_right" ID="ID_1505802859" CREATED="1708973738373" MODIFIED="1708973741159">
+<node TEXT="2024" OBJECT="java.lang.Long|2024" FOLDED="true" POSITION="bottom_or_right" ID="ID_1505802859" CREATED="1708973738373" MODIFIED="1708973741159">
 <node TEXT="2024/03 Successful Business Architecture" FOLDED="true" ID="ID_1829032143" CREATED="1714163695394" MODIFIED="1714163702585">
 <node TEXT="&quot;Nearly 65% of Corporate IT will be expected to do more with less budget this year&quot; -- Forbes, 2023" ID="ID_1251752185" CREATED="1714163704844" MODIFIED="1714164085257"/>
 <node TEXT="Commonalities across Industries" ID="ID_1338865849" CREATED="1714164206273" MODIFIED="1714164217236">
@@ -116,10 +116,10 @@
 </node>
 <node TEXT="Code: ODBA417" ID="ID_1843307365" CREATED="1714166707813" MODIFIED="1714166713949"/>
 </node>
-<node TEXT="2024/03 Business Requirements Harmonization Across Perspective: Bridging the Gap" ID="ID_1191583662" CREATED="1714167792779" MODIFIED="1714167821451">
+<node TEXT="2024/03 Business Requirements Harmonization Across Perspective: Bridging the Gap" FOLDED="true" ID="ID_1191583662" CREATED="1714167792779" MODIFIED="1714167821451">
 <node TEXT="ODBA320" ID="ID_765001381" CREATED="1714169550487" MODIFIED="1714169774257"/>
 </node>
-<node TEXT="2024/02 Organization Design and Business Architecture" ID="ID_175428015" CREATED="1714169881477" MODIFIED="1714169896062">
+<node TEXT="2024/02 Organization Design and Business Architecture" FOLDED="true" ID="ID_175428015" CREATED="1714169881477" MODIFIED="1714169896062">
 <node TEXT="ODBA221" ID="ID_106111738" CREATED="1714169928315" MODIFIED="1714169933372"/>
 </node>
 <node TEXT="2024/01 - Products, Product Entitlements &amp; Customer Service Optimization" FOLDED="true" POSITION="bottom_or_right" ID="ID_1525919945" CREATED="1708961080674" MODIFIED="1708993774215"><richcontent TYPE="NOTE">
@@ -748,7 +748,7 @@
 <node TEXT="Be confident in your skills" ID="ID_847242984" CREATED="1709651846847" MODIFIED="1709651854345"/>
 </node>
 </node>
-<node TEXT="2023/10/23 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 2" ID="ID_45546597" CREATED="1709578441120" MODIFIED="1709652404831">
+<node TEXT="2023/10/23 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 2" FOLDED="true" ID="ID_45546597" CREATED="1709578441120" MODIFIED="1709652404831">
 <node TEXT="Organization" ID="ID_1432156424" CREATED="1709578704100" MODIFIED="1709578709391"/>
 <node TEXT="Strategy" ID="ID_1125492549" CREATED="1709578733370" MODIFIED="1709578735940"/>
 <node TEXT="Initiative" ID="ID_358495317" CREATED="1709578736156" MODIFIED="1709578739504"/>
@@ -925,7 +925,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2023/08/16 - Value Streams" ID="ID_384862552" CREATED="1709652408435" MODIFIED="1709652457815"><richcontent TYPE="NOTE">
+<node TEXT="2023/08/16 - Value Streams: Value Creation, Value Consumption &amp; Navigation" ID="ID_384862552" CREATED="1709652408435" MODIFIED="1714660859224"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -936,9 +936,103 @@
     </p>
   </body>
 </html></richcontent>
+<node TEXT="Value Consumption / Value Creation: A Dual Perspective" ID="ID_1297416995" CREATED="1714660859228" MODIFIED="1714669213041">
+<node TEXT="All roads lead to value proposition, which targets a wide range of stakeholders and desired targets" ID="ID_876959233" CREATED="1714669319459" MODIFIED="1714669341200"/>
+<node TEXT="Customers seek streamlined value proposition access, such as obtaining a product, completing a trip, obtaining a loan, setting up an insurance policy, paying a bill or having a vehicle serviced" ID="ID_549550868" CREATED="1714669341386" MODIFIED="1714669410725"/>
+<node TEXT="Partners and in-house business professionals similarly seek value propositions, such as" ID="ID_1007613459" CREATED="1714669411653" MODIFIED="1714669431671">
+<node TEXT="Partners seeking to establish a relationship by setting up an agreement or receive payment for ongoing services" ID="ID_451795342" CREATED="1714669431673" MODIFIED="1714669458676"/>
+<node TEXT="In-house professionals seeking to execute a campaign, optimize a material inventory or onboard a human resource" ID="ID_1380627974" CREATED="1714669458857" MODIFIED="1714669484809"/>
+</node>
+<node TEXT="While end customer focus is always a priority, value consumption and creation target a wid range of other stakeholders to ensure operational continuity" ID="ID_1724153398" CREATED="1714669492841" MODIFIED="1714669527751"/>
+<node TEXT="Understand stakeholder value consumption allows an organization to prioritize and maximize the effectiveness of value creation in order to" ID="ID_306264135" CREATED="1714669564432" MODIFIED="1714669597688">
+<node TEXT="Improve the customer* experience" ID="ID_769386430" CREATED="1714669597690" MODIFIED="1714669992455"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      * Customer in business architecture is always the end customer and never an internal stakeholder
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Enhance partner contributions" ID="ID_1261223788" CREATED="1714669622645" MODIFIED="1714669630725"/>
+<node TEXT="Ensure that business leader and professionals function at peak performance" ID="ID_1911017092" CREATED="1714669631770" MODIFIED="1714669820276"/>
+</node>
+<node TEXT="Visualizing value consumption and value creation through a common lens:" ID="ID_931467904" CREATED="1714669821222" MODIFIED="1714669836816">
+<node TEXT="Enables organizations to surgically target and optimize value creation delivery as dictated by strategic priorities" ID="ID_943574876" CREATED="1714669836820" MODIFIED="1714669861434"/>
+<node TEXT="Link related disciplines, such as journey mapping, to a shared value perspective to enhance an understanding of value consumption as input to strategic planning and initiative investments" ID="ID_1691152113" CREATED="1714669862248" MODIFIED="1714669928288"/>
 </node>
 </node>
-<node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
+<node TEXT="Value Stream Recap, its rolw in Value Consumption &amp; Creation" ID="ID_1388733617" CREATED="1714669213202" MODIFIED="1714670066117">
+<node TEXT="Value streams are one of the most versatile business architecture domains" ID="ID_1590579776" CREATED="1714670066119" MODIFIED="1714670084385"/>
+<node TEXT="Take a Trip value stream, for example, can be used to visualize a passenger taking an extended holiday with multiple stopovers, a commuter taking a train to work, or a customer renting, using and returning a vehicle" ID="ID_827175906" CREATED="1714670084541" MODIFIED="1714670134538"/>
+<node TEXT="Viewing value consumption and creation through a value stream lens enables organizations to maximize the effectiveness of stakeholder value delivery by targeting:" ID="ID_1091109799" CREATED="1714670134996" MODIFIED="1714670184149">
+<node TEXT="Capability-related investments to streamline value delivery at each value stream stage" ID="ID_703318546" CREATED="1714670184151" MODIFIED="1714670209283"/>
+<node TEXT="Participating stakeholders who contribute to capability outcomes on a value stream stage-by-stage basis" ID="ID_1186908224" CREATED="1714670209746" MODIFIED="1714670231493"/>
+<node TEXT="Underperforming customer services, viewed in business architecture as &quot;product entitlements&quot;*" ID="ID_1981916173" CREATED="1714670232438" MODIFIED="1714670324268"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      * Product entitlement is a domain element of product
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Related disciplines, such as customer journey mapping, can be linked to value streams to enhance an understanding of issues from a customer perspective, versus that of the value creator" ID="ID_1744624627" CREATED="1714670259510" MODIFIED="1714670299878"/>
+<node TEXT="Value streams provide a self-contained perspective of:" ID="ID_975331380" CREATED="1714670399429" MODIFIED="1714670412604">
+<node TEXT="Triggering stakeholder and value proposition being sought, in this case completing a trip" ID="ID_1151741382" CREATED="1714670412607" MODIFIED="1714670444887"/>
+<node TEXT="Stage-by-stage value item-based, value proposition decomposition, from trip planning through termination" ID="ID_1141945781" CREATED="1714670445540" MODIFIED="1714670467763"/>
+<node TEXT="State-based entrance and exit criteria that control value stream navigation that, in this example, involve iterative departures and arrivals as customer value accrues across their journey" ID="ID_403119479" CREATED="1714670468583" MODIFIED="1714670508936"/>
+<node TEXT="Participating stakeholders that contribute to the value items delivered at each value stream stage" ID="ID_841341320" CREATED="1714670509097" MODIFIED="1714670528772"/>
+</node>
+</node>
+<node TEXT="Value Consumption: Analysis &amp; Prioritization" ID="ID_487404180" CREATED="1714669219969" MODIFIED="1714669229964">
+<node TEXT="Visualizing Value Consumption: model view mapping customer journey to value stream" FOLDED="true" ID="ID_1390167122" CREATED="1714670827849" MODIFIED="1714671101272">
+<hook URI="img/customerjourney-valuestream.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Model depicts" ID="ID_1831149720" CREATED="1714670852225" MODIFIED="1714670860718">
+<node TEXT="Value stream-based, value accrual via capability outcomes, value items, and the ultimate value proposition" ID="ID_324880764" CREATED="1714670860720" MODIFIED="1714670890756"/>
+<node TEXT="Relationship between customer journey stage and value stream stage, which share a common view of stakeholder" ID="ID_658032505" CREATED="1714670892601" MODIFIED="1714670916890"/>
+</node>
+<node TEXT="Mapping customer journey to value stream links customer experience to an architecturally rigorous focal point" ID="ID_1669255716" CREATED="1714670918328" MODIFIED="1714670964494"/>
+<node TEXT="Touchpoint is a way in which a stakeholder interacts with an organization and links directly to value items" ID="ID_320989322" CREATED="1714670965621" MODIFIED="1714670991026"/>
+<node TEXT="If customer experience, as viewed through a touchpoint, is underperforming, investments should target the corresponding value items and the capabilities that create outcomes to achieve the value" ID="ID_1895568676" CREATED="1714670992959" MODIFIED="1714671053697"/>
+</node>
+<node TEXT="Visualizing Value Consumption: Rental Car Example" ID="ID_1819506540" CREATED="1714671343290" MODIFIED="1714671512533">
+<hook URI="img/customerjourney-rentacar.png" SIZE="0.62240666" NAME="ExternalObject"/>
+<node TEXT="Take a Trip value stream is annotated to highlight value consumption where a customer rents a car, uses it for multiple trip segments and, when done, terminates use" ID="ID_1407706678" CREATED="1714671358048" MODIFIED="1714671394097"/>
+<node TEXT="Customer journey has 6 stages:" ID="ID_1400728733" CREATED="1714671394292" MODIFIED="1714671561371">
+<hook URI="img/customerjourney-rentacar-stages.png" SIZE="0.7822686" NAME="ExternalObject"/>
+<node TEXT="Customer journey stages are aligned to each value stream stage, where the product is the rental vehicle" ID="ID_1415515863" CREATED="1714671403463" MODIFIED="1714671427909"/>
+<node TEXT="Where customer experience for a driver or passenger is suboptimized, it becomes a target of improvement" ID="ID_723911202" CREATED="1714671428084" MODIFIED="1714671456130"/>
+<node TEXT="Improvements target product entitlements, which represent services delivered to a customer" ID="ID_1910024700" CREATED="1714671456337" MODIFIED="1714671470531"/>
+</node>
+</node>
+</node>
+<node TEXT="Value Creation Optimization" ID="ID_1904045507" CREATED="1714669230467" MODIFIED="1714669237290">
+<node TEXT="Modeling The Role of Capabilities in Value Creation" POSITION="bottom_or_right" ID="ID_1756842949" CREATED="1714671841599" MODIFIED="1714672247823">
+<hook URI="img/capability-valuecreation.png" SIZE="0.67643744" NAME="ExternalObject"/>
+<node TEXT="Visualizing the role of capabilties in value creation" ID="ID_260995287" CREATED="1714671863269" MODIFIED="1714671874395">
+<node TEXT="Enabling capabilities are assigned to value items that may need to be targeted for investment" ID="ID_296424741" CREATED="1714671874396" MODIFIED="1714671960112"/>
+<node TEXT="Stakeholders participating in each stage and contribute to capability outcomes also become an investment focus" ID="ID_228961019" CREATED="1714671960748" MODIFIED="1714671982077"/>
+<node TEXT="The capability model supports zeroing in on specific capability instances and corresponding behaviors requiring correction" ID="ID_132892108" CREATED="1714671985002" MODIFIED="1714672024873"/>
+<node TEXT="Where capabilities require, but lack, access to information concepts to deliver capability outcomes, those information concepts become another investment target" ID="ID_729301288" CREATED="1714672025622" MODIFIED="1714672163807"/>
+</node>
+<node TEXT="Collectively, there insights provide the basis for targeting capability investments to improve value creation" ID="ID_1983939062" CREATED="1714672164896" MODIFIED="1714672187623"/>
+</node>
+</node>
+<node TEXT="Value Stream Navigation&apos;s Role in Value Consumption &amp; Creation" ID="ID_1701972696" CREATED="1714669237634" MODIFIED="1714669259042"/>
+<node TEXT="Investment Decisions Based on Consumption &amp; Creation Analysis" ID="ID_205985317" CREATED="1714669259546" MODIFIED="1714669274700"/>
+</node>
+</node>
+<node TEXT="2021" OBJECT="java.lang.Long|2021" FOLDED="true" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
 <node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" FOLDED="true" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994319007"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -1157,7 +1251,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2018" OBJECT="java.lang.Long|2018" POSITION="bottom_or_right" ID="ID_1614323744" CREATED="1708973746471" MODIFIED="1708973748135">
+<node TEXT="2018" OBJECT="java.lang.Long|2018" FOLDED="true" POSITION="bottom_or_right" ID="ID_1614323744" CREATED="1708973746471" MODIFIED="1708973748135">
 <node TEXT="2018/12/19 - Advancement of Business Architecture in the TOGAF Ecosystem" FOLDED="true" POSITION="bottom_or_right" ID="ID_1816131258" CREATED="1708973695668" MODIFIED="1708993532024"><richcontent TYPE="NOTE">
 <html>
   <head>

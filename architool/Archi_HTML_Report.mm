@@ -93,18 +93,21 @@
 <node TEXT="SELECT * FROM [table_name]" ID="ID_1124433806" CREATED="1714437127981" MODIFIED="1714437138850"/>
 </node>
 <node TEXT="Getting Specific" ID="ID_282173391" CREATED="1714437143878" MODIFIED="1714437149443">
-<node TEXT="List items with certain condition" FOLDED="true" ID="ID_1392743899" CREATED="1714437149445" MODIFIED="1714437164013">
+<node TEXT="List items with certain condition" ID="ID_1392743899" CREATED="1714437149445" MODIFIED="1714437164013">
 <node TEXT="SELECT * FROM Properties WHERE propkey = &apos;something&apos;" ID="ID_710360327" CREATED="1714437164017" MODIFIED="1714437193710"/>
 <node TEXT="SELECT name FROM Elements WHERE id = &apos;id-xxx&apos;" ID="ID_1766894298" CREATED="1714437199926" MODIFIED="1714437225471"/>
 </node>
-<node TEXT="Combining Tables" FOLDED="true" ID="ID_1422515207" CREATED="1714437228507" MODIFIED="1714437241007">
+<node TEXT="Combining Tables" ID="ID_1422515207" CREATED="1714437228507" MODIFIED="1714437241007">
 <node TEXT="SELECT * FROM Elements JOIN Properties ON&#xa;Elements.id = Properties.conceptid&#xa;WHERE conditions (AND/OR another condition)" ID="ID_194837407" CREATED="1714437249931" MODIFIED="1714437320144"/>
 </node>
 </node>
+<node TEXT="alasql github project" ID="ID_1887816103" CREATED="1714438592582" MODIFIED="1714438612008" LINK="https://github.com/AlaSQL/alasql"/>
+<node TEXT="alasql wiki" ID="ID_1498859983" CREATED="1714438423264" MODIFIED="1714438433074" LINK="https://alasql-wiki.readthedocs.io/en/latest/index.html"/>
 </node>
 <node TEXT="Analyze Archi HTML Report in Power BI" POSITION="bottom_or_right" ID="ID_75330978" CREATED="1714437454097" MODIFIED="1714437473190">
-<node TEXT="Export HTML Report Table into CSV" ID="ID_1725747005" CREATED="1714437473198" MODIFIED="1714437492430">
+<node TEXT="Export HTML Report Table into CSV" FOLDED="true" ID="ID_1725747005" CREATED="1714437473198" MODIFIED="1714437492430">
 <node TEXT="select * into csv(&quot;Elements.csv&quot;) from Elements" ID="ID_1810257341" CREATED="1714438236990" MODIFIED="1714438250277"/>
+<node TEXT="select * into xlsx(&quot;Views.xlsx&quot;) from Views" ID="ID_759964355" CREATED="1714438448176" MODIFIED="1714439455369"/>
 </node>
 <node TEXT="Load CSV files into Power BI Desktop" ID="ID_1665560999" CREATED="1714437492925" MODIFIED="1714437523438"/>
 <node TEXT="Build Data Model (relationships) in Power BI" ID="ID_1701920525" CREATED="1714437523885" MODIFIED="1714437539037"/>
