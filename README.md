@@ -8,7 +8,6 @@ Here is the collections of Xiaoqi's view on Enterprise and Business Architecture
 - Application Architecture
 - Technology Architecture
 - Integration Topic
-
 - [Architect related readings](./archi_reading_tools/)
 - [Reference Models](/ref_models/)
 
