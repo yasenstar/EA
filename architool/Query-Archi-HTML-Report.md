@@ -19,7 +19,8 @@ The third tab is the SQL window - alasql
 ## Reference Links for Alasql
 
 - [AlaSQL GitHub Projects](https://github.com/AlaSQL)
-- [The AlaSQL Wiki](https://github.com/AlaSQL/alasql/wiki)
+- [The AlaSQL Wiki in GitHub](https://github.com/AlaSQL/alasql/wiki)
+- [alasql wiki site](https://alasql-wiki.readthedocs.io/en/latest/readme.html)
 - [A nice article: Analysis of Archimate models using SQL queries](https://fightingcomputers.nl/Guides/Analysis-of-Archimate-model-using-SQL-queries)
 
 ## Show TABLES of the HTML Report
@@ -160,6 +161,14 @@ If you don't point out `DISTINCT`, below will be the result as reference:
 
 Using this way, you can query any values from those 7 tables.
 
+### List All Types of Relationship Used in the Model
+
+```sql
+SELECT DISTINCT Relationships.type FROM Relationships
+```
+
+![archi-html-query-17](img/html-query-17.png)
+
 ---
 
 ## Query from Combined Tables
@@ -181,3 +190,30 @@ You may aware, alasql automatically add `INNER` before `JOIN`, for Archi model, 
 
 ![archi-html-query-16](img/html-query-16.png)
 
+### List Application Coorperation Relationships
+
+In ArchiSurance Figure-22, we modeled the application to application relationship with Flow-Relation notation, let's write a query to list those.
+
+```sql
+SELECT r.sourceid, e1.name AS sourceName, r.type, r.targetid, e2.name AS targetName
+FROM Relationships r
+INNER JOIN Elements e1 ON r.sourceid = e1.id
+INNER JOIN Elements e2 ON r.targetid = e2.id
+WHERE
+    r.type = 'FlowRelationship' AND
+    e1.type = 'ApplicationComponent' AND
+    e2.type = 'ApplicationComponent'
+```
+
+![archi-html-query-18](img/html-query-18.png)
+
+---
+
+## Summary
+
+This article only list limited query use cases, however, I hope from basic to combined query demo, you are now familiar of the table structures of Archi's HTML exported report, and from those samples, you can write your query to fit in your own data scenario.
+
+Welcome to hear any of your comments.
+
+Author: Xiaoqi Zhao
+Date: May 1st, 2024 (Montreal)
