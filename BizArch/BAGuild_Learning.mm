@@ -3,7 +3,7 @@
 <node TEXT="BAGuild Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1709578313610" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
+<hook NAME="MapStyle" background="#fdf6e3">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1019,7 +1019,7 @@
 <node TEXT="Value Creation Optimization" ID="ID_1904045507" CREATED="1714669230467" MODIFIED="1714669237290">
 <node TEXT="Modeling The Role of Capabilities in Value Creation" POSITION="bottom_or_right" ID="ID_1756842949" CREATED="1714671841599" MODIFIED="1714672308826">
 <hook URI="img/capability-valuecreation.png" SIZE="0.48038432" NAME="ExternalObject"/>
-<node TEXT="Visualizing the role of capabilties in value creation" ID="ID_260995287" CREATED="1714671863269" MODIFIED="1714671874395">
+<node TEXT="Visualizing the role of capabilities in value creation" ID="ID_260995287" CREATED="1714671863269" MODIFIED="1714683160407">
 <node TEXT="Enabling capabilities are assigned to value items that may need to be targeted for investment" ID="ID_296424741" CREATED="1714671874396" MODIFIED="1714671960112"/>
 <node TEXT="Stakeholders participating in each stage and contribute to capability outcomes also become an investment focus" ID="ID_228961019" CREATED="1714671960748" MODIFIED="1714671982077"/>
 <node TEXT="The capability model supports zeroing in on specific capability instances and corresponding behaviors requiring correction" ID="ID_132892108" CREATED="1714671985002" MODIFIED="1714672024873"/>
