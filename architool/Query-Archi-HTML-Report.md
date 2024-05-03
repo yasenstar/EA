@@ -239,8 +239,6 @@ In Windows, the CSV file will be by default generated in your `Downloads` folder
 Noted that you can execute multiple SQL statements with separating every statement by `;`, using below statement you can export all of the 7 tables of Archi HTML Report model into 7 CSV files:
 
 ```sql
-
-```
 SELECT * INTO CSV("Elements.csv") FROM Elements;
 SELECT * INTO CSV("Properties.csv") FROM Properties;
 SELECT * INTO CSV("Relationships.csv") FROM Relationships;
@@ -248,6 +246,8 @@ SELECT * INTO CSV("Views.csv") FROM Views;
 SELECT * INTO CSV("ViewsContent.csv") FROM ViewsContent;
 SELECT * INTO CSV("Folders.csv") FROM Folders;
 SELECT * INTO CSV("FoldersContent.csv") FROM FoldersContent;
+```
+
 ---
 
 ## Add-ons - Use `COUNT` to Check Scale of Your Model
