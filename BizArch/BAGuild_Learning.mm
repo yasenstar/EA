@@ -925,7 +925,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2023/08/16 - Value Streams: Value Creation, Value Consumption &amp; Navigation" ID="ID_384862552" CREATED="1709652408435" MODIFIED="1714660859224"><richcontent TYPE="NOTE">
+<node TEXT="2023/08/16 - Value Streams: Value Creation, Value Consumption &amp; Navigation" FOLDED="true" ID="ID_384862552" CREATED="1709652408435" MODIFIED="1714660859224"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1016,7 +1016,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Value Creation Optimization" ID="ID_1904045507" CREATED="1714669230467" MODIFIED="1714669237290">
+<node TEXT="Value Creation Optimization" FOLDED="true" ID="ID_1904045507" CREATED="1714669230467" MODIFIED="1714669237290">
 <node TEXT="Modeling The Role of Capabilities in Value Creation" POSITION="bottom_or_right" ID="ID_1756842949" CREATED="1714671841599" MODIFIED="1714672308826">
 <hook URI="img/capability-valuecreation.png" SIZE="0.48038432" NAME="ExternalObject"/>
 <node TEXT="Visualizing the role of capabilities in value creation" ID="ID_260995287" CREATED="1714671863269" MODIFIED="1714683160407">
@@ -1084,6 +1084,7 @@
 <node TEXT="Investments in capabilities, information, products and stakeholders should begin with the value stream" ID="ID_1200664350" CREATED="1714677423776" MODIFIED="1714677440981"/>
 </node>
 </node>
+<node TEXT="2023/08/16 - Business-Driven Software Service Design" ID="ID_604909726" CREATED="1714683382045" MODIFIED="1714683394447"/>
 </node>
 <node TEXT="2021" OBJECT="java.lang.Long|2021" FOLDED="true" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
 <node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" FOLDED="true" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994319007"><richcontent TYPE="NOTE">
