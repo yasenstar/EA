@@ -226,7 +226,31 @@ WHERE r.type = 'FlowRelationship' AND e1.type = 'ApplicationComponent' AND e2.ty
 
 ---
 
-## Addition - Use `COUNT` to Check Scale of Your Model
+## How to Export Data to file (e.g. csv)
+
+Use below syntax:
+
+```sql
+SELECT * INTO CSV("filename.csv") FROM TableName;
+```
+
+In Windows, the CSV file will be by default generated in your `Downloads` folder.
+
+Noted that you can execute multiple SQL statements with separating every statement by `;`, using below statement you can export all of the 7 tables of Archi HTML Report model into 7 CSV files:
+
+```sql
+
+```
+SELECT * INTO CSV("Elements.csv") FROM Elements;
+SELECT * INTO CSV("Properties.csv") FROM Properties;
+SELECT * INTO CSV("Relationships.csv") FROM Relationships;
+SELECT * INTO CSV("Views.csv") FROM Views;
+SELECT * INTO CSV("ViewsContent.csv") FROM ViewsContent;
+SELECT * INTO CSV("Folders.csv") FROM Folders;
+SELECT * INTO CSV("FoldersContent.csv") FROM FoldersContent;
+---
+
+## Add-ons - Use `COUNT` to Check Scale of Your Model
 
 ### Count Numbers of Items per Table
 
@@ -256,7 +280,9 @@ SELECT Relationships.type, COUNT(*) FROM Relationships GROUP BY Relationships.ty
 
 ![archi-html-query-23](img/html-query-23.png)
 
-### Tip: How to Clear the alasql Query Console Screen
+---
+
+## Add-ons - Tip: How to Clear the alasql Query Console Screen
 
 When you open the exported Archi HTML report, you can use the 3rd tab - Query - to retrieve needed data in alasql syntax from the Archi model in broswer, like below:
 
@@ -266,7 +292,7 @@ This is convenient if you want to have a list of items from Archi model for othe
 
 Unfortunately, the commands, like "clear screen;" / "cl scr;" in Oracle SQL, or "cls" in MySQL Windows, or "clear" in MySQL Linux, etc.. are not able to have effective in this JavaScript based SQL engine - alasql, this How-To intends to introduce two workarounds as tips for you to achieve this objective.
 
-#### Workaround 1 - Refresh Screen through Switching to Model
+### Workaround 1 - Refresh Screen through Switching to Model
 
 Using ArchiSurance model as sample, when you have several queries on the screen and want to clear the console, as below, simply click the Model name in the upper left, below the "Model Tree" text:
 
@@ -282,7 +308,7 @@ Now, when you click the "Query" tab, it's showing the new Query prompt and you c
 
 This workaround doesn't need any configuration change, however, you have to do those several clicks.
 
-#### Workaround 2 - "Hacking" a little to Add Real "Clear" Button
+### Workaround 2 - "Hacking" a little to Add Real "Clear" Button
 
 Thanks for [Phil Beauvoir](https://forum.archimatetool.com/index.php?action=profile;u=1) giving quick insight, see the link in Archi Forum: https://forum.archimatetool.com/index.php?topic=1525.msg7848 for discussion.
 
