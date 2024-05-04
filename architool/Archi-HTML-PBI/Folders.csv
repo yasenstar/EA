@@ -1,0 +1,72 @@
+﻿"id";"type";"name";"documentation"
+"id-f0607ad9eb0845a8829f43f5f7c676ff";"DBArchimateModel";"ArchiSurance_Practice";
+"id-a325666baa9e42328cb3885be26ee808";"Folder";"Strategy";
+"id-0d09913e2de94b3d9a7488c65f5e47c1";"Folder";"Course of Action";
+"id-54ee294e48f648d4b7e703b646076c71";"Folder";"Capability";
+"id-a49ea6698ce64abd99d1974e61728b2d";"Folder";"Business Management";
+"id-012f92412ac5405d84a94292cd11a314";"Folder";"Product Management";
+"id-3b4f8f6b89934086bb1b0b185f068120";"Folder";"Marketing";
+"id-69ee50f5bd424f2b898115df8fd96d7e";"Folder";"Sales And Distribution";
+"id-c96ee8611b524f1da0a40e419d3bcfc2";"Folder";"Customer Management";
+"id-78e3148321bc41edb4dcdb01c8d66946";"Folder";"Digital Customer Management";
+"id-deee6c48d84c42c7ad8c291a16df0ed4";"Folder";"Asset Management";
+"id-3514414ae4854ac28e51d017e42cae0e";"Folder";"Money Market Management";
+"id-96b7d3735cbd4ae385291dcbbeff4c84";"Folder";"Policy and Claim Management";
+"id-ea20147dced345cb9b144279fb718c55";"Folder";"Data-Driven Insurance";
+"id-16d1dcb7888c4735b8c3ba5188239628";"Folder";"Business Support";
+"id-1d49808881d54c62b034b6511c97a243";"Folder";"Resource";
+"id-d4b7c14c4a134601855c2ec69e4a6594";"Folder";"Value Stream";
+"id-ddf4de00eeb448de897e64ecad196e77";"Folder";"Acquire Insurance Product";
+"id-86efb96ef15a4d7f8f07cfd6c158754e";"Folder";"Business";
+"id-ea926cb8048a4f169ae4a774830376a1";"Folder";"Actors";
+"id-23899dd4f94c45368e3a1eb658e16093";"Folder";"Business_Function";
+"id-668791aa57904872a6b73e6bb1abe13b";"Folder";"Business_Event";
+"id-4dbcea2878d94fe099e97c5e17709cf3";"Folder";"Business_Process";
+"id-fe3f3b633e4c4bdaab833ad3fd416ef1";"Folder";"Issue New Policy";
+"id-b139e78c3b124fe3abd985be8b61d352";"Folder";"Handle Claim";
+"id-5683f210c4cb4999a7ebeb848e783c9d";"Folder";"Business _Object";
+"id-e7873fa99c264b74a8adca54f804ca99";"Folder";"Application";
+"id-056348038d87491eb931b2d1b82dd931";"Folder";"Application Service";
+"id-f9bab4743ed74b2d9d8737f4c426560e";"Folder";"F24";
+"id-8866be5ade544adeac03781ec55dcb11";"Folder";"Application Component";
+"id-3f5cd563fee541d3967f218dd3ff0f32";"Folder";"ArchiSurance Back Office Suite";
+"id-9010dc4a0bfd47a29cf6811adda5b21b";"Folder";"Application Process";
+"id-fad4cae180c74779b9716a5941cb5315";"Folder";"Application Function";
+"id-896ce5895975465f905a398f3037bdd7";"Folder";"Data Object";
+"id-266978397c8d450fa95fe381d5bc8cab";"Folder";"Technology & Physical";
+"id-dd5fa5e6a67d4a1f973aaa0ab9ea7d03";"Folder";"Device";
+"id-9fea77faa5264440a1d0b2899a6fda08";"Folder";"Artefact";
+"id-6713c7b5f0bd44a7a8e35310f2ed69ed";"Folder";"Equipment";
+"id-4231d57d2ad548d68d2c7ebd3590a7d4";"Folder";"Network";
+"id-4eafcf8ffaf54617bfa70554ee3d0601";"Folder";"Tech Service";
+"id-efc27e0a7f264ee1bd2070176560caae";"Folder";"Motivation";
+"id-6eb1a6debd7a45beb3667b9cb8f3ba09";"Folder";"Stakeholder";
+"id-e90084409fc54e4b8bd4daed4b286502";"Folder";"Driver";
+"id-96fa4236bb70429e91bec820aadcd9f8";"Folder";"Assessment";
+"id-fbd7b2b214df46f69d42815c1f607459";"Folder";"Goal";
+"id-3ec8a507dde04ee8bf8a6c7f3c6e02ce";"Folder";"Principle";
+"id-9ce35355570f4fdd9b78c736dd79b183";"Folder";"Outcomes";
+"id-8eb0c66b8204461192c8d36e7161aeca";"Folder";"Requirements";
+"id-c1660d98fa4c4cbcb23db5a23d7d54bd";"Folder";"Requirement Breakdown";
+"id-4a3f379f6f6b4fa798cb926ba505e554";"Folder";"Value";
+"id-02997ebe92024138a25499b73aa3a7e0";"Folder";"Implementation & Migration";
+"id-f309d20156df4191846515d479350a1c";"Folder";"Plateau";
+"id-b2cba773a3b74160af3b4c28c10cf5e0";"Folder";"Work Package";
+"id-0241c7e68d9a4400aa0b56e7093fe27e";"Folder";"Other";
+"id-ce2ee2bb34af48a096e752ace51b3f65";"Folder";"Locations";
+"id-8aa19913da1542c4b8592cf296504e57";"Folder";"Relations";
+"id-7e5d13af5fbc4f44b25d98e6b7e63081";"Folder";"Views";
+"id-ef73a41bbf3a46a9aabc75fd26a1c559";"Folder";"Phase_A_Vision";
+"id-2895235a96f24d7aacfdccd3798814ec";"Folder";"Phase_B Business Architecture";"Organization Structure .................................................................................. 15
+Value Stream ................................................................................................. 16
+Capabilities .................................................................................................... 17
+Business Functions ........................................................................................ 18
+Capabilities versus Business Functions ......................................................... 20
+Business Processes ........................................................................................ 20
+Requirements Realization .............................................................................. 21
+Gap Analysis ................................................................................................. 22
+Capability Realization ...................................................................................23"
+"id-7caa1ddd546741bbb97ef64e1438d49d";"Folder";"Phase_C_IS_Architecture(Application)";
+"id-dae5fa46f54e4a08aa13cf3e295215e7";"Folder";"Phase_C_IS_Architecture(Data)";
+"id-50db8fab18b74b0c90fe0fa09553eed8";"Folder";"Phase_D_Technology_Architecture";
+"id-943071e17051462183eebf67ebf049b8";"Folder";"Phase_E&F_Implementation&Migration";

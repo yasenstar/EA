@@ -1,0 +1,48 @@
+﻿"id";"type";"name";"documentation"
+"id-54d7d48035bd4cb98521006e0e4c2a79";"ArchimateDiagramModel";"03_Fragement of a Stakeholder View (v2 and v3.1)";
+"id-a187c7fefcbd4e8b9403377cab9277ef";"ArchimateDiagramModel";"04 Business Goals Associated with the Driver Profitability (v2）";
+"id-f4688f312619422594a58673dfbbe371";"ArchimateDiagramModel";"05 Principles View (v2 and v3.1)";
+"id-466703bc6d0e42c09037bb53a6f905a0";"ArchimateDiagramModel";"04 Business Goals Associated with the Driver Profitability (v3.1）";
+"id-70b8113c4d76419b8fa8a6658f8d236f";"ArchimateDiagramModel";"06 Goal Refinement";
+"id-2225b06e9a0d477c96b843cdbc19d4b5";"ArchimateDiagramModel";"07 Strategy View - Long Term";
+"id-c7c26d7b36cb42ccaf8fda65a2579db3";"ArchimateDiagramModel";"08 Solution Concept View";
+"id-758fc793629847b692600d86d02c71d9";"ArchimateDiagramModel";"Figure-09_Ogranization_View";
+"id-4d21488dd51a415e8bfe99d8dddee5f3";"ArchimateDiagramModel";"Figure-10_Organization_Decomposition(Nested)";
+"id-c6648e15171e4d6fa2431d0c3a510aa3";"ArchimateDiagramModel";"Figure-11_Value-Stream";
+"id-6b5c3db7b1634daf886ca865b9445926";"ArchimateDiagramModel";"Figure-12_Capability-Model-View";
+"id-63d1c68a6e4b4d0aa45e2ca4dcf3e46f";"ArchimateDiagramModel";"Figure-13_Value Stream - Capability Cross-Mapping";
+"id-7fa8450941d347deb33dea1bd970c958";"ArchimateDiagramModel";"Figure-14_Busienss_Function_View(Baseline)";
+"id-30fa2efad311487ca54909e87cc4809d";"ArchimateDiagramModel";"Figure-15_Capabillity-Realization";
+"id-8145660eaeae47e2a1038ea4a5a8ba14";"ArchimateDiagramModel";"Figure-16_Business-Process";
+"id-4c777cfb35e5430eb22a049483587600";"ArchimateDiagramModel";"Figure-17_ValueStream_and_BusinessProcess_Mapping";
+"id-a4c5178288504246b1e896b2cf8f0cf8";"ArchimateDiagramModel";"Figure-18_Requirements_Realization";
+"id-fe810ba0c27843ce9e0dcbd548c559ef";"ArchimateDiagramModel";"Figure-19_Capabilities_Gap_Analysis";
+"id-6526f0410f3e424fbbf806e1fb014812";"ArchimateDiagramModel";"Figure-19_Capabilities_Gap_Analysis - Alternative using Property & Script";
+"id-0208437f2c3e4563b82903c7e12bc06b";"ArchimateDiagramModel";"Figure-20_Resource-Map-View";
+"id-e6af7bb0256a41c998f9def1890208ba";"ArchimateDiagramModel";"Figure-21_Resource-Realization-View";
+"id-da174ba43e624443bb4f0314f73006b1";"ArchimateDiagramModel";"Figure22_Application-Coorperation(Baseline)";
+"id-aed69adc216a48119ebe68c726d492b1";"ArchimateDiagramModel";"Figure23_Application-Coorperation(Target)";
+"id-3033f646c29a440c8927b3093aeacb44";"ArchimateDiagramModel";"Figure24_Application-Usage";
+"id-87a65f9a15064e6c8293a713b44fc7a4";"ArchimateDiagramModel";"Figure25_Application-Behavior(Target)";
+"id-43c615b8935b4504be376037912c021f";"ArchimateDiagramModel";"Figure26_Application-Gap-Analysis";
+"id-7fa81e6bdcf645288c33a198b47e653e";"ArchimateDiagramModel";"Figure27_Information-Structure";
+"id-7de8b42dc1534648b8fda24e1f7e798f";"ArchimateDiagramModel";"Figure28_Data-Dissemination";
+"id-bf43be005ff34576b953db2bb919827f";"ArchimateDiagramModel";"Figure29_Infrastructure-View(Baseline)";
+"id-38efa33f588e43bb93cf8d11cc1f91cb";"ArchimateDiagramModel";"Figure30_Infrastructure-View(Target)";
+"id-5b277d74f6a0435894eb158e9ed874fa";"ArchimateDiagramModel";"Figure31_Data-Acquisition(Target)";
+"id-d260c3c5bca443f6ba69adb39d3af926";"ArchimateDiagramModel";"Figure32_IoT-Device-Services(Target)";
+"id-bb6b7d8dab1e47dc964d2a8eef904902";"ArchimateDiagramModel";"Figure33_Technology-Architecture-Gap-Analysis";
+"id-4da1b549ebe14bb4b5f85b43a34c5dcc";"ArchimateDiagramModel";"Figure34_Migration-View";
+"id-bf3099640fa042db9f6e1ab40a08d23d";"ArchimateDiagramModel";"Figure35_Project-Context";
+"id-6f87df5883c34f23af7764de38ff5922";"ArchimateDiagramModel";"Default View";
+"id-f7d9655ea1394202a7da458de6145060";"ArchimateDiagramModel";"Company Structure";
+"id-3b96fce92d734feb8eeaf90e230e8d0c";"ArchimateDiagramModel";"Phase_A Vision Views";"List of Figures
+=========
+03: Stakeholder View
+04: Business Goals, Assessments, and Expented Outcomes Associated with teh Driver Profitability
+05: Principles View
+06: Goal Refinement View for Retionalization Strategy
+07: Strategy View for Digital Cusotmer Intimacy Strategy
+08: Solution Concept View"
+"id-01d43bfba30c400eba256bb90426d1e1";"ArchimateDiagramModel";"Phase_B Business Architecture Views";
+"id-7d7e5cdc6a9043be8add816e1f7dd0db";"ArchimateDiagramModel";"ArchiSurance Modeling Practice";
