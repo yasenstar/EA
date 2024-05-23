@@ -1,8 +1,5 @@
 @startuml
 
-Customer_Journey --> Customer_Journey_Phase: Has
-Cusotmer_Journey_Phase --> Value_Stage: Relates
-
 Value_Stream --> Value_Stage: Contains
 Value_Stage --> Value_Stream: BelongTo
 
@@ -33,14 +30,6 @@ Physical_Activity --> Site: Performed_At
 Physical_Process --> Application_Provider: Supported_By
 Application_Provider --> Physical_Process: Supporting
 
-Physical_Process --> Customer_Journey_Phase: Supporting
-
-Product_Concept --> Product_Type: Realized_By
-Product_Type --> Product_Concept: Realizes
-Product --> Product_Type: Instance_Of
-
-Product_Type --> Business_Process: Produced_By
-
 Application_Provider <-- Supplier
 Application_Provider --> Group_Business_Role: Stakeholder
 Application_Provider --> Site: Usage_Location
@@ -52,11 +41,6 @@ Data_Subject --> Information_Concept: Supporting
 Data_Subject --> Data_Object: Realized_By
 Data_Object --> Data_Subject: Realizes
 Data_Object --> Data_Object_Attribute: Contains
-
-Static_Application_Provider_Architecture --> Information_Representation: Uses
-Information_Representation --> Static_Application_Provider_Architecture: Used_By
-Information_Representation --> Information_Object: Implementing
-Information_Object <-- Data_Object: Supporting
 
 Data_Object --> Application_Provider: System_Of_Record
 
