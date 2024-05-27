@@ -472,7 +472,7 @@
 </node>
 </node>
 <node TEXT="2023" OBJECT="java.lang.Long|2023" POSITION="bottom_or_right" ID="ID_1961048300" CREATED="1709001988662" MODIFIED="1709001990587">
-<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" FOLDED="true" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709050604243"><richcontent TYPE="NOTE">
+<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709050604243"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -955,8 +955,7 @@
       * Customer in business architecture is always the end customer and never an internal stakeholder
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Enhance partner contributions" ID="ID_1261223788" CREATED="1714669622645" MODIFIED="1714669630725"/>
 <node TEXT="Ensure that business leader and professionals function at peak performance" ID="ID_1911017092" CREATED="1714669631770" MODIFIED="1714669820276"/>
@@ -982,8 +981,7 @@
       * Product entitlement is a domain element of product
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Related disciplines, such as customer journey mapping, can be linked to value streams to enhance an understanding of issues from a customer perspective, versus that of the value creator" ID="ID_1744624627" CREATED="1714670259510" MODIFIED="1714670299878"/>
@@ -1061,8 +1059,7 @@
       * Customer reserved a high-end, high performance vehicle but had to leave driving a no frills subcompact.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="The situation can be summarized as follows:" ID="ID_1023186951" CREATED="1714676871003" MODIFIED="1714676880075">
 <node TEXT="Customer experience is degraded because a product entitlement (getting the car they reserved) was not met and the value item was compromised" ID="ID_816254079" CREATED="1714676880081" MODIFIED="1714676941246"/>
