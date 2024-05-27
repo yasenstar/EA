@@ -1,23 +1,18 @@
 @startuml
+'https://plantuml.com/sequence-diagram
 
-title Handing Archi Model between "master" and user's "working" branches
+title Handing Archi Model between "master" and user's "working" branches, v4.0, 2024-04-23
 
-footer Version 5.0, 2024-05-27
+autonumber
 
-autonumber "<b>00."
-
-User_Local -> User_Local: Working on self branch
-User_Local -> User_Remote: From Menu [Collaboration] choose [Publish Changes], if pop up, key in your Primary Password
+User_Local -> User_Local: Working on self branch and commit
+User_Local -> User_Remote: From Menu [Collaboration] choose [Publish Changes]
 User_Local -> Master_Local: Double Click "Master" in Archi Branch List, Switch to "Master_Local"
-Master_Local -> Master_Local: Click Any Item in Model Tree Structure to Activate Master_Local Branch
+Master_Local -> Master_Local: Click Any Item in Model Tree to Activate Master_Local Branch
 Master_Remote -> Master_Local: From Menu [Collaboration] choose [Refresh Model]
 Master_Local -> User_Local: Double Click User Working Branch to Switch Back User_Local
-Master_Local -> User_Local: If User Working Branch is Behind Master Branch, Right Click Master_Local and Choose Merge, with "Local" Option
-note right
-    check your branch comparing with master branch
-    - behind or ahead - from devops site
-end note
-User_Local -> User_Local: If Any Merge Conflict Happens, Troubleshooting Problems with Colleagues
+Master_Local -> User_Local: If User Working Branch is Behind Master Branch, Right Click Master_Local and Choose Merge, using "Local" Option
+User_Local -> User_Local: If Any Issue Happens, Troubleshooting Problems with Colleagues
 User_Local -> User_Remote: If Merge Success, Then From Menu [Collaboration] choose [Publish Changes]
 User_Local -> User_Local: Double Confirm There's 0 Behind to Master in DevOps Site
 User_Local -> Master_Local: If 0 Behind, Double Click "Master" in Archi Branch List to Switch to "Master_Local"
