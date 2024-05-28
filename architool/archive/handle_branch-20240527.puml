@@ -2,41 +2,27 @@
 
 title Handing Archi Model between "master" and user's "working" branches
 
-footer Version 6.0, 2024-05-28
+footer Version 5.0, 2024-05-27
 
 autonumber "<b>00."
 
-== Working on the User branch, publish work from user_local to user_remote ==
 User_Local -> User_Local: Working on self branch
 User_Local -> User_Remote: From Menu [Collaboration] choose [Publish Changes], if pop up, key in your Primary Password
-
-== Get latest work from Master branch, sync from master_remote to master_local ==
 User_Local -> Master_Local: Double Click "Master" in Archi Branch List, Switch to "Master_Local"
 Master_Local -> Master_Local: Click Any Item in Model Tree Structure to Activate Master_Local Branch
 Master_Remote -> Master_Local: From Menu [Collaboration] choose [Refresh Model]
-
-== Merge latest work from Master branch to User branch, done from master_local to user_local ==
 Master_Local -> User_Local: Double Click User Working Branch to Switch Back User_Local
 Master_Local -> User_Local: If User Working Branch is Behind Master Branch, Right Click Master_Local and Choose Merge, with "Local" Option
-note right  #FF6666
+note right
     check your branch comparing with master branch
     - behind or ahead - from devops site
 end note
 User_Local -> User_Local: If Any Merge Conflict Happens, Troubleshooting Problems with Colleagues
-
-== Publish post-merged user_local to user_remote, ensure user_remote only have ahead to master_remote ==
 User_Local -> User_Remote: If Merge Success, Then From Menu [Collaboration] choose [Publish Changes]
 User_Local -> User_Local: Double Confirm There's 0 Behind to Master in DevOps Site
-
-== Merge from User branch back to Master branch, done from user_local to master_local ==
 User_Local -> Master_Local: If 0 Behind, Double Click "Master" in Archi Branch List to Switch to "Master_Local"
 Master_Local -> Master_Local: Click Any Item in Model Tree to Activate Master_Local Branch
 User_Local -> Master_Local: Right Click User Branch, Choose Merge with "Local" Option, Merge You Work to "Master_Local"
-
-== Publish from master_local to master_remote, then switch back to user_local branch ==
-note across #FF6666
-    Ensure double check no any other colleagues' commits to master_remote during your actions above
-end note
 Master_Local -> Master_Remote: From Menu [Collaboration] choose [Publish Changes]
 Master_Local -> Master_Local: Once Complete Publish, Confirm There's 0 Ahead to Master in DevOps Site
 Master_Local -> User_Local: Double Click User's Working Branch to Switch Back, DONE!
