@@ -226,6 +226,10 @@ WHERE r.type = 'FlowRelationship' AND e1.type = 'ApplicationComponent' AND e2.ty
 
 ---
 
+```sql
+SELECT r.sourceid, e1.name AS sourceName, r.type, r.name AS relationName, r.targetid, e2.name AS targetName FROM Relationships AS r INNER JOIN Elements AS e1 ON r.sourceid = e1.id INNER JOIN Elements AS e2 ON r.targetid = e2.id WHERE r.type = 'ServingRelationship' AND e1.type = 'ApplicationComponent' AND e2.type = 'Location' AND e2.name LIKE '%Market%'
+```
+
 ## How to Export Data to file (e.g. csv)
 
 Use below syntax:
