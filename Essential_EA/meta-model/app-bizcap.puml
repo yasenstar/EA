@@ -1,0 +1,6 @@
+@startuml
+
+"Business_Capability" -right->[Realized_By] "Business_Process"
+"Business_Process" -->[Performed_By] "Physical_Process"
+"Physical_Process" -left->[Supported_By] "Application_Provider"
+@enduml

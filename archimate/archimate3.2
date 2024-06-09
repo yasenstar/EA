@@ -1,0 +1,907 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:archimate3="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Access -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Access">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dependency_Relationship"/>
+        <rdfs:isDefinedBy>The access relationship represents the ability of behavior and active structure elements to observe or act upon passive structure elements.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Aggregation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Aggregation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structural_Relationship"/>
+        <rdfs:isDefinedBy>The aggregation relationship represents that an element combines one or more other concepts.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Assignment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Assignment">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structural_Relationship"/>
+        <rdfs:isDefinedBy>The assignment relationship represents the allocation of responsibility, performance of behavior, storage, or execution.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Association -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Association">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dependency_Relationship"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:isDefinedBy>An association relationship represents an unspecified relationship, or one that is not represented by another ArchiMate relationship.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Composition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Composition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structural_Relationship"/>
+        <rdfs:isDefinedBy>The composition relationship represents that an element consists of one or more other concepts.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dependency_Relationship -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dependency_Relationship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dynamic_Relationship -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dynamic_Relationship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Flow -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Flow">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dynamic_Relationship"/>
+        <rdfs:isDefinedBy>The flow relationship represents transfer from one element to another.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Influence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Influence">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dependency_Relationship"/>
+        <rdfs:isDefinedBy>The influence relationship represents that an element affects the implementation or achievement
+of some motivation element.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Other_Relationship -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Other_Relationship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Realization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Realization">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structural_Relationship"/>
+        <rdfs:isDefinedBy>The realization relationship represents that an element plays a critical role in the creation, achievement, sustenance, or operation of a more abstract element.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Serving -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Serving">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dependency_Relationship"/>
+        <rdfs:isDefinedBy>The serving relationship represents that an element provides its functionality to another element.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Specialization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Specialization">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Other_Relationship"/>
+        <rdfs:isDefinedBy>The specialization relationship represents that an element is a particular kind of another element.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structural_Relationship -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structural_Relationship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Triggering -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Triggering">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Dynamic_Relationship"/>
+        <rdfs:isDefinedBy>The triggering relationship represents a temporal or causal relationship between elements.</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structure_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_and_Migration_Layer_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_and_Migration_Layer_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Passive_Structure_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Passive_Structure_Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structure_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Physical_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Physical_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Strategy_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Strategy_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structure_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structure_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#other"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Collaboration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Collaboration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <rdfs:isDefinedBy>An application collaboration represents an aggregate of two or more application internal active structure elements, that work together to perform collective application behavior.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Component -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Component">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Component"/>
+        <rdfs:isDefinedBy>An application component represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <archimate3:Access rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Data_Object"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Service"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Event"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Service"/>
+        <rdfs:isDefinedBy>An application event represents an application state change.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Function -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Function">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdfs:isDefinedBy>An application function represents automated behavior that can be performed by an application component.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Interaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Interaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdfs:isDefinedBy>An application interaction represents a unit of collective application behavior performed by (a collaboration of) two or more application components.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Interface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Interface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <archimate3:Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Service"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Interface"/>
+        <rdfs:isDefinedBy>An application interface represents a point of access where application services are made available to a user, another application component, or a node.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdfs:isDefinedBy>An application process represents a sequence of application behaviors that achieves a specific result.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <archimate3:Access rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Data_Object"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Event"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Service"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Service"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Event"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Service"/>
+        <rdfs:isDefinedBy>An application service represents an explicitly defined exposed application behavior.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Artifact -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Artifact">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Passive_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Data_Object"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#System_Software"/>
+        <rdfs:isDefinedBy>An artifact represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Assessment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Assessment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <archimate3:Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Goal"/>
+        <rdfs:isDefinedBy>Represents the result of an analysis of the state of affairs of the enterprise with respect to some driver.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Busienss_Collaboration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Busienss_Collaboration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <rdfs:isDefinedBy>A business collaboration represents an aggregate of two or more business internal active structure elements that work together to perform collective behavior.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Actor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Actor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <archimate3:Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Role"/>
+        <rdfs:isDefinedBy>A business actor represents a business entity that is capable of performing behavior.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Event"/>
+        <rdfs:isDefinedBy>A business event represents a business-related state change.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Function -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Function">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <rdfs:isDefinedBy>A business function represents a collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Interaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Interaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <rdfs:isDefinedBy>A business interaction represents a unit of collective business behavior performed by (a collaboration of) two or more business actors, business roles, or business collaborations.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Interface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Interface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <archimate3:Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Service"/>
+        <rdfs:isDefinedBy>A business interface represents a point of access where business services are made available to the environment.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Passive_Structure_Elements"/>
+        <archimate3:Aggregation rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Contract"/>
+        <rdfs:isDefinedBy>A business object represents a concept used within a particular business domain.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <rdfs:isDefinedBy>A business process represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Role -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Role">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <rdfs:isDefinedBy>A business role represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular action or event.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Service"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Service"/>
+        <rdfs:isDefinedBy>A business service represents explicitly defined behavior that a business role, business actor, or business collaboration exposes to its environment.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Strategy_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structure_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action"/>
+        <archimate3:Serving rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action"/>
+        <rdfs:isDefinedBy>Represents an ability that an active structure element, such as an organization, person, or system, possesses.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Communication_Network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Communication_Network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <rdfs:isDefinedBy>A communication network represents a set of structures that connects devices or system software for transmission, routing, and reception of data.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Constraint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Constraint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <rdfs:isDefinedBy>Represents a limitation on aspects of the architecture, its implementation process, or its realization.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Contract -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Contract">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Passive_Structure_Elements"/>
+        <rdfs:isDefinedBy>A contract represents a formal or informal specification of an agreement between a provider and a consumer that specifies the rights and obligations associated with a product and establishes functional and non-functional parameters for interaction.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Strategy_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structure_Elements"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action"/>
+        <archimate3:Influence rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome"/>
+        <archimate3:Influence rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <archimate3:Serving rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action"/>
+        <rdfs:isDefinedBy>Represents an approach or plan for configuring some capabilities and resources of the enterprise, undertaken to achieve a goal.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Data_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Data_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Passive_Structure_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Object"/>
+        <rdfs:isDefinedBy>A data object represents data structured for automated processing.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Deliverable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Deliverable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_and_Migration_Layer_Elements"/>
+        <archimate3:Influence rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Plateau"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <rdfs:isDefinedBy>A deliverable represents a precisely defined result of a work package</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Device -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Device">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <archimate3:Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Artifact"/>
+        <rdfs:isDefinedBy>A device represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Distribution_Network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Distribution_Network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Physical_Elements"/>
+        <rdfs:isDefinedBy>A distribution network represents a physical network used to transport materials or energy.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Driver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Driver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <archimate3:Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Assessment"/>
+        <archimate3:Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Goal"/>
+        <rdfs:isDefinedBy>Represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Equipment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Equipment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Physical_Elements"/>
+        <rdfs:isDefinedBy>Equipment represents one or more physical machines, tools, or instruments that can create, use, store, move, or transform materials.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Facility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Facility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Physical_Elements"/>
+        <rdfs:isDefinedBy>A facility represents a physical structure or environmen</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Gap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Gap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_and_Migration_Layer_Elements"/>
+        <archimate3:Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Plateau"/>
+        <rdfs:isDefinedBy>A gap represents a statement of difference between two plateaus.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Goal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Goal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <rdfs:isDefinedBy>Represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_and_Migration_Layer_Elements"/>
+        <archimate3:Access rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Deliverable"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_Event"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Work_Package"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_Event"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Plateau"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Work_Package"/>
+        <rdfs:isDefinedBy>An implementation event represents a state change related to implementation or migration.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Location -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Location">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#other"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Material -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Material">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Passive_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Physical_Elements"/>
+        <rdfs:isDefinedBy>Material represents tangible physical matter or energy.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Meaning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Meaning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <rdfs:isDefinedBy>Represents the knowledge or expertise present in, or the interpretation given to, a concept in a particular context.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Node -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Node">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <rdfs:isDefinedBy>A node represents a computational or physical resource that hosts, manipulates, or interacts with other computational or physical resources.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Goal"/>
+        <rdfs:isDefinedBy>Represents an end result, effect, or consequence of a certain state of affairs.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Path -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Path">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <rdfs:isDefinedBy>A path represents a link between two or more technology internal active structure elements, through which these elements can exchange data, energy, or materia</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Plateau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Plateau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_and_Migration_Layer_Elements"/>
+        <archimate3:Aggregation rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Goal"/>
+        <archimate3:Aggregation rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome"/>
+        <archimate3:Aggregation rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <archimate3:Composition rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Goal"/>
+        <archimate3:Composition rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome"/>
+        <archimate3:Composition rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_Event"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Plateau"/>
+        <rdfs:isDefinedBy>A plateau represents a relatively stable state of the architecture that exists during a limited period of time.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Principle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Principle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome"/>
+        <rdfs:isDefinedBy>Represents a statement of intent defining a general property that applies to any system in a certain context in the architecture.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Product -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Product">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Resource"/>
+        <rdfs:isDefinedBy>A product represents a coherent collection of services and/or passive structure elements, accompanied by a contract, which is offered as a whole to (internal or external) customers.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Representation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Representation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Layer_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Passive_Structure_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Object"/>
+        <rdfs:isDefinedBy>A representation represents a perceptible form of the information carried by a business object.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <archimate3:Aggregation rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Constraint"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Principle"/>
+        <rdfs:isDefinedBy>Represents a statement of need defining a property that applies to a specific system as described by the architecture.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Resource -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Resource">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Strategy_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structure_Elements"/>
+        <archimate3:Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Capability"/>
+        <archimate3:Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Value_Stream"/>
+        <archimate3:Influence rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <rdfs:isDefinedBy>Represents an asset owned or controlled by an individual or organization.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Stakeholder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Stakeholder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <archimate3:Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Driver"/>
+        <archimate3:Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Meaning"/>
+        <archimate3:Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Value"/>
+        <rdfs:isDefinedBy>Represents the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#System_Software -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#System_Software">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <archimate3:Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Artifact"/>
+        <rdfs:isDefinedBy>System software represents software that provides or contributes to an environment for storing, executing, and using software or data deployed within it.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Collaboration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Collaboration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <rdfs:isDefinedBy>A technology collaboration represents an aggregate of two or more technology internal active structure elements that work together to perform collective technology behavior.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Event"/>
+        <rdfs:isDefinedBy>A technology event represents a technology state change</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Function -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Function">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <rdfs:isDefinedBy>A technology function represents a collection of technology behavior that can be performed by a technology internal active structure element.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Interaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Interaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <rdfs:isDefinedBy>A technology interaction represents a unit of collective technology behavior performed by (a collaboration of) two or more technology internal active structure elements.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Interface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Interface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Active_Structure_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Interface"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Interface"/>
+        <rdfs:isDefinedBy>A technology interface represents a point of access where technology services offered by a technology internal active structure element can be accessed.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <rdfs:isDefinedBy>A technology process represents a sequence of technology behaviors that achieves a specific result.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Behavior_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Technology_Layer_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Application_Service"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Business_Service"/>
+        <rdfs:isDefinedBy>A technology service represents an explicitly defined exposed technology behavior.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Value -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Value">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Motivation_Elements"/>
+        <archimate3:Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Outcome"/>
+        <rdfs:isDefinedBy>Represents the relative worth, utility, or importance of a concept.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Value_Stream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Value_Stream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Strategy_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Structure_Elements"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action"/>
+        <archimate3:Serving rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Course_of_Action"/>
+        <rdfs:isDefinedBy>Represents a sequence of activities that create an overall result for a customer, stakeholder, or end user.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Work_Package -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Work_Package">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_and_Migration_Layer_Elements"/>
+        <archimate3:Access rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Work_Package"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_Event"/>
+        <archimate3:Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Work_Package"/>
+        <archimate3:Influence rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Deliverable"/>
+        <archimate3:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Requirement"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Implementation_Event"/>
+        <archimate3:Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/archimate3.2#Work_Package"/>
+        <rdfs:isDefinedBy>A work package represents a series of actions identified and designed to achieve specific results within specified time and resource constraints.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
