@@ -1,0 +1,650 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#a-Access -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#a-Access"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#c-Composition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#c-Composition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#f-Flow -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#f-Flow"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#g-Aggregation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#g-Aggregation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#i-Assignment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#i-Assignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#n-Influence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#n-Influence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#o-Association -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#o-Association"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#r-Realization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#r-Realization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#s-Specialization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#s-Specialization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#t-Triggering -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#t-Triggering"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#v-Serving -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#v-Serving"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Other"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Physical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Physical"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Strategy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation&amp;Migration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation&amp;Migration"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Aplication_Interaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Aplication_Interaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Collaboration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Collaboration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Component -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Component">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Function -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Function">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Interface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Interface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application_Service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Artifact -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Artifact">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Assessment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Assessment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Busienss_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Busienss_Service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Collaboration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Collaboration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Function -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Function">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Role -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Role">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Strategy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Communication_Network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Communication_Network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Constraint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Constraint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Contract -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Contract">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Course_of_Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Course_of_Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Strategy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Data_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Data_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Deliverable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Deliverable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation&amp;Migration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Device -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Device">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Distribution_Network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Distribution_Network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Physical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Driver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Driver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Equipment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Equipment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Physical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Facility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Facility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Physical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Gap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Gap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation&amp;Migration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Goal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Goal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Grouping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Grouping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Other"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation&amp;Migration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Junction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Junction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Other"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Location -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Location">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Other"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Material -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Material">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Physical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Meaning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Meaning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Node -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Node">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Outcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Outcome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Path -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Path">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Plateau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Plateau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation&amp;Migration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Principle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Principle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Product -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Product">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Representation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Representation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Requirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Requirement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Resource -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Resource">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Strategy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Stakeholder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Stakeholder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#System_Software -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#System_Software">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Collaboration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Collaboration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Function -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Function">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Interaction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Interaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Interface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Interface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology_Service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Value -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Value">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Motivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Value_Stream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Value_Stream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Strategy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Work_Package -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Work_Package">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Implementation&amp;Migration"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
