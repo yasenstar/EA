@@ -15,6 +15,8 @@ PREFIX a: <http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelations
 - ArchiMate Layer is modeled as Class.
 - ArchiMate Element is modeld as Individual
 
+Use "Value_Stream" as subject sample.
+
 ```SQL
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
