@@ -247,6 +247,37 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business"/>
+        <j.1:c-Composition rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor"/>
+        <j.1:c-Composition rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface"/>
+        <j.1:f-Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor"/>
+        <j.1:f-Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Collaboration"/>
+        <j.1:f-Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface"/>
+        <j.1:f-Flow rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Role"/>
+        <j.1:g-Aggregation rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor"/>
+        <j.1:g-Aggregation rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface"/>
+        <j.1:i-Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface"/>
+        <j.1:i-Assignment rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Role"/>
+        <j.1:o-Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor"/>
+        <j.1:o-Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Collaboration"/>
+        <j.1:o-Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface"/>
+        <j.1:o-Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Role"/>
+        <j.1:o-Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Capability"/>
+        <j.1:o-Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Course_of_Action"/>
+        <j.1:o-Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Resource"/>
+        <j.1:o-Association rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Value_Stream"/>
+        <j.1:r-Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Capability"/>
+        <j.1:r-Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Course_of_Action"/>
+        <j.1:r-Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Resource"/>
+        <j.1:r-Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Value_Stream"/>
+        <j.1:s-Specialization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor"/>
+        <j.1:t-Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor"/>
+        <j.1:t-Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Collaboration"/>
+        <j.1:t-Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface"/>
+        <j.1:t-Triggering rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Role"/>
+        <j.1:v-Serving rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Actor"/>
+        <j.1:v-Serving rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Collaboration"/>
+        <j.1:v-Serving rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Interface"/>
+        <j.1:v-Serving rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships#Business_Role"/>
     </owl:NamedIndividual>
     
 
