@@ -9,7 +9,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/ArchiMateRelationships">
-        <rdfs:comment>2024/06/10: Value_Stream
+        <rdfs:comment>2024/06/11: Course_of_Action
+2024/06/10: Value_Stream
 2024/06/09: Resource, Capability</rdfs:comment>
     </owl:Ontology>
     
