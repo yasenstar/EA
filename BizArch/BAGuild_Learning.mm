@@ -3,7 +3,7 @@
 <node TEXT="BAGuild Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1709578313610" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="0.769">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -471,7 +471,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2023" OBJECT="java.lang.Long|2023" POSITION="bottom_or_right" ID="ID_1961048300" CREATED="1709001988662" MODIFIED="1709001990587">
+<node TEXT="2023" OBJECT="java.lang.Long|2023" FOLDED="true" POSITION="bottom_or_right" ID="ID_1961048300" CREATED="1709001988662" MODIFIED="1709001990587">
 <node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709050604243"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -1083,7 +1083,7 @@
 </node>
 <node TEXT="2023/08/16 - Business-Driven Software Service Design" ID="ID_604909726" CREATED="1714683382045" MODIFIED="1714683394447"/>
 </node>
-<node TEXT="2021" OBJECT="java.lang.Long|2021" FOLDED="true" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
+<node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
 <node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" FOLDED="true" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994319007"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -1300,6 +1300,57 @@
 <node TEXT="C. Capability Mapping" ID="ID_1246956528" CREATED="1709000896685" MODIFIED="1709000901415"/>
 </node>
 </node>
+</node>
+<node TEXT="2021/08/18 - The Role of Business Architecture in Defining Data Architecture" ID="ID_927200888" CREATED="1719380496676" MODIFIED="1719380513507">
+<node TEXT="1. Defining Information and Data Challenges" ID="ID_202657832" CREATED="1719380651720" MODIFIED="1719380929030"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot;But the first business of every theory is to clear up conceptions and ideas which have been jumbled together, and, we may say, entangled and confused; and only when a right understanding is established, as to names and conceptions, can we hope to progress with clearness and facility, and be certain that author and reader will always see things from the same point of view.&quot;
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Applying this principle to ba business highlights the need for a consistent, holistic vocabulary to" FOLDED="true" ID="ID_88690345" CREATED="1719381302382" MODIFIED="1719381325898">
+<node TEXT="Define, interpret and effectively execute business strategies" POSITION="bottom_or_right" ID="ID_1916514030" CREATED="1719381157806" MODIFIED="1719381175372"/>
+<node TEXT="Establish consistent, readily interpeted and well aligned business requirements" POSITION="bottom_or_right" ID="ID_420383964" CREATED="1719381175894" MODIFIED="1719381190537"/>
+<node TEXT="Define and deploy logical and physical data architectures" POSITION="bottom_or_right" ID="ID_1244449548" CREATED="1719381210428" MODIFIED="1719381220957"/>
+<node TEXT="Design, validate and deploy cohesive, interoperable software services and systems" POSITION="bottom_or_right" ID="ID_449731011" CREATED="1719381221521" MODIFIED="1719381245490"/>
+<node TEXT="Streamline cross-business unit comunication and collaboration to improve the customer experience, business intelligence, financial reporting and the bottom line" POSITION="bottom_or_right" ID="ID_1202359011" CREATED="1719381247570" MODIFIED="1719381275062"/>
+</node>
+<node TEXT="Business Challenges Stemming from Information Discontinuity and Incongruity" FOLDED="true" ID="ID_1398528924" CREATED="1719381333778" MODIFIED="1719381383016">
+<node TEXT="Strategy execution failures lead to multiple business units and deployment teams pursuing conflicting, poorly aligned actions that fall short of expectations or fail entirely" ID="ID_1528610914" CREATED="1719381383018" MODIFIED="1719381426551"/>
+<node TEXT="Customer discontinuity leading to the inability to recognize the same customer across multiple business units, fueling customer dissatisfaction and attrition" ID="ID_880141634" CREATED="1719381427133" MODIFIED="1719381469584"/>
+<node TEXT="Scoping issues result in initiative investments that underdeliver, run overbudget or deliver solutions that are rejected or create more problems than they solve" ID="ID_1266699477" CREATED="1719381470235" MODIFIED="1719381506025"/>
+<node TEXT="Regulatory violations, where regulators cite the inability to produce consistent regulatory reporting results" ID="ID_608231840" CREATED="1719381506597" MODIFIED="1719381527023"/>
+<node TEXT="Financial reporting errors proliferate because different business units conflate incompatible or irreconcilable data" ID="ID_1807589330" CREATED="1719381528910" MODIFIED="1719381555121"/>
+<node TEXT="Poorly defined business requirements confound development teams and delays or scuttles solution deployments" ID="ID_1363900396" CREATED="1719381555922" MODIFIED="1719381584493"/>
+<node TEXT="Software interoperability issues force manual workarounds and deployment of complex, high risk desktop solutions" ID="ID_1680119124" CREATED="1719381587208" MODIFIED="1719381612651"/>
+<node TEXT="Lack of a foundation for AI-based automation stifles efforts to deploy and scale AI and related cognitive computing technologies" ID="ID_1944455957" CREATED="1719381613010" MODIFIED="1719381642153"/>
+</node>
+<node TEXT="Synonyms and Homonyms: The Source of Data Incongruity and Integrity Issues" FOLDED="true" ID="ID_1330879290" CREATED="1719383191631" MODIFIED="1719383221670">
+<node TEXT="A synonym is a term that means the same as another term, like &quot;agreement&quot; and &quot;contract&quot;, but only one is acceptable in a retionalized vocabulary" ID="ID_1249703181" CREATED="1719383222949" MODIFIED="1719383285380"/>
+<node TEXT="A homonym is where the same term can be interpreted to mean multiple things, like an &quot;Account&quot; being a Customer, Agreement or Financial ACcount" ID="ID_1165067335" CREATED="1719383285786" MODIFIED="1719383402666"/>
+<node TEXT="While both synonyms and homonyms create redundancy, inconsistency and data incongruity, homonyms can be particularly hard to decipher" ID="ID_845923811" CREATED="1719383403257" MODIFIED="1719383437640"/>
+<node TEXT="e.g. using the term Account to mean multiple things across business objectives, requirements, databases and software systems is harder to decipher than situations where one business unit uses the word Contract and another business unit uses the word Agreement to mean the same thing" ID="ID_904478062" CREATED="1719383438419" MODIFIED="1719390993789"/>
+<node TEXT="Complicating matters is the fact that some business unit dialects take on historical oddities where, for example, the term &quot;agreement&quot; means &quot;Shipment&quot; or the term &quot;Door&quot; means &quot;Location&quot;" ID="ID_1913360064" CREATED="1719390993896" MODIFIED="1719391080541"/>
+</node>
+<node TEXT="Data Incongruity results when Business Unit silos communicate using localized dialects that analysts fail to rationalize, consider where:" ID="ID_1047286170" CREATED="1719391180584" MODIFIED="1719391225173">
+<node TEXT="Six analyst teams, working with six different marketing areas, drafted business requirements based on six unique definitions of &quot;Account&quot;" ID="ID_1086724962" CREATED="1719391243625" MODIFIED="1719391279268"/>
+<node TEXT="Four of the six initiatives were cancelled, while two moved forward" ID="ID_1984810917" CREATED="1719391280502" MODIFIED="1719391304529"/>
+<node TEXT="As a result, System A interpreted &quot;Account&quot; to be a &quot;Customer&quot; and System B interpreted &quot;Account&quot; to be an &quot;Agreement&quot;, which meant:" ID="ID_1695296164" CREATED="1719391305036" MODIFIED="1719391355140">
+<node TEXT="The systems could not exchange data without causing data integrity issues and confusion" ID="ID_1606528572" CREATED="1719391355144" MODIFIED="1719391381296"/>
+<node TEXT="To make he systems work, business professionals had to create high risk spreadsheets that allowed the systems to share and aggregate data" ID="ID_717948044" CREATED="1719391388455" MODIFIED="1719391421694"/>
+</node>
+<node TEXT="Organizations spend millions every year to retoractively reconcile data incongruity issues by increasing manual labor and adding more desktop solutions, just to keep the business functioning" ID="ID_1717662506" CREATED="1719391429283" MODIFIED="1719391478856"/>
+<node TEXT="Vocabulary matters and it is the responsibility of business professionals to address data incongruity at its source - within the business!" ID="ID_82371555" CREATED="1719391479034" MODIFIED="1719391523051"/>
+</node>
+</node>
+<node TEXT="2. Articulating Information Perspectives in Business Architecture" ID="ID_1202824405" CREATED="1719380663274" MODIFIED="1719380738394"/>
+<node TEXT="3. Deriving Data Models from Business Architecture" ID="ID_672249873" CREATED="1719380693896" MODIFIED="1719380703600"/>
+<node TEXT="4. Identifying Usage Scenarios and Critical Success Factors" ID="ID_1543614758" CREATED="1719380703773" MODIFIED="1719380714505"/>
 </node>
 </node>
 <node TEXT="2018" OBJECT="java.lang.Long|2018" FOLDED="true" POSITION="bottom_or_right" ID="ID_1614323744" CREATED="1708973746471" MODIFIED="1708973748135">
