@@ -3,7 +3,7 @@
 <node TEXT="BAGuild Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1709578313610" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.769">
+<hook NAME="MapStyle" background="#fdf6e3">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1302,7 +1302,7 @@
 </node>
 </node>
 <node TEXT="2021/08/18 - The Role of Business Architecture in Defining Data Architecture" ID="ID_927200888" CREATED="1719380496676" MODIFIED="1719380513507">
-<node TEXT="1. Defining Information and Data Challenges" ID="ID_202657832" CREATED="1719380651720" MODIFIED="1719380929030"><richcontent TYPE="NOTE">
+<node TEXT="1. Defining Information and Data Challenges" FOLDED="true" ID="ID_202657832" CREATED="1719380651720" MODIFIED="1719380929030"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1348,8 +1348,85 @@
 <node TEXT="Vocabulary matters and it is the responsibility of business professionals to address data incongruity at its source - within the business!" ID="ID_82371555" CREATED="1719391479034" MODIFIED="1719391523051"/>
 </node>
 </node>
-<node TEXT="2. Articulating Information Perspectives in Business Architecture" ID="ID_1202824405" CREATED="1719380663274" MODIFIED="1719380738394"/>
-<node TEXT="3. Deriving Data Models from Business Architecture" ID="ID_672249873" CREATED="1719380693896" MODIFIED="1719380703600"/>
+<node TEXT="2. Articulating Information Perspectives in Business Architecture" FOLDED="true" ID="ID_1202824405" CREATED="1719380663274" MODIFIED="1719380738394">
+<node TEXT="Some Basic Definitions" FOLDED="true" ID="ID_970828243" CREATED="1719391670652" MODIFIED="1719391676967">
+<node TEXT="Information: A ubiquitous concept that includes human knowledge, sense of mission, and learned behaviors, in addition to more traditional perspectives on information. (BizBok section 2.5, v10.0)" ID="ID_648737219" CREATED="1719391676971" MODIFIED="1719391733609"/>
+<node TEXT="Information Concept: Way in which to represent business terms and semantics within the context of business architecture" ID="ID_722956998" CREATED="1719393021899" MODIFIED="1719448504390">
+<arrowlink DESTINATION="ID_238074196"/>
+</node>
+<node TEXT="Data: Value specifications for qualitative and quantitative variables" ID="ID_57681837" CREATED="1719393057997" MODIFIED="1719448387422">
+<node TEXT="Data represents information in a wide variety of ways, but an also omit information" ID="ID_831749208" CREATED="1719448387427" MODIFIED="1719448405200"/>
+<node TEXT="Data is also created for practical or implementation dependent reasons that may not represent business information" ID="ID_771484866" CREATED="1719448405763" MODIFIED="1719448422791"/>
+</node>
+<node TEXT="Data Architecture: represents integration of value specifications for qualitative and quantitative variables and their alignment with business architecture and strategy" ID="ID_1800378066" CREATED="1719448425549" MODIFIED="1719448459511"/>
+<node TEXT="Data Entity: something that exists in a business" ID="ID_1296986622" CREATED="1719448460143" MODIFIED="1719448485496">
+<node TEXT="Data entities are directly derivable from information concepts" ID="ID_238074196" CREATED="1719448485501" MODIFIED="1719448497820"/>
+</node>
+<node TEXT="Data Attribute: a characteristic that identifies the entity, relates to it to another entity, or describes the entity" ID="ID_522125555" CREATED="1719448506518" MODIFIED="1719448540357">
+<node TEXT="data attributes may be derived from actions performed against a business object in a capability map" ID="ID_650247739" CREATED="1719448540363" MODIFIED="1719448564402"/>
+</node>
+</node>
+<node TEXT="Business Architecture, Ontologies and Taxonomies" FOLDED="true" ID="ID_1106216321" CREATED="1719448780902" MODIFIED="1719448797818">
+<node TEXT="Ontology" ID="ID_260308621" CREATED="1719448797823" MODIFIED="1719448802189">
+<node TEXT="Branch of philosophy that studies concepts such as existence, being, becoming, and reality that includes questions of how entities are grouped into basic categories and which of these entities exist on the most fundamental level" ID="ID_1010263197" CREATED="1719448802192" MODIFIED="1719448868955"/>
+</node>
+<node TEXT="Taxonomy" ID="ID_1871653820" CREATED="1719448873891" MODIFIED="1719448878266">
+<node TEXT="A scheme of classification, especially a hierarchical classification, in which things are organized into groups or types" ID="ID_1864987621" CREATED="1719448878269" MODIFIED="1719448914689"/>
+</node>
+<node TEXT="In a business architecture context" ID="ID_43763503" CREATED="1719448916524" MODIFIED="1719448924307">
+<node TEXT="Business object analysis applies the dialectical method to determine if a &quot;thing&quot; exists in reality, where business objects are categorized and rationalized into a fixed number of well-delineated, non-overlapping subsets" ID="ID_1495334208" CREATED="1719448924311" MODIFIED="1719448975157"/>
+<node TEXT="Once vetted, business objects are named and defined, forming the basis for capabilities and corresponding information concepts" ID="ID_1178427727" CREATED="1719448976138" MODIFIED="1719449000035"/>
+<node TEXT="Information concepts are &quot;typed&quot;, creating &quot;basic categories&quot; under a single business object, where &quot;subcategories&quot; may be used to establish &quot;type hierarchies&quot;" ID="ID_1787149325" CREATED="1719449001660" MODIFIED="1719449049686"/>
+<node TEXT="Relationships among information concepts are added on holistic usage context, based on how business objects relate in the real world" ID="ID_520534278" CREATED="1719449049858" MODIFIED="1719449074804"/>
+</node>
+</node>
+<node TEXT="Object Identification,Delineation" FOLDED="true" ID="ID_710142956" CREATED="1719449449138" MODIFIED="1719449462540">
+<node TEXT="Business objects form the foundation for capabiltiies and information concepts" ID="ID_394709961" CREATED="1719449462546" MODIFIED="1719449477060"/>
+<node TEXT="Business object definition is the basis for capability and information concept definitions, where capabilities define actions applied to that object" ID="ID_676986454" CREATED="1719449477618" MODIFIED="1719449518810"/>
+<node TEXT="Information concepts assign types and states to business objects - e.g. An Agreement may be &quot;bilateral&quot; or &quot;multilateral&quot; and in a state of &quot;pending&quot;, &quot;executed&quot; or &quot;terminated&quot;" ID="ID_1477019099" CREATED="1719449519443" MODIFIED="1719449566628"/>
+</node>
+<node TEXT="Business Object vs. Information Concept" FOLDED="true" ID="ID_1144763446" CREATED="1719449872300" MODIFIED="1719449883407">
+<node TEXT="Business Object is a representation of the &quot;real world thing&quot; represented in the model" ID="ID_735605543" CREATED="1719449883411" MODIFIED="1719449901330">
+<node TEXT="An instance of a Human Resource actually represents the person serving in a resource role" ID="ID_250743756" CREATED="1719449926687" MODIFIED="1719449947063"/>
+<node TEXT="An instance of a Customer represents the actual customer" ID="ID_494250669" CREATED="1719449947207" MODIFIED="1719449959319"/>
+<node TEXT="Business Objects in a business architecture are stateless, eliminating the need, e.g. for a &quot;prospect&quot; object, which is simply a &quot;customer&quot; in a &quot;pending&quot; state" ID="ID_1189828842" CREATED="1719449959889" MODIFIED="1719450004316"/>
+</node>
+<node TEXT="Information Concept represents the informational aspects of a real world object" ID="ID_894794664" CREATED="1719449901497" MODIFIED="1719449925515">
+<node TEXT="A Human Resource information concept, e.g. represents the profile, types, states, history and relationships to other information concepts, such as a Job or a Competency" ID="ID_1738424459" CREATED="1719450005807" MODIFIED="1719450217944"/>
+<node TEXT="Information Concept relationships are based on real world associations among objects, such as a Customer having an Agreement, or an Agreement being associated with a purchased Product and Financial Account" ID="ID_898808069" CREATED="1719450218165" MODIFIED="1719450260423"/>
+<node TEXT="Capabilities manage information concept profiles, types, states, history and relationships to other information concepts" ID="ID_1790516701" CREATED="1719450260606" MODIFIED="1719450283494"/>
+</node>
+</node>
+<node TEXT="Object Subcategorization or Subtyping in the information map" ID="ID_1853105876" CREATED="1719470474628" MODIFIED="1719470489507">
+<node TEXT="At a full service finanical institution, the information concept Agreement may have defined types e.g. insurance policy or financial agreement" ID="ID_772908643" CREATED="1719470489513" MODIFIED="1719470520822"/>
+<node TEXT="Types may be subtyped: e.g. an insurance policy may subtype as an auto policy or homeowner policy" ID="ID_1994684939" CREATED="1719470521336" MODIFIED="1719470555222"/>
+<node TEXT="Subtyping supports categorization analysis that is important to information modelers and data architects" ID="ID_1075333066" CREATED="1719470555438" MODIFIED="1719470576773"/>
+</node>
+<node TEXT="Deriving Information Concept Relationships from Capabilities" POSITION="bottom_or_right" ID="ID_1268567870" CREATED="1719470646027" MODIFIED="1719470657825">
+<node TEXT="Real world object associations are reflected in the information map as relationships among information concepts." ID="ID_907441593" CREATED="1719470657829" MODIFIED="1719470693860"/>
+<node TEXT="Capabilities establish and manage relationships among real world objects using &quot;matching&quot; capabilities" ID="ID_1542259365" CREATED="1719470694626" MODIFIED="1719470720222"/>
+<node TEXT="e.g. Course is associated with the Session in which it is offered using a capability called &quot;Course/Session Matching&quot;" ID="ID_1346868633" CREATED="1719470720979" MODIFIED="1719470747895"/>
+<node TEXT="Information Concept relationships reflect and accommodate a wide range of business scenarios tested during capability mapping" ID="ID_739350809" CREATED="1719470748061" MODIFIED="1719470773769"/>
+</node>
+</node>
+<node TEXT="3. Deriving Data Models from Business Architecture" ID="ID_672249873" CREATED="1719380693896" MODIFIED="1719380703600">
+<node TEXT="Defining some Common Data Modeling Concepts" ID="ID_1835375540" CREATED="1719470950067" MODIFIED="1719470967287">
+<node TEXT="Data models provide a means of formulating data attributes, relationships and other aspects of data architecture and include:" ID="ID_38828903" CREATED="1719470967291" MODIFIED="1719470995684">
+<node TEXT="Conceptual Data Model: An abstract form that conveys business context but omits data types, sequences, attributes and other details" ID="ID_835094350" CREATED="1719470995688" MODIFIED="1719471028327"/>
+<node TEXT="Logical Data Model: Represents a specific problem domain, independent of a particular database product and technology, and represents classes, relational tables, attributes and associations" ID="ID_810070399" CREATED="1719471029042" MODIFIED="1719471069828"/>
+<node TEXT="Physical Data Model: Derived from a logical data model and represents a data degisn as implemented or intended to be implemented in a given database management system" ID="ID_1229685926" CREATED="1719471070302" MODIFIED="1719471120606"/>
+</node>
+<node TEXT="Other data organizing perspectives are in use in practice, but they can be derived from or associated with these commonly found modeling forms that many data architects understand and use" ID="ID_1159478748" CREATED="1719471121538" MODIFIED="1719471166405"/>
+</node>
+<node TEXT="Data Architecture Focus: Data Model Sepcification" ID="ID_1157073328" CREATED="1719471260634" MODIFIED="1719471270572">
+<node TEXT="Data Models implement information concepts in ways that differ based on data modeling principles" ID="ID_163773685" CREATED="1719471270576" MODIFIED="1719471298338"/>
+<node TEXT="Data Models should begin at a conceptual level, move to logical analysis and then to a physicla level to build actual data structures" ID="ID_833834434" CREATED="1719471299090" MODIFIED="1719471443225"/>
+<node TEXT="Conceptual and Logical Models should be business-driven and holistically defined to cover uses of that data across a business ecosystem" ID="ID_189327695" CREATED="1719471443677" MODIFIED="1719471471129"/>
+<node TEXT="Data architects should establish conceptual and logicla data models as input to software design efforts, providing a basis for physical data models built during development efforts" ID="ID_1449675849" CREATED="1719471471341" MODIFIED="1719471515233"/>
+<node TEXT="&quot;Just-in-time&quot; / bottom-up data modeling forgoes holistic design and results in suboptimal solutions that require refactoring or create buisness challenges" ID="ID_385253952" CREATED="1719471518127" MODIFIED="1719471552596"/>
+<node TEXT="Use and representation of these models vary based on the methods and tooling" ID="ID_216932332" CREATED="1719471552803" MODIFIED="1719471572623"/>
+</node>
+</node>
 <node TEXT="4. Identifying Usage Scenarios and Critical Success Factors" ID="ID_1543614758" CREATED="1719380703773" MODIFIED="1719380714505"/>
 </node>
 </node>

@@ -2,47 +2,43 @@
 
 title Handing Archi Model between "master" and user's "working" branches
 
-footer Version 9.0, 2024-07-01
+footer Version 7.0, 2024-06-02, add lifelines
 
 autonumber "<b>00."
 
 == Working on the User branch, publish work from user_local to user_remote ==
 activate User_Local
 User_Local -> User_Local: Working on self branch
-User_Local -> User_Remote: From Menu [Collaboration] choose [Publish Changes],\nif pop up, key in your Primary Password
+User_Local -> User_Remote: From Menu [Collaboration] choose [Publish Changes], if pop up, key in your Primary Password
 
 == Get latest work from Master branch, sync from master_remote to master_local ==
-User_Local -> Master_Local: Right Click "master" and Choose "Switch Branch" (or Double Click "master") in Archi Branch List, Switch to "Master_Local"
-note right
-    Choose from menu [Collaboration] then [Toggle Branches View]
-    to see the branch list
-end note
+User_Local -> Master_Local: Double Click "Master" in Archi Branch List, Switch to "Master_Local"
 deactivate User_Local
 activate Master_Local
 Master_Local -> Master_Local: Click Any Item in Model Tree Structure to Activate Master_Local Branch
 Master_Remote -> Master_Local: From Menu [Collaboration] choose [Refresh Model]
 
 == Merge latest work from Master branch to User branch, done from master_local to user_local ==
-Master_Local -> User_Local: Right Click User Working Branch (or Double Click User Working Branch) to Switch Back User_Local
-deactivate Master_Local
-activate User_Local
-Master_Local -> User_Local: If User Working Branch is Behind Master Branch, Right Click "master" and Choose "Merge Branch into Current Branch",\n in the pop-up dialog asking "Do you want ot perform a local or online merge?", choose "Local" Option,\nMerge "Master_Local" to your Working Branch
+Master_Local -> User_Local: Double Click User Working Branch to Switch Back User_Local
+Master_Local -> User_Local: If User Working Branch is Behind Master Branch, Right Click Master_Local and Choose Merge, with "Local" Option
 note right  #FF6666
     check your branch comparing with master branch
     - behind or ahead - from devops site
 end note
-User_Local -> User_Local: If Any Merge Conflict Happens, Troubleshoot Problems with Colleagues
+deactivate Master_Local
+activate User_Local
+User_Local -> User_Local: If Any Merge Conflict Happens, Troubleshooting Problems with Colleagues
 
-== Publish post-merged user_local branch to user_remote, ensure user_remote only have ahead to master_remote ==
+== Publish post-merged user_local to user_remote, ensure user_remote only have ahead to master_remote ==
 User_Local -> User_Remote: If Merge Success, Then From Menu [Collaboration] choose [Publish Changes]
 User_Local -> User_Local: Double Confirm There's 0 Behind to Master in DevOps Site
 
 == Merge from User branch back to Master branch, done from user_local to master_local ==
-User_Local -> Master_Local: If 0 Behind, Right Click "master" and Choose "Switch Branch" (or Double Click "Master")\nin Archi Branch List to Switch to "Master_Local"
+User_Local -> Master_Local: If 0 Behind, Double Click "Master" in Archi Branch List to Switch to "Master_Local"
 deactivate User_Local
 activate Master_Local
 Master_Local -> Master_Local: Click Any Item in Model Tree to Activate Master_Local Branch
-User_Local -> Master_Local: Right Click User Branch, Choose "Merge Branch into Current Branch",\nin the pop-up dialog asking "Do you want ot perform a local or online merge?", choose "Local" Option,\nMerge You Work to "Master_Local"
+User_Local -> Master_Local: Right Click User Branch, Choose Merge with "Local" Option, Merge You Work to "Master_Local"
 
 == Publish from master_local to master_remote, then switch back to user_local branch ==
 note across #FF6666
@@ -50,7 +46,7 @@ note across #FF6666
 end note
 Master_Local -> Master_Remote: From Menu [Collaboration] choose [Publish Changes]
 Master_Local -> Master_Local: Once Complete Publish, Confirm There's 0 Ahead to Master in DevOps Site
-Master_Local -> User_Local: Right Click User Working Branch (or Double Click User Working Branch) to Switch Back, DONE!
+Master_Local -> User_Local: Double Click User's Working Branch to Switch Back, DONE!
 deactivate Master_Local
 
 @enduml
