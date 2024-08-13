@@ -48,6 +48,8 @@ Application_Provider --> Group_Business_Role: Stakeholder
 Application_Provider --> Site: Usage_Location
 Application_Provider --> Static_Application_Provider_Architecture: Application_Dependencies
 
+Application_Provider -up-> Application_Family: Planview(Solution_Sub_Portfolio)
+
 Information_Domain --> Information_Concept: Contains
 Information_Concept --> Data_Subject: Supported_By
 Data_Subject --> Information_Concept: Supporting
