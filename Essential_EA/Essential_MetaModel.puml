@@ -1,5 +1,7 @@
 @startuml
 
+title Essential Reposition Meta-Model
+
 Customer_Journey --> Customer_Journey_Phase: Has
 Customer_Journey_Phase --> Value_Stage: Relates
 
@@ -58,12 +60,12 @@ Information_Representation --> Static_Application_Provider_Architecture: Used_By
 Information_Representation --> Information_Object: Implementing
 Information_Object <-- Data_Object: Supporting
 
-Data_Object --> Application_Provider: System_Of_Record
+Data_Object -up-> Application_Provider: System_Of_Record
 
 Project --> Program: Child_Of
 Program --> Project: Parent_Of
 
-Project --> Application_Provider: ChangesOn
+Project -right-> Application_Provider: ChangesOn
 
 ' Business Layer
 
@@ -77,7 +79,7 @@ Application_Provider: Delivery Model (PlanView)
 Application_Provider: Lifecycle Status (PlanView Outcome_Stage)
 Application_Provider: Usage Locations (Archi Modeling)
 Application_Provider: Reusable Justification
-Application_Provider: Supplier
+Application_Provider: Supplier (PlanView Software_Vendor)
 
 ' Information Layer
 
@@ -107,5 +109,6 @@ Supplier: Name
 Supplier: Description
 Supplier: Supplier URL
 
+footer Version 3, date 2024/08/12
 
 @enduml

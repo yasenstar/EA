@@ -82,46 +82,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="2024" OBJECT="java.lang.Long|2024" FOLDED="true" POSITION="bottom_or_right" ID="ID_1505802859" CREATED="1708973738373" MODIFIED="1708973741159">
-<node TEXT="2024/03 Successful Business Architecture" FOLDED="true" ID="ID_1829032143" CREATED="1714163695394" MODIFIED="1714163702585">
-<node TEXT="&quot;Nearly 65% of Corporate IT will be expected to do more with less budget this year&quot; -- Forbes, 2023" ID="ID_1251752185" CREATED="1714163704844" MODIFIED="1714164085257"/>
-<node TEXT="Commonalities across Industries" ID="ID_1338865849" CREATED="1714164206273" MODIFIED="1714164217236">
-<node TEXT="Pressure to demostrate the value delivered from technology investments" ID="ID_1967644332" CREATED="1714164217238" MODIFIED="1714164235608"/>
-<node TEXT="Increased enterprise focus on OKRs, yet challenging to align product development to business outcomes" ID="ID_1442809942" CREATED="1714164259425" MODIFIED="1714164286023"/>
-<node TEXT="Desire to empower teams to make better data-driven &amp; value-based decisions" ID="ID_1373887133" CREATED="1714164235793" MODIFIED="1714164259239"/>
-<node TEXT="Demostrating Business Value is both simple &amp; very complex, making it hard to know where and how to start" ID="ID_1873057913" CREATED="1714164288058" MODIFIED="1714164310317"/>
-</node>
-<node TEXT="What does success look like?" ID="ID_1250499157" CREATED="1714165802960" MODIFIED="1714165810589">
-<node TEXT="Understand and articulate your role" ID="ID_1285563869" CREATED="1714165810591" MODIFIED="1714165820356"/>
-<node TEXT="Ascertain what business partners want" ID="ID_1325082933" CREATED="1714165820963" MODIFIED="1714165836142"/>
-<node TEXT="Establish how to measure success, identifying the key to making the role successful" ID="ID_1694589668" CREATED="1714165836649" MODIFIED="1714165854641"/>
-<node TEXT="Develop and optimize models" ID="ID_1873610465" CREATED="1714165854832" MODIFIED="1714165860664"/>
-<node TEXT="Clarify strategies with clear metrics" ID="ID_891740616" CREATED="1714165866692" MODIFIED="1714165874593"/>
-<node TEXT="Drive alignment between technology and business to achieve business objectives and maximize IT investement values" ID="ID_1433289383" CREATED="1714165874790" MODIFIED="1714165903441"/>
-</node>
-<node TEXT="Lessons Learned" ID="ID_1922969297" CREATED="1714166032360" MODIFIED="1714166038980">
-<node TEXT="There is no single &quot;right&quot; way to do it" ID="ID_1756893803" CREATED="1714166038982" MODIFIED="1714166048028"/>
-<node TEXT="People are the most complicated part of the process" ID="ID_265929227" CREATED="1714166048242" MODIFIED="1714166056749"/>
-<node TEXT="Begin with a single product or a business area" ID="ID_623624888" CREATED="1714166056921" MODIFIED="1714166067585"/>
-<node TEXT="Begin mapping for one Objective and Key Result" ID="ID_470297280" CREATED="1714166067793" MODIFIED="1714166077068"/>
-<node TEXT="Iterate because there is no &quot;finished&quot; state, only baseline" ID="ID_1729959756" CREATED="1714166078203" MODIFIED="1714166093707"/>
-<node TEXT="Address Change Management" ID="ID_1966976607" CREATED="1714166094723" MODIFIED="1714166099505"/>
-<node TEXT="Understand your executives and there needs" ID="ID_454524673" CREATED="1714166099713" MODIFIED="1714166111819"/>
-<node TEXT="Information is power, so have your data ready" ID="ID_551642891" CREATED="1714166112332" MODIFIED="1714166120620"/>
-<node TEXT="Seek feedback" ID="ID_1689611265" CREATED="1714166120797" MODIFIED="1714166123237"/>
-<node TEXT="Engage a 3rd party" ID="ID_204902855" CREATED="1714166123406" MODIFIED="1714166130605"/>
-<node TEXT="Middle Management is key" ID="ID_1380158554" CREATED="1714166130948" MODIFIED="1714166135669"/>
-<node TEXT="Show WIIFM (value of business partners and executives)" ID="ID_1933645996" CREATED="1714166135948" MODIFIED="1714166147721"/>
-<node TEXT="Utilize your measurements" ID="ID_1157025578" CREATED="1714166148283" MODIFIED="1714166154017"/>
-</node>
-<node TEXT="Code: ODBA417" ID="ID_1843307365" CREATED="1714166707813" MODIFIED="1714166713949"/>
-</node>
-<node TEXT="2024/03 Business Requirements Harmonization Across Perspective: Bridging the Gap" FOLDED="true" ID="ID_1191583662" CREATED="1714167792779" MODIFIED="1714167821451">
-<node TEXT="ODBA320" ID="ID_765001381" CREATED="1714169550487" MODIFIED="1714169774257"/>
-</node>
-<node TEXT="2024/02 Organization Design and Business Architecture" FOLDED="true" ID="ID_175428015" CREATED="1714169881477" MODIFIED="1714169896062">
-<node TEXT="ODBA221" ID="ID_106111738" CREATED="1714169928315" MODIFIED="1714169933372"/>
-</node>
+<node TEXT="2024" OBJECT="java.lang.Long|2024" POSITION="bottom_or_right" ID="ID_1505802859" CREATED="1708973738373" MODIFIED="1708973741159">
+<node TEXT="2024Q1" FOLDED="true" ID="ID_1478158219" CREATED="1723439105759" MODIFIED="1723439115275">
 <node TEXT="2024/01 - Products, Product Entitlements &amp; Customer Service Optimization" FOLDED="true" POSITION="bottom_or_right" ID="ID_1525919945" CREATED="1708961080674" MODIFIED="1708993774215"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -470,9 +432,155 @@
 <node TEXT="Finally, scaling product line investments may require transforming budget and compensation models to enable cross-ecosystem investments" ID="ID_1724448013" CREATED="1708972069593" MODIFIED="1708972112332"/>
 </node>
 </node>
+<node TEXT="2024/02 Organization Design and Business Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_175428015" CREATED="1714169881477" MODIFIED="1714169896062">
+<node TEXT="ODBA221" ID="ID_106111738" CREATED="1714169928315" MODIFIED="1714169933372"/>
+</node>
+<node TEXT="2024/03 Business Requirements Harmonization Across Perspective: Bridging the Gap" FOLDED="true" POSITION="bottom_or_right" ID="ID_1191583662" CREATED="1714167792779" MODIFIED="1714167821451">
+<node TEXT="ODBA320" ID="ID_765001381" CREATED="1714169550487" MODIFIED="1714169774257"/>
+</node>
+<node TEXT="2024/03 Successful Business Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_1829032143" CREATED="1714163695394" MODIFIED="1714163702585">
+<node TEXT="&quot;Nearly 65% of Corporate IT will be expected to do more with less budget this year&quot; -- Forbes, 2023" ID="ID_1251752185" CREATED="1714163704844" MODIFIED="1714164085257"/>
+<node TEXT="Commonalities across Industries" ID="ID_1338865849" CREATED="1714164206273" MODIFIED="1714164217236">
+<node TEXT="Pressure to demostrate the value delivered from technology investments" ID="ID_1967644332" CREATED="1714164217238" MODIFIED="1714164235608"/>
+<node TEXT="Increased enterprise focus on OKRs, yet challenging to align product development to business outcomes" ID="ID_1442809942" CREATED="1714164259425" MODIFIED="1714164286023"/>
+<node TEXT="Desire to empower teams to make better data-driven &amp; value-based decisions" ID="ID_1373887133" CREATED="1714164235793" MODIFIED="1714164259239"/>
+<node TEXT="Demostrating Business Value is both simple &amp; very complex, making it hard to know where and how to start" ID="ID_1873057913" CREATED="1714164288058" MODIFIED="1714164310317"/>
+</node>
+<node TEXT="What does success look like?" ID="ID_1250499157" CREATED="1714165802960" MODIFIED="1714165810589">
+<node TEXT="Understand and articulate your role" ID="ID_1285563869" CREATED="1714165810591" MODIFIED="1714165820356"/>
+<node TEXT="Ascertain what business partners want" ID="ID_1325082933" CREATED="1714165820963" MODIFIED="1714165836142"/>
+<node TEXT="Establish how to measure success, identifying the key to making the role successful" ID="ID_1694589668" CREATED="1714165836649" MODIFIED="1714165854641"/>
+<node TEXT="Develop and optimize models" ID="ID_1873610465" CREATED="1714165854832" MODIFIED="1714165860664"/>
+<node TEXT="Clarify strategies with clear metrics" ID="ID_891740616" CREATED="1714165866692" MODIFIED="1714165874593"/>
+<node TEXT="Drive alignment between technology and business to achieve business objectives and maximize IT investement values" ID="ID_1433289383" CREATED="1714165874790" MODIFIED="1714165903441"/>
+</node>
+<node TEXT="Lessons Learned" ID="ID_1922969297" CREATED="1714166032360" MODIFIED="1714166038980">
+<node TEXT="There is no single &quot;right&quot; way to do it" ID="ID_1756893803" CREATED="1714166038982" MODIFIED="1714166048028"/>
+<node TEXT="People are the most complicated part of the process" ID="ID_265929227" CREATED="1714166048242" MODIFIED="1714166056749"/>
+<node TEXT="Begin with a single product or a business area" ID="ID_623624888" CREATED="1714166056921" MODIFIED="1714166067585"/>
+<node TEXT="Begin mapping for one Objective and Key Result" ID="ID_470297280" CREATED="1714166067793" MODIFIED="1714166077068"/>
+<node TEXT="Iterate because there is no &quot;finished&quot; state, only baseline" ID="ID_1729959756" CREATED="1714166078203" MODIFIED="1714166093707"/>
+<node TEXT="Address Change Management" ID="ID_1966976607" CREATED="1714166094723" MODIFIED="1714166099505"/>
+<node TEXT="Understand your executives and there needs" ID="ID_454524673" CREATED="1714166099713" MODIFIED="1714166111819"/>
+<node TEXT="Information is power, so have your data ready" ID="ID_551642891" CREATED="1714166112332" MODIFIED="1714166120620"/>
+<node TEXT="Seek feedback" ID="ID_1689611265" CREATED="1714166120797" MODIFIED="1714166123237"/>
+<node TEXT="Engage a 3rd party" ID="ID_204902855" CREATED="1714166123406" MODIFIED="1714166130605"/>
+<node TEXT="Middle Management is key" ID="ID_1380158554" CREATED="1714166130948" MODIFIED="1714166135669"/>
+<node TEXT="Show WIIFM (value of business partners and executives)" ID="ID_1933645996" CREATED="1714166135948" MODIFIED="1714166147721"/>
+<node TEXT="Utilize your measurements" ID="ID_1157025578" CREATED="1714166148283" MODIFIED="1714166154017"/>
+</node>
+<node TEXT="Code: ODBA417" ID="ID_1843307365" CREATED="1714166707813" MODIFIED="1714166713949"/>
+</node>
+</node>
+<node TEXT="2024Q2" FOLDED="true" ID="ID_1159762685" CREATED="1723439131725" MODIFIED="1723439133961">
+<node TEXT="2024/06/19 - Financial Services Reference Model &amp; Companion Guide Walkthrough" POSITION="bottom_or_right" ID="ID_985937531" CREATED="1720504028952" MODIFIED="1720504083044">
+<node TEXT="ODBA6619" ID="ID_1569991401" CREATED="1720504229539" MODIFIED="1720504439199"/>
+</node>
+</node>
+<node TEXT="2024Q3" ID="ID_343512175" CREATED="1723439138084" MODIFIED="1723439140548">
+<node TEXT="202407 - Stratege Execution Stage 3: Architecting and Designing the Future State" ID="ID_202489002" CREATED="1723439141337" MODIFIED="1723439211859">
+<node TEXT="1. Strategy Execution Framework Recap" FOLDED="true" ID="ID_1628624499" CREATED="1723439232500" MODIFIED="1723439449314">
+<node TEXT="Leveraging business architecture across the Strategy Execution Framework formalizes investment focal points often minimized or bypassed entirely -- 5 stages" ID="ID_1242105625" CREATED="1723439582280" MODIFIED="1723439636443">
+<node TEXT="1) Establish Business Strategy" ID="ID_716809426" CREATED="1723439625978" MODIFIED="1723439654265">
+<node TEXT="Define strategy with confidence based on full business ecosystem transparency" ID="ID_1395490565" CREATED="1723439729294" MODIFIED="1723439748139"/>
+</node>
+<node TEXT="2) Assess Business Impact" ID="ID_983780546" CREATED="1723439654610" MODIFIED="1723439665166">
+<node TEXT="Expose business and technology impacts, clarifying scope" ID="ID_597252296" CREATED="1723439749467" MODIFIED="1723439762565"/>
+</node>
+<node TEXT="3) Architect Business Solution" ID="ID_1805541474" CREATED="1723439665317" MODIFIED="1723439673284">
+<node TEXT="Formalize business and IT architectures and designs needed to achieve business strategy" ID="ID_1929448262" CREATED="1723439763823" MODIFIED="1723439790825"/>
+</node>
+<node TEXT="4) Establish Initiative Plans" ID="ID_1327500361" CREATED="1723439673506" MODIFIED="1723439680455">
+<node TEXT="Formalize rationalized streamlined business initiatives, funding and milstones" ID="ID_1408329880" CREATED="1723439797889" MODIFIED="1723439824499"/>
+</node>
+<node TEXT="5) Deploy Solution" ID="ID_1615422270" CREATED="1723439680621" MODIFIED="1723439686887">
+<node TEXT="Design and deliver robust, interoperable, and highly optimized business and software solutions" ID="ID_1068761337" CREATED="1723439847134" MODIFIED="1723439901841"/>
+</node>
+</node>
+<node TEXT="Strategy Execution Framework(TM) stage 3, Architect Business Solution, is the focus of today&apos;s webinar" ID="ID_1722257068" CREATED="1723439903611" MODIFIED="1723439945236"/>
+<node TEXT="The entire framework was covered in the Strategy Realization Method Overview webinar on 10/21/2020" ID="ID_1341740171" CREATED="1723439945627" MODIFIED="1723439973647"/>
+<node TEXT="Stage 1 was covered in the &quot;Strategy Mapping&quot; webinar on 10/16/2019" ID="ID_1341047244" CREATED="1723439976406" MODIFIED="1723439995069"/>
+<node TEXT="BIZBOK guide appendix B.1 provides step-by-step breakdown of the entire framework" ID="ID_1501975120" CREATED="1723439995697" MODIFIED="1723440023087"/>
+</node>
+<node TEXT="2. Architecting the Future State" FOLDED="true" ID="ID_812559215" CREATED="1723439449751" MODIFIED="1723439457923">
+<node TEXT="A well-defined future state is essential to successful strategy execution" FOLDED="true" ID="ID_512595875" CREATED="1723440162906" MODIFIED="1723440181282">
+<node TEXT="If you don&apos;t know where you&apos;re going, any road will take you there. This approach may work in Wonderland, but it does not lead to successful strategy execution" ID="ID_938590016" CREATED="1723440181286" MODIFIED="1723440237609"/>
+<node TEXT="Establishing business strategy (framework stage 1) drives the need for change" ID="ID_56402149" CREATED="1723440237772" MODIFIED="1723440260439"/>
+<node TEXT="Architecting the business (stage 3) defines the destination or future state that change seeks to achieve" ID="ID_1228213805" CREATED="1723440260603" MODIFIED="1723440293275"/>
+<node TEXT="Strategy execution stage 3 formalizes future state architecture and designs, before initiatives and budgets are locked in" ID="ID_592612956" CREATED="1723440293828" MODIFIED="1723440354849"/>
+<node TEXT="Future state architectures and designs are compared and contrasted with stage 2 impact assessment findings, serving as input to initiative planning, transformation roadmap creation and investment funding analysis" ID="ID_224161253" CREATED="1723440355013" MODIFIED="1723440406134"/>
+<node TEXT="The more transformational the strategy, the greater the divergence between the current and future state and the greater the need for absolute clarity of future state architecture and designs" ID="ID_51713279" CREATED="1723440406462" MODIFIED="1723440450693"/>
+</node>
+<node TEXT="Business Architecture&apos;s Role in end-to-end strategy execution" FOLDED="true" ID="ID_1891140748" CREATED="1723440478616" MODIFIED="1723440496927">
+<node TEXT="Business Architecture maintains formal representations of a business ecosystem that enables effective, end-to-end strategy execution" ID="ID_348931400" CREATED="1723440496930" MODIFIED="1723440528274"/>
+<node TEXT="Core domains: Capability, Value Stream, Information and Organization" ID="ID_1566785080" CREATED="1723440528654" MODIFIED="1723440552146"/>
+<node TEXT="Extended domains: Strategy, Policy, Stakeholder, Product, Initiative, Metrics" ID="ID_136443239" CREATED="1723440552955" MODIFIED="1723440583317"/>
+<node TEXT="Minimally viable baseline: Business ecosystem-wide capability map, information map and essential value streams" ID="ID_1745093965" CREATED="1723440583485" MODIFIED="1723440615224"/>
+<node TEXT="Stage 2 determines where you are / Stage 3 determines where you need to go" ID="ID_1667866657" CREATED="1723440615731" MODIFIED="1723440635398"/>
+</node>
+<node TEXT="Elegant Design Relies on Robust, Yet Highly Adaptable Architecture" FOLDED="true" ID="ID_1281863109" CREATED="1723440740119" MODIFIED="1723440760395">
+<node TEXT="Architecture vs Design: Borrowing perspective from an engineering and design company (YCSPL, https://ycspl.in)" ID="ID_1330888845" CREATED="1723440760400" MODIFIED="1723440872843">
+<node TEXT="Architecture deals with abstract elements like strategy, purpose and structures, curating schematic representations for construction of those structures" ID="ID_938937845" CREATED="1723440785646" MODIFIED="1723440848528"/>
+<node TEXT="Design inclines toward concrete implementation, where designers focus on enriching the overall experience of those structures, creating them to be more lively" ID="ID_1165096727" CREATED="1723440875777" MODIFIED="1723440912902"/>
+</node>
+<node TEXT="Architecture vs Design in Business &amp; IT business ecosystems: sample deliverables" POSITION="bottom_or_right" ID="ID_844708550" CREATED="1723440913065" MODIFIED="1723441067560">
+<node TEXT="Design is important, but in the absence of a viable, robust architecture aligned to business visions and business strategy, design work is akin to &quot;rearranging the deck chairs on the Titanic&quot;" ID="ID_1080704756" CREATED="1723441067563" MODIFIED="1723441121362"/>
+<node TEXT="The future state is not constrained, but generally incorporates business architecture evolutions, future state IT architectures and future state designs, all of which are align to a shared vision" ID="ID_953053317" CREATED="1723441121510" MODIFIED="1723441175662"/>
+<node TEXT="The following identify essential future state architectures and commonly referenced future state designs" ID="ID_156004450" CREATED="1723441183914" MODIFIED="1723441211302">
+<node TEXT="Future State Architecture" ID="ID_972541977" CREATED="1723441215282" MODIFIED="1723441357555">
+<node TEXT="Business Architecture" ID="ID_1946019825" CREATED="1723441364964" MODIFIED="1723441408186"/>
+<node TEXT="Data Architecture" ID="ID_1818477495" CREATED="1723441408526" MODIFIED="1723441413643"/>
+<node TEXT="Application Architecture" ID="ID_176056519" CREATED="1723441413807" MODIFIED="1723441419373"/>
+<node TEXT="Technical Architecture" ID="ID_1344628304" CREATED="1723441419537" MODIFIED="1723441427352"/>
+<node TEXT="Solution Architecture" ID="ID_1095798715" CREATED="1723441427515" MODIFIED="1723441432503"/>
+</node>
+<node TEXT="Future State Design" ID="ID_338236959" CREATED="1723441357737" MODIFIED="1723441363092">
+<node TEXT="Organization Design" ID="ID_543171121" CREATED="1723441433486" MODIFIED="1723441439817"/>
+<node TEXT="Product / Customer Service Design" ID="ID_407913068" CREATED="1723441439966" MODIFIED="1723441446569"/>
+<node TEXT="Work Management Design" ID="ID_1726675757" CREATED="1723441446721" MODIFIED="1723441452163"/>
+<node TEXT="User Centered Design" ID="ID_1232869696" CREATED="1723441452328" MODIFIED="1723441460157"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Architecting The Business: Commercial Insurance Company Scenario" ID="ID_13371097" CREATED="1723441490279" MODIFIED="1723441507512">
+<node TEXT="Architecting and Designing the future state discussion is based on a commercial insurance company seeking to shift from a product and business unit centric business model to a customer centric business model" ID="ID_612205562" CREATED="1723441507518" MODIFIED="1723441553235"/>
+<node TEXT="This business ecosystem-wide vision breaks down into a number of individual goals" ID="ID_1946502707" CREATED="1723441553397" MODIFIED="1723441571894">
+<node TEXT="Establish and maintain one view of the customer, regardless of business unit or product line involved" ID="ID_1369691399" CREATED="1723441571897" MODIFIED="1723441596391"/>
+<node TEXT="Ensure that the customer is associated with each agreement for each product and each business unit" ID="ID_1315339210" CREATED="1723441596552" MODIFIED="1723441617496"/>
+<node TEXT="Be able to access every decision, inquiry, payment, product or other data uniquely linked to each agreement" ID="ID_1969003850" CREATED="1723441618091" MODIFIED="1723441661999"/>
+<node TEXT="Be able to access this same information when it is linked to the customer in general" ID="ID_251599315" CREATED="1723441662164" MODIFIED="1723441678519"/>
+</node>
+<node TEXT="Ths insurance company has additional goals that include" ID="ID_497969853" CREATED="1723441701092" MODIFIED="1723441715008">
+<node TEXT="Automate wherever possible, with AI incrementally taking over more and more stakeholder work" ID="ID_225172133" CREATED="1723441715010" MODIFIED="1723441738561"/>
+<node TEXT="Do not constrain human or AI-based stakeholders from taking real time actions based on their skill levels" ID="ID_449915826" CREATED="1723441738740" MODIFIED="1723441773014"/>
+<node TEXT="Where possible, realign business units to future optimize ongoing work environments" ID="ID_223690313" CREATED="1723441773899" MODIFIED="1723441798651"/>
+<node TEXT="Streamline products and customer services to optimize automation of those services" ID="ID_1460504206" CREATED="1723441798861" MODIFIED="1723441818680"/>
+</node>
+</node>
+<node TEXT="Architecture the Future State focus on business &amp; IT architecture" ID="ID_551445066" CREATED="1723442045395" MODIFIED="1723442066721">
+<node TEXT="Business Architecture is the lens through which to frame and visualize future state architectures and designs" ID="ID_259206132" CREATED="1723442066726" MODIFIED="1723442094051">
+<node TEXT="Business Architecture already represents a fully rationalized, streamlined view of a customer centric business model" ID="ID_1587541187" CREATED="1723442094054" MODIFIED="1723442120798"/>
+<node TEXT="Business Architecture plays a key role in envisioning future state IT architecture" ID="ID_1563696234" CREATED="1723442120931" MODIFIED="1723442139653"/>
+</node>
+<node TEXT="Business Architecture focal points extend to business architecture domains on the whole but focus heavily on the information concepts and capabilities" ID="ID_169494559" CREATED="1723442141706" MODIFIED="1723442185149"/>
+<node TEXT="The impact assessment performed in strategy execution stage 2 determined that the current state IT architecture was in direct conflict with the insurance company&apos;s business goals" ID="ID_1851445947" CREATED="1723442185791" MODIFIED="1723442234485"/>
+<node TEXT="When current state architectures are lined up against the future state, the scope of transformation starts to emerge" ID="ID_1824191157" CREATED="1723443110660" MODIFIED="1723443138393"/>
+</node>
+<node TEXT="Data Architecture: IT Architecture&apos;s future state baseline" ID="ID_1701267802" CREATED="1723443321671" MODIFIED="1723443335167">
+<node TEXT="Information map reflects how information concepts must be defined in future state data models" ID="ID_1926059008" CREATED="1723443335170" MODIFIED="1723443354670"/>
+<node TEXT="Shifting from product/business unit centric to a customer centric business model shifts the binding object to focus on Agreement, one-to-many of which are linked to a single view of the customer" ID="ID_1331309380" CREATED="1723443354816" MODIFIED="1723443398891"/>
+</node>
+</node>
+<node TEXT="3. Designing the Future State" ID="ID_1280176549" CREATED="1723439458102" MODIFIED="1723439463280"/>
+<node TEXT="4. Summarizing Business Architecture&apos;s role in Architecting the Future State" ID="ID_518512862" CREATED="1723439463487" MODIFIED="1723439494329"/>
+<node TEXT="5. Architecting Business Solutions Summary" ID="ID_1990168507" CREATED="1723439495782" MODIFIED="1723439507877"/>
+<node TEXT="ODBA7170" ID="ID_1579907290" CREATED="1723469595023" MODIFIED="1723469632721"/>
+</node>
+</node>
 </node>
 <node TEXT="2023" OBJECT="java.lang.Long|2023" FOLDED="true" POSITION="bottom_or_right" ID="ID_1961048300" CREATED="1709001988662" MODIFIED="1709001990587">
-<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709050604243"><richcontent TYPE="NOTE">
+<node TEXT="2023/12/20 - BA Guild Metamodel / Business Architecture Core Metamodel (BACM) v1.0 Alignment - Part 3" FOLDED="true" ID="ID_1977404913" CREATED="1709001990588" MODIFIED="1709050604243"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1081,9 +1189,267 @@
 <node TEXT="Investments in capabilities, information, products and stakeholders should begin with the value stream" ID="ID_1200664350" CREATED="1714677423776" MODIFIED="1714677440981"/>
 </node>
 </node>
-<node TEXT="2023/08/16 - Business-Driven Software Service Design" ID="ID_604909726" CREATED="1714683382045" MODIFIED="1714683394447"/>
+<node TEXT="2023/07/29 - BIZBOK Guide v12 update" ID="ID_735683379" CREATED="1720580963689" MODIFIED="1720580975354"/>
+<node TEXT="2023/01/16 - Business-Driven Software Service Design" FOLDED="true" ID="ID_604909726" CREATED="1714683382045" MODIFIED="1720504971862">
+<node TEXT="1. Promise of Service-Oriented Architecture" ID="ID_986635676" CREATED="1720504928263" MODIFIED="1720505133654">
+<node TEXT="Software Service: self-contained unit of software that performs specific task with 3 components" ID="ID_1282555007" CREATED="1720512724954" MODIFIED="1720512747963">
+<node TEXT="an interface" ID="ID_670694763" CREATED="1720512747974" MODIFIED="1720512752490"/>
+<node TEXT="a contract" ID="ID_1372345736" CREATED="1720512752648" MODIFIED="1720512755020"/>
+<node TEXT="an implementation" ID="ID_1466010092" CREATED="1720512755260" MODIFIED="1720512759504"/>
 </node>
-<node TEXT="2021" OBJECT="java.lang.Long|2021" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
+<node TEXT="Software services are deployed within the context of SOA" ID="ID_622362754" CREATED="1720512760802" MODIFIED="1720512773305"/>
+<node TEXT="SOA has historically promised a reduction in integration expenses, increased asset reuse, increased business agility and lowered business risks" ID="ID_1831024551" CREATED="1720512775372" MODIFIED="1720512809335"/>
+<node TEXT="Coarse-grained software services include more functionality than fine-grained services" ID="ID_1016075210" CREATED="1720512809705" MODIFIED="1720512829344"/>
+<node TEXT="Software Services can be combined with other services through orchestration to create composite services and applications" ID="ID_575693108" CREATED="1720512829928" MODIFIED="1720512913880"/>
+<node TEXT="Recent evolution of SOA introduced the concept of microservices where once can consider differences as" ID="ID_1788913194" CREATED="1720512914090" MODIFIED="1720512932152">
+<node TEXT="SOA has an enterprise scope, while a microservice architecture has an application scope" ID="ID_1611629010" CREATED="1720512932157" MODIFIED="1720512951436"/>
+<node TEXT="If you accept the difference in scope, you may quickly realize that the two can potentially complement each other, rath than compete" ID="ID_315233024" CREATED="1720512951785" MODIFIED="1720512982069"/>
+</node>
+</node>
+<node TEXT="2. Challenges in Software Service Design: Siloed Planning, Siloed Execution" ID="ID_1845982099" CREATED="1720505134021" MODIFIED="1720513982548" LINK="https://www.dre.vanderbilt.edu/~schmidt/reuse-lessons.html">
+<node TEXT="According to &quot;Why Software Reuse has Failed..." FOLDED="true" ID="ID_257546810" CREATED="1720513283974" MODIFIED="1720513298965">
+<node ID="ID_1590047829" CREATED="1720513298969" MODIFIED="1720513382078"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot;Although computing power and network bandwidth have increased dramatically in recent years, the design and implementation of networked applications remains expensive and error-prone. Much of the cost and effort stems form the <span style="text-decoration: underline;">continual re-discovery and re-invention of core patterns and framework components</span>&#xa0;&#xa0;throughout the software industry.&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="In &quot;Why Software Reuse has Failed...&quot;, Schmidt cited organizational, economic, administrative political and psychological impediments as undermining software reusability" ID="ID_1748715446" CREATED="1720513461647" MODIFIED="1720513506121"/>
+<node TEXT="Schmidt summarized current challenges when he said:" ID="ID_1338188887" CREATED="1720513549774" MODIFIED="1720513566641">
+<node TEXT="Many developers have successfully applied reuse opportunistically...&quot; and that &quot;Opportunistic reuse works fine in a limited way for individual programmers or small groups." ID="ID_1158123098" CREATED="1720513566645" MODIFIED="1720513629668"/>
+<node ID="ID_243594429" CREATED="1720513631601" MODIFIED="1720513668852"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      However, it <span style="text-decoration: underline;">doesn't scale up across business units or enterprises to provide systematic software seuse.&quot;</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Software solution scalability remains a major challenge, which translates into expensive, error-prone applications" ID="ID_1061529275" CREATED="1720513750782" MODIFIED="1720513791340"/>
+<node TEXT="The inability to scale software solutions stems form a major strategy execution challenge: siloed business ecosystems" ID="ID_1665948866" CREATED="1720513791712" MODIFIED="1720513824073">
+<node TEXT="Business and technology teams work in isolated units, with little insight into cross-business perspectives, requirements and taxonomies" ID="ID_1591025109" CREATED="1720513824077" MODIFIED="1720513853724"/>
+<node TEXT="Siloed perspectives extend to business professionals, business analysts, software designers and software developers, resulting in siloed business requirements and software solutions that suffer from poor scalability and limited interoperability, in turn driving up costs, errors and risks" ID="ID_1954656699" CREATED="1720513853891" MODIFIED="1720513924239"/>
+</node>
+</node>
+<node TEXT="3. Role of Business Architecture in Delivering Shared Business Ecosystem Perspective" ID="ID_1575563108" CREATED="1720505150516" MODIFIED="1720505178658">
+<node TEXT="Siloed Business Ecosystems Lead to Requirements, Data &amp; Software Solution Discontinuity" POSITION="bottom_or_right" ID="ID_1774599685" CREATED="1720514221755" MODIFIED="1720514248951">
+<node ID="ID_1311707311" CREATED="1720514254133" MODIFIED="1720514292616"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A business analyst at one organization insisted that &quot;everyone knows what people mean when they use the term <span style="text-decoration: underline;">account</span>&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="When business professionals across departments were asked to define &quot;account&quot;, the variations were striking" ID="ID_696419070" CREATED="1720514301012" MODIFIED="1720514323551"/>
+<node TEXT="An account was either a customer, agreement with a customer, identifier used to identify a customer or financial concept used to track monetary balances" ID="ID_1437146436" CREATED="1720514323700" MODIFIED="1720514364696"/>
+<node TEXT="Multiple projects failed to get off the ground, while others fell far short of delivering on their commitments" ID="ID_37863713" CREATED="1720514364844" MODIFIED="1720514387394"/>
+</node>
+<node TEXT="Siloed, incongruous business perspectives trigger poorly aligned, poorly defined business requirements, data and software solutions" POSITION="bottom_or_right" ID="ID_1374075197" CREATED="1720514729872" MODIFIED="1720514761570"/>
+<node TEXT="Siloed data and software solutions force the business community to create more manual workarounds and spreadsheets, driving up costs, errors and risks, and ultimately undermining the customer experience" POSITION="bottom_or_right" ID="ID_225404633" CREATED="1720514762496" MODIFIED="1720514811154"/>
+<node TEXT="Business Architecture delivers a shared ecosystem perspective to drive data &amp; software design" POSITION="bottom_or_right" ID="ID_1525883732" CREATED="1720514936559" MODIFIED="1720514962071">
+<node TEXT="Business Architecture establishes rationalized, holistic vocabulary and value delivery perspectives across a business ecosystem by leveraging a rigorous, principled approach to capability, information and value mapping" ID="ID_633092889" CREATED="1720514962076" MODIFIED="1720515151947"/>
+<node TEXT="To maximize the value of this shared ecosystem perspective, business architecture must be leveraged from strategy formulation (stage 1) through solution deployment (stage5)" ID="ID_363984313" CREATED="1720515152114" MODIFIED="1720515194127"/>
+<node TEXT="Historically, however, the full integration of business architecture into analysis, design and solution deployment in stage 5 has been lacking" ID="ID_1533770068" CREATED="1720515194307" MODIFIED="1720515232064"/>
+<node TEXT="5 stages of Strategy Execution Framework" ID="ID_1118508288" CREATED="1720515232838" MODIFIED="1720515252118">
+<node TEXT="1. Establish Business Strategy: Define strategy with confidence based on full business transparency" ID="ID_1452441763" CREATED="1720515252124" MODIFIED="1720515506677"/>
+<node TEXT="2. Asses Business Impact: Expose business and technology impacts, clarifying scope of change at the onset" ID="ID_823006258" CREATED="1720515261413" MODIFIED="1720515527031"/>
+<node TEXT="3. Architect Business Solution: Ensure that business and technology designs are optimized to deliver enterprise value" ID="ID_1324088476" CREATED="1720515346822" MODIFIED="1720515546599"/>
+<node TEXT="4. Establish Initiative Plans: Define coordinated, aligned programs and projects, streamlined investments, and delivery timelines" ID="ID_1529000642" CREATED="1720515359158" MODIFIED="1720515573433"/>
+<node TEXT="5. Deploy Solution: Enable analysts, solution architects, and software designers to dleliver reusable, interoperable, highly optimized technology solutions" ID="ID_1258395933" CREATED="1720515366591" MODIFIED="1720515605344"/>
+</node>
+</node>
+<node TEXT="role of business objects, capabilities &amp; information concepts in data architecture &amp; software design" POSITION="bottom_or_right" ID="ID_1982783662" CREATED="1720515943755" MODIFIED="1720516184228">
+<hook URI="../../../../C:/Users/v0cn037/Pictures/202407/bo-cap-ic.jpg" SIZE="0.6122449" NAME="ExternalObject"/>
+<node TEXT="Business Objects from the foundation for capabilities, information concepts and corresponding definitions, with capabilities additionally defining the actions that may be applied to a given business object" ID="ID_1763093104" CREATED="1720515964751" MODIFIED="1720516018294"/>
+<node TEXT="Business Objects represent the real world &quot;things&quot; being modeled; info concepts represent info perspectives on those &quot;things&quot;, which include object types, states, definitions and relationships" ID="ID_382547163" CREATED="1720516019179" MODIFIED="1720516070456"/>
+<node TEXT="Capabilities serve as the basis for framing software service designs" ID="ID_917138886" CREATED="1720516070627" MODIFIED="1720516093390"/>
+<node TEXT="Info concepts serve as the basis for defining data entities" ID="ID_698325101" CREATED="1720516093556" MODIFIED="1720516107142"/>
+</node>
+</node>
+<node TEXT="4. Business-Driven Data Architecture: Why it matters to Software Service Design" ID="ID_720944974" CREATED="1720505179468" MODIFIED="1720505193845">
+<node TEXT="Diagram depicts:" ID="ID_167557479" CREATED="1720516191593" MODIFIED="1720516281856">
+<hook URI="../../../../C:/Users/v0cn037/Pictures/202407/IC-relationships.jpg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Information Concept with relationships to other Information Concepts" ID="ID_1026806756" CREATED="1720516197655" MODIFIED="1720516214830"/>
+<node TEXT="Capability uses and modifies Information Concept" ID="ID_663283114" CREATED="1720516215043" MODIFIED="1720516226333"/>
+<node TEXT="Data entity realizing Information Concept, with relationship to other data entities" ID="ID_1777383628" CREATED="1720516226919" MODIFIED="1720516250628"/>
+</node>
+<node TEXT="Info Concepts provide the basis for data entity and related logical data element definition in data architecture" ID="ID_1479148751" CREATED="1720516367605" MODIFIED="1720516401783"/>
+<node TEXT="This matters because:" ID="ID_1037436716" CREATED="1720516402339" MODIFIED="1720516407786">
+<node TEXT="Software services require and modify data" ID="ID_534488744" CREATED="1720516407788" MODIFIED="1720516416263"/>
+<node TEXT="Software service-to-data relationships are derivable from capability-to-information concept relationships" ID="ID_986933299" CREATED="1720516416412" MODIFIED="1720516441212"/>
+</node>
+<node TEXT="Data architectures should leverage business architecture to ensure continuity across business-driven software service design and thereby increasing overall interoperability" ID="ID_999277468" CREATED="1720516468876" MODIFIED="1720516511087"/>
+<node TEXT="Data Entity, Data Attribute Derivation from Information Concepts &amp; Capabilities" ID="ID_1462787120" CREATED="1720516635597" MODIFIED="1720516654610">
+<node TEXT="Data Entities are derived from primary and secondary information concepts" ID="ID_1172414708" CREATED="1720516654614" MODIFIED="1720516672383"/>
+<node TEXT="Data relationships are derived from information concept relationships, including primary and secondary concepts" ID="ID_1070513975" CREATED="1720516672572" MODIFIED="1720516698287"/>
+<node TEXT="Data attributes for each data entity are derivable in part from capabilities" ID="ID_301913964" CREATED="1720516698461" MODIFIED="1720516722703"/>
+</node>
+</node>
+<node TEXT="5. Business-Driven Software Service Design" ID="ID_524874191" CREATED="1720505194056" MODIFIED="1720505205102">
+<node TEXT="Capabilities &amp; Software Services Share Common Principles" ID="ID_1709666150" CREATED="1720576058858" MODIFIED="1720576075210">
+<node TEXT="Reusable" ID="ID_1279935637" CREATED="1720576075218" MODIFIED="1720576079352">
+<node TEXT="Capabilities are non-redundant, non-overlapping business representations and are reused across business units, to consistently enable value streams and to deliver product entitlements (customer targeted services)" ID="ID_1451957325" CREATED="1720576095509" MODIFIED="1720576137975"/>
+</node>
+<node TEXT="Stateless" ID="ID_924664065" CREATED="1720576079523" MODIFIED="1720576081509">
+<node TEXT="Business objects, upon which capabilities are based, are stateless and, therefore, allow for an object to be established at the point it isconceivedin statelessform" ID="ID_1279840475" CREATED="1720576139580" MODIFIED="1720576181722"/>
+<node TEXT="e.g. An Agreement is established in a value stream prior to its actual state changing from &quot;pending&quot; to &quot;executed&quot;" ID="ID_1856505611" CREATED="1720576590723" MODIFIED="1720576617830"/>
+</node>
+<node TEXT="Defined Outcome" ID="ID_1548942032" CREATED="1720576081692" MODIFIED="1720576084719">
+<node TEXT="Capabilities have clearly defined information inputs and outcomes, where outcomes may involve: facility access, conveyor movement, material consumption, agreement termination and other outcomes" ID="ID_971779214" CREATED="1720576764643" MODIFIED="1720576844951"/>
+</node>
+<node TEXT="Autonomous" ID="ID_500316942" CREATED="1720576084874" MODIFIED="1720576087718">
+<node TEXT="Capabilities act independently from other capabilities, with no interdependencies; meaning they can be mixed and matached in an endless number of combinations based on a value delivery context and business scenario" ID="ID_1461155452" CREATED="1720576846580" MODIFIED="1720577121628"/>
+</node>
+<node TEXT="Discoverable" ID="ID_614212670" CREATED="1720576087896" MODIFIED="1720576090370">
+<node TEXT="Capabilities are defined once for an ecosystem and are widely available for planning through deployment to any practitioners who require it" ID="ID_40580379" CREATED="1720577122665" MODIFIED="1720577228301"/>
+</node>
+<node TEXT="Composable" ID="ID_1955092855" CREATED="1720576090536" MODIFIED="1720576093730">
+<node TEXT="A set of capabilities may be composed to deliver value in a value stream, enable products to work effectively, or enable other business scenarios" ID="ID_623699493" CREATED="1720577229178" MODIFIED="1720577261115"/>
+</node>
+</node>
+<node TEXT="Breaking down the role of capabilities in software service design" ID="ID_973026889" CREATED="1720577334761" MODIFIED="1720577393099">
+<node TEXT="Software services are comprised of the following" ID="ID_770232647" CREATED="1720577393106" MODIFIED="1720577403337">
+<node TEXT="Logical view: Classes and packages and relationships" ID="ID_1762540151" CREATED="1720577403341" MODIFIED="1720577418138">
+<node TEXT="Logical view is main focal point for leveraging capabilities in software service design" ID="ID_979133640" CREATED="1720577418143" MODIFIED="1720577441308"/>
+</node>
+<node TEXT="Implementation view: Software modules and corresponding executables" ID="ID_1688184597" CREATED="1720577442089" MODIFIED="1720577462603"/>
+<node TEXT="Process view: runtime and communication view" ID="ID_697703200" CREATED="1720577462985" MODIFIED="1720577471563"/>
+<node TEXT="Deployment view: Machine and networking view" ID="ID_1281652324" CREATED="1720577471737" MODIFIED="1720577481019"/>
+</node>
+<node TEXT="Where the logical view is decomposed into" ID="ID_1267016544" CREATED="1720577481962" MODIFIED="1720578127175"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Source: Microservice Patterns, Ch2, Chris Richardson, Manning, 2019
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Presentation layer: User interface and API logic" ID="ID_287285126" CREATED="1720577499201" MODIFIED="1720577518874">
+<node TEXT="e.g. Submission Management: Ability to facilitate, capture, interpret, acknowledge, validate, route, and track inbound requests, communictaions, and other content" ID="ID_126313127" CREATED="1720577518878" MODIFIED="1720577554509"/>
+</node>
+<node TEXT="Business layer: Containing business logic" ID="ID_329610504" CREATED="1720577555740" MODIFIED="1720577565067">
+<node TEXT="e.g. Order Placement: Ability to place or enter an order for the exchange or trade of goods or services in the appropriate market(s)" ID="ID_309644297" CREATED="1720577565071" MODIFIED="1720577592927"/>
+</node>
+<node TEXT="Persistence layer: Database access logic" ID="ID_1060155624" CREATED="1720578005712" MODIFIED="1720578019263">
+<node TEXT="e.g. Information Persistence: Ability to store and control information so that it may be found and retrieved as required" ID="ID_1168326214" CREATED="1720578019266" MODIFIED="1720578043250"/>
+</node>
+</node>
+<node TEXT="Business architects should ensure that a capability map is comprehensive enough to cover all aspects of what a business does, including interface, business logic and information management" ID="ID_336763515" CREATED="1720578044847" MODIFIED="1720578096243"/>
+</node>
+<node TEXT="Role of Capability Instance &amp; Behavior in Software Service Design" ID="ID_1841554945" CREATED="1720578241441" MODIFIED="1720578288620">
+<hook URI="../../../../C:/Users/v0cn037/Pictures/202407/capability-swservicedesign.jpg" SIZE="0.9708738" NAME="ExternalObject"/>
+<node TEXT="Software service, which is derived from a capability, automates actions defined by that capability and scoped by the corresponding business object" ID="ID_1303618366" CREATED="1720578290592" MODIFIED="1720578320546"/>
+<node TEXT="Software service design is influenced by the behavior of capability instances" ID="ID_89413388" CREATED="1720578322992" MODIFIED="1720578340499"/>
+<node TEXT="Capability behavior and the information a capability leverages provide greater insights into software service design" ID="ID_162122029" CREATED="1720578342144" MODIFIED="1720578370130"/>
+<node TEXT="Capabilities can have varying behavior across instances" ID="ID_89456029" CREATED="1720578914677" MODIFIED="1720578933240"/>
+<node TEXT="Behaviors do not change outcomes, only the means by which the outcome is achieved" ID="ID_241949434" CREATED="1720578933589" MODIFIED="1720578959655"/>
+<node TEXT="By example, 2 instances of same capability (Student Preference Determination) may have behave implicitly (via pattern analysis) in one instance and explicitly (by Agreement) in another instance" ID="ID_51769275" CREATED="1720579020581" MODIFIED="1720579131750">
+<hook URI="../../../../C:/Users/v0cn037/Pictures/202407/swservice-sample.jpg" SIZE="0.6810443" NAME="ExternalObject"/>
+<node TEXT="In 1st case, administration seeks to establish future demand for certain courses" ID="ID_1422010285" CREATED="1720579131758" MODIFIED="1720579150583"/>
+<node TEXT="in 2nd case, student explicitly states in agreement preferences how they wish to receive notifications" ID="ID_771066646" CREATED="1720579150757" MODIFIED="1720579172968"/>
+</node>
+</node>
+<node TEXT="Software Service derivation from Capabilties" ID="ID_729624763" CREATED="1720578479601" MODIFIED="1720578499934">
+<hook URI="../../../../C:/Users/v0cn037/Pictures/202407/swservice-from-capability.jpg" SIZE="0.5221932" NAME="ExternalObject"/>
+<node TEXT="Capability business object and action define boundary scope of the software service" ID="ID_811886570" CREATED="1720578502607" MODIFIED="1720578521748"/>
+<node TEXT="Capability action defines the action the software service performs leveraging that data" ID="ID_41711382" CREATED="1720578521904" MODIFIED="1720578550933"/>
+<node TEXT="Capability outcome defines what the software service should produce by contract" ID="ID_1508281754" CREATED="1720578551538" MODIFIED="1720578569045"/>
+</node>
+<node TEXT="Software Service derivation from Capabilities as various leverls of abstration" ID="ID_505306643" CREATED="1720578634404" MODIFIED="1720578879418">
+<hook URI="../../../../C:/Users/v0cn037/Pictures/202407/swservice-from-capability-levels.jpg" SIZE="0.49342105" NAME="ExternalObject"/>
+<node TEXT="Parent Capabilities help frame course-grained services, while lower level capabilities help frame fine-grained services, - consider:" ID="ID_176835828" CREATED="1720578691443" MODIFIED="1720578732275">
+<node TEXT="Agreement Management capability could be sourced for deriving and creating a course-grained service" ID="ID_851893257" CREATED="1720578732280" MODIFIED="1720578753445"/>
+<node TEXT="Agreement Access Management, which is security related, provides a more fine grained perspective on the actions taken, where this capability would typically be decomposed into more detail" ID="ID_734530475" CREATED="1720578753780" MODIFIED="1720578794552"/>
+</node>
+</node>
+</node>
+<node TEXT="6. Connecting the Pieces" ID="ID_1088399347" CREATED="1720505205270" MODIFIED="1720505212453">
+<node TEXT="Capability, Information, Software Services &amp; Data" ID="ID_1033004981" CREATED="1720579229237" MODIFIED="1720579246999">
+<hook URI="../../../../C:/Users/v0cn037/Pictures/202407/connectingpieces.jpg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Data implements information concepts" ID="ID_757639409" CREATED="1720579249765" MODIFIED="1720579259625"/>
+<node TEXT="Software services automate caapbilities and require and update data" ID="ID_1408107750" CREATED="1720579260550" MODIFIED="1720579283528"/>
+<node TEXT="Data&apos;s relationship to a software service mirrors an information concepts&apos;s relationship to a capability" ID="ID_962048508" CREATED="1720579284070" MODIFIED="1720579308840"/>
+</node>
+</node>
+<node TEXT="7. Zooming Out: A Planning Perspective" ID="ID_95241406" CREATED="1720505212626" MODIFIED="1720579674855">
+<hook URI="../../../../C:/Users/v0cn037/Pictures/202407/planning.jpg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Strategic objectives target stakeholder value delivery via value streams, enabling capabilities and information required by those capabilities" ID="ID_375392035" CREATED="1720579384997" MODIFIED="1720579416025"/>
+<node TEXT="Impacted value streams and related stakeholders become the focus of initiative investments and context for deploying software services" ID="ID_366343747" CREATED="1720579416182" MODIFIED="1720579446025"/>
+<node TEXT="Value-enabling capabilities, targeted by business objectives, point to corresponding software services that automate those capabilities" ID="ID_1471517657" CREATED="1720579446197" MODIFIED="1720579473129"/>
+<node TEXT="Investments in new or existing software services improve behaviors associated with those capabilities" ID="ID_312604729" CREATED="1720579473269" MODIFIED="1720579520857"/>
+<node TEXT="Information concepts, required by capabilities, frame data model requirements and specifications" ID="ID_951788886" CREATED="1720579521013" MODIFIED="1720579539849"/>
+</node>
+<node TEXT="8. Summary" FOLDED="true" ID="ID_142652700" CREATED="1720579691479" MODIFIED="1720579694437">
+<node TEXT="Historical efforts to define software services have often been siloed and, along with siloed data, have resulted in software scalability and interoperability challenges" ID="ID_804751896" CREATED="1720579694441" MODIFIED="1720579747545"/>
+<node TEXT="The inability to scale software solutions beyond a given business unit has undermined the promise of service-oriented architecture" ID="ID_1639981563" CREATED="1720579747684" MODIFIED="1720579774571"/>
+<node TEXT="Business architecture provides the business ecosystem-wide perspective required to ensure that data artchitecture and related software solutions scale and interoperate" ID="ID_1480438489" CREATED="1720579774741" MODIFIED="1720579809929"/>
+<node TEXT="Capabilities, coupled with the information they use and behaviors across instances, provide insights into software service design and data requirements" ID="ID_348968670" CREATED="1720579810086" MODIFIED="1720580277114"/>
+<node TEXT="Business architecture provides an essential perspective for data and solution architects and software service designers and developers seeking to reverse historic scalability and interoperability issues in software systems" ID="ID_719109569" CREATED="1720580277302" MODIFIED="1720580355353"/>
+</node>
+<node TEXT="Quiz" ID="ID_1659027615" CREATED="1720580671368" MODIFIED="1720580674777">
+<node TEXT="Which of the following establishes a clear boundary for a software service?" ID="ID_990539194" CREATED="1720580674781" MODIFIED="1720580699095">
+<node TEXT="Business Process" ID="ID_809924130" CREATED="1720580699099" MODIFIED="1720580722442">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="Value Stream" ID="ID_1525513878" CREATED="1720580703736" MODIFIED="1720580722443">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="Capability" ID="ID_463175371" CREATED="1720580705912" MODIFIED="1720580715088">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node TEXT="Which of the following business architecture domain relationshipes is used to inform software service data requirements?" ID="ID_1219870237" CREATED="1720580724728" MODIFIED="1720580749784">
+<node TEXT="Value Stream-to-Capability" ID="ID_285550269" CREATED="1720580749788" MODIFIED="1720580783764">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="Capability-to-Business Unit" ID="ID_1393613723" CREATED="1720580760344" MODIFIED="1720580783765">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="Capability-to-Information Concept" ID="ID_871749131" CREATED="1720580765976" MODIFIED="1720580778334">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node TEXT="Which of the following provides insights into the formation of software services at varying levels of abstraction?" ID="ID_1902552606" CREATED="1720580787096" MODIFIED="1720580810105">
+<node TEXT="Capability Decomposition" ID="ID_774618384" CREATED="1720580810110" MODIFIED="1720580833421">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="Business Object Mapping" ID="ID_712845042" CREATED="1720580815257" MODIFIED="1720580828731">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="Information Typing" ID="ID_272158027" CREATED="1720580819849" MODIFIED="1720580828730">
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="2021" OBJECT="java.lang.Long|2021" FOLDED="true" POSITION="bottom_or_right" ID="ID_999881548" CREATED="1708993734404" MODIFIED="1708993736151">
 <node TEXT="2021/05/19 - Beyond Initiative Mapping (9 questions to answer using Business Architecture)" FOLDED="true" ID="ID_1867278113" CREATED="1708993736155" MODIFIED="1708994319007"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -1348,7 +1714,7 @@
 <node TEXT="Vocabulary matters and it is the responsibility of business professionals to address data incongruity at its source - within the business!" ID="ID_82371555" CREATED="1719391479034" MODIFIED="1719391523051"/>
 </node>
 </node>
-<node TEXT="2. Articulating Information Perspectives in Business Architecture" FOLDED="true" ID="ID_1202824405" CREATED="1719380663274" MODIFIED="1719380738394">
+<node TEXT="2. Articulating Information Perspectives in Business Architecture" ID="ID_1202824405" CREATED="1719380663274" MODIFIED="1719380738394">
 <node TEXT="Some Basic Definitions" FOLDED="true" ID="ID_970828243" CREATED="1719391670652" MODIFIED="1719391676967">
 <node TEXT="Information: A ubiquitous concept that includes human knowledge, sense of mission, and learned behaviors, in addition to more traditional perspectives on information. (BizBok section 2.5, v10.0)" ID="ID_648737219" CREATED="1719391676971" MODIFIED="1719391733609"/>
 <node TEXT="Information Concept: Way in which to represent business terms and semantics within the context of business architecture" ID="ID_722956998" CREATED="1719393021899" MODIFIED="1719448504390">
@@ -1380,12 +1746,12 @@
 <node TEXT="Relationships among information concepts are added on holistic usage context, based on how business objects relate in the real world" ID="ID_520534278" CREATED="1719449049858" MODIFIED="1719449074804"/>
 </node>
 </node>
-<node TEXT="Object Identification,Delineation" FOLDED="true" ID="ID_710142956" CREATED="1719449449138" MODIFIED="1719449462540">
+<node TEXT="Object Identification,Delineation" ID="ID_710142956" CREATED="1719449449138" MODIFIED="1719449462540">
 <node TEXT="Business objects form the foundation for capabiltiies and information concepts" ID="ID_394709961" CREATED="1719449462546" MODIFIED="1719449477060"/>
 <node TEXT="Business object definition is the basis for capability and information concept definitions, where capabilities define actions applied to that object" ID="ID_676986454" CREATED="1719449477618" MODIFIED="1719449518810"/>
 <node TEXT="Information concepts assign types and states to business objects - e.g. An Agreement may be &quot;bilateral&quot; or &quot;multilateral&quot; and in a state of &quot;pending&quot;, &quot;executed&quot; or &quot;terminated&quot;" ID="ID_1477019099" CREATED="1719449519443" MODIFIED="1719449566628"/>
 </node>
-<node TEXT="Business Object vs. Information Concept" FOLDED="true" ID="ID_1144763446" CREATED="1719449872300" MODIFIED="1719449883407">
+<node TEXT="Business Object vs. Information Concept" ID="ID_1144763446" CREATED="1719449872300" MODIFIED="1719449883407">
 <node TEXT="Business Object is a representation of the &quot;real world thing&quot; represented in the model" ID="ID_735605543" CREATED="1719449883411" MODIFIED="1719449901330">
 <node TEXT="An instance of a Human Resource actually represents the person serving in a resource role" ID="ID_250743756" CREATED="1719449926687" MODIFIED="1719449947063"/>
 <node TEXT="An instance of a Customer represents the actual customer" ID="ID_494250669" CREATED="1719449947207" MODIFIED="1719449959319"/>
