@@ -2515,9 +2515,31 @@
 <node TEXT="&quot;Uses&quot; relationship identifies where outcome-related information from one capability is used by other capabilities" ID="ID_876590297" CREATED="1723951286240" MODIFIED="1723951316225"/>
 </node>
 </node>
-<node TEXT="Leveraging the information map" ID="ID_1219616585" CREATED="1723944941896" MODIFIED="1723944946067"/>
-<node TEXT="Often encountered roadblocks and common missteps" ID="ID_958054167" CREATED="1723944946470" MODIFIED="1723944958352"/>
-<node TEXT="Why start information mapping now?" ID="ID_1122641760" CREATED="1723944958485" MODIFIED="1723944966587"/>
+<node TEXT="Leveraging the information map" ID="ID_1219616585" CREATED="1723944941896" MODIFIED="1723944946067">
+<node TEXT="The information map provides:" ID="ID_1979181220" CREATED="1723951524388" MODIFIED="1723951534020">
+<node TEXT="Universal vocabulary for cross-business unit, cross-product line planning and initiatives" ID="ID_1872859450" CREATED="1723951534023" MODIFIED="1723951551808"/>
+<node TEXT="Cross-functional alignment of terminolory used to specify business requirements" ID="ID_998349375" CREATED="1723951552332" MODIFIED="1723951580657"/>
+<node TEXT="Insights into information required during case management, business process and related analysis efforts" ID="ID_1445215345" CREATED="1723951581224" MODIFIED="1723951601358"/>
+<node TEXT="Input into IT data architecture and data mnodeling efforts" ID="ID_280130990" CREATED="1723951606080" MODIFIED="1723951617343"/>
+</node>
+<node TEXT="Every capability impact has a potential information impact and every information impact as a potential capability impact" ID="ID_1800873399" CREATED="1723951618467" MODIFIED="1723951644461">
+<node TEXT="Understanding these impacts is essential to transformations large and small, software and data related changes, and any planning exercise" ID="ID_1395728031" CREATED="1723951644466" MODIFIED="1723951673188"/>
+</node>
+</node>
+<node TEXT="Information Mapping in Summary" ID="ID_1708865343" CREATED="1723951788843" MODIFIED="1723951794932">
+<node TEXT="Often encountered roadblocks and common missteps" POSITION="bottom_or_right" ID="ID_958054167" CREATED="1723944946470" MODIFIED="1723944958352">
+<node TEXT="Management says &quot;Everyone knows what we mean when we say account, channel, product, etc..&quot;" ID="ID_1164209530" CREATED="1723951802194" MODIFIED="1723951830469"/>
+<node TEXT="We have a data architecture; why do we (not) need an information map?" ID="ID_1801485693" CREATED="1723951830782" MODIFIED="1723951877239"/>
+</node>
+<node TEXT="Common information mapping missteps" POSITION="bottom_or_right" ID="ID_893336710" CREATED="1723951912172" MODIFIED="1723951927790">
+<node TEXT="Trying to build information maps from bottom up from data views vs. top-down business object views" ID="ID_1361680620" CREATED="1723951927794" MODIFIED="1723951955315"/>
+<node TEXT="Overcomplicating the effort; a principled well defined capability map provides a basis for rapid information mapping" ID="ID_1860424873" CREATED="1723951955478" MODIFIED="1723951987793"/>
+</node>
+<node TEXT="Why start information mapping now?" POSITION="bottom_or_right" ID="ID_1122641760" CREATED="1723944958485" MODIFIED="1723944966587">
+<node TEXT="Lack of an information map feeds miscommunication, elongated project startup times, requirements misinterpretation and strategy realization challenges" ID="ID_1367326304" CREATED="1723951995577" MODIFIED="1723952038775"/>
+<node TEXT="Information mapping puts the responsibility of framing information in the hands of those who benefit the most - the business" ID="ID_1046466085" CREATED="1723952038982" MODIFIED="1723952075393"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="2019" OBJECT="java.lang.Long|2019" FOLDED="true" POSITION="bottom_or_right" ID="ID_1848596719" CREATED="1723779995833" MODIFIED="1723779998155">
