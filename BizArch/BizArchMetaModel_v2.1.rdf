@@ -1,0 +1,810 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:BusinessArchitectureMetaModel="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModel#"
+     xmlns:BusinessArchitectureMetaModelv21="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#accrues_into -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#accrues_into"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#achieves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#achieves"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#adopts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#adopts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#affects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#affects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#based_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#based_on"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#belongs_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#belongs_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#characterizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#characterizes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#contains"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#contributes_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#contributes_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#conveys_value_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#conveys_value_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#decides -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#decides"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#decomposes_into -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#decomposes_into"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#defines -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#defines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#delivers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#delivers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#desires -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#desires"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#determines -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#determines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#enables -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#enables"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#exchanged_during -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#exchanged_during"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#experiences -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#experiences"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#expresses_state_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#expresses_state_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#frames -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#frames"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#fulfills -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#fulfills"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#guides -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#guides"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#impacts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#impacts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#implements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#implements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#incorporates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#incorporates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#influences -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#influences"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_a"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_actor_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_actor_in"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_assigned_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_assigned_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_associated_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_associated_with"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_input_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_input_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_output_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_output_from"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_part_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_related_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#is_related_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#make_explicit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#make_explicit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#maps_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#maps_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#may_contain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#may_contain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#modifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#modifies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#motivates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#motivates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#needs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#needs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#owns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#owns"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#participates_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#participates_in"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#precedes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#precedes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#provides_rationale_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#provides_rationale_for"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#pursues -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#pursues"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#realizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#realizes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#relates_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#relates_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#sponsors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#sponsors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#staffs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#staffs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#supports"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#targets -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#targets"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#triggers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#triggers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#uses"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Core_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Core_Domains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Core_Domains"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Core_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Core_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Stakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Stakeholder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Support_Domains"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Core_Domains"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Object"/>
+        <BusinessArchitectureMetaModelv21:adopts rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Unit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Unit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Organization"/>
+        <BusinessArchitectureMetaModelv21:belongs_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Organization"/>
+        <BusinessArchitectureMetaModelv21:decomposes_into rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Unit"/>
+        <BusinessArchitectureMetaModelv21:delivers rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:delivers rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product"/>
+        <BusinessArchitectureMetaModelv21:implements rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Instance"/>
+        <BusinessArchitectureMetaModelv21:influences rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Behavior"/>
+        <BusinessArchitectureMetaModelv21:owns rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective"/>
+        <BusinessArchitectureMetaModelv21:sponsors rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:achieves rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Outcome"/>
+        <BusinessArchitectureMetaModelv21:based_on rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Object"/>
+        <BusinessArchitectureMetaModelv21:decomposes_into rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:enables rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product"/>
+        <BusinessArchitectureMetaModelv21:enables rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream_Stage"/>
+        <BusinessArchitectureMetaModelv21:modifies rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information_Concept"/>
+        <BusinessArchitectureMetaModelv21:needs rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Outcome"/>
+        <BusinessArchitectureMetaModelv21:supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information_Concept"/>
+        <BusinessArchitectureMetaModelv21:uses rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Behavior -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Behavior">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:characterizes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:characterizes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Instance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Instance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Instance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:enables rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product_Entitlement"/>
+        <BusinessArchitectureMetaModelv21:realizes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Change -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Change">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy"/>
+        <BusinessArchitectureMetaModelv21:affects rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Course_of_Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Course_of_Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy"/>
+        <BusinessArchitectureMetaModelv21:needs rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective"/>
+        <BusinessArchitectureMetaModelv21:realizes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey"/>
+        <BusinessArchitectureMetaModelv21:contains rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey_Stage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey_Stage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Goal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Goal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information_Concept -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information_Concept">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information"/>
+        <BusinessArchitectureMetaModelv21:make_explicit rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Object"/>
+        <BusinessArchitectureMetaModelv21:relates_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative"/>
+        <BusinessArchitectureMetaModelv21:decomposes_into rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative"/>
+        <BusinessArchitectureMetaModelv21:impacts rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:impacts rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product"/>
+        <BusinessArchitectureMetaModelv21:impacts rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream_Stage"/>
+        <BusinessArchitectureMetaModelv21:is_a rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Course_of_Action"/>
+        <BusinessArchitectureMetaModelv21:realizes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy"/>
+        <BusinessArchitectureMetaModelv21:achieves rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Goal"/>
+        <BusinessArchitectureMetaModelv21:motivates rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative"/>
+        <BusinessArchitectureMetaModelv21:provides_rationale_for rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Change"/>
+        <BusinessArchitectureMetaModelv21:targets rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:targets rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Organization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Organization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Organization"/>
+        <BusinessArchitectureMetaModelv21:pursues rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective"/>
+        <BusinessArchitectureMetaModelv21:staffs rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Behavior"/>
+        <BusinessArchitectureMetaModelv21:staffs rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Instance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Outcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Outcome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:expresses_state_of rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Object"/>
+        <BusinessArchitectureMetaModelv21:is_assigned_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Item"/>
+        <BusinessArchitectureMetaModelv21:is_related_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process_Outcome"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy"/>
+        <BusinessArchitectureMetaModelv21:guides rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective"/>
+        <BusinessArchitectureMetaModelv21:influences rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:is_associated_with rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process"/>
+        <BusinessArchitectureMetaModelv21:decomposes_into rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process"/>
+        <BusinessArchitectureMetaModelv21:maps_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream"/>
+        <BusinessArchitectureMetaModelv21:maps_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process_Outcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process_Outcome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process"/>
+        <BusinessArchitectureMetaModelv21:is_input_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process"/>
+        <BusinessArchitectureMetaModelv21:is_output_from rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Process"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product"/>
+        <BusinessArchitectureMetaModelv21:delivers rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Proposition"/>
+        <BusinessArchitectureMetaModelv21:is_part_of rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product_Line"/>
+        <BusinessArchitectureMetaModelv21:may_contain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product_Entitlement"/>
+        <BusinessArchitectureMetaModelv21:relates_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product_Entitlement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product_Entitlement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product_Line -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product_Line">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Requirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Requirement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Requirement"/>
+        <BusinessArchitectureMetaModelv21:belongs_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Initiative"/>
+        <BusinessArchitectureMetaModelv21:fulfills rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective"/>
+        <BusinessArchitectureMetaModelv21:impacts rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability_Behavior"/>
+        <BusinessArchitectureMetaModelv21:relates_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Requirement"/>
+        <BusinessArchitectureMetaModelv21:targets rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Stakeholder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Stakeholder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Stakeholder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Stakeholder"/>
+        <BusinessArchitectureMetaModelv21:belongs_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Business_Unit"/>
+        <BusinessArchitectureMetaModelv21:contributes_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Outcome"/>
+        <BusinessArchitectureMetaModelv21:decides rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy"/>
+        <BusinessArchitectureMetaModelv21:defines rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Information_Concept"/>
+        <BusinessArchitectureMetaModelv21:desires rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Proposition"/>
+        <BusinessArchitectureMetaModelv21:determines rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Policy"/>
+        <BusinessArchitectureMetaModelv21:experiences rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Touchpoint"/>
+        <BusinessArchitectureMetaModelv21:is_actor_in rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey"/>
+        <BusinessArchitectureMetaModelv21:participates_in rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream_Stage"/>
+        <BusinessArchitectureMetaModelv21:triggers rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Strategy"/>
+        <BusinessArchitectureMetaModelv21:achieves rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Objective"/>
+        <BusinessArchitectureMetaModelv21:impacts rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Product"/>
+        <BusinessArchitectureMetaModelv21:impacts rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Stakeholder"/>
+        <BusinessArchitectureMetaModelv21:incorporates rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Goal"/>
+        <BusinessArchitectureMetaModelv21:targets rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Capability"/>
+        <BusinessArchitectureMetaModelv21:targets rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Touchpoint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Touchpoint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey"/>
+        <BusinessArchitectureMetaModelv21:realizes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Item -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Item">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream"/>
+        <BusinessArchitectureMetaModelv21:accrues_into rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Proposition"/>
+        <BusinessArchitectureMetaModelv21:exchanged_during rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Touchpoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Proposition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Proposition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream"/>
+        <BusinessArchitectureMetaModelv21:conveys_value_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Stakeholder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream"/>
+        <BusinessArchitectureMetaModelv21:contains rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream_Stage"/>
+        <BusinessArchitectureMetaModelv21:delivers rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Proposition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream_Stage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream_Stage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream"/>
+        <BusinessArchitectureMetaModelv21:delivers rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Item"/>
+        <BusinessArchitectureMetaModelv21:enables rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Customer_Journey_Stage"/>
+        <BusinessArchitectureMetaModelv21:frames rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Requirement"/>
+        <BusinessArchitectureMetaModelv21:precedes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/BusinessArchitectureMetaModelv21#Value_Stream_Stage"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
