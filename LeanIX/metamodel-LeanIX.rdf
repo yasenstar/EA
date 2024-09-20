@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:metamodel-leanix="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix">
+        <rdfs:comment>Source: https://docs-eam.leanix.net/docs/meta-model</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#CRUD -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#CRUD"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#affects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#affects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#associated_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#associated_with"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#belongs_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#belongs_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#implements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#implements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#improves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#improves">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#offers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#offers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#owns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#owns">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#provides_consumes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#provides_consumes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#runs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#runs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#supports"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#transfers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#transfers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#uses"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Architecture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Technical_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Technical_Architecture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application_&amp;_Data_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application_&amp;_Data_Architecture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Strategy_&amp;_Transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Strategy_&amp;_Transformation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application_&amp;_Data_Architecture"/>
+        <metamodel-leanix:CRUD rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Data_Object"/>
+        <metamodel-leanix:provides_consumes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Interface"/>
+        <metamodel-leanix:supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Capability"/>
+        <metamodel-leanix:supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Context"/>
+        <metamodel-leanix:uses rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#IT_Component"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Architecture"/>
+        <metamodel-leanix:supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Platform"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Context -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Context">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Architecture"/>
+        <metamodel-leanix:associated_with rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Data_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Data_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application_&amp;_Data_Architecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#IT_Component -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#IT_Component">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Technical_Architecture"/>
+        <metamodel-leanix:belongs_to rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Tech_Category"/>
+        <metamodel-leanix:implements rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Platform"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Initiative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Initiative">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Strategy_&amp;_Transformation"/>
+        <metamodel-leanix:affects rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Context"/>
+        <metamodel-leanix:affects rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#IT_Component"/>
+        <metamodel-leanix:affects rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Interface"/>
+        <metamodel-leanix:affects rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Platform"/>
+        <metamodel-leanix:improves rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Capability"/>
+        <metamodel-leanix:supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Interface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Interface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application_&amp;_Data_Architecture"/>
+        <metamodel-leanix:transfers rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Data_Object"/>
+        <metamodel-leanix:uses rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#IT_Component"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Objective -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Objective">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Strategy_&amp;_Transformation"/>
+        <metamodel-leanix:improves rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Organization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Organization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Architecture"/>
+        <metamodel-leanix:owns rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Business_Context"/>
+        <metamodel-leanix:owns rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#IT_Component"/>
+        <metamodel-leanix:owns rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Initiative"/>
+        <metamodel-leanix:owns rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Objective"/>
+        <metamodel-leanix:uses rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Platform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Platform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Strategy_&amp;_Transformation"/>
+        <metamodel-leanix:runs rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Application"/>
+        <metamodel-leanix:supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Provider -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Provider">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Technical_Architecture"/>
+        <metamodel-leanix:offers rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#IT_Component"/>
+        <metamodel-leanix:supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Initiative"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Tech_Category -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Tech_Category">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/metamodel-leanix#Technical_Architecture"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
