@@ -240,6 +240,35 @@ INNER JOIN Elements AS e2 ON r.targetid = e2.id
 WHERE r.type = 'ServingRelationship' AND e1.type = 'ApplicationComponent' AND e2.type = 'Location' AND e2.name like '%Market %'
 ```
 
+Query Specific Application's Market Coverage
+
+```sql
+SELECT e1.name AS sourceName, r.type, r.name AS relationName, e2.name AS targetName
+FROM Relationships AS r
+INNER JOIN Elements AS e1 ON r.sourceid = e1.id
+INNER JOIN Elements AS e2 ON r.targetid = e2.id
+WHERE r.type = 'ServingRelationship' AND
+      e1.type = 'ApplicationComponent' AND
+      e2.type = 'Location' AND
+      e2.name LIKE '%Market %' AND
+      e1.name LIKE '%ID%' -- can be partial in the name of catalog of application component
+```
+
+For decommisssioned applications, query their effective from and end date to specific market coverage
+
+```sql
+SELECT e1.name AS sourceName, r.type, e2.name AS targetName, p.propkey, p.propvalue
+FROM Relationships AS r
+INNER JOIN Elements AS e1 ON r.sourceid = e1.id
+INNER JOIN Elements AS e2 ON r.targetid = e2.id
+INNER JOIN Properties AS p ON r.id = p.conceptid
+WHERE r.type = 'AssociationRelationship' AND
+      e1.type = 'ApplicationComponent' AND
+      e2.type = 'Location' AND
+      e2.name LIKE '%Market %' AND
+      p.propkey LIKE '%Effective%'
+```
+
 ## How to Export Data to file (e.g. csv)
 
 Use below syntax:
