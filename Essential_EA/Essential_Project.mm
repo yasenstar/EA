@@ -85,20 +85,47 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="Open Source Installation" POSITION="bottom_or_right" ID="ID_1337160561" CREATED="1732151341908" MODIFIED="1732151578710" LINK="https://www.java.com/en/download/help/index_installing.html">
+<node TEXT="Open Source Installation" POSITION="bottom_or_right" ID="ID_1337160561" CREATED="1732151341908" MODIFIED="1732154532320" LINK="https://enterprise-architecture.org/products/essential-open-source/essential-os-download/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      My machine information (2024-11-21):
+    </p>
+    <p>
+      Dell Latitude 7420
+    </p>
+    <p>
+      RAM: 16GB
+    </p>
+    <p>
+      Windows 11 Enterprise version 23H2
+    </p>
+    <p>
+      Language: English
+    </p>
+  </body>
+</html></richcontent>
 <node TEXT="1. Software Pre-Requisites" FOLDED="true" ID="ID_511638148" CREATED="1732151350693" MODIFIED="1732151374051">
 <node TEXT="1.1 Java Runtime Environment" ID="ID_21273202" CREATED="1732151375724" MODIFIED="1732151390594">
-<node TEXT="Require v1.8 (Required to run Protege and Apache Tomcat" ID="ID_1359623039" CREATED="1732151390600" MODIFIED="1732151567725" LINK="https://www.java.com/en/download/help/index_installing.html"/>
+<node TEXT="Require v1.8 (Required to run Protege and Apache Tomcat" FOLDED="true" ID="ID_1359623039" CREATED="1732151390600" MODIFIED="1732151567725" LINK="https://www.java.com/en/download/help/index_installing.html">
+<node TEXT="java --version&#xa;openjdk 21.0.5 2024-10-15 LTS&#xa;OpenJDK Runtime Environment Microsoft-10377968 (build 21.0.5+11-LTS)&#xa;OpenJDK 64-Bit Server VM Microsoft-10377968 (build 21.0.5+11-LTS, mixed mode, sharing)" ID="ID_710215631" CREATED="1732154375501" MODIFIED="1732154380917"/>
+<node TEXT="Microsoft Build of OpenJDK" ID="ID_1028286196" CREATED="1732154428942" MODIFIED="1732154447685" LINK="https://learn.microsoft.com/en-gb/java/openjdk/download"/>
 </node>
-<node TEXT="1.2 Essential Protege Ontology Editor" ID="ID_1980809508" CREATED="1732151421732" MODIFIED="1732151433835">
+</node>
+<node TEXT="1.2 Essential Protege Ontology Editor" FOLDED="true" ID="ID_1980809508" CREATED="1732151421732" MODIFIED="1732151433835">
 <node TEXT="Require this specific v3.5" ID="ID_495456794" CREATED="1732151433837" MODIFIED="1732151443721"/>
+<node TEXT="Set-Up" POSITION="bottom_or_right" ID="ID_1411780255" CREATED="1732151586579" MODIFIED="1732151609662" LINK="https://essential-cdn.s3.eu-west-2.amazonaws.com/protege/Protege-3.5-Installers-Docs.pdf"/>
+<node TEXT="Setting Memory" POSITION="bottom_or_right" ID="ID_1984999453" CREATED="1732151590576" MODIFIED="1732151616506" LINK="https://enterprise-architecture.org/docs/essential_os_installation/configure_memory/?_gl=1*pucte3*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA..">
+<node TEXT="Windows:&#xa;1. Start Protege. Go to File-&gt;Preferences-&gt;Protege.lax&#xa;2. Update the row for the property ‘lax.nl.java.option.java.heap.size.max’&#xa;This is set in bytes, so set this to 2048000000 for installs with the 64-bit Java environment.&#xa;3. Click OK&#xa;4. Restart Protege" ID="ID_848898672" CREATED="1732154765602" MODIFIED="1732154811944"/>
+<node TEXT="The default value before change is 524288000" ID="ID_774289116" CREATED="1732155442645" MODIFIED="1732155472809"/>
+</node>
+<node TEXT="Notes for MacOS" POSITION="bottom_or_right" ID="ID_272886478" CREATED="1732151595060" MODIFIED="1732151623864" LINK="https://enterprise-architecture.org/docs/essential_os_installation/macos_install?_gl=1*pucte3*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
 </node>
 <node TEXT="1.3 Apache Tomcat" ID="ID_804017840" CREATED="1732151444526" MODIFIED="1732151453720">
-<node TEXT="Require v8.5 or v9.0 only (Required for Essential Viewer)" ID="ID_652342312" CREATED="1732151453720" MODIFIED="1732151557949" LINK="https://tomcat.apache.org/">
-<node TEXT="Set-Up" ID="ID_1411780255" CREATED="1732151586579" MODIFIED="1732151609662" LINK="https://essential-cdn.s3.eu-west-2.amazonaws.com/protege/Protege-3.5-Installers-Docs.pdf"/>
-<node TEXT="Setting Memory" ID="ID_1984999453" CREATED="1732151590576" MODIFIED="1732151616506" LINK="https://enterprise-architecture.org/docs/essential_os_installation/configure_memory/?_gl=1*pucte3*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
-<node TEXT="Notes for MacOS" ID="ID_272886478" CREATED="1732151595060" MODIFIED="1732151623864" LINK="https://enterprise-architecture.org/docs/essential_os_installation/macos_install?_gl=1*pucte3*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
-</node>
+<node TEXT="Require v8.5 or v9.0 only (Required for Essential Viewer)" ID="ID_652342312" CREATED="1732151453720" MODIFIED="1732151557949" LINK="https://tomcat.apache.org/"/>
 </node>
 <node TEXT="1.4 (Optional) Database" ID="ID_719066093" CREATED="1732151490708" MODIFIED="1732151501064">
 <node TEXT="MySQL" ID="ID_653021617" CREATED="1732151520879" MODIFIED="1732151541769" LINK="https://dev.mysql.com/downloads/mysql/"/>
@@ -107,23 +134,23 @@
 </node>
 <node TEXT="1.5 (Optional) JDBC Driver" ID="ID_1219206623" CREATED="1732151501238" MODIFIED="1732151512983"/>
 </node>
-<node TEXT="2. Install Essential Core Components" FOLDED="true" ID="ID_231710363" CREATED="1732151645553" MODIFIED="1732151719084">
-<node TEXT="2.1 Widget" FOLDED="true" ID="ID_1765146568" CREATED="1732151748889" MODIFIED="1732151768741">
+<node TEXT="2. Install Essential Core Components" ID="ID_231710363" CREATED="1732151645553" MODIFIED="1732151719084">
+<node TEXT="2.1 Widget" ID="ID_1765146568" CREATED="1732151748889" MODIFIED="1732151768741">
 <node TEXT="v6.7 (2020-02-06)" ID="ID_1173897222" CREATED="1732151768744" MODIFIED="1732151789613" LINK="https://cdn.enterprise-architecture.org/essential-widgets/essentialinstallupgrade67.jar?_gl=1*wwb2uk*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
 <node TEXT="A set of custom-built plug-ins for the Protege Ontology Editor." ID="ID_386922087" CREATED="1732151790426" MODIFIED="1732151848989"/>
 <node TEXT=" Run the installer and follow the on-screen instructions" ID="ID_1239896188" CREATED="1732151850097" MODIFIED="1732151853913"/>
 </node>
-<node TEXT="2.2 Meta-Model" FOLDED="true" ID="ID_816459971" CREATED="1732151820661" MODIFIED="1732151826045">
+<node TEXT="2.2 Meta-Model" ID="ID_816459971" CREATED="1732151820661" MODIFIED="1732151826045">
 <node TEXT="v6.19 (2023-01-15)" ID="ID_126949896" CREATED="1732151826047" MODIFIED="1732151939077" LINK="https://cdn.enterprise-architecture.org/meta-model/essential_baseline_v6_19.zip?_gl=1*pv1e6*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
 <node TEXT="The main repository files for Essential." ID="ID_1934974300" CREATED="1732151855479" MODIFIED="1732151864311"/>
 <node TEXT="Save this to a user accessible area such as your Documents folder, unzip and then open using Protege" ID="ID_1250586665" CREATED="1732151907614" MODIFIED="1732151932899"/>
 </node>
-<node TEXT="2.3 Viewer" FOLDED="true" ID="ID_1723221380" CREATED="1732151940983" MODIFIED="1732151945151">
+<node TEXT="2.3 Viewer" ID="ID_1723221380" CREATED="1732151940983" MODIFIED="1732151945151">
 <node TEXT="v6.19.10 (2024-06-07)" ID="ID_618606655" CREATED="1732151945153" MODIFIED="1732152012418" LINK="https://cdn.enterprise-architecture.org/viewer/essential_viewer_61910.war?_gl=1*15iwpct*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
 <node TEXT="A Java Web Application for publishing, analyzing and reporting against enterprise architecture models captured using the Essential Meta-Model" ID="ID_1621614894" CREATED="1732151956659" MODIFIED="1732151992160"/>
 <node TEXT="Copy this file to Tomcat install &quot;webapp&quot; folder" ID="ID_83789234" CREATED="1732151993062" MODIFIED="1732152004795"/>
 </node>
-<node TEXT="2.4 Import Utility" FOLDED="true" ID="ID_822715791" CREATED="1732152014281" MODIFIED="1732152019792">
+<node TEXT="2.4 Import Utility" ID="ID_822715791" CREATED="1732152014281" MODIFIED="1732152019792">
 <node TEXT="v2.9.2 (2024-06-07)" ID="ID_1184906089" CREATED="1732152019794" MODIFIED="1732152068182" LINK="https://cdn.enterprise-architecture.org/import-utility/essential_import_utility_292.war?_gl=1*17opuom*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
 <node TEXT="A Java Web Application for importing existing content from spreadsheets into the Essential repository." ID="ID_1638537063" CREATED="1732152027505" MODIFIED="1732152045486"/>
 <node TEXT="Copy this file to your Tomcat install &apos;webapp&apos; folder" ID="ID_147421395" CREATED="1732152046211" MODIFIED="1732152059928"/>
