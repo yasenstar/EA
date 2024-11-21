@@ -159,12 +159,130 @@
 <node TEXT="A Java Web Application for publishing, analyzing and reporting against enterprise architecture models captured using the Essential Meta-Model" ID="ID_1621614894" CREATED="1732151956659" MODIFIED="1732151992160"/>
 <node TEXT="Copy this file to Tomcat install &quot;webapp&quot; folder" ID="ID_83789234" CREATED="1732151993062" MODIFIED="1732152004795"/>
 </node>
-<node TEXT="2.4 Import Utility" FOLDED="true" ID="ID_822715791" CREATED="1732152014281" MODIFIED="1732152019792">
+<node TEXT="2.4 Import Utility" ID="ID_822715791" CREATED="1732152014281" MODIFIED="1732152019792">
 <node TEXT="v2.9.2 (2024-06-07)" ID="ID_1184906089" CREATED="1732152019794" MODIFIED="1732152068182" LINK="https://cdn.enterprise-architecture.org/import-utility/essential_import_utility_292.war?_gl=1*17opuom*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
 <node TEXT="A Java Web Application for importing existing content from spreadsheets into the Essential repository." ID="ID_1638537063" CREATED="1732152027505" MODIFIED="1732152045486"/>
 <node TEXT="Copy this file to your Tomcat install &apos;webapp&apos; folder" ID="ID_147421395" CREATED="1732152046211" MODIFIED="1732152059928"/>
+<node TEXT="Ensure Tomcat point to Java 1.8 (JDK 8), for higher version will get error" ID="ID_352479834" CREATED="1732192773808" MODIFIED="1732192829208">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1 style="color: white; background-color: rgb(82, 93, 118); font-size: 22px; font-family: Tahoma, Arial, sans-serif; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      HTTP Status 500 – Internal Server Error
+    </h1>
+    <hr class="line" style="height: 1px; background-color: rgb(82, 93, 118); border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;"/>
+    
+
+    <p style="font-size: 12px; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <b style="color: white; background-color: rgb(82, 93, 118)"><span style="color: white; background-color: rgb(82, 93, 118);">Type</span></b>&#xa0;Exception Report
+    </p>
+    <p style="font-size: 12px; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <b style="color: white; background-color: rgb(82, 93, 118)"><span style="color: white; background-color: rgb(82, 93, 118);">Message</span></b>&#xa0;Servlet execution threw an exception
+    </p>
+    <p style="font-size: 12px; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <b style="color: white; background-color: rgb(82, 93, 118)"><span style="color: white; background-color: rgb(82, 93, 118);">Description</span></b>&#xa0;The server encountered an unexpected condition that prevented it from fulfilling the request.
+    </p>
+    <p style="font-size: 12px; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <b style="color: white; background-color: rgb(82, 93, 118)"><span style="color: white; background-color: rgb(82, 93, 118);">Exception</span></b>
+    </p>
+    <pre style="color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px">javax.servlet.ServletException: Servlet execution threw an exception
+&#x9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)</pre>
+    <p style="font-size: 12px; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <b style="color: white; background-color: rgb(82, 93, 118)"><span style="color: white; background-color: rgb(82, 93, 118);">Root Cause</span></b>
+    </p>
+    <pre style="color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px">java.lang.NoClassDefFoundError: javax/xml/bind/JAXBContext
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserDataManager.&lt;init&gt;(UserDataManager.java:71)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserDataManager.getUserManager(UserDataManager.java:111)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserDataManager.getInstance(UserDataManager.java:97)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserCredentialManager.&lt;init&gt;(UserCredentialManager.java:63)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserCredentialManager.getInstance(UserCredentialManager.java:84)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserCredentialManager.getInstance(UserCredentialManager.java:69)
+&#x9;com.enterprise_architecture.essential.importutility.ui.LogoutComposer.doAfterCompose(LogoutComposer.java:62)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.doAfterCompose(UiEngineImpl.java:619)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:944)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:891)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:778)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:838)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:796)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:742)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.createComponents(UiEngineImpl.java:1145)
+&#x9;org.zkoss.zk.ui.impl.AbstractExecution.createComponents0(AbstractExecution.java:355)
+&#x9;org.zkoss.zk.ui.impl.AbstractExecution.createComponents(AbstractExecution.java:322)
+&#x9;org.zkoss.zul.Include.afterCompose(Include.java:517)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:942)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:891)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:778)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:742)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:936)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:891)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:778)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:838)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:796)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:742)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:463)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:371)
+&#x9;org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:220)
+&#x9;org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:146)
+&#x9;javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+&#x9;javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+&#x9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)</pre>
+    <p style="font-size: 12px; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <b style="color: white; background-color: rgb(82, 93, 118)"><span style="color: white; background-color: rgb(82, 93, 118);">Root Cause</span></b>
+    </p>
+    <pre style="color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px">java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserDataManager.&lt;init&gt;(UserDataManager.java:71)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserDataManager.getUserManager(UserDataManager.java:111)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserDataManager.getInstance(UserDataManager.java:97)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserCredentialManager.&lt;init&gt;(UserCredentialManager.java:63)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserCredentialManager.getInstance(UserCredentialManager.java:84)
+&#x9;com.enterprise_architecture.essential.importutility.data.user.UserCredentialManager.getInstance(UserCredentialManager.java:69)
+&#x9;com.enterprise_architecture.essential.importutility.ui.LogoutComposer.doAfterCompose(LogoutComposer.java:62)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.doAfterCompose(UiEngineImpl.java:619)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:944)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:891)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:778)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:838)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:796)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:742)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.createComponents(UiEngineImpl.java:1145)
+&#x9;org.zkoss.zk.ui.impl.AbstractExecution.createComponents0(AbstractExecution.java:355)
+&#x9;org.zkoss.zk.ui.impl.AbstractExecution.createComponents(AbstractExecution.java:322)
+&#x9;org.zkoss.zul.Include.afterCompose(Include.java:517)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:942)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:891)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:778)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:742)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:936)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:891)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:778)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:838)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:796)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:742)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:463)
+&#x9;org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:371)
+&#x9;org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:220)
+&#x9;org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:146)
+&#x9;javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+&#x9;javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+&#x9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)</pre>
+    <p style="font-size: 12px; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <b style="color: white; background-color: rgb(82, 93, 118)"><span style="color: white; background-color: rgb(82, 93, 118);">Note</span></b>&#xa0;The full stack trace of the root cause is available in the server logs.
+    </p>
+    <hr class="line" style="height: 1px; background-color: rgb(82, 93, 118); border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; color: rgb(0, 0, 0); font-family: Tahoma, Arial, sans-serif; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal;"/>
+    
+
+    <h3 style="color: white; background-color: rgb(82, 93, 118); font-size: 14px; font-family: Tahoma, Arial, sans-serif; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      Apache Tomcat/9.0.97
+    </h3>
+  </body>
+</html></richcontent>
 </node>
-<node TEXT="2.5 Import Utility Example Configuration" FOLDED="true" ID="ID_720032032" CREATED="1732152072331" MODIFIED="1732152082732">
+</node>
+<node TEXT="2.5 Import Utility Example Configuration" ID="ID_720032032" CREATED="1732152072331" MODIFIED="1732152082732">
 <node TEXT="v2.0 (2020-02-06)" ID="ID_1138801250" CREATED="1732152082736" MODIFIED="1732152097546" LINK="https://cdn.enterprise-architecture.org/import-utility/essentialImportConfig-6.7.eic?_gl=1*17opuom*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
 <node TEXT="An example configuration of Import Activities for the Import Utility." ID="ID_1454904592" CREATED="1732152105133" MODIFIED="1732152107476"/>
 <node TEXT="Save this to a user accessible area such as your Documents folder and select it from within the Import Utility’s System Settings tab, using the “Import Configuration…” button" ID="ID_1312886314" CREATED="1732152113336" MODIFIED="1732152177679"/>
