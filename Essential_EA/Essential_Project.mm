@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Essential Project" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732114393604" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.826">
+<node TEXT="Essential Project" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732153396006" LINK="https://enterprise-architecture.org/" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="1.3310001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
@@ -85,5 +85,60 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
+<node TEXT="Open Source Installation" POSITION="bottom_or_right" ID="ID_1337160561" CREATED="1732151341908" MODIFIED="1732151578710" LINK="https://www.java.com/en/download/help/index_installing.html">
+<node TEXT="1. Software Pre-Requisites" FOLDED="true" ID="ID_511638148" CREATED="1732151350693" MODIFIED="1732151374051">
+<node TEXT="1.1 Java Runtime Environment" ID="ID_21273202" CREATED="1732151375724" MODIFIED="1732151390594">
+<node TEXT="Require v1.8 (Required to run Protege and Apache Tomcat" ID="ID_1359623039" CREATED="1732151390600" MODIFIED="1732151567725" LINK="https://www.java.com/en/download/help/index_installing.html"/>
+</node>
+<node TEXT="1.2 Essential Protege Ontology Editor" ID="ID_1980809508" CREATED="1732151421732" MODIFIED="1732151433835">
+<node TEXT="Require this specific v3.5" ID="ID_495456794" CREATED="1732151433837" MODIFIED="1732151443721"/>
+</node>
+<node TEXT="1.3 Apache Tomcat" ID="ID_804017840" CREATED="1732151444526" MODIFIED="1732151453720">
+<node TEXT="Require v8.5 or v9.0 only (Required for Essential Viewer)" ID="ID_652342312" CREATED="1732151453720" MODIFIED="1732151557949" LINK="https://tomcat.apache.org/">
+<node TEXT="Set-Up" ID="ID_1411780255" CREATED="1732151586579" MODIFIED="1732151609662" LINK="https://essential-cdn.s3.eu-west-2.amazonaws.com/protege/Protege-3.5-Installers-Docs.pdf"/>
+<node TEXT="Setting Memory" ID="ID_1984999453" CREATED="1732151590576" MODIFIED="1732151616506" LINK="https://enterprise-architecture.org/docs/essential_os_installation/configure_memory/?_gl=1*pucte3*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
+<node TEXT="Notes for MacOS" ID="ID_272886478" CREATED="1732151595060" MODIFIED="1732151623864" LINK="https://enterprise-architecture.org/docs/essential_os_installation/macos_install?_gl=1*pucte3*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
+</node>
+</node>
+<node TEXT="1.4 (Optional) Database" ID="ID_719066093" CREATED="1732151490708" MODIFIED="1732151501064">
+<node TEXT="MySQL" ID="ID_653021617" CREATED="1732151520879" MODIFIED="1732151541769" LINK="https://dev.mysql.com/downloads/mysql/"/>
+<node TEXT="Postgres" ID="ID_765888653" CREATED="1732151525061" MODIFIED="1732151548883" LINK="https://www.postgresql.org/download/"/>
+<node TEXT="Microsoft SQL" ID="ID_779152231" CREATED="1732151528537" MODIFIED="1732151531948"/>
+</node>
+<node TEXT="1.5 (Optional) JDBC Driver" ID="ID_1219206623" CREATED="1732151501238" MODIFIED="1732151512983"/>
+</node>
+<node TEXT="2. Install Essential Core Components" FOLDED="true" ID="ID_231710363" CREATED="1732151645553" MODIFIED="1732151719084">
+<node TEXT="2.1 Widget" FOLDED="true" ID="ID_1765146568" CREATED="1732151748889" MODIFIED="1732151768741">
+<node TEXT="v6.7 (2020-02-06)" ID="ID_1173897222" CREATED="1732151768744" MODIFIED="1732151789613" LINK="https://cdn.enterprise-architecture.org/essential-widgets/essentialinstallupgrade67.jar?_gl=1*wwb2uk*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
+<node TEXT="A set of custom-built plug-ins for the Protege Ontology Editor." ID="ID_386922087" CREATED="1732151790426" MODIFIED="1732151848989"/>
+<node TEXT=" Run the installer and follow the on-screen instructions" ID="ID_1239896188" CREATED="1732151850097" MODIFIED="1732151853913"/>
+</node>
+<node TEXT="2.2 Meta-Model" FOLDED="true" ID="ID_816459971" CREATED="1732151820661" MODIFIED="1732151826045">
+<node TEXT="v6.19 (2023-01-15)" ID="ID_126949896" CREATED="1732151826047" MODIFIED="1732151939077" LINK="https://cdn.enterprise-architecture.org/meta-model/essential_baseline_v6_19.zip?_gl=1*pv1e6*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
+<node TEXT="The main repository files for Essential." ID="ID_1934974300" CREATED="1732151855479" MODIFIED="1732151864311"/>
+<node TEXT="Save this to a user accessible area such as your Documents folder, unzip and then open using Protege" ID="ID_1250586665" CREATED="1732151907614" MODIFIED="1732151932899"/>
+</node>
+<node TEXT="2.3 Viewer" FOLDED="true" ID="ID_1723221380" CREATED="1732151940983" MODIFIED="1732151945151">
+<node TEXT="v6.19.10 (2024-06-07)" ID="ID_618606655" CREATED="1732151945153" MODIFIED="1732152012418" LINK="https://cdn.enterprise-architecture.org/viewer/essential_viewer_61910.war?_gl=1*15iwpct*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
+<node TEXT="A Java Web Application for publishing, analyzing and reporting against enterprise architecture models captured using the Essential Meta-Model" ID="ID_1621614894" CREATED="1732151956659" MODIFIED="1732151992160"/>
+<node TEXT="Copy this file to Tomcat install &quot;webapp&quot; folder" ID="ID_83789234" CREATED="1732151993062" MODIFIED="1732152004795"/>
+</node>
+<node TEXT="2.4 Import Utility" FOLDED="true" ID="ID_822715791" CREATED="1732152014281" MODIFIED="1732152019792">
+<node TEXT="v2.9.2 (2024-06-07)" ID="ID_1184906089" CREATED="1732152019794" MODIFIED="1732152068182" LINK="https://cdn.enterprise-architecture.org/import-utility/essential_import_utility_292.war?_gl=1*17opuom*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
+<node TEXT="A Java Web Application for importing existing content from spreadsheets into the Essential repository." ID="ID_1638537063" CREATED="1732152027505" MODIFIED="1732152045486"/>
+<node TEXT="Copy this file to your Tomcat install &apos;webapp&apos; folder" ID="ID_147421395" CREATED="1732152046211" MODIFIED="1732152059928"/>
+</node>
+<node TEXT="2.5 Import Utility Example Configuration" FOLDED="true" ID="ID_720032032" CREATED="1732152072331" MODIFIED="1732152082732">
+<node TEXT="v2.0 (2020-02-06)" ID="ID_1138801250" CREATED="1732152082736" MODIFIED="1732152097546" LINK="https://cdn.enterprise-architecture.org/import-utility/essentialImportConfig-6.7.eic?_gl=1*17opuom*_up*MQ..*_ga*MTE5NjI4NzgyOS4xNzMyMTE0MzQz*_ga_X0G25EGQ6E*MTczMjExNDM0Mi4xLjEuMTczMjExNDQ3Ni4wLjAuMA.."/>
+<node TEXT="An example configuration of Import Activities for the Import Utility." ID="ID_1454904592" CREATED="1732152105133" MODIFIED="1732152107476"/>
+<node TEXT="Save this to a user accessible area such as your Documents folder and select it from within the Import Utility’s System Settings tab, using the “Import Configuration…” button" ID="ID_1312886314" CREATED="1732152113336" MODIFIED="1732152177679"/>
+</node>
+</node>
+</node>
+<node TEXT="Apply Free EA Models" FOLDED="true" POSITION="bottom_or_right" ID="ID_1816544561" CREATED="1732152178797" MODIFIED="1732152272578" LINK="https://enterprise-architecture.org/resources/free-ea-models/">
+<node TEXT="Business Capability Models" ID="ID_1369487238" CREATED="1732152201168" MODIFIED="1732152209108"/>
+<node TEXT="APQC Process Models" ID="ID_1849154864" CREATED="1732152209708" MODIFIED="1732152217904"/>
+<node TEXT="HERM (Higher Edication Reference Models)" ID="ID_908165532" CREATED="1732152218088" MODIFIED="1732152227558"/>
+</node>
 </node>
 </map>
