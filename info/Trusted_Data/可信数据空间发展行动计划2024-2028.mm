@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="可信数据空间发展行动计划（2024—2028年）" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732505953521" LINK="https://tjdsj.tjcac.gov.cn/tjsg/gjsjj/202410/t20241023_6759620.html"><hook NAME="MapStyle" background="#f5f5dcff" zoom="1.1">
+<node TEXT="可信数据空间发展行动计划（2024—2028年）" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732505953521" LINK="https://tjdsj.tjcac.gov.cn/tjsg/gjsjj/202410/t20241023_6759620.html"><hook NAME="MapStyle" background="#f5f5dcff" zoom="1.21">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-9.75 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-9 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -93,7 +93,7 @@
   </body>
 </html></richcontent>
 <node TEXT="1. 总体思路与目标" FOLDED="true" POSITION="bottom_or_right" ID="ID_1922150003" CREATED="1732501302588" MODIFIED="1732501357453">
-<node TEXT="1.1 总体思路" FOLDED="true" ID="ID_509581472" CREATED="1732501357456" MODIFIED="1732501363662">
+<node TEXT="1.1 总体思路" ID="ID_509581472" CREATED="1732501357456" MODIFIED="1732501363662">
 <node TEXT="以习近平新时代中国特色社会主义思想为指导" ID="ID_1829200339" CREATED="1732501371205" MODIFIED="1732501379535"/>
 <node TEXT="全面贯彻落实党的二十大和二十届二中、三中全会精神" ID="ID_1397580741" CREATED="1732501379941" MODIFIED="1732501388832"/>
 <node ID="ID_1982196153" CREATED="1732501400749" MODIFIED="1732501424096"><richcontent TYPE="NODE">
@@ -134,7 +134,7 @@
 </node>
 <node TEXT="为充分释放数据要素价值，激发全社会内生动力和创新活力，构建全国一体化数据市场提供有力支撑" ID="ID_334829455" CREATED="1732501475410" MODIFIED="1732501486005"/>
 </node>
-<node TEXT="1.2 2028年目标" ID="ID_1276532194" CREATED="1732501363882" MODIFIED="1732501515004">
+<node TEXT="1.2 2028年目标" FOLDED="true" ID="ID_1276532194" CREATED="1732501363882" MODIFIED="1732501515004">
 <node TEXT="可信数据空间标准体系、技术体系、生态体系、安全体系等取得突破" ID="ID_1734638223" CREATED="1732501515007" MODIFIED="1732501523964"/>
 <node TEXT="建成100个以上可信数据空间" ID="ID_1828698188" CREATED="1732501524385" MODIFIED="1732501530363"/>
 <node TEXT="形成一批数据空间解决方案和最佳实践" ID="ID_1716182890" CREATED="1732501530525" MODIFIED="1732501539193"/>
@@ -359,7 +359,7 @@
 </node>
 </node>
 </node>
-<node TEXT="可信数据空间发展引导体系（1.0版）" FOLDED="true" POSITION="top_or_left" ID="ID_675496326" CREATED="1732516125400" MODIFIED="1732516135506">
+<node TEXT="可信数据空间&#xa;发展引导体系（1.0版）" FOLDED="true" POSITION="top_or_left" ID="ID_675496326" CREATED="1732516125400" MODIFIED="1732546715525">
 <node TEXT="基本要素1：可信管控能力" ID="ID_1510645556" CREATED="1732516147575" MODIFIED="1732516180793">
 <node TEXT="接入核验审查" ID="ID_741679256" CREATED="1732516236779" MODIFIED="1732516238688">
 <node TEXT="可信数据空间应提供参与方注册以及对其审核的能力，并对参与方进行身份认证，宜集成公安、税务、市场监管等身份核验机制" ID="ID_1580257287" CREATED="1732516257830" MODIFIED="1732516259205"/>
@@ -414,7 +414,7 @@
 </node>
 </node>
 </node>
-<node TEXT="活动信息" FOLDED="true" POSITION="top_or_left" ID="ID_1282740925" CREATED="1732517135804" MODIFIED="1732517142810">
+<node TEXT="活动信息" POSITION="top_or_left" ID="ID_1282740925" CREATED="1732517135804" MODIFIED="1732517142810">
 <node TEXT="“可信数据空间－如何夯实数据要素流通基础设施”技术论坛（编号：CCF-Yo-24-041）" FOLDED="true" ID="ID_1559347634" CREATED="1732517154881" MODIFIED="1732517277762" LINK="https://www.ccf.org.cn/YOCSEF/xwdt/lt/2024-10-23/832398.shtml">
 <node TEXT="执行主席张国业和韩英" ID="ID_1004154610" CREATED="1732517205077" MODIFIED="1732517213930">
 <node TEXT="建设可信数据空间基础设施的重要意义" ID="ID_916318240" CREATED="1732517224992" MODIFIED="1732517229665">
@@ -511,12 +511,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Reference" FOLDED="true" POSITION="top_or_left" ID="ID_26429669" CREATED="1732521704777" MODIFIED="1732521706670">
+<node TEXT="Reference" POSITION="top_or_left" ID="ID_26429669" CREATED="1732521704777" MODIFIED="1732521706670">
 <node TEXT="可信数据空间" ID="ID_475355332" CREATED="1732521707531" MODIFIED="1732521735446" LINK="http://tdm-c.com/homePage"/>
 <node TEXT="Trusted Data Solution (TDS)" ID="ID_373935139" CREATED="1732521921359" MODIFIED="1732521936544" LINK="https://trusteddata.com/"/>
 <node TEXT="KPMG: Trused Data service" ID="ID_387853974" CREATED="1732522292413" MODIFIED="1732522301828" LINK="https://kpmg.com/xx/en/what-we-do/services/advisory/consulting/the-trusted-imperative/trusted-data.html"/>
 <node TEXT="cheqd: Trusted data and the rise of the trusted data economy" ID="ID_1103567376" CREATED="1732522335906" MODIFIED="1732522351687" LINK="https://cheqd.io/blog/trusted-data-and-the-rise-of-the-trusted-data-economy/"/>
-<node TEXT="Regulations relating to Trusted Data" FOLDED="true" ID="ID_703533273" CREATED="1732522418706" MODIFIED="1732522433419">
+<node TEXT="Regulations relating to Trusted Data" ID="ID_703533273" CREATED="1732522418706" MODIFIED="1732522433419">
 <node TEXT="Trusted Data Transaction" POSITION="top_or_left" ID="ID_1263822517" CREATED="1732521999467" MODIFIED="1732522155770" LINK="https://www.trusted-data-transaction.org/en/"><richcontent TYPE="NOTE">
 <html>
   <head>
