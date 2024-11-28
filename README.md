@@ -40,7 +40,7 @@ In order to increase your chances of success, learn the fundamentals of the chos
 
 Learn across multiple fields and work tirelessly on making connections.
 
-===
+---
 
 If you find the information here is interesting or useful, please consider [donate $1 dollar](https://paypal.me/zhaoxiaoqi/1) (secure Paypal link) for a coffee, thanks and enjoy!
 
