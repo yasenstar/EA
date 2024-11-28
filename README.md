@@ -11,6 +11,12 @@ Here is the collections of Xiaoqi's view on Enterprise and Business Architecture
 - [Architect related readings](./archi_reading_tools/)
 - [Reference Models](/ref_models/)
 
+## Definition of Enterprise Architect
+
+Thanks for the nice picture from [Ronald Arsolino](https://www.linkedin.com/in/ronaldarsolino/):
+
+![EA Job Descripition](img/EA-role.jpg)
+
 ## Enterprise Architecture Tool
 
 - [Archi - ArchiMate Tool](/archimate/)
