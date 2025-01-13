@@ -212,7 +212,7 @@ WHERE
 
 ![archi-html-query-18](img/html-query-18.png)
 
-If you want to see the name of Relationships, use below updated query:
+### If you want to see the name of Relationships, use below updated query:
 
 ```sql
 SELECT r.sourceid, e1.name AS sourceName, r.type, r.name AS relationName, r.targetid, e2.name AS targetName
@@ -240,7 +240,7 @@ INNER JOIN Elements AS e2 ON r.targetid = e2.id
 WHERE r.type = 'ServingRelationship' AND e1.type = 'ApplicationComponent' AND e2.type = 'Location' AND e2.name like '%Market %'
 ```
 
-Query Specific Application's Market Coverage
+#### Query Specific Application's Market Coverage
 
 ```sql
 SELECT e1.name AS sourceName, r.type, r.name AS relationName, e2.name AS targetName
@@ -254,7 +254,7 @@ WHERE r.type = 'ServingRelationship' AND
       e1.name LIKE '%ID%' -- can be partial in the name of catalog of application component
 ```
 
-For decommisssioned applications, query their effective from and end date to specific market coverage
+#### For decommisssioned applications, query their effective from and end date to specific market coverage
 
 ```sql
 SELECT e1.name AS sourceName, r.type, e2.name AS targetName, p.propkey, p.propvalue
@@ -289,6 +289,15 @@ SELECT * INTO CSV("Views.csv") FROM Views;
 SELECT * INTO CSV("ViewsContent.csv") FROM ViewsContent;
 SELECT * INTO CSV("Folders.csv") FROM Folders;
 SELECT * INTO CSV("FoldersContent.csv") FROM FoldersContent;
+```
+
+### List specific property (application with APM ID propkey) and export to csv
+
+```sql
+SELECT e.name, p.propkey, p.propvalue
+FROM Elements AS e INNER JOIN Properties AS p ON e.id = p.conceptid
+WHERE e.type = 'ApplicationComponent' AND p.propkey = 'APM ID'
+ORDER BY e.name ASC
 ```
 
 ---
