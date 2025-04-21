@@ -1,0 +1,515 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#AG2R_LA_MONDIALE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#AG2R_LA_MONDIALE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Areas_Assurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Areas_Assurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance"/>
+        <rdfs:comment>French Insurance Company</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#AtE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#AtE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#BKWI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#BKWI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+        <rdfs:comment>Dutch Government Organization at the Domain of Work and Income</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Bank_in_Venezuela -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Bank_in_Venezuela">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#CGI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#CGI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Canadian_Province_of_New_Brunswick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Canadian_Province_of_New_Brunswick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Cap_Gemini -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Cap_Gemini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Casewise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Casewise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Ciber_International -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Ciber_International">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#DXC_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#DXC_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Dutch_Railways -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Dutch_Railways">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Electrabel_IT-Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Electrabel_IT-Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Energy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#European_Interoperability_Reference_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#European_Interoperability_Reference_Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#ExxonMobil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#ExxonMobil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Energy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#French_Ministry_of_Defence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#French_Ministry_of_Defence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#GE_Corporate_Initiatives_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#GE_Corporate_Initiatives_Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Industrial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#GSK -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#GSK">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government_of_Canada_Treasury_Board -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government_of_Canada_Treasury_Board">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Havenbedrijf_Rotterdam_N.V. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Havenbedrijf_Rotterdam_N.V.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Healthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Healthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#IBM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#IBM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Industrial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Industrial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Jokosun_Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Jokosun_Company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Energy"/>
+        <rdfs:comment>Startup company for deploying energy solutiosn in west Africa</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#KBC_Belgium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#KBC_Belgium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Transportation"/>
+        <rdfs:comment>Transportation and logistics company</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#KPN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#KPN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Telecom"/>
+        <rdfs:comment>Dutch Telecom and Network company</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Kemerovo_Heart_Disease_Hospital_and_Dispensary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Kemerovo_Heart_Disease_Hospital_and_Dispensary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Healthy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#LafargeHolcim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#LafargeHolcim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Industrial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#MassMutual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#MassMutual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#My_Money_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#My_Money_Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance"/>
+        <rdfs:comment>a French banking group</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Nijmegen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Nijmegen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+        <rdfs:comment>the Netherlands</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#OTP_Bank_Hungary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#OTP_Bank_Hungary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#OpenGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#OpenGroup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Ordnance_Survey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Ordnance_Survey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#PharmaPartners -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#PharmaPartners">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Pharmacutical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Pharmacutical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Pharmacutical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Philips_Lighting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Philips_Lighting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Energy"/>
+        <rdfs:comment>founded by Royal Philips</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#QA_Training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#QA_Training">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Qander_Consumer_Finance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Qander_Consumer_Finance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Royal_Society_for_the_Prevention_of_Cruelty_to_Animals_RSPCA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Royal_Society_for_the_Prevention_of_Cruelty_to_Animals_RSPCA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Sogeti_Nederland_B.V. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Sogeti_Nederland_B.V.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Standard_Bank_of_South_Africa_Limited -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Standard_Bank_of_South_Africa_Limited">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Stime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Stime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Telecom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Telecom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#The_TriZetto_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#The_TriZetto_Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Transportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Transportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#UK_Ministry_of_Defence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#UK_Ministry_of_Defence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#United_States_Department_of_Labor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#United_States_Department_of_Labor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Universities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Universities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Archi_Adoption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_St._Gallen_HSG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_St._Gallen_HSG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Universities"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_Sydney"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.unisg.ch</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_Sydney -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_Sydney">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Universities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#VNG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#VNG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Government"/>
+        <rdfs:comment>An association represent all Dutch municipalities</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Volvo_Financial_Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Volvo_Financial_Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Finance_Insurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Walraven -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Walraven">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Industrial"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
