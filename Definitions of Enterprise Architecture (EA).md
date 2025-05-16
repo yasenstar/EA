@@ -65,7 +65,3 @@
 | --- | --- |
 | Definition | Enterprise Architecture (EA) is a discipline that manages conflicting approaches to success within large-scale organizations. A specialty devoted equally to the worlds of IT and Business, it introduces practical standards across deparemental units and teams in order to streamline efforts with an intelligent sharing of resources. |
 
-
-
-
-Reference Source: shared by Michael Poulin, 2011-11-01
