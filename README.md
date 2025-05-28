@@ -11,7 +11,7 @@ Here is the collections of Xiaoqi's view on Enterprise and Business Architecture
 - [Architect related readings](./archi_reading_tools/)
 - [Reference Models](/ref_models/)
 
-## Definition of Enterprise Architect
+## Definition of Enterprise Architecture
 
 Thanks for the nice picture from [Ronald Arsolino](https://www.linkedin.com/in/ronaldarsolino/):
 
@@ -19,7 +19,7 @@ Thanks for the nice picture from [Ronald Arsolino](https://www.linkedin.com/in/r
 
 ## Enterprise Architecture Tool
 
-- [Archi - ArchiMate Tool](./architool/README.md)
+- [Archi - ArchiMate Modeling Tool](./architool/README.md)
   - [ArchiMate Specification](/archimate/)
 - [Sparx System Enterprise Architect](/Sparx)
 - [Essential Project EA Tool](./Essential_EA/)
