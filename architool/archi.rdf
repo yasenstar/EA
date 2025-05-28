@@ -471,6 +471,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_Alberta">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Universities"/>
+        <rdfs:comment>Archi is serving the purpose of documenting the current state of thee architectural landscape of the university</rdfs:comment>
     </owl:Class>
     
 
