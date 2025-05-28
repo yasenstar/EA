@@ -467,6 +467,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_Alberta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_Alberta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#Universities"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_St._Gallen_HSG -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/archi#University_of_St._Gallen_HSG">
