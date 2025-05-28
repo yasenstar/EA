@@ -43,10 +43,11 @@ Mindmap file: [Essential EA Tool](./Essential-EA-Tool.mm), here is the exported 
 
 ## Issues during using the Essential Opensource Edition
 
-- [Essential Opensource   Business Process Flow cannot display activity with special characters](https://youtu.be/eK9ImP8yfLI), 2023/06/28
+- [About Tomcat version used in Essential Opensource Edition](https://enterprise-architecture.org/forums/viewtopic.php?f=21&t=3131), 2025/05/27
+- [Essential Opensource - Business Process Flow cannot display activity with special characters](https://youtu.be/eK9ImP8yfLI), 2023/06/28
 - [Essential Open Source Edition - Problem of Slot Position in Screen](https://youtu.be/kKqpHkW_kXU), 2023/06/15
 - [AppDependencyModel v2 SourceApp Data Display Issue](https://youtu.be/P2IQSSUlxKE), 2023/04/10
 
 ---
 
-Thanks and welcome to your comments and suggestions, [email here](mailto:xiaoqizhao@outlook.com) and I'll try my best to respond.
+Thanks and welcome to your comments and suggestions, [email here](mailto:xiaoqizhao@outlook.com) or post in Discussion Board and I'll try my best to respond.
