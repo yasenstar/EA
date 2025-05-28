@@ -19,8 +19,8 @@ Thanks for the nice picture from [Ronald Arsolino](https://www.linkedin.com/in/r
 
 ## Enterprise Architecture Tool
 
-- [Archi - ArchiMate Tool](/archimate/)
-  - [Play with Archi HTML Report Query](architool/Query-Archi-HTML-Report.md)
+- [Archi - ArchiMate Tool](./architool/README.md)
+  - [ArchiMate Specification](/archimate/)
 - [Sparx System Enterprise Architect](/Sparx)
 - [Essential Project EA Tool](./Essential_EA/)
 
