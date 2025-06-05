@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Sample_Model" id="id-e0ddd09462f74259821fd287e4d15001" version="5.0.0">
+  <folder name="Strategy" id="id-2187d3866e5d47c08f81c78c1aa50b29" type="strategy"/>
+  <folder name="Business" id="id-679c5463280440f5a9be4c4b4f956c2e" type="business"/>
+  <folder name="Application" id="id-dda09b28144246c3a02d0a1c1253e4ac" type="application">
+    <element xsi:type="archimate:DataObject" name="Data_Group_01" id="dg-01"/>
+    <element xsi:type="archimate:DataObject" name="Data_Object_0001" id="do-0001"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-a3cbfb08fe0747e1939184c909dfe101" type="technology"/>
+  <folder name="Motivation" id="id-0b3f87e536b0415eba89f2cf846a5dd0" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-7f5130bafb874cd5a1f2654743d8cde0" type="implementation_migration"/>
+  <folder name="Other" id="id-0ec008f2b8fa41bdb06e563a8b8b87ae" type="other"/>
+  <folder name="Relations" id="id-f98ef98a353a4ca2a82315b088ae1ed8" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="data_rel_0001" source="dg-01" target="do-0001"/>
+  </folder>
+  <folder name="Views" id="id-8d2b09e2ddb04a07ad0eeecc2bb5ece8" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-69dbfa507d7b449ea60d6e3ae9fe6db2">
+      <child xsi:type="archimate:DiagramObject" id="id-d3801b58c2bd48a89aa3ea6936cc6f21" archimateElement="dg-01">
+        <bounds x="663" y="310" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-a98fc4b8bcac4c949fcf7265331d557d" source="id-d3801b58c2bd48a89aa3ea6936cc6f21" target="id-87c4d02beeaf421abc4f9436cfe91c63" archimateRelationship="data_rel_0001"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-87c4d02beeaf421abc4f9436cfe91c63" targetConnections="id-a98fc4b8bcac4c949fcf7265331d557d" archimateElement="do-0001">
+        <bounds x="813" y="310" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>

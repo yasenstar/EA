@@ -1,0 +1,4 @@
+ID,Type,Name,Documentation,Specialization
+id-90a6cb97efdf47c88722734e7420cd92,ArchimateModel,Sample_Model,,
+dg-01,DataObject,Data_Group_01,,
+do-0001,DataObject,Data_Object_0001,,
