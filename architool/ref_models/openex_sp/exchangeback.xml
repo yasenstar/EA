@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<model identifier="EAPK_4C408A6A_99BE_42b8_9109_B4D70AF19E09" xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Model.xsd">
+	<name xml:lang="en">OpenExchangeModel</name>
+	<elements>
+		<element identifier="EAID_28D43774_1CBA_4f13_895D_D9EF55B5F1E1" xsi:type="Resource">
+			<name xml:lang="en">Resource</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-20cea374c6cb49fabb079f49d4423529</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_F4618A49_5AE0_41ac_B731_2F86127A23E0" xsi:type="Capability">
+			<name xml:lang="en">Market Managment</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-672adbbeacbd4c6c8f58f09db388386b</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_1D4331A6_E27D_4e88_B360_BB2E1F8E2057" xsi:type="Capability">
+			<name xml:lang="en">Operation Management</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-ab1951dd3c4941e7ab71403b151eb2f8</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_4421759B_CC42_471b_AC64_9FB917274658" xsi:type="ValueStream">
+			<name xml:lang="en">Value Stream</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-2de47d0ef32746c894e7239e5fd43624</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_585DB66C_2AA8_4f59_8C63_E3FFAB718C63" xsi:type="BusinessProcess">
+			<name xml:lang="en">Step 1: application form</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-3cccb547054d40f49d7f0d51e5c7b21e</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_CACEA04E_DCA9_46e1_84FF_95FBB78A02D6" xsi:type="BusinessProcess">
+			<name xml:lang="en">Step 2: review by manager</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-85f9278b9e28436da8cd8f39fa728a58</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_0EC5A72E_5F27_4569_9953_690122F3A605" xsi:type="BusinessProcess">
+			<name xml:lang="en">Step 3: approval</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-f16fd6d2528048bc8f4690d10db7234c</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_865C8030_278E_41bc_945D_E8A324A2EC4F" xsi:type="BusinessProcess">
+			<name xml:lang="en">New Step</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-19c94a56771c479cbad5c58174bc49a7</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_0152DBB1_8063_429d_87E2_CAA68277F6D4" xsi:type="ApplicationComponent">
+			<name xml:lang="en">CRM App</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-75bb6cf9377f4a2e951c73602ed79861</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_CE2725E4_C9C4_448d_AC3C_B346B7EDA6C5" xsi:type="ApplicationComponent">
+			<name xml:lang="en">ERP App</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-5e0d7e9eeadc4fe4a07f8d4a0fc3108f</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_22E3BB6A_18A3_46f1_8D78_FF7945557119" xsi:type="ApplicationComponent">
+			<name xml:lang="en">Customer Portal</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-1252897b87944d8282d8faa3cd985acb</value>
+				</property>
+			</properties>
+		</element>
+	</elements>
+	<relationships>
+		<relationship identifier="EAID_BC911281_75B3_4468_A390_9D6D23F5A2FE" source="EAID_28D43774_1CBA_4f13_895D_D9EF55B5F1E1" target="EAID_F4618A49_5AE0_41ac_B731_2F86127A23E0" xsi:type="Assignment">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-37309ecf45de43fbaa63377940988800</value>
+				</property>
+			</properties>
+		</relationship>
+		<relationship identifier="EAID_EDAA202F_D3B7_4b42_9741_C3BF3015D627" source="EAID_F4618A49_5AE0_41ac_B731_2F86127A23E0" target="EAID_4421759B_CC42_471b_AC64_9FB917274658" xsi:type="Serving">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-f02f381d66e34aca87fe568548720498</value>
+				</property>
+			</properties>
+		</relationship>
+		<relationship identifier="EAID_923FAE8B_30B2_4ff5_ACDB_75E346CEA095" source="EAID_585DB66C_2AA8_4f59_8C63_E3FFAB718C63" target="EAID_CACEA04E_DCA9_46e1_84FF_95FBB78A02D6" xsi:type="Triggering">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-07a91b729a9d4e7e8610604b10ccc9be</value>
+				</property>
+			</properties>
+		</relationship>
+		<relationship identifier="EAID_3DCAF2AF_6CE8_4898_A233_C63844332981" source="EAID_CACEA04E_DCA9_46e1_84FF_95FBB78A02D6" target="EAID_0EC5A72E_5F27_4569_9953_690122F3A605" xsi:type="Triggering">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-07234e37f55a4c9ba79b702cb01c9ac9</value>
+				</property>
+			</properties>
+		</relationship>
+		<relationship identifier="EAID_119B41FD_0C38_457d_8909_DDECC7BF2C7D" source="EAID_865C8030_278E_41bc_945D_E8A324A2EC4F" target="EAID_585DB66C_2AA8_4f59_8C63_E3FFAB718C63" xsi:type="Flow"/>
+		<relationship identifier="EAID_411456B1_0980_4b31_858A_132BC5194670" source="EAID_0152DBB1_8063_429d_87E2_CAA68277F6D4" target="EAID_22E3BB6A_18A3_46f1_8D78_FF7945557119" xsi:type="Serving">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-d8e083becd344ab2a06c6e36b4c8d5d7</value>
+				</property>
+			</properties>
+		</relationship>
+		<relationship identifier="EAID_6FABE01D_3F2C_42b6_8C7B_19A76BAA12E4" source="EAID_0152DBB1_8063_429d_87E2_CAA68277F6D4" target="EAID_F4618A49_5AE0_41ac_B731_2F86127A23E0" xsi:type="Realization">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-891f25d904764856b9a57d25c8351c2c</value>
+				</property>
+			</properties>
+		</relationship>
+		<relationship identifier="EAID_92878C63_07D8_4d9e_A723_592A81EC7766" source="EAID_CE2725E4_C9C4_448d_AC3C_B346B7EDA6C5" target="EAID_0152DBB1_8063_429d_87E2_CAA68277F6D4" xsi:type="Serving">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-71a617e91b23449c95cafc9030096ad6</value>
+				</property>
+			</properties>
+		</relationship>
+		<relationship identifier="EAID_ADEF20D0_1663_4192_8CF5_E6310845F3E4" source="EAID_CE2725E4_C9C4_448d_AC3C_B346B7EDA6C5" target="EAID_1D4331A6_E27D_4e88_B360_BB2E1F8E2057" xsi:type="Realization">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-3393ee80b16b4c09bddd07bb5e3ebae1</value>
+				</property>
+			</properties>
+		</relationship>
+		<relationship identifier="EAID_00E36158_A51E_4488_B113_968513EE0770" source="EAID_22E3BB6A_18A3_46f1_8D78_FF7945557119" target="EAID_F4618A49_5AE0_41ac_B731_2F86127A23E0" xsi:type="Realization">
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="en">id-2307533616d947f18d5f301e6c741c11</value>
+				</property>
+			</properties>
+		</relationship>
+	</relationships>
+	<organizations>
+		<item>
+			<label xml:lang="en">Strategy</label>
+			<item identifierRef="EAID_28D43774_1CBA_4f13_895D_D9EF55B5F1E1"/>
+			<item identifierRef="EAID_F4618A49_5AE0_41ac_B731_2F86127A23E0"/>
+			<item identifierRef="EAID_1D4331A6_E27D_4e88_B360_BB2E1F8E2057"/>
+			<item identifierRef="EAID_4421759B_CC42_471b_AC64_9FB917274658"/>
+		</item>
+		<item>
+			<label xml:lang="en">Business</label>
+			<item identifierRef="EAID_585DB66C_2AA8_4f59_8C63_E3FFAB718C63"/>
+			<item identifierRef="EAID_CACEA04E_DCA9_46e1_84FF_95FBB78A02D6"/>
+			<item identifierRef="EAID_0EC5A72E_5F27_4569_9953_690122F3A605"/>
+			<item identifierRef="EAID_865C8030_278E_41bc_945D_E8A324A2EC4F"/>
+		</item>
+		<item>
+			<label xml:lang="en">Application</label>
+			<item identifierRef="EAID_0152DBB1_8063_429d_87E2_CAA68277F6D4"/>
+			<item identifierRef="EAID_CE2725E4_C9C4_448d_AC3C_B346B7EDA6C5"/>
+			<item identifierRef="EAID_22E3BB6A_18A3_46f1_8D78_FF7945557119"/>
+		</item>
+		<item>
+			<label xml:lang="en">Relations</label>
+		</item>
+		<item>
+			<label xml:lang="en">Views</label>
+			<item identifierRef="EAID_3E764E17_4E53_46a4_BAD0_3684ACA41A0B"/>
+			<item identifierRef="EAID_38BA3930_AFB1_4bc7_A6D6_DA4F5296C69B"/>
+			<item identifierRef="EAID_CB526AFB_43A0_4a06_B689_B1E3C5DAB5D9"/>
+			<item identifierRef="EAID_A3BE324D_CF91_4f77_90EE_14A956C2934B"/>
+		</item>
+	</organizations>
+	<propertyDefinitions>
+		<propertyDefinition identifier="EAID_PD000000_01A4_4d78_BCA4_15599E617ED4" type="string">
+			<name>archimate_element_identifier</name>
+		</propertyDefinition>
+		<propertyDefinition identifier="EAID_PD000001_01A4_4d78_BCA4_15599E617ED4" type="string">
+			<name>archimate_connector_identifier</name>
+		</propertyDefinition>
+	</propertyDefinitions>
+	<views>
+		<diagrams>
+			<view identifier="EAID_3E764E17_4E53_46a4_BAD0_3684ACA41A0B" xsi:type="Diagram">
+				<name xml:lang="en">New process</name>
+				<node identifier="EAID_DN000000_278E_41bc_945D_E8A324A2EC4F" xsi:type="Element" elementRef="EAID_865C8030_278E_41bc_945D_E8A324A2EC4F" x="231" y="168" w="135" h="75"/>
+				<node identifier="EAID_DN000000_2AA8_4f59_8C63_E3FFAB718C63" xsi:type="Element" elementRef="EAID_585DB66C_2AA8_4f59_8C63_E3FFAB718C63" x="487" y="80" w="135" h="75"/>
+				<connection identifier="EAID_DC000000_0C38_457d_8909_DDECC7BF2C7D" xsi:type="Relationship" relationshipRef="EAID_119B41FD_0C38_457d_8909_DDECC7BF2C7D" source="EAID_DN000000_278E_41bc_945D_E8A324A2EC4F" target="EAID_DN000000_2AA8_4f59_8C63_E3FFAB718C63">
+					<style>
+						<fillColor r="105" g="115" b="140"/>
+						<lineColor r="105" g="115" b="140"/>
+					</style>
+				</connection>
+			</view>
+			<view identifier="EAID_38BA3930_AFB1_4bc7_A6D6_DA4F5296C69B" xsi:type="Diagram">
+				<name xml:lang="en">Strategy View</name>
+				<node identifier="EAID_DN000000_1CBA_4f13_895D_D9EF55B5F1E1" xsi:type="Element" elementRef="EAID_28D43774_1CBA_4f13_895D_D9EF55B5F1E1" x="84" y="216" w="120" h="55">
+					<style>
+						<fillColor r="245" g="222" b="170"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000000_5AE0_41ac_B731_2F86127A23E0" xsi:type="Element" elementRef="EAID_F4618A49_5AE0_41ac_B731_2F86127A23E0" x="300" y="219" w="120" h="55">
+					<style>
+						<fillColor r="245" g="222" b="170"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000000_CC42_471b_AC64_9FB917274658" xsi:type="Element" elementRef="EAID_4421759B_CC42_471b_AC64_9FB917274658" x="300" y="136" w="120" h="55">
+					<style>
+						<fillColor r="245" g="222" b="170"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000000_8063_429d_87E2_CAA68277F6D4" xsi:type="Element" elementRef="EAID_0152DBB1_8063_429d_87E2_CAA68277F6D4" x="300" y="348" w="120" h="55">
+					<style>
+						<fillColor r="181" g="255" b="255"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<connection identifier="EAID_DC000000_75B3_4468_A390_9D6D23F5A2FE" xsi:type="Relationship" relationshipRef="EAID_BC911281_75B3_4468_A390_9D6D23F5A2FE" source="EAID_DN000000_1CBA_4f13_895D_D9EF55B5F1E1" target="EAID_DN000000_5AE0_41ac_B731_2F86127A23E0"/>
+				<connection identifier="EAID_DC000000_D3B7_4b42_9741_C3BF3015D627" xsi:type="Relationship" relationshipRef="EAID_EDAA202F_D3B7_4b42_9741_C3BF3015D627" source="EAID_DN000000_5AE0_41ac_B731_2F86127A23E0" target="EAID_DN000000_CC42_471b_AC64_9FB917274658"/>
+				<connection identifier="EAID_DC000000_3F2C_42b6_8C7B_19A76BAA12E4" xsi:type="Relationship" relationshipRef="EAID_6FABE01D_3F2C_42b6_8C7B_19A76BAA12E4" source="EAID_DN000000_8063_429d_87E2_CAA68277F6D4" target="EAID_DN000000_5AE0_41ac_B731_2F86127A23E0"/>
+			</view>
+			<view identifier="EAID_CB526AFB_43A0_4a06_B689_B1E3C5DAB5D9" xsi:type="Diagram">
+				<name xml:lang="en">Application Landscape</name>
+				<node identifier="EAID_DN000001_8063_429d_87E2_CAA68277F6D4" xsi:type="Element" elementRef="EAID_0152DBB1_8063_429d_87E2_CAA68277F6D4" x="73" y="200" w="120" h="55">
+					<style>
+						<fillColor r="181" g="255" b="255"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000000_C9C4_448d_AC3C_B346B7EDA6C5" xsi:type="Element" elementRef="EAID_CE2725E4_C9C4_448d_AC3C_B346B7EDA6C5" x="289" y="199" w="120" h="55">
+					<style>
+						<fillColor r="181" g="255" b="255"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000000_18A3_46f1_8D78_FF7945557119" xsi:type="Element" elementRef="EAID_22E3BB6A_18A3_46f1_8D78_FF7945557119" x="73" y="96" w="120" h="55">
+					<style>
+						<fillColor r="181" g="255" b="255"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000001_5AE0_41ac_B731_2F86127A23E0" xsi:type="Element" elementRef="EAID_F4618A49_5AE0_41ac_B731_2F86127A23E0" x="289" y="96" w="120" h="55">
+					<style>
+						<fillColor r="245" g="222" b="170"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000000_E27D_4e88_B360_BB2E1F8E2057" xsi:type="Element" elementRef="EAID_1D4331A6_E27D_4e88_B360_BB2E1F8E2057" x="480" y="96" w="120" h="55">
+					<style>
+						<fillColor r="245" g="222" b="170"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<connection identifier="EAID_DC000000_0980_4b31_858A_132BC5194670" xsi:type="Relationship" relationshipRef="EAID_411456B1_0980_4b31_858A_132BC5194670" source="EAID_DN000001_8063_429d_87E2_CAA68277F6D4" target="EAID_DN000000_18A3_46f1_8D78_FF7945557119"/>
+				<connection identifier="EAID_DC000001_3F2C_42b6_8C7B_19A76BAA12E4" xsi:type="Relationship" relationshipRef="EAID_6FABE01D_3F2C_42b6_8C7B_19A76BAA12E4" source="EAID_DN000001_8063_429d_87E2_CAA68277F6D4" target="EAID_DN000001_5AE0_41ac_B731_2F86127A23E0">
+					<bendpoint x="189" y="151"/>
+				</connection>
+				<connection identifier="EAID_DC000000_07D8_4d9e_A723_592A81EC7766" xsi:type="Relationship" relationshipRef="EAID_92878C63_07D8_4d9e_A723_592A81EC7766" source="EAID_DN000000_C9C4_448d_AC3C_B346B7EDA6C5" target="EAID_DN000001_8063_429d_87E2_CAA68277F6D4"/>
+				<connection identifier="EAID_DC000000_1663_4192_8CF5_E6310845F3E4" xsi:type="Relationship" relationshipRef="EAID_ADEF20D0_1663_4192_8CF5_E6310845F3E4" source="EAID_DN000000_C9C4_448d_AC3C_B346B7EDA6C5" target="EAID_DN000000_E27D_4e88_B360_BB2E1F8E2057">
+					<bendpoint x="399" y="151"/>
+				</connection>
+				<connection identifier="EAID_DC000000_A51E_4488_B113_968513EE0770" xsi:type="Relationship" relationshipRef="EAID_00E36158_A51E_4488_B113_968513EE0770" source="EAID_DN000000_18A3_46f1_8D78_FF7945557119" target="EAID_DN000001_5AE0_41ac_B731_2F86127A23E0"/>
+			</view>
+			<view identifier="EAID_A3BE324D_CF91_4f77_90EE_14A956C2934B" xsi:type="Diagram">
+				<name xml:lang="en">Ref View</name>
+				<node identifier="EAID_DN000001_2AA8_4f59_8C63_E3FFAB718C63" xsi:type="Element" elementRef="EAID_585DB66C_2AA8_4f59_8C63_E3FFAB718C63" x="41" y="166" w="120" h="55">
+					<style>
+						<fillColor r="255" g="255" b="181"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000000_DCA9_46e1_84FF_95FBB78A02D6" xsi:type="Element" elementRef="EAID_CACEA04E_DCA9_46e1_84FF_95FBB78A02D6" x="240" y="166" w="120" h="55">
+					<style>
+						<fillColor r="255" g="255" b="181"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<node identifier="EAID_DN000000_5F27_4569_9953_690122F3A605" xsi:type="Element" elementRef="EAID_0EC5A72E_5F27_4569_9953_690122F3A605" x="449" y="167" w="120" h="55">
+					<style>
+						<fillColor r="255" g="255" b="181"/>
+						<lineColor r="92" g="92" b="92"/>
+						<font name="Segoe UI" size="9" style="plain"/>
+					</style>
+				</node>
+				<connection identifier="EAID_DC000000_30B2_4ff5_ACDB_75E346CEA095" xsi:type="Relationship" relationshipRef="EAID_923FAE8B_30B2_4ff5_ACDB_75E346CEA095" source="EAID_DN000001_2AA8_4f59_8C63_E3FFAB718C63" target="EAID_DN000000_DCA9_46e1_84FF_95FBB78A02D6"/>
+				<connection identifier="EAID_DC000000_6CE8_4898_A233_C63844332981" xsi:type="Relationship" relationshipRef="EAID_3DCAF2AF_6CE8_4898_A233_C63844332981" source="EAID_DN000000_DCA9_46e1_84FF_95FBB78A02D6" target="EAID_DN000000_5F27_4569_9953_690122F3A605"/>
+			</view>
+		</diagrams>
+	</views>
+</model>
