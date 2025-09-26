@@ -32,9 +32,9 @@ It is good to enjoy the newer version with the added features, however, during i
 | ID | Id | Changed |
 | Documentation | Documentation | |
 | Source | Source | |
-| Source ID | Source Id | |
+| Source ID | Source Id | Changed |
 | Target | Target | |
-| Target ID | Target Id | |
+| Target ID | Target Id | Changed |
 | Specialization | Specialization | |
 
 ## Tab - Properties
