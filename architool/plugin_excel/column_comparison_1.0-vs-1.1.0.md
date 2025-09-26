@@ -1,6 +1,6 @@
-# Excel Export Plug-in - Column Comparison
+# Archi Excel Export Plug-in - Column Comparison
 
-- [Excel Export Plug-in - Column Comparison](#excel-export-plug-in---column-comparison)
+- [Archi Excel Export Plug-in - Column Comparison](#archi-excel-export-plug-in---column-comparison)
 - [Brief](#brief)
   - [Tab - Elements](#tab---elements)
   - [Tab - Relationships](#tab---relationships)
