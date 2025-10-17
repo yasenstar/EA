@@ -42,6 +42,31 @@ Learn across multiple fields and work tirelessly on making connections.
 
 ---
 
+## 企业架构师的诗
+
+之一：
+
+云上蓝图织万端，
+数声算法定乾坤。
+代码如诗连世界，
+架构为桥接古今。
+
+之二：
+
+筹谋千载绘宏图，
+笔下云涛化电途。
+不问功名留智慧，
+一城数据是江湖。
+
+之三：
+
+构梦蓝图连九霄，
+数流云路策中调。
+千机汇聚通天下，
+一笔勾成万象昭。
+
+---
+
 If you find the information here is interesting or useful, please consider [donate $1 dollar](https://paypal.me/zhaoxiaoqi/1) (secure Paypal link) for a coffee, thanks and enjoy!
 
 Any questions, [reach me here](mailto:xiaoqizhao@outlook.com) please.
