@@ -82,7 +82,7 @@ A poet wrought in logic’s measured line,<br>
 Through thee the realm of business learns to see,<br>
 Its soul transfigured in design divine.
 
-So may thy craft, though silent to the crowd,
+So may thy craft, though silent to the crowd,<br>
 Stand tall—its beauty veiled, yet unbowed.
 
 ---
