@@ -46,24 +46,44 @@ Learn across multiple fields and work tirelessly on making connections.
 
 之一：
 
-云上蓝图织万端，
-数声算法定乾坤。
-代码如诗连世界，
+云上蓝图织万端，<br>
+数声算法定乾坤。<br>
+代码如诗连世界，<br>
 架构为桥接古今。
 
 之二：
 
-筹谋千载绘宏图，
-笔下云涛化电途。
-不问功名留智慧，
+筹谋千载绘宏图，<br>
+笔下云涛化电途。<br>
+不问功名留智慧，<br>
 一城数据是江湖。
 
 之三：
 
-构梦蓝图连九霄，
-数流云路策中调。
-千机汇聚通天下，
+构梦蓝图连九霄，<br>
+数流云路策中调。<br>
+千机汇聚通天下，<br>
 一笔勾成万象昭。
+
+## Sonnet to the Enterprise Architect
+
+Architect, whose mind both wide and deep,<br>
+Doth chart the realms where systems intertwine,<br>
+Thy vision through the tangled shadows sweep,<br>
+And order springs where chaos once did twine.
+
+With diagrams thou draw’st the path of might,<br>
+Through cloud and code thy structures stand and soar,<br>
+Each node and stream reflects thy keen insight,<br>
+Each flow doth sing of balance evermore.
+
+Thou art the bridge 'twixt dream and firm decree,<br>
+A poet wrought in logic’s measured line,<br>
+Through thee the realm of business learns to see,<br>
+Its soul transfigured in design divine.
+
+So may thy craft, though silent to the crowd,
+Stand tall—its beauty veiled, yet unbowed.
 
 ---
 
