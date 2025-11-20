@@ -4,11 +4,13 @@
   - [Resources about coArchi2](#resources-about-coarchi2)
   - [Installing coArchi2](#installing-coarchi2)
   - [Initial Collaboration Model in coArchi2 and Compare with coArchi1](#initial-collaboration-model-in-coarchi2-and-compare-with-coarchi1)
-    - [Open Local Model](#open-local-model)
-    - [`Collaboration` Menu](#collaboration-menu)
-    - [Create Empty Repository (GitHub)](#create-empty-repository-github)
+  - [Open Local Model](#open-local-model)
+  - [`Collaboration` Menu](#collaboration-menu)
+  - [Create Empty Repository (GitHub)](#create-empty-repository-github)
     - [`Add Local Model to Workspace`](#add-local-model-to-workspace)
-    - [Create New Branch](#create-new-branch)
+  - [Create New Branch](#create-new-branch)
+  - [Working on Model and Publish to Remote](#working-on-model-and-publish-to-remote)
+- [Practice the Collaboration Steps](#practice-the-collaboration-steps)
 
 ## Resources about coArchi2
 
@@ -85,7 +87,7 @@ In the instance of clean Archi, install the latest testing version of coArchi2, 
 
 In below comparison, left is coArchi1, right is coArchi2
 
-### Open Local Model
+## Open Local Model
 
 I'm using one same "Archi-Meta-Model" local file as example.
 
@@ -95,7 +97,7 @@ And there's one new icon "Toggle Tags" is added in coArchi2
 
 ![open local model, plug-in icons](img/01_plug-in-icons.png)
 
-### `Collaboration` Menu
+## `Collaboration` Menu
 
 Here is the difference when show `Collaboration` menu:
 
@@ -105,7 +107,7 @@ Here is the difference when show `Collaboration` menu:
 
 In coArchi2, the first item doesn't have `... and Publish` text.
 
-### Create Empty Repository (GitHub)
+## Create Empty Repository (GitHub)
 
 | coArchi1 | coArchi2|
 | --- | --- |
@@ -142,7 +144,7 @@ The local collaboration tab display is different:
 | 3. Published to Remote Repo | ![repo published coArchi1](img/04_add-local-model-to-workspace_coArchi1_repo-published.png) | ![repo published coArchi2](img/04_add-local-model-to-workspace_coArchi2_repo-published.png) |
 | 4. Collaboration Tab with Model | ![local collab tab coArchi1](img/04_add-local-model-to-workspace_coArchi1_local-collaboration-tab.png) | ![local collab tab coArchi2](img/04_add-local-model-to-workspace_coArchi2_local-collaboration-tab.png) |
 
-### Create New Branch
+## Create New Branch
 
 After `Add Model to Workspace`, below are the `Branches` tab, which are same in both coArchi:
 
@@ -152,15 +154,46 @@ After `Add Model to Workspace`, below are the `Branches` tab, which are same in 
 
 Right click `master (current)`, key in one working branch name in same root level, and choose `Add Branch & Checkout", then publish:
 
-Difference in `Add Branch` dialog:
+Differences:
 - coArchi1
+  - `Add Branch` dialog: title is `Add Branch to current commit`, and middle button label is `Add Branch & Checkout`
 - coArchi2
+  - `Add Branch` dialog: title is `Add a new branch`, and middle button label is `Add and Switch to Branch`
 
 | Steps | coArchi1 | coArchi2|
 | --- | --- | --- |
 | 1. Add Branch | ![add branch same level coArchi1](img/06_add-branch-same-level-coArchi1.png) | ![add branch same level coArchi2](img/06_add-branch-same-level-coArchi2.png) |
-| 2. Branch Checkout | ![after add same level coArchi1](img/06_add-branch-same-level-result-coArchi1.png) | ![after add same level coArchi2](img/06_add-branch-same-level-result-coArchi2.png)
-| 3. Publish | ![publish same level coArchi1](img/06_add-branch-same-level-result-remote-coArchi1.png) | ![publish same level coArchi](img/06_add-branch-same-level-result-remote-coArchi2.png)
+| 2. Branch Local View | ![after add same level coArchi1](img/06_add-branch-same-level-result-coArchi1.png) | ![after add same level coArchi2](img/06_add-branch-same-level-result-coArchi2.png) |
+| 3. Publish, Remote View | ![publish same level coArchi1](img/06_add-branch-same-level-result-remote-coArchi1.png) | ![publish same level coArchi](img/06_add-branch-same-level-result-remote-coArchi2.png) |
+
+Now, add one new branch under a named folder (note: the folder view is shown in Azure DevOps project, not in GitHub, but both are supporting the syntax as `folder/branch`):
+
+| Steps | coArchi1 | coArchi2|
+| --- | --- | --- |
+| 1. Add Branch | ![add branch in folder coArchi1](img/07_add-branch-in-folder-coArchi1.png) | ![add branch in folder coArchi2](img/07_add-branch-in-folder-coArchi2.png) |
+| 2. Branch Local View | ![after add in folder coArchi1](img/07_add-branch-in-folder-result-coArchi1.png) | ![after add in folder coArchi2](img/07_add-branch-in-folder-result-coArchi2.png) |
+| 3. Publish, Remove View | ![publish folder coArchi1](img/07_add-branch-in-folder-remote-coArchi1.png) | ![publish folder coArchi2](img/07_add-branch-in-folder-remote-coArchi2.png) |
+
+## Working on Model and Publish to Remote
+
+Add one simple Test View with Element + Relation.
+
+In coArchi1, when you click `Publish Changes`, it will covers the `Commit Changes` and then Publish together; while in coArchi2, if you just click `Publish Changes`, it will only check difference between local and remote, not doing Commit by default, so you will get below pop up:
+
+![nothing to publish coArchi2](img/08_nothing-to-publish-coArchi2.png)
+
+Thus, you should explicitly do `Commit Changes` first in coArchi2.
+
+After `Publish`, below are the remote in Github:
+
+| coArchi1 | coArchi2|
+| --- | --- |
+| ![new push remote branch view coArchi1](img/09_new-push-remote-branch-coArchi1.png) | ![new push remote branch view coArchi2](img/09_new-push-remote-branch-coArchi2.png) |
+| ![new push remote code view coArchi1](img/09_new-push-remote-coArchi1.png) | ![new push remote code view coArchi2](img/09_new-push-remote-coArchi2.png) |
+
+# Practice the Collaboration Steps
+
+
 
 ---
 
