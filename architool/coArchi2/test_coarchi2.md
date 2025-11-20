@@ -11,6 +11,7 @@
   - [Create New Branch](#create-new-branch)
   - [Working on Model and Publish to Remote](#working-on-model-and-publish-to-remote)
 - [Practice the Branch Handling Steps](#practice-the-branch-handling-steps)
+  - [Commits History View](#commits-history-view)
 
 ## Resources about coArchi2
 
@@ -216,7 +217,19 @@ Scenario:
 | 10 Verify Remote | ![10 coArchi1](img/handlebranch_10_coArchi1.png) | ![10 coArchi2](img/handlebranch_10_coArchi2.png) |
 | 11 Switch to `master or main` | ![11 coArchi1](img/handlebranch_11_coArchi1.png) | ![11 coArchi2](img/handlebranch_11_coArchi2.png) |
 | 12~13 Merge Local to `master or main` | ![13 coArchi1](img/handlebranch_13_coArchi1.png) | ![13 coArchi1](img/handlebranch_13_coArchi2.png) |
-| 14 Publish `master or main` | ![14 coArchi1](img/handlebranch_14_coArchi1.png) | ![14 coArchi2](img/handlebranch_14_coArchi2.png)
+| 14 Publish `master or main` | ![14 coArchi1](img/handlebranch_14_coArchi1.png) | ![14 coArchi2](img/handlebranch_14_coArchi2.png) |
+| 15 Verify Remote | ![15 coArchi1](img/handlebranch_15_coArchi1.png)<br>Note: the other working branch is now `behind` | ![15 coArchi2](img/handlebranch_15_coArchi2.png)<br>Note: the other working branch is now `behind` |
+| 16 Switch to working branch | ![16 coArchi1](img/handlebranch_16_coArchi1.png) | ![16 coArchi2](img/handlebranch_16_coArchi2.png) |
+
+## Commits History View
+
+| | coArchi1 | coArchi2|
+| --- | --- | --- |
+| Remote in GitHub | ![commits github coArchi1](img/commits-github-coArchi1.png) | ![commits github coArchi2](img/commits-github-coArchi2.png) |
+
+coArchi2 has description icon which you can expand them as below:
+
+![commits desc coArchi2](img/commits-description-coArchi2.png)
 
 ---
 
