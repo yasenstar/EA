@@ -227,12 +227,16 @@ Scenario:
 
 | | coArchi1 | coArchi2|
 | --- | --- | --- |
-| Remote in GitHub | ![commits github coArchi1](img/commits-github-coArchi1.png) | ![commits github coArchi2](img/commits-github-coArchi2.png) |
+| Remote in GitHub: Commits | ![commits github coArchi1](img/commits-github-coArchi1.png) | ![commits github coArchi2](img/commits-github-coArchi2.png) |
 
 coArchi2 has description icon which you can expand them as below:
 
 ![commits desc coArchi2](img/commits-description-coArchi2.png)
 
+| | coArchi1 | coArchi2|
+| --- | --- | --- |
+| Remote in GitHub: Code | Maintain model in Folder<br>![code github coArchi1](img/github-code-coArchi1.png) | Maintain model in single archimate file<br>![code github coArchi2](img/github-code-coArchi2.png) |
+
 ---
 
-Updated at 11/20/2025, 10:16:26 AM 
+Updated at 11/20/2025, 9:56:51 PM 
