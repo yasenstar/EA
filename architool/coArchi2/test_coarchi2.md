@@ -215,6 +215,8 @@ Scenario:
 | 09 Publish to remote | ![09 coArchi1](img/handlebranch_09_coArchi1.png) | ![09 coArchi2](img/handlebranch_09_coArchi2.png) |
 | 10 Verify Remote | ![10 coArchi1](img/handlebranch_10_coArchi1.png) | ![10 coArchi2](img/handlebranch_10_coArchi2.png) |
 | 11 Switch to `master or main` | ![11 coArchi1](img/handlebranch_11_coArchi1.png) | ![11 coArchi2](img/handlebranch_11_coArchi2.png) |
+| 12~13 Merge Local to `master or main` | ![13 coArchi1](img/handlebranch_13_coArchi1.png) | ![13 coArchi1](img/handlebranch_13_coArchi2.png) |
+| 14 Publish `master or main` | ![14 coArchi1](img/handlebranch_14_coArchi1.png) | ![14 coArchi2](img/handlebranch_14_coArchi2.png)
 
 ---
 
