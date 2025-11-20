@@ -5,6 +5,8 @@
   - [Installing coArchi2](#installing-coarchi2)
   - [Initial Collaboration Model in coArchi2 and Compare with coArchi1](#initial-collaboration-model-in-coarchi2-and-compare-with-coarchi1)
     - [Open Local Model](#open-local-model)
+    - [`Collaboration` Menu](#collaboration-menu)
+    - [](#)
 
 ## Resources about coArchi2
 
@@ -85,4 +87,24 @@ In below comparison, left is coArchi1, right is coArchi2
 
 I'm using one same "Archi-Meta-Model" local file as example.
 
+On the same screen resolution, icons size in coArchi2 looks slightly bigger than coArchi1.
+
+And there's one new icon "Toggle Tags" is added in coArchi2
+
 ![open local model, plug-in icons](img/01_plug-in-icons.png)
+
+### `Collaboration` Menu
+
+Here is the difference when show `Collaboration` menu:
+
+| coArchi1 | coArchi2|
+| --- | --- |
+| ![menu_coArchi1](img/02_collaboration-menu_coArchi1.png) | ![menu_coArchi2](img/02_collaboration-menu_coArchi2.png) |
+
+In coArchi2, the first item doesn't have `... and Publish` text.
+
+### 
+
+---
+
+Updated at 11/20/2025, 10:16:26 AM 
