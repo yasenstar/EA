@@ -10,7 +10,7 @@
     - [`Add Local Model to Workspace`](#add-local-model-to-workspace)
   - [Create New Branch](#create-new-branch)
   - [Working on Model and Publish to Remote](#working-on-model-and-publish-to-remote)
-- [Practice the Collaboration Steps](#practice-the-collaboration-steps)
+- [Practice the Branch Handling Steps](#practice-the-branch-handling-steps)
 
 ## Resources about coArchi2
 
@@ -144,6 +144,8 @@ The local collaboration tab display is different:
 | 3. Published to Remote Repo | ![repo published coArchi1](img/04_add-local-model-to-workspace_coArchi1_repo-published.png) | ![repo published coArchi2](img/04_add-local-model-to-workspace_coArchi2_repo-published.png) |
 | 4. Collaboration Tab with Model | ![local collab tab coArchi1](img/04_add-local-model-to-workspace_coArchi1_local-collaboration-tab.png) | ![local collab tab coArchi2](img/04_add-local-model-to-workspace_coArchi2_local-collaboration-tab.png) |
 
+Note: in coArchi1 the default branch is `master`, while in coArchi2 it is changed to `main`. (*Check https://github.com/github/renaming for reason to use `main` as default.*)
+
 ## Create New Branch
 
 After `Add Model to Workspace`, below are the `Branches` tab, which are same in both coArchi:
@@ -191,9 +193,28 @@ After `Publish`, below are the remote in Github:
 | ![new push remote branch view coArchi1](img/09_new-push-remote-branch-coArchi1.png) | ![new push remote branch view coArchi2](img/09_new-push-remote-branch-coArchi2.png) |
 | ![new push remote code view coArchi1](img/09_new-push-remote-coArchi1.png) | ![new push remote code view coArchi2](img/09_new-push-remote-coArchi2.png) |
 
-# Practice the Collaboration Steps
+# Practice the Branch Handling Steps
 
+![handle branch v9.0](../handle_branch.png)
 
+Scenario:
+1. I'm working in my assigned branch `project/coArchi`
+2. I have done some work in my branch, which leads to `1` commit ahead of `master (coArchi1) or main (coArchi2)`
+3. Along of my working on Archi, some other architects (modelers) are also working on the same repository from their working branch, results is they have contribute to `master or main` already
+4. The starting point here is I can see `1|1` in branch comparing to `master or main`, means I have 1 commit behind while 1 commit head
+5. The practice below is base on the Branch Handling steps to compare behavior between coArchi1 and coArchi2
+
+| Step | coArchi1 | coArchi2 |
+| --- | --- | --- |
+| 01~02 | | |
+| 03 Switch to `master or main` | ![03 coArchi1](img/handlebranch_03_coArchi1.png) | ![03 coArchi2](img/handlebranch_03_coArchi2.png) |
+| 04~05 | | |
+| 06 Switch to working branch | ![06 coArchi1](img/handlebranch_06_coArchi1.png) | ![06 coArchi2](img/handlebranch_06_coArchi2.png) |
+| 07 Merge from `master or main` to working | Choose `Local`<br>![07 coArchi1](img/handlebranch_07_coArchi1.png) | Note: no `Local`, just `OK`<br>![07 coArchi2](img/handlebranch_07_coArchi2.png) |
+| 08 | | |
+| 09 Publish to remote | ![09 coArchi1](img/handlebranch_09_coArchi1.png) | ![09 coArchi2](img/handlebranch_09_coArchi2.png) |
+| 10 Verify Remote | ![10 coArchi1](img/handlebranch_10_coArchi1.png) | ![10 coArchi2](img/handlebranch_10_coArchi2.png) |
+| 11 Switch to `master or main` | 
 
 ---
 
