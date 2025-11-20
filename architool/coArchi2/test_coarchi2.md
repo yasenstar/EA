@@ -8,6 +8,7 @@
     - [`Collaboration` Menu](#collaboration-menu)
     - [Create Empty Repository (GitHub)](#create-empty-repository-github)
     - [`Add Local Model to Workspace`](#add-local-model-to-workspace)
+    - [Create New Branch](#create-new-branch)
 
 ## Resources about coArchi2
 
@@ -140,6 +141,26 @@ The local collaboration tab display is different:
 | 2. Set Repo Paramenter | ![repo param coArchi1](img/04_add-local-model-to-workspace_coArchi1_repo-param.png) | ![repo param coArchi2](img/04_add-local-model-to-workspace_coArchi2_repo-param.png) |
 | 3. Published to Remote Repo | ![repo published coArchi1](img/04_add-local-model-to-workspace_coArchi1_repo-published.png) | ![repo published coArchi2](img/04_add-local-model-to-workspace_coArchi2_repo-published.png) |
 | 4. Collaboration Tab with Model | ![local collab tab coArchi1](img/04_add-local-model-to-workspace_coArchi1_local-collaboration-tab.png) | ![local collab tab coArchi2](img/04_add-local-model-to-workspace_coArchi2_local-collaboration-tab.png) |
+
+### Create New Branch
+
+After `Add Model to Workspace`, below are the `Branches` tab, which are same in both coArchi:
+
+| coArchi1 | coArchi2|
+| --- | --- |
+| ![master branch coArchi1](img/05_master-branch-coArchi1.png) | ![master branch coArchi2](img/05_master-branch-coArchi2.png) |
+
+Right click `master (current)`, key in one working branch name in same root level, and choose `Add Branch & Checkout", then publish:
+
+Difference in `Add Branch` dialog:
+- coArchi1
+- coArchi2
+
+| Steps | coArchi1 | coArchi2|
+| --- | --- | --- |
+| 1. Add Branch | ![add branch same level coArchi1](img/06_add-branch-same-level-coArchi1.png) | ![add branch same level coArchi2](img/06_add-branch-same-level-coArchi2.png) |
+| 2. Branch Checkout | ![after add same level coArchi1](img/06_add-branch-same-level-result-coArchi1.png) | ![after add same level coArchi2](img/06_add-branch-same-level-result-coArchi2.png)
+| 3. Publish | ![publish same level coArchi1](img/06_add-branch-same-level-result-remote-coArchi1.png) | ![publish same level coArchi](img/06_add-branch-same-level-result-remote-coArchi2.png)
 
 ---
 
