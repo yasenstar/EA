@@ -1,5 +1,7 @@
 # Archi coArchi2 Plug-In
 
+Purpose: this document aims to follow the coArchi2's development and releasing pace, understand and clear record the new features of coArchi2, with apple-to-apple comparison from coArchi1.
+
 - [Archi coArchi2 Plug-In](#archi-coarchi2-plug-in)
   - [Resources about coArchi2](#resources-about-coarchi2)
   - [Installing coArchi2](#installing-coarchi2)
@@ -24,7 +26,7 @@
 
 Before formally release, you may download coArchi2 beta version from [Archi project in Patreon](https://www.patreon.com/cw/architool).
 
-You may run Archi through one portable ZIP package so that it is not impacting your main Archi instance.
+You may run second Archi instance through one portable ZIP package so that it is not impacting your main Archi instance.
 
 Edit the `Archi.ini` in your portable Archi folder and change folder to your actual path, not the default system path.
 
