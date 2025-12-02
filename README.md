@@ -1,5 +1,12 @@
 # Enterprise Architecture (EA) - Learning & Practice
 
+- [Enterprise Architecture (EA) - Learning \& Practice](#enterprise-architecture-ea---learning--practice)
+  - [Definition of Enterprise Architecture](#definition-of-enterprise-architecture)
+  - [Enterprise Architecture Tool](#enterprise-architecture-tool)
+  - [企业架构师的诗](#企业架构师的诗)
+  - [Sonnet to the Enterprise Architect](#sonnet-to-the-enterprise-architect)
+
+
 Here is the collections of Xiaoqi's view on Enterprise and Business Architecture domain knowledge.
 
 - General Enterprise Architecture
