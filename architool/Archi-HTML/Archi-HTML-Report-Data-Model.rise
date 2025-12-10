@@ -1168,8 +1168,8 @@
         <rise:showAttributeDetails>False</rise:showAttributeDetails>
         <rise:showIndexes>False</rise:showIndexes>
         <rise:boundingBox>
-          <rise:x>13</rise:x>
-          <rise:y>11</rise:y>
+          <rise:x>46</rise:x>
+          <rise:y>47</rise:y>
           <rise:sizeX>120</rise:sizeX>
           <rise:sizeY>150</rise:sizeY>
         </rise:boundingBox>
@@ -1183,10 +1183,10 @@
         <rise:showAttributeDetails>False</rise:showAttributeDetails>
         <rise:showIndexes>False</rise:showIndexes>
         <rise:boundingBox>
-          <rise:x>1513</rise:x>
-          <rise:y>2</rise:y>
+          <rise:x>1387</rise:x>
+          <rise:y>19</rise:y>
           <rise:sizeX>100</rise:sizeX>
-          <rise:sizeY>150</rise:sizeY>
+          <rise:sizeY>100</rise:sizeY>
         </rise:boundingBox>
         <rise:color>
           <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
@@ -1198,8 +1198,8 @@
         <rise:showAttributeDetails>False</rise:showAttributeDetails>
         <rise:showIndexes>False</rise:showIndexes>
         <rise:boundingBox>
-          <rise:x>1017</rise:x>
-          <rise:y>119</rise:y>
+          <rise:x>925</rise:x>
+          <rise:y>83</rise:y>
           <rise:sizeX>129</rise:sizeX>
           <rise:sizeY>150</rise:sizeY>
         </rise:boundingBox>
@@ -1213,10 +1213,10 @@
         <rise:showAttributeDetails>False</rise:showAttributeDetails>
         <rise:showIndexes>False</rise:showIndexes>
         <rise:boundingBox>
-          <rise:x>1258</rise:x>
-          <rise:y>488</rise:y>
+          <rise:x>1185</rise:x>
+          <rise:y>434</rise:y>
           <rise:sizeX>100</rise:sizeX>
-          <rise:sizeY>150</rise:sizeY>
+          <rise:sizeY>178</rise:sizeY>
         </rise:boundingBox>
         <rise:color>
           <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
@@ -1228,10 +1228,10 @@
         <rise:showAttributeDetails>False</rise:showAttributeDetails>
         <rise:showIndexes>False</rise:showIndexes>
         <rise:boundingBox>
-          <rise:x>764</rise:x>
-          <rise:y>427</rise:y>
+          <rise:x>689</rise:x>
+          <rise:y>442</rise:y>
           <rise:sizeX>100</rise:sizeX>
-          <rise:sizeY>150</rise:sizeY>
+          <rise:sizeY>99</rise:sizeY>
         </rise:boundingBox>
         <rise:color>
           <rise:bgColor>255;176;224;230;PowderBlue</rise:bgColor>
@@ -1243,8 +1243,8 @@
         <rise:showAttributeDetails>False</rise:showAttributeDetails>
         <rise:showIndexes>False</rise:showIndexes>
         <rise:boundingBox>
-          <rise:x>1447</rise:x>
-          <rise:y>705</rise:y>
+          <rise:x>1401</rise:x>
+          <rise:y>662</rise:y>
           <rise:sizeX>100</rise:sizeX>
           <rise:sizeY>150</rise:sizeY>
         </rise:boundingBox>
@@ -1258,8 +1258,8 @@
         <rise:showAttributeDetails>False</rise:showAttributeDetails>
         <rise:showIndexes>False</rise:showIndexes>
         <rise:boundingBox>
-          <rise:x>124</rise:x>
-          <rise:y>683</rise:y>
+          <rise:x>63</rise:x>
+          <rise:y>629</rise:y>
           <rise:sizeX>117</rise:sizeX>
           <rise:sizeY>150</rise:sizeY>
         </rise:boundingBox>
