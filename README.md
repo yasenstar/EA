@@ -1,5 +1,15 @@
 # Enterprise Architecture (EA) - Learning & Practice
 
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
+[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/ea)
+![GitHub forks](https://img.shields.io/github/forks/yasenstar/ea)
+[![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE.txt)
+![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/ea)
+[![pages-build-deployment](https://github.com/yasenstar/ea/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/learn_cpp/actions/workflows/pages/pages-build-deployment)
+
 - [Enterprise Architecture (EA) - Learning \& Practice](#enterprise-architecture-ea---learning--practice)
   - [Definition of Enterprise Architecture](#definition-of-enterprise-architecture)
   - [Enterprise Architecture Tool](#enterprise-architecture-tool)
