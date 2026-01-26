@@ -1,109 +1,80 @@
-# Enterprise Architecture (EA) - Learning & Practice
+# Enterprise Architecture (EA) — Principles, Practices & Modeling Patterns
 
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
-[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+[![GitHub stars](https://img.shields.io/github/stars/yasenstar/EA?style=flat-square)](https://github.com/yasenstar/EA/stargazers)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/ea)
-![GitHub forks](https://img.shields.io/github/forks/yasenstar/ea)
-![GitHub License](https://img.shields.io/github/license/yasenstar/ea)
-![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/ea)
-[![pages-build-deployment](https://github.com/yasenstar/ea/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/learn_cpp/actions/workflows/pages/pages-build-deployment)
+> "Architecture is the bridge between a business dream and a firm decree."
 
-- [Enterprise Architecture (EA) - Learning \& Practice](#enterprise-architecture-ea---learning--practice)
-  - [Definition of Enterprise Architecture](#definition-of-enterprise-architecture)
-  - [Enterprise Architecture Tool](#enterprise-architecture-tool)
-  - [企业架构师的诗](#企业架构师的诗)
-  - [Sonnet to the Enterprise Architect](#sonnet-to-the-enterprise-architect)
-
-
-Here is the collections of Xiaoqi's view on Enterprise and Business Architecture domain knowledge.
-
-- General Enterprise Architecture
-- [Business Architecture](./architect_role/business-architecture/)
-- Information Architecture
-- Application Architecture
-- Technology Architecture
-- Integration Topic
-- [Architect related readings](./archi_reading_tools/)
-- [Reference Models](/ref_models/)
-
-## Definition of Enterprise Architecture
-
-Thanks for the nice picture from [Ronald Arsolino](https://www.linkedin.com/in/ronaldarsolino/):
-
-![EA Job Descripition](img/EA-role.jpg)
-
-## Enterprise Architecture Tool
-
-- [Archi - ArchiMate Modeling Tool](./architool/README.md)
-  - [ArchiMate Specification](/archimate/)
-- [Sparx System Enterprise Architect](/Sparx)
-- [Essential Project EA Tool](./Essential_EA/)
+This repository serves as a **professional knowledge base and methodology guide** for Enterprise Architects. It moves beyond theory to provide hands-on architectural modeling practices, patterns, and samples across the full enterprise stack.
 
 ---
 
-One interesting but relavent article here: [How Elon Musk Learns Faster Than Everyone Else](https://medium.com/@mariastepanova7/how-elon-musk-learns-faster-than-everyone-else-26c5cf4c2ef5), this can be also the disppline that one Enterprise Architect practice:
+## 🎯 My Architectural Philosophy
 
-__Rule#1 -- Make sure you are building a Tree of Knowledge__
+I follow two core principles in building an Enterprise Architecture Practice:
 
-Quote from Musk: _"It is important to view knowledge as sort of a semantic tree -- make sure you understand the fundamental principles, i.e. the trunk and big branches, before you get into the leaves/details or there is nothing for them to hang onto."_
-
-If you want to learn anything faster, you need to start with the fundamentals. Understand the core concepts first, before moving into more details.
-
-__Rule#2 -- You can't remember what you can't connect__
-
-In order to increase your chances of success, learn the fundamentals of the chosen fields first. Only then start expanding your knowledge.
-
-Learn across multiple fields and work tirelessly on making connections.
+1.  **The Tree of Knowledge (Fundamentals First):** As knowledge is like a semantic tree, we must understand the *trunk and big branches* (fundamental principles and core metamodels) before moving to the *leaves* (tool-specific details).
+2.  **Connective Intelligence:** Architecture has no value in a silo. My practice focuses on building "Connective Intelligence"—linking Strategy, Business, Data, Application, and Technology layers into a unified, traceable model.
 
 ---
 
-## 企业架构师的诗
+## 🛠 Architectural Modeling Practices
 
-之一：
+My work emphasizes rigorous **Standard-based Modeling**. I specialize in translating complex frameworks into actionable models using industry-standard tools.
 
-云上蓝图织万端，<br>
-数声算法定乾坤。<br>
-代码如诗连世界，<br>
-架构为桥接古今。
+### 1. Unified Modeling with ArchiMate®
+I leverage the **ArchiMate 3.2 Specification** to create consistent, stakeholder-oriented views. 
+* **Layered Viewpoints:** Strategic, Business, Application, and Technology layers.
+* **Traceability:** Mapping Business Drivers to Requirements and eventually to Physical Infrastructure.
+* **Patterns:** Developing reusable modeling patterns for common transformation challenges.
 
-之二：
+### 2. Integrated Security Architecture (SABSA + ArchiMate)
+I focus on aligning **SABSA (Sherwood Applied Business Security Architecture)** with EA frameworks. This involves modeling:
+* Contextual, Conceptual, and Logical Security Architectures.
+* The "Security Overlay" within standard EA models to ensure "Security by Design."
 
-筹谋千载绘宏图，<br>
-笔下云涛化电途。<br>
-不问功名留智慧，<br>
-一城数据是江湖。
-
-之三：
-
-构梦蓝图连九霄，<br>
-数流云路策中调。<br>
-千机汇聚通天下，<br>
-一笔勾成万象昭。
-
-## Sonnet to the Enterprise Architect
-
-Architect, whose mind both wide and deep,<br>
-Doth chart the realms where systems intertwine,<br>
-Thy vision through the tangled shadows sweep,<br>
-And order springs where chaos once did twine.
-
-With diagrams thou draw’st the path of might,<br>
-Through cloud and code thy structures stand and soar,<br>
-Each node and stream reflects thy keen insight,<br>
-Each flow doth sing of balance evermore.
-
-Thou art the bridge 'twixt dream and firm decree,<br>
-A poet wrought in logic’s measured line,<br>
-Through thee the realm of business learns to see,<br>
-Its soul transfigured in design divine.
-
-So may thy craft, though silent to the crowd,<br>
-Stand tall—its beauty veiled, yet unbowed.
+### 3. Ontology & Knowledge Graphs
+Moving beyond static diagrams, I explore the use of **OWL/RDF and Protégé** to build EA Ontologies, enabling:
+* Semantic search within the architecture repository.
+* Automated relationship checking and logical reasoning across the model.
 
 ---
 
-If you find the information here is interesting or useful, please consider [donate $1 dollar](https://paypal.me/zhaoxiaoqi/1) (secure Paypal link) for a coffee, thanks and enjoy!
+## 📂 Key Practice Repositories
 
-Any questions, [reach me here](mailto:xiaoqizhao@outlook.com) please.
+| Project | Focus | Tooling |
+| :--- | :--- | :--- |
+| **[ArchiMetal Practice](https://github.com/yasenstar/ArchiMetal_Practice)** | Step-by-step transformation case study. | Archi (ArchiMate) |
+| **[ArchiSurance Practice](https://github.com/yasenstar/ArchiMate_ArchiSurance)** | Comprehensive insurance domain modeling. | Archi, FreePlane |
+| **[ArchiMate SABSA](https://github.com/yasenstar/ArchiMate_SABSA)** | Risk-driven security architecture alignment. | Archi, Protege, JSON |
+| **[EA Ontology](https://github.com/yasenstar/ArchiMate_Ontology)** | Building a semantic knowledge graph of ArchiMate. | Protégé, SPARQL |
+
+---
+
+## 🏛 The EA Content Map
+
+### Core Domains
+* **Business Architecture:** Capability Mapping, Value Streams, and Organization Modeling.
+* **Information/Data Architecture:** Data Objects, Flows, and Ownership.
+* **Application Architecture:** Component Landscapes and Integration Patterns.
+* **Technology Architecture:** Infrastructure, Virtualization, and Cloud realization.
+
+### Specialized Topics
+* **Integration:** API-led connectivity and event-driven architecture patterns.
+* **Tooling Mastery:** Advanced usage of **Archi**, **Sparx Systems Enterprise Architect**, and **Essential Project**.
+
+---
+
+## 📺 Learning Resources
+* **YouTube:** [Yasen - Enterprise Architecture](https://www.youtube.com/@yasenstar) (Step-by-step modeling tutorials)
+* **Udemy:** [Modeling SABSA in ArchiMate](https://www.udemy.com/user/xiaoqi-zhao/)
+
+---
+
+## 🤝 Support & Connect
+I am an EA practitioner focused on transforming business complexity into clear, actionable models. If you find these patterns useful, feel free to support the project:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/yasen)
+
+* **LinkedIn:** [Xiaoqi Zhao](https://www.linkedin.com/in/xiaoqi-zhao)
+* **GitHub:** [@yasenstar](https://github.com/yasenstar)
