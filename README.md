@@ -3,6 +3,12 @@
 [![GitHub stars](https://img.shields.io/github/stars/yasenstar/EA?style=flat-square)](https://github.com/yasenstar/EA/stargazers)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 
+<img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
+<img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
+<img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
+<img src="https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg" alt="YouTube/>
+
+
 > "Architecture is the bridge between a business dream and a firm decree."
 
 This repository serves as a **professional knowledge base and methodology guide** for Enterprise Architects. It moves beyond theory to provide hands-on architectural modeling practices, patterns, and samples across the full enterprise stack.
