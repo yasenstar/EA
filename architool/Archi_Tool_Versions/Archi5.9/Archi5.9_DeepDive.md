@@ -122,6 +122,8 @@ Archi 5.9.0 is more than just a maintenance release; it is a refinement of the a
 
 See [Archi_5.9_FeatureIntro.pdf](./Archi_5.9_FeatureIntro.pdf) for the detail highlights.
 
+Here you may watch [The deep dive demo video](https://youtu.be/PWGY4RqZml8) in YouTube.
+
 Happy Modeling!
 
 ---
