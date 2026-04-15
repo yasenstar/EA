@@ -48,6 +48,8 @@ Version 5.9 continues to refine the "Diagramming as Code" aesthetic by improving
 
 - **Accurate Connection Ends**: Aggregation and Composition "diamonds" are now drawn with higher precision. In previous versions, the arrowheads could sometimes appear overlapped or "cut off" by the element box. In 5.9, they are drawn cleanly in front of the element, ensuring professional-grade exports for senior stakeholder presentations.
 
+    ![accurate-connection-ends-compare](img/accurate-connection-ends.png)
+
 - **Help System Cleanup**: Following the Open Group's change in access policies, the ArchiMate 3.2 specification overview has been removed from the internal Help content. Users are encouraged to download the specification directly from the Open Group website.
 
 ## 4. Interoperability: Open Exchange Format
@@ -112,12 +114,13 @@ d:/tools/Archi5.9/secure_storage
 -Dosgi.instance.area=d:/tools/Archi5.9/
 -Dosgi.configuration.area=d:/tools/Archi5.9/config
 -Dorg.eclipse.equinox.p2.reconciler.dropins.directory=d:/tools/Archi5.9/dropins
-
 ```
 
 # Conclusion
 
 Archi 5.9.0 is more than just a maintenance release; it is a refinement of the architect's daily toolkit. By automating relationship inversion and fixing long-standing tree navigation hurdles, it allows you to focus on the architecture itself rather than the mechanics of the tool.
+
+See [Archi_5.9_FeatureIntro.pdf](./Archi_5.9_FeatureIntro.pdf) for the detail highlights.
 
 Happy Modeling!
 
