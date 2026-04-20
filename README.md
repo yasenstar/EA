@@ -51,8 +51,9 @@ Moving beyond static diagrams, I explore the use of **OWL/RDF and Protégé** to
 | :--- | :--- | :--- |
 | **[ArchiMetal Practice](https://github.com/yasenstar/ArchiMetal_Practice)** | Step-by-step transformation case study. | Archi (ArchiMate) |
 | **[ArchiSurance Practice](https://github.com/yasenstar/ArchiMate_ArchiSurance)** | Comprehensive insurance domain modeling. | Archi, FreePlane |
-| **[ArchiMate SABSA](https://github.com/yasenstar/ArchiMate_SABSA)** | Risk-driven security architecture alignment. | Archi, Protege, JSON |
+| **[ArchiMate SABSA](https://github.com/yasenstar/ArchiMate_SABSA)** | Risk-driven security architecture alignment. | Archi, Protégé, JSON |
 | **[EA Ontology](https://github.com/yasenstar/ArchiMate_Ontology)** | Building a semantic knowledge graph of ArchiMate. | Protégé, SPARQL |
+| **[EA MetaModel](https://github.com/yasenstar/EA_MetaModel)** | Deep dive and create ontology-based EA meta model | Protégé, arrows.app, Neo4j |
 
 ---
 
