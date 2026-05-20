@@ -57,3 +57,25 @@ Thus, below are the summary of the Java Running Environments currently:
 
 ### Usage of Java JDK from Essential Tool
 
+For checking `Java` used by Tomcat, go to tomcat path:
+
+`C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin`
+
+run `tomcat9w.exe`, you may see below, switch to `Java` tab:
+
+![tomcat_jvm_setting](img/tomcat_jvm_setting.png)
+
+The path of JVM is `C:\Program Files\Java\jre1.8.0_431\bin\server\jvm.dll`, which is using the Oracle Java 1.8.0 64bit edition.
+
+For checking `Java` used by Protégé, go to `Protege_3.5` installation folder:
+
+`C:\Program Files\Protege_3.5`
+
+open the configuration file `Protege.lax`, as below:
+
+1[Protege3.5_jvm](img/Protege3.5_jvm.png)
+
+The path of JVS is `C:\\Program Files\\Java\\jre1.8.0_431\\bin\\java.exe`
+
+Thus, both Protégé and Tomcat are pointed to the 64bit Oracle JDK 1.8.0_431.
+
