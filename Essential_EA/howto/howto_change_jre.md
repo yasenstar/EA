@@ -5,6 +5,10 @@
   - [Dependencies Analysis](#dependencies-analysis)
     - [Multiple JDK Versions Co-Existed](#multiple-jdk-versions-co-existed)
     - [Usage of Java JDK from Essential Tool](#usage-of-java-jdk-from-essential-tool)
+  - [Switch to RedHat Jave 1.8.0 OpenJDK](#switch-to-redhat-jave-180-openjdk)
+    - [Switch TomCat Java from Oracle to RedHat](#switch-tomcat-java-from-oracle-to-redhat)
+    - [Switch Essential Protégé Java Usage](#switch-essential-protégé-java-usage)
+  - [Conclusion](#conclusion)
 
 ## Background
 
@@ -73,9 +77,65 @@ For checking `Java` used by Protégé, go to `Protege_3.5` installation folder:
 
 open the configuration file `Protege.lax`, as below:
 
-1[Protege3.5_jvm](img/Protege3.5_jvm.png)
+![Protege3.5_jvm](img/Protege3.5_jvm.png)
 
 The path of JVS is `C:\\Program Files\\Java\\jre1.8.0_431\\bin\\java.exe`
 
 Thus, both Protégé and Tomcat are pointed to the 64bit Oracle JDK 1.8.0_431.
 
+## Switch to RedHat Jave 1.8.0 OpenJDK
+
+Installing folder for RedHat JDK is:
+
+`C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.462-2`
+
+![rh-openjdk1.8.0](img/rh-openjdk1.8.0.png)
+
+### Switch TomCat Java from Oracle to RedHat
+
+Previous `jvm.dll` path:
+
+`C:\Program Files\Java\jre1.8.0_431\bin\server\jvm.dll`
+
+Change to:
+
+`C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.462-2\jre\bin\server\jvm.dll`
+
+as below:
+
+![tomcat9-using-rh-jre](img/tomcat9-using-rh-jre.png)
+
+Go to Windows `Services`, find `Apache Tomcat 9.0 Tomcat9` and click `Restart`:
+
+![tomcat9-service-restart](img/tomcat9-service-restart.png)
+
+Checked from server status `http://localhost:8080/manager/status`, confirms the Java JVM is now using Red Hat.
+
+![tomcat_java_switched_to_redhat](img/tomcat_java_switched_to_redhat.png)
+
+Check local Essential viewer, it's working:
+
+![Essential_View_over_RedHat_Java](img/Essential_View_over_RedHat_Java.png)
+
+### Switch Essential Protégé Java Usage
+
+Edit the configuration file `Protege.lax`, change line
+
+`lax.nl.current.vm=C:\\Program Files\\Java\\jre1.8.0_431\\bin\\java.exe`
+
+to
+`lax.nl.current.vm=C:\\Program Files\\RedHat\\java-1.8.0-openjdk-1.8.0.462-2\\bin\\java.exe`
+
+You need administrative permission to change the configuration file, after changing, the Protégé is loading without issue:
+
+![Essential-Protege3.5-switch-java-to-redhat](img/Essential-Protege3.5-switch-java-to-redhat.png)
+
+## Conclusion
+
+With RedHat Java, the Essential EAS OpenSource edition is working well.
+
+![Essential_Modeling_Publishing](img/Essential_Modeling_Publishing.png)
+
+---
+
+Last updated at 2026/05/26
