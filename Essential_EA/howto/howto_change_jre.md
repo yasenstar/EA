@@ -9,6 +9,7 @@
     - [Switch TomCat Java from Oracle to RedHat](#switch-tomcat-java-from-oracle-to-redhat)
     - [Switch Essential Protégé Java Usage](#switch-essential-protégé-java-usage)
   - [Conclusion](#conclusion)
+  - [Post Migration: Purge Leftover Oracle Variables](#post-migration-purge-leftover-oracle-variables)
 
 ## Background
 
@@ -136,6 +137,17 @@ With RedHat Java, the Essential EAS OpenSource edition is working well.
 
 ![Essential_Modeling_Publishing](img/Essential_Modeling_Publishing.png)
 
+## Post Migration: Purge Leftover Oracle Variables
+
+If you don't delete the remnants of your old environments, automatic Windows security software scans might flag the obsolete, unpatched Oracle JDK 8 directory still.
+
+1. Press `Win + R`, type `sysdm.cpl`, and hit `Enter` to pull up **System Porperties**.
+2. Go to **Advanced -> Environment Variables**.
+3. Under *System Variables*, scroll down to double-check that `JAVA_HOME` points entirely to RedHat JDK, normally should be `C:\Program Files\RedHat\java-1.8.0-openjdk-...`, see below screen in my machine:
+   ![System_Variable_rhjava](img/System_Variable_rhjava.png)
+4. Look into your local program folders (`C:Program Files\Java\`) and safely **uninstall or compress and archive** the old `jdk1.8.0_xxx` or `jre1.8.0_xxx` paths once you verify the Essential tool and viewer portal are both fully functional.
+
 ---
 
-Last updated at 2026/05/26
+Last updated at 2026/05/27: adding Post Migration activities
+Initialize at 2026/05/26
