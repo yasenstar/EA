@@ -149,5 +149,6 @@ If you don't delete the remnants of your old environments, automatic Windows sec
 
 ---
 
-Last updated at 2026/05/27: adding Post Migration activities
-Initialize at 2026/05/26
+Change log:
+- 2026/05/27: adding Post Migration activities
+- 2026/05/26: initialize
