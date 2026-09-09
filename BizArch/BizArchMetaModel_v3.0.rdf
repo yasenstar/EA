@@ -1,0 +1,793 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:BAMMv3="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#"
+     xmlns:DECIDES="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DECIDES/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3">
+        <rdfs:comment>Source: The Business Architecture Metamodel Guide v3.0
+
+Defining a business architecture knowledgebase founded on formal design principles with extensions to align with related disciplines.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#ACCRUES_INTO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#ACCRUES_INTO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#ACHIEVES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#ACHIEVES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#ADOPTS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#ADOPTS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#AFFECTS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#AFFECTS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#BASED_ON -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#BASED_ON"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#BELONGS_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#BELONGS_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#CHARACTERIZES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#CHARACTERIZES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#CLASSIFIES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#CLASSIFIES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#CONTAINS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#CONTAINS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#CONTRIBUTES_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#CONTRIBUTES_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DECOMPOSES_INTO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DECOMPOSES_INTO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DELIVERS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DELIVERS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DESIRES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DESIRES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#ENABLES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#ENABLES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#EXCHANGED_DURING -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#EXCHANGED_DURING"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#EXPERIENCES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#EXPERIENCES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#EXPRESSES_STATE_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#EXPRESSES_STATE_OF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#FRAMES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#FRAMES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#FULFILLS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#FULFILLS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#GUIDES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#GUIDES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IMPACTS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IMPACTS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IMPLEMENTS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IMPLEMENTS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#INCORPORATES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#INCORPORATES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#INFLUENCES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#INFLUENCES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_A"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_ACTOR_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_ACTOR_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_ASSIGNED_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_ASSIGNED_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_ASSOCIATED_WITH -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_ASSOCIATED_WITH"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_INPUT_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_INPUT_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_OUTPUT_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_OUTPUT_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_PART_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_PART_OF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_RELATED_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#IS_RELATED_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#MAKES_EXPLICIT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#MAKES_EXPLICIT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#MAPS_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#MAPS_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#MODIFIES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#MODIFIES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#MOTIVATES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#MOTIVATES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#NEEDS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#NEEDS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#OWNS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#OWNS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#PARTICIPATES_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#PARTICIPATES_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#PRECEDES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#PRECEDES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#PROVIDES_RATIONALE_FOR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#PROVIDES_RATIONALE_FOR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#PURSUES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#PURSUES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#REALIZES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#REALIZES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#RELATES_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#RELATES_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#REPRESENTED_AS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#REPRESENTED_AS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#SPONSORS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#SPONSORS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#TARGETS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#TARGETS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#TRIGGERS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#TRIGGERS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#USES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#USES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DECIDES/DETERMINS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#DECIDES/DETERMINS"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capabilities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiatives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiatives"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Metrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Products"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Requirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholders"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Streams -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Streams"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Unit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Unit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Organization"/>
+        <BAMMv3:ADOPTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policy"/>
+        <BAMMv3:BELONGS_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Organization"/>
+        <BAMMv3:DECOMPOSES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Unit"/>
+        <BAMMv3:DELIVERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability"/>
+        <BAMMv3:DELIVERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product"/>
+        <BAMMv3:IMPLEMENTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability_Instance"/>
+        <BAMMv3:INFLUENCES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability_Behavior"/>
+        <BAMMv3:OWNS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+        <BAMMv3:SPONSORS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiative"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capabilities"/>
+        <BAMMv3:ACHIEVES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Outcome"/>
+        <BAMMv3:BASED_ON rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Object"/>
+        <BAMMv3:DECOMPOSES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability"/>
+        <BAMMv3:ENABLES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product"/>
+        <BAMMv3:ENABLES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream_Stage"/>
+        <BAMMv3:MODIFIES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information_Concept"/>
+        <BAMMv3:NEEDS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Outcome"/>
+        <BAMMv3:USES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability_Behavior -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability_Behavior">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capabilities"/>
+        <BAMMv3:CHARACTERIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability"/>
+        <BAMMv3:CHARACTERIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability_Instance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability_Instance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability_Instance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capabilities"/>
+        <BAMMv3:ENABLES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product_Entitlement"/>
+        <BAMMv3:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Change -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Change">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategies"/>
+        <BAMMv3:AFFECTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability"/>
+        <BAMMv3:DECOMPOSES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Change"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Course_of_Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Course_of_Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategies"/>
+        <BAMMv3:DECOMPOSES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Course_of_Action"/>
+        <BAMMv3:NEEDS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+        <BAMMv3:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey"/>
+        <BAMMv3:CONTAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey_Stage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey_Stage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Goal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Goal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategies"/>
+        <BAMMv3:DECOMPOSES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Goal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information_Concept -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information_Concept">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information"/>
+        <BAMMv3:MAKES_EXPLICIT rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Object"/>
+        <BAMMv3:RELATES_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiative">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiatives"/>
+        <BAMMv3:DECOMPOSES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiative"/>
+        <BAMMv3:IMPACTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability"/>
+        <BAMMv3:IMPACTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product"/>
+        <BAMMv3:IMPACTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream_Stage"/>
+        <BAMMv3:IS_A rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Course_of_Action"/>
+        <BAMMv3:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategies"/>
+        <BAMMv3:ACHIEVES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Goal"/>
+        <BAMMv3:DECOMPOSES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+        <BAMMv3:MOTIVATES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiative"/>
+        <BAMMv3:PROVIDES_RATIONALE_FOR rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Change"/>
+        <BAMMv3:TARGETS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability"/>
+        <BAMMv3:TARGETS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product"/>
+        <BAMMv3:TARGETS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Organization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Organization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Organization"/>
+        <BAMMv3:PURSUES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Outcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Outcome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capabilities"/>
+        <BAMMv3:EXPRESSES_STATE_OF rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Object"/>
+        <BAMMv3:IS_ASSIGNED_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Item"/>
+        <BAMMv3:IS_RELATED_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process_Outcome"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policies"/>
+        <BAMMv3:GUIDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+        <BAMMv3:INFLUENCES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability"/>
+        <BAMMv3:IS_ASSOCIATED_WITH rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process"/>
+        <BAMMv3:DECOMPOSES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process"/>
+        <BAMMv3:MAPS_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream"/>
+        <BAMMv3:MAPS_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process_Outcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process_Outcome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process"/>
+        <BAMMv3:IS_INPUT_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process"/>
+        <BAMMv3:IS_OUTPUT_FROM rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Process"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Products"/>
+        <BAMMv3:CONTAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product_Entitlement"/>
+        <BAMMv3:DELIVERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Proposition"/>
+        <BAMMv3:IS_PART_OF rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product_Line"/>
+        <BAMMv3:RELATES_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product_Entitlement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product_Entitlement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Products"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product_Line -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product_Line">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Products"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Requirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Requirement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Requirement"/>
+        <BAMMv3:BELONGS_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiative"/>
+        <BAMMv3:FULFILLS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+        <BAMMv3:IMPACTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capability_Behavior"/>
+        <BAMMv3:RELATES_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Requirement"/>
+        <BAMMv3:TARGETS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholders"/>
+        <BAMMv3:BELONGS_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Business_Unit"/>
+        <BAMMv3:CONTRIBUTES_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Outcome"/>
+        <BAMMv3:DESIRES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Proposition"/>
+        <BAMMv3:EXPERIENCES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Touchpoint"/>
+        <BAMMv3:IS_ACTOR_IN rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey"/>
+        <BAMMv3:PARTICIPATES_IN rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream_Stage"/>
+        <BAMMv3:TRIGGERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream"/>
+        <DECIDES:DETERMINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholder_Category -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholder_Category">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholders"/>
+        <BAMMv3:CLASSIFIES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholder"/>
+        <BAMMv3:REPRESENTED_AS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategies"/>
+        <BAMMv3:ACHIEVES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Objective"/>
+        <BAMMv3:IMPACTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Product"/>
+        <BAMMv3:IMPACTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholder"/>
+        <BAMMv3:INCORPORATES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Goal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Touchpoint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Touchpoint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey"/>
+        <BAMMv3:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Item -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Item">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Streams"/>
+        <BAMMv3:ACCRUES_INTO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Proposition"/>
+        <BAMMv3:EXCHANGED_DURING rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Touchpoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Proposition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Proposition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Streams"/>
+        <BAMMv3:DESIRES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Proposition"/>
+        <BAMMv3:TRIGGERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Streams"/>
+        <BAMMv3:CONTAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream_Stage"/>
+        <BAMMv3:DELIVERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Proposition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream_Stage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream_Stage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Streams"/>
+        <BAMMv3:DELIVERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Item"/>
+        <BAMMv3:ENABLES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Customer_Journey_Stage"/>
+        <BAMMv3:FRAMES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Requirement"/>
+        <BAMMv3:PRECEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Stream_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Capabilities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Information"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Initiatives"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Metrics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Organization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Policies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Products"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Stakeholders"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Strategies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/8/BAMMv3#Value_Streams"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
