@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenC4 – Local-first C4 Modeling</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+    .node {
+      position: absolute;
+      min-width: 160px;
+      max-width: 220px;
+      border-radius: 8px;
+      padding: 10px 12px;
+      cursor: move;
+      user-select: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border: 2px solid transparent;
+      transition: box-shadow 0.15s;
+    }
+    .node:hover { box-shadow: 0 6px 16px rgba(0,0,0,0.25); }
+    .node.selected { border-color: #3b82f6; }
+    .node-person { background: #08427b; color: white; border-radius: 50px; text-align: center; }
+    .node-system { background: #1168bd; color: white; }
+    .node-container { background: #438dd5; color: white; }
+    .node-component { background: #85bbf0; color: #1e3a5f; }
+    .node-type { font-size: 10px; opacity: 0.85; text-transform: uppercase; letter-spacing: 0.05em; }
+    .node-name { font-weight: 600; font-size: 14px; margin: 2px 0; }
+    .node-desc { font-size: 11px; opacity: 0.9; line-height: 1.3; }
+    .node-tech { font-size: 10px; margin-top: 4px; opacity: 0.8; font-style: italic; }
+    #canvas {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+      background-size: 20px 20px;
+      overflow: hidden;
+    }
+    .edge-label {
+      position: absolute;
+      background: white;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 11px;
+      pointer-events: none;
+      border: 1px solid #94a3b8;
+      white-space: nowrap;
+    }
+    svg.edges { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+  </style>
+</head>
+<body class="bg-slate-100 h-screen flex flex-col overflow-hidden">
+
+  <!-- Header -->
+  <header class="bg-slate-900 text-white px-4 py-3 flex items-center justify-between shadow">
+    <div class="flex items-center gap-3">
+      <div class="text-xl font-bold tracking-tight">OpenC4</div>
+      <div class="text-slate-400 text-sm">Local-first C4 Model • MIT</div>
+    </div>
+    <div class="flex gap-2">
+      <button onclick="exportJSON()" class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 rounded text-sm">JSON</button>
+      <button onclick="exportDSL()" class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 rounded text-sm">Structurizr DSL</button>
+      <button onclick="exportMermaid()" class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 rounded text-sm">Mermaid</button>
+      <button onclick="clearModel()" class="px-3 py-1.5 bg-red-700 hover:bg-red-600 rounded text-sm">Clear</button>
+    </div>
+  </header>
+
+  <div class="flex flex-1 overflow-hidden">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white border-r border-slate-200 flex flex-col">
+      <div class="p-4 border-b">
+        <h2 class="font-semibold text-slate-700 mb-3">Add Element</h2>
+        <div class="grid grid-cols-2 gap-2">
+          <button onclick="addElement('Person')" class="py-2 px-2 bg-blue-900 text-white rounded text-sm hover:bg-blue-800">Person</button>
+          <button onclick="addElement('SoftwareSystem')" class="py-2 px-2 bg-blue-700 text-white rounded text-sm hover:bg-blue-600">System</button>
+          <button onclick="addElement('Container')" class="py-2 px-2 bg-blue-500 text-white rounded text-sm hover:bg-blue-400">Container</button>
+          <button onclick="addElement('Component')" class="py-2 px-2 bg-blue-300 text-slate-800 rounded text-sm hover:bg-blue-200">Component</button>
+        </div>
+      </div>
+
+      <div class="p-4 border-b">
+        <h2 class="font-semibold text-slate-700 mb-2">View</h2>
+        <select id="viewSelect" onchange="changeView()" class="w-full border rounded px-2 py-1.5 text-sm">
+          <option value="SystemContext">System Context</option>
+          <option value="Container">Container</option>
+          <option value="All">All Elements</option>
+        </select>
+      </div>
+
+      <div class="p-4 flex-1 overflow-auto">
+        <h2 class="font-semibold text-slate-700 mb-2">Properties</h2>
+        <div id="props" class="space-y-3 text-sm">
+          <p class="text-slate-400">Select an element</p>
+        </div>
+      </div>
+
+      <div class="p-4 border-t text-xs text-slate-500">
+        Click element → edit<br>
+        Drag to move<br>
+        Shift+click two elements → connect
+      </div>
+    </aside>
+
+    <!-- Canvas -->
+    <main class="flex-1 relative">
+      <div id="canvas">
+        <svg class="edges" id="edgesSvg"></svg>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal for relationship -->
+  <div id="relModal" class="fixed inset-0 bg-black/40 hidden items-center justify-center z-50">
+    <div class="bg-white rounded-lg p-6 w-96 shadow-xl">
+      <h3 class="font-semibold mb-4">New Relationship</h3>
+      <input id="relDesc" placeholder="Description (e.g. Uses, Reads from)" class="w-full border rounded px-3 py-2 mb-3" />
+      <input id="relTech" placeholder="Technology (optional)" class="w-full border rounded px-3 py-2 mb-4" />
+      <div class="flex justify-end gap-2">
+        <button onclick="closeRelModal()" class="px-4 py-2 text-slate-600">Cancel</button>
+        <button onclick="confirmRelationship()" class="px-4 py-2 bg-blue-600 text-white rounded">Create</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Export modal -->
+  <div id="exportModal" class="fixed inset-0 bg-black/40 hidden items-center justify-center z-50">
+    <div class="bg-white rounded-lg p-6 w-[700px] max-h-[80vh] flex flex-col shadow-xl">
+      <div class="flex justify-between items-center mb-4">
+        <h3 id="exportTitle" class="font-semibold">Export</h3>
+        <button onclick="closeExport()" class="text-slate-500 hover:text-black">✕</button>
+      </div>
+      <textarea id="exportContent" class="flex-1 w-full border rounded p-3 font-mono text-sm resize-none" rows="18"></textarea>
+      <div class="mt-3 flex justify-end">
+        <button onclick="copyExport()" class="px-4 py-2 bg-blue-600 text-white rounded">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+// ============================================================
+// OpenC4 - Single-file C4 Modeling App
+// Based on https://c4model.com/ abstractions
+// MIT License
+// ============================================================
+
+const MODEL_KEY = 'openc4-model';
+
+let model = {
+  name: 'My Architecture',
+  elements: [],
+  relationships: [],
+  nextId: 1
+};
+
+let selectedId = null;
+let dragState = null;
+let connectSource = null;
+let currentView = 'SystemContext';
+
+// ---------- Persistence ----------
+function save() {
+  localStorage.setItem(MODEL_KEY, JSON.stringify(model));
+  render();
+}
+
+function load() {
+  const raw = localStorage.getItem(MODEL_KEY);
+  if (raw) {
+    try { model = JSON.parse(raw); } catch(e) {}
+  }
+  if (model.elements.length === 0) {
+    // Demo model
+    addElement('Person', 'Customer', 'A user of the system', null, 80, 120);
+    addElement('SoftwareSystem', 'Internet Banking System', 'Allows customers to view accounts and make payments', null, 350, 100);
+    addElement('SoftwareSystem', 'Mainframe Banking System', 'Stores all core banking information', null, 650, 100);
+    addElement('Container', 'Web Application', 'Delivers the static content and SPA', 'Java and Spring MVC', 280, 280, model.elements[1]?.id);
+    addElement('Container', 'API Application', 'Provides banking functionality via API', 'Java and Spring Boot', 500, 280, model.elements[1]?.id);
+    addElement('Container', 'Database', 'Stores user registration and auth data', 'Oracle Database Schema', 400, 420, model.elements[1]?.id);
+
+    // relationships
+    const els = model.elements;
+    model.relationships.push(
+      { id: 'r1', sourceId: els[0].id, targetId: els[1].id, description: 'Views account balances and makes payments', technology: 'HTTPS' },
+      { id: 'r2', sourceId: els[1].id, targetId: els[2].id, description: 'Uses', technology: 'XML/HTTPS' },
+      { id: 'r3', sourceId: els[3].id, targetId: els[4].id, description: 'Makes API calls to', technology: 'JSON/HTTPS' },
+      { id: 'r4', sourceId: els[4].id, targetId: els[5].id, description: 'Reads from and writes to', technology: 'JDBC' }
+    );
+    save();
+  }
+  render();
+}
+
+// ---------- Element management ----------
+function addElement(type, name, description = '', technology = '', x = 100, y = 100, parentId = null) {
+  const id = 'e' + (model.nextId++);
+  const el = {
+    id,
+    type,
+    name: name || type,
+    description: description || '',
+    technology: technology || '',
+    parentId,
+    x: x + Math.random() * 40,
+    y: y + Math.random() * 40
+  };
+  model.elements.push(el);
+  selectedId = id;
+  save();
+  return id;
+}
+
+function updateElement(id, fields) {
+  const el = model.elements.find(e => e.id === id);
+  if (!el) return;
+  Object.assign(el, fields);
+  save();
+}
+
+function deleteElement(id) {
+  model.elements = model.elements.filter(e => e.id !== id);
+  model.relationships = model.relationships.filter(r => r.sourceId !== id && r.targetId !== id);
+  if (selectedId === id) selectedId = null;
+  save();
+}
+
+// ---------- Relationships ----------
+function startConnect(id) {
+  if (connectSource && connectSource !== id) {
+    // open modal
+    window._pendingRel = { sourceId: connectSource, targetId: id };
+    document.getElementById('relDesc').value = 'Uses';
+    document.getElementById('relTech').value = '';
+    document.getElementById('relModal').classList.remove('hidden');
+    document.getElementById('relModal').classList.add('flex');
+    connectSource = null;
+  } else {
+    connectSource = id;
+  }
+}
+
+function confirmRelationship() {
+  const desc = document.getElementById('relDesc').value.trim() || 'Uses';
+  const tech = document.getElementById('relTech').value.trim();
+  if (window._pendingRel) {
+    model.relationships.push({
+      id: 'r' + Date.now(),
+      sourceId: window._pendingRel.sourceId,
+      targetId: window._pendingRel.targetId,
+      description: desc,
+      technology: tech
+    });
+    save();
+  }
+  closeRelModal();
+}
+
+function closeRelModal() {
+  document.getElementById('relModal').classList.add('hidden');
+  document.getElementById('relModal').classList.remove('flex');
+  window._pendingRel = null;
+}
+
+// ---------- View filtering ----------
+function getVisibleElements() {
+  if (currentView === 'All') return model.elements;
+  if (currentView === 'SystemContext') {
+    return model.elements.filter(e => e.type === 'Person' || e.type === 'SoftwareSystem');
+  }
+  // Container view – show systems + their containers + people
+  return model.elements.filter(e => 
+    e.type === 'Person' || 
+    e.type === 'SoftwareSystem' || 
+    e.type === 'Container'
+  );
+}
+
+function changeView() {
+  currentView = document.getElementById('viewSelect').value;
+  render();
+}
+
+// ---------- Rendering ----------
+function render() {
+  const canvas = document.getElementById('canvas');
+  // remove old nodes
+  canvas.querySelectorAll('.node').forEach(n => n.remove());
+  document.querySelectorAll('.edge-label').forEach(l => l.remove());
+
+  const visible = getVisibleElements();
+  const visibleIds = new Set(visible.map(e => e.id));
+
+  // nodes
+  visible.forEach(el => {
+    const div = document.createElement('div');
+    div.className = `node node-${el.type.toLowerCase().replace('softwaresystem','system')} ${selectedId === el.id ? 'selected' : ''}`;
+    div.style.left = el.x + 'px';
+    div.style.top = el.y + 'px';
+    div.dataset.id = el.id;
+
+    div.innerHTML = `
+      <div class="node-type">${el.type === 'SoftwareSystem' ? 'Software System' : el.type}</div>
+      <div class="node-name">${escapeHtml(el.name)}</div>
+      ${el.description ? `<div class="node-desc">${escapeHtml(el.description)}</div>` : ''}
+      ${el.technology ? `<div class="node-tech">[${escapeHtml(el.technology)}]</div>` : ''}
+    `;
+
+    // drag
+    div.addEventListener('mousedown', e => {
+      if (e.shiftKey) {
+        startConnect(el.id);
+        return;
+      }
+      selectedId = el.id;
+      dragState = {
+        id: el.id,
+        startX: e.clientX,
+        startY: e.clientY,
+        origX: el.x,
+        origY: el.y
+      };
+      renderProps();
+      e.preventDefault();
+    });
+
+    canvas.appendChild(div);
+  });
+
+  // edges
+  const svg = document.getElementById('edgesSvg');
+  svg.innerHTML = '';
+  const rels = model.relationships.filter(r => visibleIds.has(r.sourceId) && visibleIds.has(r.targetId));
+
+  rels.forEach(r => {
+    const src = model.elements.find(e => e.id === r.sourceId);
+    const tgt = model.elements.find(e => e.id === r.targetId);
+    if (!src || !tgt) return;
+
+    const x1 = src.x + 90;
+    const y1 = src.y + 40;
+    const x2 = tgt.x + 90;
+    const y2 = tgt.y + 40;
+
+    // line
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', x1);
+    line.setAttribute('y1', y1);
+    line.setAttribute('x2', x2);
+    line.setAttribute('y2', y2);
+    line.setAttribute('stroke', '#64748b');
+    line.setAttribute('stroke-width', '2');
+    line.setAttribute('marker-end', 'url(#arrow)');
+    svg.appendChild(line);
+
+    // label
+    const mx = (x1 + x2) / 2;
+    const my = (y1 + y2) / 2;
+    const label = document.createElement('div');
+    label.className = 'edge-label';
+    label.style.left = (mx - 40) + 'px';
+    label.style.top = (my - 12) + 'px';
+    label.textContent = r.description + (r.technology ? ` [${r.technology}]` : '');
+    canvas.appendChild(label);
+  });
+
+  // arrow marker
+  if (!svg.querySelector('#arrow')) {
+    const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+    defs.innerHTML = `
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+        markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+      </marker>`;
+    svg.appendChild(defs);
+  }
+
+  renderProps();
+}
+
+function renderProps() {
+  const panel = document.getElementById('props');
+  if (!selectedId) {
+    panel.innerHTML = '<p class="text-slate-400">Select an element</p>';
+    return;
+  }
+  const el = model.elements.find(e => e.id === selectedId);
+  if (!el) return;
+
+  panel.innerHTML = `
+    <div>
+      <label class="block text-xs text-slate-500 mb-1">Type</label>
+      <div class="font-medium">${el.type}</div>
+    </div>
+    <div>
+      <label class="block text-xs text-slate-500 mb-1">Name</label>
+      <input value="${escapeHtml(el.name)}" onchange="updateElement('${el.id}',{name:this.value})" class="w-full border rounded px-2 py-1" />
+    </div>
+    <div>
+      <label class="block text-xs text-slate-500 mb-1">Description</label>
+      <textarea onchange="updateElement('${el.id}',{description:this.value})" class="w-full border rounded px-2 py-1" rows="2">${escapeHtml(el.description || '')}</textarea>
+    </div>
+    <div>
+      <label class="block text-xs text-slate-500 mb-1">Technology</label>
+      <input value="${escapeHtml(el.technology || '')}" onchange="updateElement('${el.id}',{technology:this.value})" class="w-full border rounded px-2 py-1" />
+    </div>
+    <button onclick="deleteElement('${el.id}')" class="w-full py-1.5 bg-red-100 text-red-700 rounded text-sm hover:bg-red-200">Delete</button>
+  `;
+}
+
+// ---------- Drag handling ----------
+document.addEventListener('mousemove', e => {
+  if (!dragState) return;
+  const el = model.elements.find(x => x.id === dragState.id);
+  if (!el) return;
+  el.x = dragState.origX + (e.clientX - dragState.startX);
+  el.y = dragState.origY + (e.clientY - dragState.startY);
+  render(); // live update
+});
+
+document.addEventListener('mouseup', () => {
+  if (dragState) {
+    dragState = null;
+    save();
+  }
+});
+
+// ---------- Export ----------
+function exportJSON() {
+  showExport('JSON Model', JSON.stringify(model, null, 2));
+}
+
+function exportDSL() {
+  let dsl = `workspace "${model.name || 'Architecture'}" {\n\n  model {\n`;
+
+  // people & systems first
+  model.elements.filter(e => e.type === 'Person' || e.type === 'SoftwareSystem').forEach(e => {
+    const id = toId(e.name);
+    if (e.type === 'Person') {
+      dsl += `    ${id} = person "${e.name}" "${e.description || ''}"\n`;
+    } else {
+      dsl += `    ${id} = softwareSystem "${e.name}" "${e.description || ''}" {\n`;
+      // containers
+      model.elements.filter(c => c.type === 'Container' && c.parentId === e.id).forEach(c => {
+        const cid = toId(c.name);
+        dsl += `      ${cid} = container "${c.name}" "${c.description || ''}" "${c.technology || ''}"\n`;
+      });
+      dsl += `    }\n`;
+    }
+  });
+
+  // relationships
+  model.relationships.forEach(r => {
+    const src = model.elements.find(e => e.id === r.sourceId);
+    const tgt = model.elements.find(e => e.id === r.targetId);
+    if (src && tgt) {
+      dsl += `    ${toId(src.name)} -> ${toId(tgt.name)} "${r.description}"${r.technology ? ` "${r.technology}"` : ''}\n`;
+    }
+  });
+
+  dsl += `  }\n\n  views {\n    systemContext ${toId(model.elements.find(e=>e.type==='SoftwareSystem')?.name || 'system')} {\n      include *\n      autoLayout\n    }\n  }\n}`;
+  showExport('Structurizr DSL', dsl);
+}
+
+function exportMermaid() {
+  let m = 'C4Context\n';
+  m += `title ${model.name || 'System Context'}\n\n`;
+
+  model.elements.filter(e => e.type === 'Person').forEach(e => {
+    m += `Person(${toId(e.name)}, "${e.name}", "${e.description || ''}")\n`;
+  });
+  model.elements.filter(e => e.type === 'SoftwareSystem').forEach(e => {
+    m += `System(${toId(e.name)}, "${e.name}", "${e.description || ''}")\n`;
+  });
+
+  model.relationships.forEach(r => {
+    const src = model.elements.find(e => e.id === r.sourceId);
+    const tgt = model.elements.find(e => e.id === r.targetId);
+    if (src && tgt && (src.type === 'Person' || src.type === 'SoftwareSystem') &&
+        (tgt.type === 'Person' || tgt.type === 'SoftwareSystem')) {
+      m += `Rel(${toId(src.name)}, ${toId(tgt.name)}, "${r.description}"${r.technology ? `, "${r.technology}"` : ''})\n`;
+    }
+  });
+
+  showExport('Mermaid C4', m);
+}
+
+function toId(name) {
+  return name.replace(/[^a-zA-Z0-9]/g, '').replace(/^./, c => c.toLowerCase()) || 'element';
+}
+
+function showExport(title, content) {
+  document.getElementById('exportTitle').textContent = title;
+  document.getElementById('exportContent').value = content;
+  document.getElementById('exportModal').classList.remove('hidden');
+  document.getElementById('exportModal').classList.add('flex');
+}
+
+function closeExport() {
+  document.getElementById('exportModal').classList.add('hidden');
+  document.getElementById('exportModal').classList.remove('flex');
+}
+
+function copyExport() {
+  navigator.clipboard.writeText(document.getElementById('exportContent').value);
+  alert('Copied to clipboard!');
+}
+
+function clearModel() {
+  if (confirm('Clear the entire model?')) {
+    model = { name: 'My Architecture', elements: [], relationships: [], nextId: 1 };
+    selectedId = null;
+    save();
+  }
+}
+
+function escapeHtml(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ---------- Init ----------
+load();
+</script>
+</body>
+</html>
